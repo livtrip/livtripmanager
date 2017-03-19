@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qccr.livtrip.dal.product.RefPointDao">
+
+    <resultMap id="BaseMap" type="com.qccr.livtrip.model.product.RefPoint">
+        <result column="id" property="id" />
+        <result column="product_id" property="productId" />
+        <result column="hotel_id" property="hotelId" />
+
+        <result column="type" property="type" />
+        <result column="type_id" property="typeId" />
+        <result column="amenity_id" property="amenityId" />
+        <result column="name" property="name" />
+        <result column="airport_code" property="airportCode" />
+        <result column="direction" property="direction" />
+        <result column="distance" property="distance" />
+        <result column="unit" property="unit" />
+
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="create_person" property="createPerson" />
+        <result column="update_person" property="updatePerson" />
+    </resultMap>
+
+    <sql id="all_column">
+        id, product_id, hotel_id,type,type_id,name,airport_code,direction,distance,unit,
+         create_time,create_person, update_time, update_person
+    </sql>
+
+    <insert id="insert" parameterType="com.qccr.livtrip.model.product.RefPoint">
+        insert into liv_ref_point (product_id, hotel_id,type,type_id,name,
+                airport_code,direction,distance,unit, create_time,create_person, update_time, update_person)
+        values  (#{productId},#{hotelId}, #{type},#{typeId},#{name},#{airportCode},#{direction},#{distance},
+                  #{unit},now(), 'system', now(), 'system')
+    </insert>
+
+    <select id="queryForList" resultMap="BaseMap">
+        select <include refid="all_column"/> from liv_ref_point where product_id =#{productId}
+    </select>
+    <select id="queryForObject" resultMap="BaseMap">
+        select <include refid="all_column"/> from liv_ref_point where id = #{id}
+    </select>
+    <update id="update" parameterType="com.qccr.livtrip.model.product.RefPoint">
+        update liv_ref_point
+        <set>
+            update_time = now();
+            <if test="productId != null">
+                product_id =#{productId}
+            </if>
+            <if test="hotelId != null">
+                hotel_id =#{hotelId}
+            </if>
+            <if test="type != null">
+                type =#{type}
+            </if>
+            <if test="typeId != null">
+                type_id =#{typeId}
+            </if>
+            <if test="name != null">
+                name =#{name}
+            </if>
+            <if test="direction != null">
+                direction =#{direction}
+            </if>
+            <if test="airportCode != null">
+                airport_code =#{airportCode}
+            </if>
+            <if test="distance != null">
+                distance =#{distance}
+            </if>
+            <if test="unit != null">
+                unit =#{unit}
+            </if>
+        </set>
+        where id =#{id}
+    </update>
+
+
+
+
+</mapper>

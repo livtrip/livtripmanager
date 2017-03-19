@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qccr.livtrip.dal.product.AmenityDao">
+
+    <resultMap id="BaseMap" type="com.qccr.livtrip.model.product.Amenity">
+        <result column="id" property="id" />
+        <result column="product_id" property="productId" />
+        <result column="hotel_id" property="hotelId" />
+        <result column="amenity_id" property="amenityId" />
+        <result column="name" property="name" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="create_person" property="createPerson" />
+        <result column="update_person" property="updatePerson" />
+    </resultMap>
+
+    <sql id="all_column">
+        id, product_id, hotel_id,amenity_id,name,create_time,create_person, update_time, update_person
+    </sql>
+
+    <insert id="insert" parameterType="com.qccr.livtrip.model.product.Amenity">
+        insert into liv_amenity (product_id, hotel_id,amenity_id,name,
+                  create_time,create_person, update_time, update_person)
+        values  (#{productId},#{hotelId}, #{amenityId},#{name},now(), 'system', now(), 'system')
+    </insert>
+
+    <select id="queryForList" resultMap="BaseMap">
+      select <include refid="all_column"/> from liv_amenity where product_id =#{productId}
+    </select>
+
+    <delete id="delete">
+        delete from liv_amenity where id =#{id}
+    </delete>
+
+    <update id="update" parameterType="com.qccr.livtrip.model.product.Amenity">
+        update liv_amenity
+        <set>
+            update_time = now();
+            <if test="hotelId != null">
+                hotel_id = #{hotelId}
+            </if>
+            <if test="productId != null">
+                product_id = #{productId}
+            </if>
+            <if test="amenityId != null">
+                amenity_id = #{amenityId}
+            </if>
+            <if test="name != null">
+                name = #{name}
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <select id="queryForObejct" resultMap="BaseMap">
+        select <include refid="all_column"/> from liv_amenity where id=#{id}
+    </select>
+
+
+
+
+</mapper>

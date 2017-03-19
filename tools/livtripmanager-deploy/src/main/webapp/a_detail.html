@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>详情页</title>
+    <link rel="stylesheet" href="resources/style/public.css"/>
+    <link rel="stylesheet" href="http://g.alicdn.com/sui/sui3/0.0.2/old/css/icons.min.css"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="http://g.alicdn.com/sui/sui3/0.0.18/css/sui.min.css">
+    <script type="text/javascript" src="http://g.alicdn.com/sj/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="http://g.alicdn.com/sui/sui3/0.0.18/js/sui.min.js"></script>
+    <script src='http://maps.google.cn/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM' type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function loadMap(){
+            var smallMap = null;
+            var largeMap = null;
+            var lat = "-33.9";
+            var lng = "151.2";
+
+            var myLatlng = new google.maps.LatLng(lat,lng);
+            var myOptions = {
+                zoom: 10,
+                center: myLatlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                scaleControl : false,
+                mapTypeControl : false,
+                zoomControlOptions: {
+                    style: google.maps.ZoomControlStyle.BIG,
+                    position: google.maps.ControlPosition.LEFT_TOP
+                }
+            }
+            smallMap = new google.maps.Map(document.getElementById("small_map"), myOptions);
+            largeMap = new google.maps.Map(document.getElementById("large_map"), myOptions);
+            setMarkers(smallMap, lat, lng);
+            setMarkers(largeMap, lat, lng);
+        }
+
+        function setMarkers(map, lat,lng) {
+            var myLatLng = new google.maps.LatLng(lat, lng);
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                icon:'https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/resources/images/marker_red.png',
+                title: "香港酒店",
+            });
+        }
+
+    </script>
+</head>
+
+<body onload="loadMap()">
+<nav class="navbar navbar-default">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">LivTrip</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">美东</a></li>
+                <li><a href="#">美西</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">景区 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">黄石公园</a></li>
+                        <li><a href="#">自由女神像</a></li>
+                        <li><a href="#">夏威夷</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">注册</a></li>
+                <li><a href="#">登录</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+    <ol class="breadcrumb" style="margin:0px;">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">香港酒店</a></li>
+        <li class="active">香港希尔顿酒店</li>
+    </ol>
+    <div class="base_info">
+        <ul>
+            <li style="width:25%;">
+                <img src="resources/images/room1.jpg" width="280px" height="100%;" class="border-radius-3"/>
+            </li>
+            <li style="width:47%;">
+                <h3 style="color:#82B5CD; margin:0px;">希尔顿国际酒店&nbsp;<i class="fa fa-thumbs-o-up" style="color:#FB7F49"></i></h3>
+                <p style="color:#FB7F49;" >
+                    <i class="fa  fa-star"></i>
+                    <i class="fa  fa-star"></i>
+                    <i class="fa  fa-star"></i>
+                    <i class="fa  fa-star-half-full"></i>
+                </p>
+                <p style="margin:0px; font-size:15px;"><i class="fa fa-map-marker"></i>&nbsp;1751 Hotel Plaza Boulevard  Orlando 32830  USA</p>
+                <div class="hotel_pics_box">
+                    <ul >
+                        <li><img  src="resources/images/room3.jpg"/></li>
+                        <li><img  src="resources/images/room3.jpg"/></li>
+                        <li><img  src="resources/images/room3.jpg"/></li>
+                        <li><img  src="resources/images/room3.jpg"/></li>
+                        <li><img  src="resources/images/room3.jpg"/></li>
+                        <li><img  src="resources/images/room3.jpg"/></li>
+                        <li><img  src="resources/images/room3.jpg"/></li>
+                        <li><img  src="resources/images/room3.jpg"/></li>
+                    </ul>
+                </div>
+            </li>
+            <li style="width:25%;">
+                <p class="text-right" style="font-size:22px; color:#FF0000; font-weight:bold; height:50px;">$120 起</p>
+                <div class="small_map" id="small_map">
+
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+    <div class="detail_left">
+        <div class="panel panel-default">
+            <div class="panel-heading">酒店预订</div>
+            <div class="panel-body">
+                <table class="table table-bordered">
+                    <tr>
+                        <th>房型</th>
+                        <th>每晚均价</th>
+                        <th>政策</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td style="max-width:300px;">Guestroom 1 King Standard RateGuestroom 1 King Standard RateGuestroom 1 King Standard RateGuestroom 1 King Standard RateGuestroom 1 King Standard Rate</td>
+                        <td  style=" text-align:center; vertical-align:middle;">$123</td>
+                        <td  style="text-align:center; vertical-align:middle;">policy</td>
+                        <td style="min-width:60px; text-align:center; vertical-align:middle;"><button type="button" class="btn btn-primary">预订</button></td>
+                    </tr>
+                    <tr>
+                        <td style="max-width:300px;">Guestroom 1 King Standard RateGuestroom </td>
+                        <td  style=" text-align:center; vertical-align:middle;">$312</td>
+                        <td  style="text-align:center; vertical-align:middle;">policy</td>
+                        <td style="min-width:60px; text-align:center; vertical-align:middle;"><button type="button" class="btn btn-primary">预订</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">酒店介绍</div>
+            <div class="panel-body">
+                Hyatt Regency Washington is conveniently located in the political heart of Washington, DC, within walking distance of many historic monuments and attractions including the U.S. Capitol, National Mall, Smithsonian Museums and Union Station. Featuring 834 upscale modern guestrooms complete with pillow-top mattresses, iHome clock radios, extensive work desk, and new 37â€ LG EcoSmart flat screen LCD televisions. The vibrant contemporary open-air atrium lobby provides a prime spot for relaxing with your favorite cocktail or dining in Article One-American Grill and Lounge. The restaurant offers a casual location for breakfast and lunch each day, while featuring an upscale grill menu for dinner each evening. The lounge is perfect for mingling, people watching or catching-up on the dayâ€™s current events. Hotel guests receive complimentary access to the 8,000 sq. ft. fitness center with indoor heated lap pool and locker rooms with saunas
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">酒店政策</div>
+            <div class="panel-body">
+                幼儿0-1岁：在不加床的情况下，可免费入住。请注意，如果使用婴儿床可能需要支付额外费用。
+                儿童2-12岁：在不加床的情况下可免费入住。
+                * 12岁以上的旅客入住此酒店将按照成人标准收费。
+                * 加床政策根据您所选定的客房而有所不同。
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">地理位置</div>
+            <div class="panel-body">
+                <div class="large_map" id="large_map"></div>
+            </div>
+        </div>
+    </div>
+    <div class="detail_right"></div>
+</div>
+
+
+<div class="container-fluid" style=" margin-top:10px;background:#EEEEEE; height:300px; ">
+    <div class="footer">
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qccr.livtrip.dal.product.ProductDao">
+
+    <resultMap id="ProductMap" type="com.qccr.livtrip.model.product.Product">
+        <result column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="thumb" property="thumb" />
+        <result column="keywords" property="keywords" />
+        <result column="description" property="description" />
+        <result column="currency" property="currency" />
+        <result column="type" property="type" />
+        <result column="sale_price" property="salePrice" />
+        <result column="clear_price" property="clearPrice" />
+        <result column="market_price" property="marketPrice" />
+        <result column="vendor" property="vendor" />
+        <result column="brand_name" property="brandName" />
+
+        <result column="is_delete" property="isDelete" />
+        <result column="is_best" property="isBest" />
+        <result column="label" property="label" />
+
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="create_person" property="createPerson" />
+        <result column="update_person" property="updatePerson" />
+    </resultMap>
+    <resultMap id="HotelProductMap" type="com.qccr.livtrip.model.product.HotelProductRo">
+        <result column="id" property="id" />
+        <result column="hotel_id" property="hotelId" />
+        <result column="name" property="name" />
+        <result column="keywords" property="keywords" />
+        <result column="description" property="description" />
+        <result column="thumb" property="thumb" />
+        <result column="start_level" property="startLevel" />
+        <result column="rooms" property="rooms" />
+        <result column="provider" property="provider" />
+        <result column="check_in_time" property="checkInTime" />
+        <result column="check_out_time" property="checkOutTime" />
+        <result column="hotel_phone" property="hotelPhone" />
+        <result column="hotel_fax" property="hotelFax" />
+        <result column="market_price" property="marketPrice" />
+        <result column="sale_price" property="salePrice" />
+
+        <result column="country" property="country" />
+        <result column="state" property="state" />
+        <result column="city" property="city" />
+        <result column="address" property="address" />
+        <result column="zip" property="zip" />
+        <result column="longitude" property="longitude" />
+        <result column="latitude" property="latitude" />
+    </resultMap>
+
+
+    <sql id="all_column">
+        id, name, thumb,keywords,description,currency,type,sale_price,clear_price,
+           market_price,vendor,is_delete,is_best,label,
+         create_time,create_person, update_time, update_person
+    </sql>
+
+    <insert id="insertAndGetId" useGeneratedKeys="true" keyProperty="id"  parameterType="com.qccr.livtrip.model.product.Product">
+        insert into liv_product (name, thumb,keywords,description,currency,type,
+        sale_price,clear_price,market_price,vendor,is_delete,is_best,label,brand_name,
+         create_time,create_person, update_time, update_person)
+        values  (#{name},#{thumb}, #{keywords},#{description},#{currency},#{type},#{salePrice},
+        #{clearPrice},#{marketPrice},#{vendor},0,0,#{label},#{brandName},
+         now(), 'system', now(), 'system')
+    </insert>
+
+    <select id="queryProduct" resultMap="ProductMap">
+        select <include refid="all_column"/> from liv_product
+    </select>
+
+    <select id="queryHotelProduct" resultMap="HotelProductMap">
+        select t1.id,t1.`name`,t1.is_best, t1.thumb, t1.sale_price,t1.market_price, t2.rooms,t2.start_level, t2.check_in_time,t2.check_out_time,
+        t2.hotel_phone, t2.hotel_fax,t2.hotel_id,t3.country, t3.city,t3.state,t3.address,t3.zip, t3.latitude,t3.longitude
+         from liv_product t1, liv_hotel t2, liv_location t3 where t1.id = t2.product_id and t1.id=t3.product_id
+        and t1.is_delete =0
+        and t2.flag = 1
+        ORDER  BY t1.update_time desc
+    </select>
+    <select id="getHotelProductById" resultMap="HotelProductMap">
+        select t1.id,t1.`name`,t1.keywords, t1.is_best, t1.thumb, t1.sale_price,t1.market_price,t2.description, t2.rooms,t2.start_level, t2.check_in_time,t2.check_out_time,
+        t2.hotel_phone, t2.hotel_fax,t2.hotel_id,t3.country, t3.city,t3.state,t3.address,t3.zip, t3.latitude,t3.longitude
+         from liv_product t1, liv_hotel t2, liv_location t3 where t1.id = t2.product_id and t1.id=t3.product_id
+        and t1.is_delete =0
+        and t2.flag = 1
+        and t1.id = #{product_id}
+        ORDER  BY t1.update_time desc
+        LIMIT 1
+    </select>
+
+    <select id="queryProductByHotelIds" resultMap="HotelProductMap">
+        select t1.id,t1.`name`,t1.is_best, t1.thumb, t1.sale_price,t1.market_price, t2.rooms,t2.start_level, t2.check_in_time,t2.check_out_time,
+        t2.hotel_phone, t2.hotel_fax,t2.hotel_id,t3.country, t3.city,t3.state,t3.address,t3.zip, t3.latitude,t3.longitude
+        from liv_product t1, liv_hotel t2, liv_location t3 where t1.id = t2.product_id and t1.id=t3.product_id
+        and t1.is_delete =0
+        and t2.flag = 1
+        and t2.hotel_id in
+        <foreach item="item" index="index" collection="hotelIds" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+        ORDER  BY t1.update_time desc
+    </select>
+
+    <select id="queryProductCount"  resultType="Integer">
+        select count(1) from liv_product
+    </select>
+
+
+
+
+</mapper>

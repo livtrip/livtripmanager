@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qccr.livtrip.dal.product.HotelProductDao">
+
+    <resultMap id="BaseMap" type="com.qccr.livtrip.model.product.HotelProduct">
+        <result column="id" property="id" />
+        <result column="hotel_id" property="hotelId" />
+        <result column="product_id" property="productId" />
+        <result column="description" property="description" />
+        <result column="start_level" property="startLevel" />
+        <result column="rooms" property="rooms" />
+        <result column="provider" property="provider" />
+        <result column="check_in_time" property="checkInTime" />
+        <result column="check_out_time" property="checkOutTime" />
+        <result column="hotel_phone" property="hotelPhone" />
+        <result column="hotel_fax" property="hotelFax" />
+        <result column="ranking" property="ranking" />
+        <result column="flag" property="flag" />
+
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="create_person" property="createPerson" />
+        <result column="update_person" property="updatePerson" />
+    </resultMap>
+
+    <sql id="all_column">
+        id, hotel_id, product_id,start_level,description,rooms,provider,check_in_time,
+        check_out_time,hotel_phone,hotel_fax,ranking,flag,
+        create_time,create_person, update_time, update_person
+    </sql>
+
+    <insert id="insert" parameterType="com.qccr.livtrip.model.product.HotelProduct">
+        insert into liv_hotel (hotel_id, product_id,description,start_level,rooms,provider,
+        check_in_time,check_out_time,hotel_phone,hotel_fax,ranking,
+        create_time,create_person, update_time, update_person)
+        values  (#{hotelId},#{productId},#{description}, #{startLevel},#{rooms},#{provider},#{checkInTime},#{checkOutTime},
+        #{hotelPhone},#{hotelFax},#{ranking}, now(), 'system', now(), 'system')
+    </insert>
+    <update id="updateFlagByHotelIds">
+        update liv_hotel set flag = 1, update_time=now() where hotel_id in
+        <foreach item="item" index="index" collection="hotelIds" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </update>
+    <select id="queryFiftyHotelProductList" resultMap="BaseMap">
+        select <include refid="all_column"/> from liv_hotel where flag = 0 limit 50
+    </select>
+    <select id="queryHotelByProductId" resultType="Integer">
+        select count(1) from liv_hotel where product_id = #{productId}
+    </select>
+
+</mapper>

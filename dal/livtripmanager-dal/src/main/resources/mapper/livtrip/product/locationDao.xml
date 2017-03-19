@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qccr.livtrip.dal.product.LocationDao">
+
+    <resultMap id="BaseMap" type="com.qccr.livtrip.model.product.Localtion">
+        <result column="id" property="id" />
+        <result column="product_id" property="productId" />
+        <result column="hotel_id" property="hotelId" />
+        <result column="country" property="country" />
+        <result column="state" property="state" />
+        <result column="city" property="city" />
+        <result column="address" property="address" />
+        <result column="search_city" property="searchCity" />
+        <result column="destination_code" property="destinationCode" />
+        <result column="destination_id" property="destinationId" />
+        <result column="zip" property="zip" />
+        <result column="longitude" property="longitude" />
+        <result column="latitude" property="latitude" />
+
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="create_person" property="createPerson" />
+        <result column="update_person" property="updatePerson" />
+    </resultMap>
+
+    <sql id="all_column">
+        id, product_id, hotel_id,country,state,city,address,search_city,destination_code,destination_id,
+        zip,longitude,latitude,create_time,create_person, update_time, update_person
+    </sql>
+
+    <insert id="insert" parameterType="com.qccr.livtrip.model.product.Localtion">
+        insert into liv_location (product_id, hotel_id,country,state,city,address,search_city,destination_code,
+        destination_id,zip,longitude,latitude,create_time,create_person, update_time, update_person)
+        values  (#{productId},#{hotelId}, #{country},#{state},#{city},#{address},#{searchCity},
+        #{destinationCode},#{destinationId},#{zip},#{longitude},#{latitude},now(), 'system', now(), 'system')
+    </insert>
+
+    <select id="queryForObject" resultMap="BaseMap">
+        select <include refid="all_column"/> FROM  liv_location where product_id=#{productId}
+    </select>
+    <delete id="delete">
+        delete from  liv_location where id = #{id}
+    </delete>
+
+    <update id="update" parameterType="com.qccr.livtrip.model.product.Localtion">
+          update liv_location
+          <set>
+              update_time =  now();
+              <if test="productId != null">
+                  product_id =#{productId}
+              </if>
+              <if test="hotelId != null">
+                  hotel_id =#{hotelId}
+              </if>
+              <if test="country != null">
+                  country =#{country}
+              </if>
+              <if test="state != null">
+                  state =#{state}
+              </if>
+              <if test="address != null">
+                  address =#{address}
+              </if>
+              <if test="searchCity != null">
+                  search_city =#{searchCity}
+              </if>
+              <if test="destinationCode != null">
+                  destination_code =#{destinationCode}
+              </if>
+              <if test="destinationId != null">
+                  destination_id =#{destinationId}
+              </if>
+              <if test="zip != null">
+                  zip =#{zip}
+              </if>
+              <if test="longitude != null">
+                  longitude =#{longitude}
+              </if>
+              <if test="latitude != null">
+                  latitude =#{latitude}
+              </if>
+          </set>
+        where id =#{id}
+    </update>
+
+
+
+
+</mapper>
