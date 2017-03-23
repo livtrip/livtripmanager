@@ -188,7 +188,7 @@ public class HotelProcessor {
         //根据destinationIds 查询
         List<Integer> destinationIds = Lists.newArrayList();
         destinationIds.add(7263); //new york
-        List<Hotel> hotel1 = SearchHotelsByDestinationIds(destinationIds, "2017-03-18","2017-03-19",null);
+        List<Hotel> hotel1 = SearchHotelsByDestinationIds(destinationIds, "2017-03-22","2017-03-23",null);
         System.out.println(JSON.toJSONString(hotel1));
 
 //           List<Integer> hotelIds = Lists.newArrayList();
