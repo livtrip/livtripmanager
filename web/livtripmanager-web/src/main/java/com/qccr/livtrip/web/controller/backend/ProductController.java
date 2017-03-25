@@ -4,30 +4,14 @@ import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.PageInfo;
 import com.google.common.collect.Lists;
 import com.qccr.livtrip.biz.handler.HotelHandler;
-import com.qccr.livtrip.biz.service.product.HotelImagesService;
-import com.qccr.livtrip.biz.service.product.HotelProductService;
-import com.qccr.livtrip.biz.service.product.LocationService;
 import com.qccr.livtrip.biz.service.product.ProductService;
-import com.qccr.livtrip.common.processor.HotelProcessor;
-import com.qccr.livtrip.common.util.Money;
-import com.qccr.livtrip.common.util.date.DateStyle;
-import com.qccr.livtrip.common.util.date.DateUtil;
-import com.qccr.livtrip.common.webservice.hotel.Hotel;
-import com.qccr.livtrip.common.webservice.hotel.TWSHotelDetailsV3;
-import com.qccr.livtrip.model.product.HotelImages;
-import com.qccr.livtrip.model.product.HotelProduct;
-import com.qccr.livtrip.model.product.Localtion;
-import com.qccr.livtrip.model.product.Product;
+import com.qccr.livtrip.model.product.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
 import java.util.List;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 /**
  *
@@ -44,8 +28,6 @@ public class ProductController {
     @Autowired
     private HotelHandler hotelHandler;
 
-
-
     @RequestMapping("/add")
     public String fetchProducts(@RequestParam  Integer productId){
         System.out.println("add product..." + productId);
@@ -56,14 +38,12 @@ public class ProductController {
         return "/member/success";
     }
 
-
-
     @RequestMapping("/list")
     public String list(ModelMap modelMap){
-        PageInfo<Product> pageInfo = productService.pageQueryProduct(1,20);
+        PageInfo<HotelProductRo> pageInfo = productService.pageQueryHotelProduct(1,20);
         modelMap.put("page", pageInfo);
         System.out.println(JSON.toJSONString(pageInfo));
-        return "/list";
+        return "/backend/product/list";
     }
      
 
