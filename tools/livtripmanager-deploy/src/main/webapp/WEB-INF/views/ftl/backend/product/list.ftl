@@ -90,8 +90,8 @@
             <td>${product.rooms}</td>
             <td align="right">
                 <div class="btn-group">
-                    <button class="btn btn-bordered btn-primary">详情</button>
-                    <button class="btn btn-bordered btn-danger" onclick="javascript:if(confirm('确实要删除该内容吗?'))location='delete?productId=${product.id}'">删除</button>
+                    <button class="btn btn-bordered btn-primary" onclick="location='edit.html?productId=${product.id}'">详情</button>
+                    <button class="btn btn-bordered btn-danger" onclick="javascript:if(confirm('确实要删除该内容吗?'))location='delete.html?productId=${product.id}'">删除</button>
                 </div>
             </td>
         </tr>

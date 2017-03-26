@@ -4,9 +4,15 @@ import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.PageInfo;
 import com.google.common.collect.Lists;
 import com.qccr.livtrip.biz.handler.HotelHandler;
+import com.qccr.livtrip.biz.service.product.DescriptionService;
+import com.qccr.livtrip.biz.service.product.HotelImagesService;
 import com.qccr.livtrip.biz.service.product.ProductService;
+import com.qccr.livtrip.common.converters.ObjectConvert;
 import com.qccr.livtrip.model.product.*;
 import com.qccr.livtrip.model.request.HotelProductQuery;
+import com.qccr.livtrip.web.vo.product.HotelDescriptionVO;
+import com.qccr.livtrip.web.vo.product.HotelDetailVO;
+import com.qccr.livtrip.web.vo.product.HotelImageVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -28,6 +34,10 @@ public class ProductController {
 
     @Autowired
     private HotelHandler hotelHandler;
+    @Autowired
+    private HotelImagesService hotelImagesService;
+    @Autowired
+    private DescriptionService descriptionService;
 
     @RequestMapping("/add")
     public String fetchProducts(@RequestParam  Integer productId){
@@ -52,6 +62,22 @@ public class ProductController {
         System.out.println(productId);
         productService.deleteProduct(productId);
         return "redirect:list";
+    }
+
+    @RequestMapping("/edit")
+    public String edit(@RequestParam  String productId, ModelMap modelMap){
+        //查询酒店基础信息
+        HotelProductRo hotelProductRo = productService.getHotelProductById(Integer.parseInt(productId.trim()));
+        HotelDetailVO hotelDetailVO = ObjectConvert.convertObject(hotelProductRo, HotelDetailVO.class);
+        //酒店图片
+        List<HotelImages> hotelImagesList = hotelImagesService.queryForList(Integer.parseInt(productId.trim()));
+        hotelDetailVO.setHotelImageVOList(ObjectConvert.convertList(hotelImagesList, HotelImageVO.class));
+        //酒店描述
+        List<Description> descriptions = descriptionService.queryForList(Integer.parseInt(productId.trim()));
+        hotelDetailVO.setHotelDescriptionVOList(ObjectConvert.convertList(descriptions, HotelDescriptionVO.class));
+        System.out.println(JSON.toJSONString(hotelDetailVO));
+        modelMap.put("product", hotelDetailVO);
+        return "/backend/product/edit";
     }
 
 
