@@ -48,7 +48,7 @@
                     <div class="form-group form-group-sm">
                         <label class="col-sm-2 control-label" for="hotel_id">酒店ID</label>
                         <div class="col-sm-10">
-                            <input class="form-contro form-group-sm" name="hotelId" value="${product.hotelId}" type="text" id="hotel_id" />
+                            <input class="form-contro form-group-sm" disabled="disabled" name="hotelId" value="${product.hotelId}" type="text" id="hotel_id" />
                         </div>
                     </div>
                     <div class="form-group form-group-sm">
@@ -60,13 +60,13 @@
                     <div class="form-group form-group-sm">
                         <label class="col-sm-2 control-label" for="hotel_brand">酒店品牌</label>
                         <div class="col-sm-10">
-                            <input class="form-contro form-group-sm" type="text" id="hotel_brand" />
+                            <input class="form-contro form-group-sm" type="text" name="brandName" value="${product.brandName}" id="hotel_brand" />
                         </div>
                     </div>
                     <div class="form-group form-group-sm">
                         <label class="col-sm-2 control-label" for="currency">计价货币</label>
                         <div class="col-sm-10">
-                            <input class="form-contro form-group-sm" type="text" id="currency" />
+                            <input class="form-contro form-group-sm" type="text" name="currency" value="${product.currency}" id="currency" />
                         </div>
                     </div>
                     <div class="form-group form-group-sm">

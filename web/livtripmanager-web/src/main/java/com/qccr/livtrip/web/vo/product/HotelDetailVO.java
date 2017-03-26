@@ -34,6 +34,11 @@ public class HotelDetailVO {
     private Double startLevel;
     /**星级文本htmll*/
     private String starLevelText;
+    /**货币单位*/
+    private String currency;
+    /**品牌名称*/
+    private String brandName;
+
 
     /**房间数*/
     private Integer rooms;
@@ -62,6 +67,22 @@ public class HotelDetailVO {
     private List<HotelDescriptionVO> hotelDescriptionVOList;
     /**酒店房型*/
     private List<RoomType> roomTypeList;
+
+    public String getCurrency() {
+        return currency;
+    }
+
+    public void setCurrency(String currency) {
+        this.currency = currency;
+    }
+
+    public String getBrandName() {
+        return brandName;
+    }
+
+    public void setBrandName(String brandName) {
+        this.brandName = brandName;
+    }
 
     public List<RoomType> getRoomTypeList() {
         return roomTypeList;
