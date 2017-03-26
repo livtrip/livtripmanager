@@ -1,12 +1,11 @@
 package com.qccr.livtrip.biz.service.product;
 
 import com.github.pagehelper.PageInfo;
-import com.qccr.livtrip.common.webservice.hotel.RoomType;
 import com.qccr.livtrip.model.product.HotelProductRo;
 import com.qccr.livtrip.model.product.Product;
+import com.qccr.livtrip.model.request.HotelProductQuery;
 
 import java.util.List;
-import java.util.Map;
 
 /**
  * 产品业务层
@@ -71,4 +70,23 @@ public interface ProductService {
      * @date 2016/12/28 16:28
      */
     PageInfo<HotelProductRo> pageQueryHotelProduct(Integer pageNum,Integer pageSize, List<Integer> hotelIds);
+
+    /**
+     *
+     * @param pageNum
+     * @param pageSize
+     * @param hotelProductReq
+     * @return
+     * author xierongli
+     * @date 2016/12/28 16:28
+     */
+    PageInfo<HotelProductRo> pageQueryHotelProductForAdmin(Integer pageNum, Integer pageSize, HotelProductQuery hotelProductReq);
+    /**
+     * 删除产品
+     * @param   productId
+     * @return  
+     * @author xierongli
+     * @date 2017/3/26 15:12 
+     */
+    void deleteProduct(String productId);
 }

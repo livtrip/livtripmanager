@@ -21,4 +21,6 @@ public interface AmenityDao {
 
     Amenity queryForObject(@Param("id") Integer id);
 
+    Integer deleteByPid(@Param("productId") String productId);
+
 }

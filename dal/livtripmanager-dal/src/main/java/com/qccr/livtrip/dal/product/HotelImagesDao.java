@@ -28,5 +28,5 @@ public interface HotelImagesDao {
 
     HotelImages queryForObject(@Param("id") Integer id);
 
-
+    Integer deleteByPid(@Param("productId") String productId);
 }

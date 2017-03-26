@@ -54,4 +54,8 @@
         select <include refid="all_column"/> from liv_description
     </select>
 
+    <delete id="deleteByPid">
+        delete from liv_description where product_id = #{productId}
+    </delete>
+
 </mapper>

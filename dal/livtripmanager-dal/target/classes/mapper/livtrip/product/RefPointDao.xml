@@ -75,7 +75,9 @@
         where id =#{id}
     </update>
 
-
+    <delete id="deleteByPid">
+        delete from liv_ref_point where product_id = #{productId}
+    </delete>
 
 
 </mapper>

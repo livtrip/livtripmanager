@@ -11,6 +11,7 @@
     <script type="text/javascript" src="http://g.alicdn.com/sj/lib/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="http://g.alicdn.com/sui/sui3/0.0.18/js/sui.min.js"></script>
     <script src='http://maps.google.cn/maps/api/js?key=AIzaSyAjNbgkCbR5VzzBw2VsJagYKBASIJoa2iw' type="text/javascript"></script>
+
 </head>
 
 <body>
@@ -20,27 +21,32 @@
         <li class="active">产品列表</li>
     </ol>
     <div style="margin-top:5px; padding:0px; border:1px solid #d1d1d1; height:80px; border-radius:5px; text-align:center">
-        <form class="form-inline" style="margin:25px auto; padding:0px;">
+        <form class="form-inline" action="list.html" method="post" style="margin:25px auto; padding:0px;">
             <div class="form-group">
                 <label  class="control-label" for="inputSuccess1">产品名称</label>
-                <input type="text"  name="search"  class="form-control" id="inputSuccess1"/>
+                <input type="text"  name="name"  class="form-control" id="inputSuccess1"/>
             </div>
             <div class="form-group">
-                <label class="control-label" for="inputSuccess2">品牌</label>
-                <select class="form-control" id="inputSuccess2">
-                    <option value="0">请选择</option>
-                    <option value="1">Hampton Hotels</option>
-                    <option value="1">Park Hyatt</option>
-                    <option value="1">Best Western</option>
+                <label class="control-label" for="inputSuccess2">精品</label>
+                <select name="isBest" class="form-control" id="inputSuccess2">
+                    <option value="-1">请选择</option>
+                    <option value="0">否</option>
+                    <option value="1">是</option>
                 </select>
             </div>
             <div class="form-group">
                 <label class="control-label" for="inputSuccess2">星级</label>
-                <select class="form-control" id="inputSuccess2">
-                    <option value="0">请选择</option>
+                <select name="" class="form-control" id="inputSuccess2">
+                    <option value="-1">请选择</option>
                     <option value="1">1星级</option>
-                    <option value="1">2星级</option>
-                    <option value="1">3星级</option>
+                    <option value="1.5">1.5星级</option>
+                    <option value="2">2星级</option>
+                    <option value="2.5">2.5星级</option>
+                    <option value="3">3星级</option>
+                    <option value="3.5">3.5星级</option>
+                    <option value="4">4星级</option>
+                    <option value="4.5">4.5星级</option>
+                    <option value="5">5星级</option>
                 </select>
             </div>
             <div class="form-group">
@@ -49,7 +55,6 @@
                     <option value="0">请选择</option>
                     <option value="1">已采集</option>
                     <option value="1">未采集</option>
-
                 </select>
             </div>
             <button type="submit" class="btn btn-primary" style="width:120px">查询</button>
@@ -86,7 +91,7 @@
             <td align="right">
                 <div class="btn-group">
                     <button class="btn btn-bordered btn-primary">详情</button>
-                    <button class="btn btn-bordered btn-danger">删除</button>
+                    <button class="btn btn-bordered btn-danger" onclick="javascript:if(confirm('确实要删除该内容吗?'))location='delete?productId=${product.id}'">删除</button>
                 </div>
             </td>
         </tr>

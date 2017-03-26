@@ -4,18 +4,16 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.qccr.livtrip.biz.enums.StartLevelTypeEnum;
 import com.qccr.livtrip.biz.service.product.ProductService;
-import com.qccr.livtrip.common.webservice.hotel.Hotel;
-import com.qccr.livtrip.common.webservice.hotel.RoomType;
-import com.qccr.livtrip.dal.product.ProductDao;
-import com.qccr.livtrip.model.product.HotelProduct;
+import com.qccr.livtrip.dal.product.*;
 import com.qccr.livtrip.model.product.HotelProductRo;
 import com.qccr.livtrip.model.product.Product;
+import com.qccr.livtrip.model.request.HotelProductQuery;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import java.util.Map;
 
 /**
  * 产品业务层
@@ -27,6 +25,16 @@ public class ProductServiceImpl implements ProductService {
 
     @Autowired
     private ProductDao productDao;
+    @Autowired
+    private AmenityDao amenityDao;
+    @Autowired
+    private DescriptionDao descriptionDao;
+    @Autowired
+    private HotelImagesDao hotelImagesDao;
+    @Autowired
+    private LocationDao locationDao;
+    @Autowired
+    private RefPointDao refPointDao;
 
 
     @Override
@@ -113,6 +121,25 @@ public class ProductServiceImpl implements ProductService {
             product.setThumb(product.getThumb().replace("100x100", "200x200"));
         }
         return new PageInfo<>(hotelProductRos);
+    }
+
+    @Override
+    public PageInfo<HotelProductRo> pageQueryHotelProductForAdmin(Integer pageNum, Integer pageSize, HotelProductQuery hotelProductQuery) {
+        PageHelper.startPage(pageNum,pageSize,true,false);
+        List<HotelProductRo> hotelProductRos = productDao.queryHotelProductByReq(hotelProductQuery);
+        for(HotelProductRo product : hotelProductRos){
+            product.setThumb(product.getThumb().replace("100x100", "200x200"));
+        }
+        return new PageInfo<>(hotelProductRos);
+    }
+
+    public void deleteProduct(String productId) {
+        productDao.deleteProduct(productId);
+        amenityDao.deleteByPid(productId);
+        descriptionDao.deleteByPid(productId);
+        hotelImagesDao.deleteByPid(productId);
+        locationDao.deleteByPid(productId);
+        refPointDao.deleteByPid(productId);
     }
 
 }

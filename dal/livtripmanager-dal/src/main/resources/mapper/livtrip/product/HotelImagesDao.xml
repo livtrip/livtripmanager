@@ -50,7 +50,9 @@
     <select id="queryForObejct" resultMap="BaseMap">
         select <include refid="all_column"/> from liv_hotel_images where id=#{id}
     </select>
-
+    <delete id="deleteByPid">
+        delete from liv_hotel_images where product_id = #{productId}
+    </delete>
 
 
 

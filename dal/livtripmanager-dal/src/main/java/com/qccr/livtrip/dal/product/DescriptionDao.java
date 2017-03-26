@@ -22,4 +22,6 @@ public interface DescriptionDao {
 
   Description queryForObject(@Param("id") Integer id);
 
+  Integer deleteByPid(@Param("productId") String productId);
+
 }

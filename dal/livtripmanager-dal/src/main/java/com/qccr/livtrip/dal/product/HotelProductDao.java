@@ -52,4 +52,6 @@ public interface HotelProductDao {
      *
      */
     Integer queryHotelByProductId(@Param("productId") Integer productId);
+
+    Integer deleteByPid(@Param("productId") String productId);
 }

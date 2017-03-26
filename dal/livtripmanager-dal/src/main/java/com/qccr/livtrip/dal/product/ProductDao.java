@@ -2,6 +2,8 @@ package com.qccr.livtrip.dal.product;
 
 import com.qccr.livtrip.model.product.HotelProductRo;
 import com.qccr.livtrip.model.product.Product;
+import com.qccr.livtrip.model.request.HotelProductQuery;
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -71,4 +73,14 @@ public interface ProductDao {
      */
     Integer queryProductCount(Integer id);
 
+    /**
+     * 根据参数查询酒店信息
+     * @param  hotelProductQuery
+     * @return  
+     * @author xierongli
+     * @date 2017/3/26 10:04 
+     */
+    List<HotelProductRo> queryHotelProductByReq(HotelProductQuery hotelProductQuery);
+
+    int deleteProduct(@Param("productId") String productId);
 }

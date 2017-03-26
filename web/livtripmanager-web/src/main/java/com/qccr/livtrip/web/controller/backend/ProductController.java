@@ -6,11 +6,12 @@ import com.google.common.collect.Lists;
 import com.qccr.livtrip.biz.handler.HotelHandler;
 import com.qccr.livtrip.biz.service.product.ProductService;
 import com.qccr.livtrip.model.product.*;
+import com.qccr.livtrip.model.request.HotelProductQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 
 /**
@@ -39,12 +40,25 @@ public class ProductController {
     }
 
     @RequestMapping("/list")
-    public String list(ModelMap modelMap){
-        PageInfo<HotelProductRo> pageInfo = productService.pageQueryHotelProduct(1,20);
+    public String list(HotelProductQuery hotelProductQuery, ModelMap modelMap){
+        PageInfo<HotelProductRo> pageInfo = productService.pageQueryHotelProductForAdmin(1,20,hotelProductQuery);
         modelMap.put("page", pageInfo);
         System.out.println(JSON.toJSONString(pageInfo));
         return "/backend/product/list";
     }
+
+    @RequestMapping("/delete")
+    public String delete(@RequestParam String productId){
+        System.out.println(productId);
+        productService.deleteProduct(productId);
+        return "redirect:list";
+    }
+
+
+
+
+
+
      
 
 }

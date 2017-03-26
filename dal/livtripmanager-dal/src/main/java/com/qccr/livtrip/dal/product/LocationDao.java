@@ -19,4 +19,6 @@ public interface LocationDao {
     int update(Localtion localtion);
 
     Localtion queryForObject(@Param("productId") Integer productId);
+
+    Integer deleteByPid(@Param("productId") String productId);
 }

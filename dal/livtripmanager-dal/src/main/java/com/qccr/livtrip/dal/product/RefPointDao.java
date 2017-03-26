@@ -20,4 +20,6 @@ public interface RefPointDao {
     int update(RefPoint refPoint);
 
     RefPoint queryForObject(@Param("id") Integer id);
+
+    Integer deleteByPid(@Param("productId") String productId);
 }

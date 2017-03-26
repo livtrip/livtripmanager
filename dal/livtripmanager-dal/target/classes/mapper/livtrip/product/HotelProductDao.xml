@@ -49,4 +49,8 @@
         select count(1) from liv_hotel where product_id = #{productId}
     </select>
 
+    <delete id="deleteByPid">
+        delete from liv_hotel where product_id = #{productId}
+    </delete>
+
 </mapper>

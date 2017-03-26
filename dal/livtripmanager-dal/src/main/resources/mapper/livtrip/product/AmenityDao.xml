@@ -56,7 +56,9 @@
         select <include refid="all_column"/> from liv_amenity where id=#{id}
     </select>
 
-
+    <delete id="deleteByPid">
+        delete from liv_amenity where product_id = #{productId}
+    </delete>
 
 
 </mapper>
