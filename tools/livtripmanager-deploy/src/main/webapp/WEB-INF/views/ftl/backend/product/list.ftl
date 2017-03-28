@@ -27,6 +27,14 @@
                 <input type="text"  name="name"  class="form-control" id="inputSuccess1"/>
             </div>
             <div class="form-group">
+                <label  class="control-label" for="inputSuccess1">城市</label>
+                <input type="text"  name="city"  class="form-control" id="inputSuccess1"/>
+            </div>
+            <div class="form-group">
+                <label  class="control-label" for="inputSuccess1">酒店ID</label>
+                <input type="text"  name="hotelId"  class="form-control" id="inputSuccess1"/>
+            </div>
+            <div class="form-group">
                 <label class="control-label" for="inputSuccess2">精品</label>
                 <select name="isBest" class="form-control" id="inputSuccess2">
                     <option value="-1">请选择</option>
@@ -68,6 +76,8 @@
         <tr>
             <th>产品名称</th>
             <th>酒店ID</th>
+            <th>州</th>
+            <th>城市</th>
             <th>精品</th>
             <th>星级</th>
             <th>房间数</th>
@@ -79,6 +89,8 @@
         <tr>
             <td>${product.name}</td>
             <td>${product.hotelId}</td>
+            <td>${product.state}</td>
+            <td>${product.city}</td>
             <td>
             [#if product.isBest == 1]
                 是
@@ -96,10 +108,22 @@
             </td>
         </tr>
         [/#list]
-
         </tbody>
     </table>
+    <div class="page">
+        <form id="listForm" action="list.jhtml" method="post" >
+            <input type="hidden" name="name" value="${name}"/>
+            <input type="hidden" name="city" value="${city}"/>
+            <input type="hidden" name="hotelId" value="${hotelId}"/>
+            <input type="hidden" name="isBest" value="${isBest}"/>
+            <input type="hidden" name="starLevel" value="${starLevel}"/>
+            [@pagination pageNumber = page.pageNumber totalPages = page.totalPages]
+                [#include "pagination_admin.ftl"]
+            [/@pagination]
+        </form>
+    </div>
 </div>
+
 </body>
 </html>
 [/#escape]

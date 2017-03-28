@@ -53,6 +53,11 @@ public class ProductController {
     public String list(HotelProductQuery hotelProductQuery, ModelMap modelMap){
         PageInfo<HotelProductRo> pageInfo = productService.pageQueryHotelProductForAdmin(1,20,hotelProductQuery);
         modelMap.put("page", pageInfo);
+        modelMap.put("name",hotelProductQuery.getName());
+        modelMap.put("city",hotelProductQuery.getCity());
+        modelMap.put("hotelId",hotelProductQuery.getHotelId());
+        modelMap.put("isBest",hotelProductQuery.getIsBest());
+        modelMap.put("starLevel",hotelProductQuery.getStarLevel());
         System.out.println(JSON.toJSONString(pageInfo));
         return "/backend/product/list";
     }

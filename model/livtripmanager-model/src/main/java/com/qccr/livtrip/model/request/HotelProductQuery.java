@@ -12,6 +12,11 @@ public class HotelProductQuery extends PageQuery{
     private Integer isBest;
     /**星级*/
     private String starLevel;
+    /**城市*/
+    private String city;
+    /**酒店ID */
+    private String hotelId;
+
 
     public String getName() {
         return name;
@@ -35,5 +40,21 @@ public class HotelProductQuery extends PageQuery{
 
     public void setStarLevel(String starLevel) {
         this.starLevel = starLevel;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getHotelId() {
+        return hotelId;
+    }
+
+    public void setHotelId(String hotelId) {
+        this.hotelId = hotelId;
     }
 }
