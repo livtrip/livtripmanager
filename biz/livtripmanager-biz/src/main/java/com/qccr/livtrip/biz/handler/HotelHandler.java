@@ -59,8 +59,8 @@ public class HotelHandler {
      */
     public void fetchProductDateByDestinationId(List<Integer> destinationIds){
         try{
-            String current = DateUtil.getCurrentDateString();
-            String tomorrow = DateUtil.DateToString(DateUtil.addDay(DateUtil.getCurrentDate(), 1), DateStyle.YYYY_MM_DD);
+            String current = defaultCheckIn();
+            String tomorrow = defaultCheckOut();
             List<Hotel> hotelList = HotelProcessor.SearchHotelsByDestinationIds(destinationIds, current,tomorrow, null);
             if(!CollectionUtils.isEmpty(hotelList)){
                 for(final Hotel hotel : hotelList){
@@ -100,6 +100,14 @@ public class HotelHandler {
         }catch (Exception e){
 
         }
+    }
+
+    public String defaultCheckIn(){
+        return DateUtil.DateToString(DateUtil.addDay(DateUtil.getCurrentDate(),30), DateStyle.YYYY_MM_DD);
+    }
+
+    public String defaultCheckOut(){
+        return  DateUtil.DateToString(DateUtil.addDay(DateUtil.getCurrentDate(),31), DateStyle.YYYY_MM_DD);
     }
 
     /**
