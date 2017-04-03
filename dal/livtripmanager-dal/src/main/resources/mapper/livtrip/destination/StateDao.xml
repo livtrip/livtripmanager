@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qccr.livtrip.model.destination.StateDao">
+    <!--auto generated Code-->
+    <resultMap id="AllColumnMap" type="com.qccr.livtrip.model.destination.State">
+        <result column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="type" property="type"/>
+        <result column="status" property="status"/>
+        <result column="destination_id" property="destinationId"/>
+        <result column="provider" property="provider"/>
+        <result column="state_short" property="stateShort"/>
+        <result column="create_person" property="createPerson"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_person" property="updatePerson"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!--auto generated Code-->
+    <sql id="all_column">
+        `id`,
+        `name`,
+        `type`,
+        `status`,
+        `destination_id`,
+        `provider`,
+        `state_short`,
+        `create_person`,
+        `create_time`,
+        `update_person`,
+        `update_time`
+    </sql>
+
+    <!--auto generated Code-->
+    <insert id="insert" useGeneratedKeys="true" keyProperty="pojo.id">
+        INSERT INTO state (
+            `id`,
+            `name`,
+            `type`,
+            `status`,
+            `destination_id`,
+            `provider`,
+            `state_short`,
+            `create_person`,
+            `create_time`,
+            `update_person`,
+            `update_time`
+        ) VALUES (
+            #{pojo.id},
+            #{pojo.name},
+            #{pojo.type},
+            #{pojo.status},
+            #{pojo.destinationId},
+            #{pojo.provider},
+            #{pojo.stateShort},
+            #{pojo.createPerson},
+            #{pojo.createTime},
+            #{pojo.updatePerson},
+            #{pojo.updateTime}
+        )
+    </insert>
+
+    <!--auto generated Code-->
+    <insert id="insertSelective" useGeneratedKeys="true" keyProperty="pojo.id">
+        INSERT INTO state
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="pojo.id!=null"> `id`,</if>
+            <if test="pojo.name!=null"> `name`,</if>
+            <if test="pojo.type!=null"> `type`,</if>
+            <if test="pojo.status!=null"> `status`,</if>
+            <if test="pojo.destinationId!=null"> `destination_id`,</if>
+            <if test="pojo.provider!=null"> `provider`,</if>
+            <if test="pojo.stateShort!=null"> `state_short`,</if>
+            <if test="pojo.createPerson!=null"> `create_person`,</if>
+            <if test="pojo.createTime!=null"> `create_time`,</if>
+            <if test="pojo.updatePerson!=null"> `update_person`,</if>
+            <if test="pojo.updateTime!=null"> `update_time`,</if>
+        </trim>
+        VALUES
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="pojo.id!=null">#{pojo.id},</if>
+            <if test="pojo.name!=null">#{pojo.name},</if>
+            <if test="pojo.type!=null">#{pojo.type},</if>
+            <if test="pojo.status!=null">#{pojo.status},</if>
+            <if test="pojo.destinationId!=null">#{pojo.destinationId},</if>
+            <if test="pojo.provider!=null">#{pojo.provider},</if>
+            <if test="pojo.stateShort!=null">#{pojo.stateShort},</if>
+            <if test="pojo.createPerson!=null">#{pojo.createPerson},</if>
+            <if test="pojo.createTime!=null">#{pojo.createTime},</if>
+            <if test="pojo.updatePerson!=null">#{pojo.updatePerson},</if>
+            <if test="pojo.updateTime!=null">#{pojo.updateTime},</if>
+        </trim>
+    </insert>
+
+    <!--auto generated Code-->
+    <insert id="insertList">
+        INSERT INTO state (
+        <include refid="all_column"/>
+        )VALUES
+        <foreach collection="pojos" item="pojo" index="index" separator=",">
+            (
+            #{pojo.id},
+            #{pojo.name},
+            #{pojo.type},
+            #{pojo.status},
+            #{pojo.destinationId},
+            #{pojo.provider},
+            #{pojo.stateShort},
+            #{pojo.createPerson},
+            #{pojo.createTime},
+            #{pojo.updatePerson},
+            #{pojo.updateTime}
+            )
+        </foreach>
+    </insert>
+
+    <!--auto generated Code-->
+    <update id="update">
+        UPDATE state
+        <set>
+            <if test="pojo.id != null"> `id` = #{pojo.id}, </if>
+            <if test="pojo.name != null"> `name` = #{pojo.name}, </if>
+            <if test="pojo.type != null"> `type` = #{pojo.type}, </if>
+            <if test="pojo.status != null"> `status` = #{pojo.status}, </if>
+            <if test="pojo.destinationId != null"> `destination_id` = #{pojo.destinationId}, </if>
+            <if test="pojo.provider != null"> `provider` = #{pojo.provider}, </if>
+            <if test="pojo.stateShort != null"> `state_short` = #{pojo.stateShort}, </if>
+            <if test="pojo.createPerson != null"> `create_person` = #{pojo.createPerson}, </if>
+            <if test="pojo.createTime != null"> `create_time` = #{pojo.createTime}, </if>
+            <if test="pojo.updatePerson != null"> `update_person` = #{pojo.updatePerson}, </if>
+            <if test="pojo.updateTime != null"> `update_time` = #{pojo.updateTime} </if>
+        </set>
+        WHERE id = #{pojo.id}
+    </update>
+</mapper>
+
