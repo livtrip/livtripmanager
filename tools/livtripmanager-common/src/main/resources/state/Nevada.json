@@ -1,0 +1,366 @@
+{
+  "State": {
+    "name": "Nevada",
+    "elementType": "6",
+    "destinationId": "4000014",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "NV",
+    "City": [
+      {
+        "name": "Battle Mountain",
+        "elementType": "3",
+        "destinationId": "1534",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BAM",
+        "cityLatitude": "40.64956007172360",
+        "cityLongitude": "116.92949179792500"
+      },
+      {
+        "name": "Beatty",
+        "elementType": "3",
+        "destinationId": "1560",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BTY",
+        "cityLatitude": "36.90576946309960",
+        "cityLongitude": "116.75612793641200"
+      },
+      {
+        "name": "Boulder City",
+        "elementType": "3",
+        "destinationId": "1927",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BLD",
+        "cityLatitude": "35.97940798144370",
+        "cityLongitude": "114.83284228878500"
+      },
+      {
+        "name": "Carson City",
+        "elementType": "3",
+        "destinationId": "2320",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CSN",
+        "cityLatitude": "39.16883311627280",
+        "cityLongitude": "119.76845992644100"
+      },
+      {
+        "name": "Elko",
+        "elementType": "3",
+        "destinationId": "3411",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EKO",
+        "cityLatitude": "40.84133470814470",
+        "cityLongitude": "115.76200756309500"
+      },
+      {
+        "name": "Fallon",
+        "elementType": "3",
+        "destinationId": "3554",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "NFL",
+        "cityLatitude": "39.47518076092620",
+        "cityLongitude": "118.77682574198200"
+      },
+      {
+        "name": "Fernley",
+        "elementType": "3",
+        "destinationId": "24565",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RNO",
+        "cityLatitude": "39.60121154785160",
+        "cityLongitude": "119.24636840820300"
+      },
+      {
+        "name": "Gardnerville",
+        "elementType": "3",
+        "destinationId": "24561",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RNO",
+        "cityLatitude": "38.94113922119140",
+        "cityLongitude": "119.75013732910200"
+      },
+      {
+        "name": "Henderson",
+        "elementType": "3",
+        "destinationId": "12797",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAS",
+        "cityLatitude": "36.03558970246160",
+        "cityLongitude": "114.98180871458200"
+      },
+      {
+        "name": "Incline Village",
+        "elementType": "3",
+        "destinationId": "19004",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RNO",
+        "cityLatitude": "39.25010212211220",
+        "cityLongitude": "119.95928175147300"
+      },
+      {
+        "name": "Lake Tahoe",
+        "elementType": "3",
+        "destinationId": "19244",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RNO",
+        "cityLatitude": "38.95763342185230",
+        "cityLongitude": "119.94303956162600",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "20943",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Reno-South Lake Tahoe",
+          "destinationCode": "RNO",
+          "city": "Lake Tahoe",
+          "cityDestinationId": "19244"
+        }
+      },
+      {
+        "name": "Las Vegas",
+        "elementType": "3",
+        "destinationId": "5751",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAS",
+        "cityLatitude": "36.16797925914400",
+        "cityLongitude": "115.15716699133300",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "10927",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Mccarran International",
+            "destinationCode": "LAS",
+            "city": "Las Vegas",
+            "cityDestinationId": "5751"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "11998",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "The Strip",
+            "destinationCode": "LAS",
+            "city": "Las Vegas",
+            "cityDestinationId": "5751"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12089",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Off The Strip",
+            "destinationCode": "LAS",
+            "city": "Las Vegas",
+            "cityDestinationId": "5751"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12090",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Fremont Street/Downtown",
+            "destinationCode": "LAS",
+            "city": "Las Vegas",
+            "cityDestinationId": "5751"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "19897",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Summerlin Northwest",
+            "destinationCode": "LAS",
+            "city": "Las Vegas",
+            "cityDestinationId": "5751"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "19907",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Suburban",
+            "destinationCode": "LAS",
+            "city": "Las Vegas",
+            "cityDestinationId": "5751"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "21358",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "East of the Strip",
+            "destinationCode": "LAS",
+            "city": "Las Vegas",
+            "cityDestinationId": "5751"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "21466",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "West of The Strip",
+            "destinationCode": "LAS",
+            "city": "Las Vegas",
+            "cityDestinationId": "5751"
+          }
+        ]
+      },
+      {
+        "name": "Laughlin",
+        "elementType": "3",
+        "destinationId": "11800",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IFP",
+        "cityLatitude": "35.17824728236870",
+        "cityLongitude": "114.57861581768700"
+      },
+      {
+        "name": "Mesquite",
+        "elementType": "3",
+        "destinationId": "6621",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MFH",
+        "cityLatitude": "36.80334736140070",
+        "cityLongitude": "114.06227400700200"
+      },
+      {
+        "name": "Minden",
+        "elementType": "3",
+        "destinationId": "6686",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MEV",
+        "cityLatitude": "38.95814568604000",
+        "cityLongitude": "119.76373343553500"
+      },
+      {
+        "name": "North Las Vegas",
+        "elementType": "3",
+        "destinationId": "12586",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAS",
+        "cityLatitude": "36.20273126164100",
+        "cityLongitude": "115.10665091223200"
+      },
+      {
+        "name": "Pahrump",
+        "elementType": "3",
+        "destinationId": "24712",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAS",
+        "cityLatitude": "36.21355819702150",
+        "cityLongitude": "115.99141693115200"
+      },
+      {
+        "name": "Reno",
+        "elementType": "3",
+        "destinationId": "8581",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RNO",
+        "cityLatitude": "39.52166019822820",
+        "cityLongitude": "119.79492007928500",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "20727",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown Area",
+            "destinationCode": "RNO",
+            "city": "Reno",
+            "cityDestinationId": "8581"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20728",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "South",
+            "destinationCode": "RNO",
+            "city": "Reno",
+            "cityDestinationId": "8581"
+          }
+        ]
+      },
+      {
+        "name": "Sparks",
+        "elementType": "3",
+        "destinationId": "12496",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RNO",
+        "cityLatitude": "39.54335629412670",
+        "cityLongitude": "119.74784641552600"
+      },
+      {
+        "name": "Stateline",
+        "elementType": "3",
+        "destinationId": "11801",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RNO",
+        "cityLatitude": "38.95969613898160",
+        "cityLongitude": "119.94286197670800"
+      },
+      {
+        "name": "Tonopah",
+        "elementType": "3",
+        "destinationId": "10289",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TPH",
+        "cityLatitude": "38.06514967847960",
+        "cityLongitude": "117.22745197027800"
+      },
+      {
+        "name": "Wells",
+        "elementType": "3",
+        "destinationId": "1006",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LWL",
+        "cityLatitude": "41.12031378479390",
+        "cityLongitude": "114.96007505264400"
+      },
+      {
+        "name": "Winnemucca",
+        "elementType": "3",
+        "destinationId": "1112",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WMC",
+        "cityLatitude": "40.98126479367070",
+        "cityLongitude": "117.73030415735200"
+      },
+      {
+        "name": "Zephyr Cove",
+        "elementType": "3",
+        "destinationId": "26887",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RNO",
+        "cityLatitude": "39.00036200000000",
+        "cityLongitude": "119.95256900000000"
+      }
+    ]
+  }
+}

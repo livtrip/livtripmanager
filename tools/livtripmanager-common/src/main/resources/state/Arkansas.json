@@ -1,0 +1,580 @@
+{
+  "State": {
+    "name": "Arkansas",
+    "elementType": "6",
+    "destinationId": "4000049",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "AR",
+    "City": [
+      {
+        "name": "Alma",
+        "elementType": "3",
+        "destinationId": "26367",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FSM",
+        "cityLatitude": "35.47786530000000",
+        "cityLongitude": "94.22187520000000"
+      },
+      {
+        "name": "Arkadelphia",
+        "elementType": "3",
+        "destinationId": "12980",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LIT",
+        "cityLatitude": "34.12493648970430",
+        "cityLongitude": "93.06105423385690"
+      },
+      {
+        "name": "Batesville",
+        "elementType": "3",
+        "destinationId": "1518",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BVX",
+        "cityLatitude": "35.78137006155370",
+        "cityLongitude": "91.63736277307030"
+      },
+      {
+        "name": "Benton",
+        "elementType": "3",
+        "destinationId": "12141",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LIT",
+        "cityLatitude": "34.56937348390250",
+        "cityLongitude": "92.58353521841380"
+      },
+      {
+        "name": "Bentonville",
+        "elementType": "3",
+        "destinationId": "12510",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "XNA",
+        "cityLatitude": "36.37446953813180",
+        "cityLongitude": "94.21118978819540"
+      },
+      {
+        "name": "Blytheville",
+        "elementType": "3",
+        "destinationId": "1832",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BYH",
+        "cityLatitude": "35.93433214801620",
+        "cityLongitude": "89.91339570580240"
+      },
+      {
+        "name": "Brinkley",
+        "elementType": "3",
+        "destinationId": "13059",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LIT",
+        "cityLatitude": "34.89567552621610",
+        "cityLongitude": "91.19172025048370"
+      },
+      {
+        "name": "Bryant",
+        "elementType": "3",
+        "destinationId": "13074",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LIT",
+        "cityLatitude": "34.59585071222000",
+        "cityLongitude": "92.50277506166760"
+      },
+      {
+        "name": "Cabot",
+        "elementType": "3",
+        "destinationId": "26342",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LIT",
+        "cityLatitude": "34.97453200000000",
+        "cityLongitude": "92.01653399999999"
+      },
+      {
+        "name": "Caddo Valley",
+        "elementType": "3",
+        "destinationId": "24017",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LIT"
+      },
+      {
+        "name": "Camden",
+        "elementType": "3",
+        "destinationId": "2212",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CDH",
+        "cityLatitude": "33.59046052677250",
+        "cityLongitude": "92.83208580231060"
+      },
+      {
+        "name": "Clarksville",
+        "elementType": "3",
+        "destinationId": "13139",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FYV",
+        "cityLatitude": "35.47879951151130",
+        "cityLongitude": "93.46974543303380"
+      },
+      {
+        "name": "Clinton",
+        "elementType": "3",
+        "destinationId": "24868",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HRO",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Conway",
+        "elementType": "3",
+        "destinationId": "12748",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LIT",
+        "cityLatitude": "35.09439646502300",
+        "cityLongitude": "92.44401494423800"
+      },
+      {
+        "name": "El Dorado",
+        "elementType": "3",
+        "destinationId": "3357",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ELD",
+        "cityLatitude": "33.21745706600890",
+        "cityLongitude": "92.66103054473680"
+      },
+      {
+        "name": "Eureka Springs",
+        "elementType": "3",
+        "destinationId": "12712",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "XNA",
+        "cityLatitude": "36.40733982351250",
+        "cityLongitude": "93.73032398005900"
+      },
+      {
+        "name": "Fayetteville",
+        "elementType": "3",
+        "destinationId": "3583",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FYV",
+        "cityLatitude": "36.07761244133010",
+        "cityLongitude": "94.15723812394150"
+      },
+      {
+        "name": "Fordyce",
+        "elementType": "3",
+        "destinationId": "26776",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ELD",
+        "cityLatitude": "33.81371600000000",
+        "cityLongitude": "92.41293000000000"
+      },
+      {
+        "name": "Forrest City",
+        "elementType": "3",
+        "destinationId": "3680",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FCY",
+        "cityLatitude": "35.01664842170080",
+        "cityLongitude": "90.79505701443520"
+      },
+      {
+        "name": "Fort Smith",
+        "elementType": "3",
+        "destinationId": "3733",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FSM",
+        "cityLatitude": "35.38273973102430",
+        "cityLongitude": "94.40157448112030"
+      },
+      {
+        "name": "Hardy",
+        "elementType": "3",
+        "destinationId": "24600",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CKK",
+        "cityLatitude": "39.71395874023440",
+        "cityLongitude": "123.80055999755900"
+      },
+      {
+        "name": "Harrison",
+        "elementType": "3",
+        "destinationId": "4331",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HRO",
+        "cityLatitude": "36.23878100008030",
+        "cityLongitude": "93.10864699199360"
+      },
+      {
+        "name": "Hazen",
+        "elementType": "3",
+        "destinationId": "13389",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LIT",
+        "cityLatitude": "34.78856791474650",
+        "cityLongitude": "91.57910808963930"
+      },
+      {
+        "name": "Heber Springs",
+        "elementType": "3",
+        "destinationId": "24106",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MEM",
+        "cityLatitude": "35.49146800000000",
+        "cityLongitude": "92.03126000000000"
+      },
+      {
+        "name": "Hope",
+        "elementType": "3",
+        "destinationId": "13415",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TXK",
+        "cityLatitude": "33.67663019334140",
+        "cityLongitude": "93.59062612096470"
+      },
+      {
+        "name": "Hot Springs",
+        "elementType": "3",
+        "destinationId": "4521",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HOT",
+        "cityLatitude": "34.50924732863890",
+        "cityLongitude": "93.05417623336270"
+      },
+      {
+        "name": "Jacksonville",
+        "elementType": "3",
+        "destinationId": "4808",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LRF",
+        "cityLatitude": "34.87912597785720",
+        "cityLongitude": "92.12544126097020"
+      },
+      {
+        "name": "Jonesboro",
+        "elementType": "3",
+        "destinationId": "4917",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JBR",
+        "cityLatitude": "35.84437514155250",
+        "cityLongitude": "90.70758961192400"
+      },
+      {
+        "name": "Lake Village",
+        "elementType": "3",
+        "destinationId": "26502",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ELD",
+        "cityLatitude": "33.33140900000000",
+        "cityLongitude": "91.28422100000000"
+      },
+      {
+        "name": "Little Rock",
+        "elementType": "3",
+        "destinationId": "5941",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LIT",
+        "cityLatitude": "34.74747749669970",
+        "cityLongitude": "92.28885353686280",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "20953",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Little Rock Downtown",
+          "destinationCode": "LIT",
+          "city": "Little Rock",
+          "cityDestinationId": "5941"
+        }
+      },
+      {
+        "name": "Lonoke",
+        "elementType": "3",
+        "destinationId": "24150",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LIT",
+        "cityLatitude": "34.78398000000000",
+        "cityLongitude": "91.89986100000000"
+      },
+      {
+        "name": "Lowell",
+        "elementType": "3",
+        "destinationId": "26408",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "XNA",
+        "cityLatitude": "36.25535400000000",
+        "cityLongitude": "94.13075900000000"
+      },
+      {
+        "name": "Magnolia",
+        "elementType": "3",
+        "destinationId": "6203",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AGO",
+        "cityLatitude": "33.27620010796560",
+        "cityLongitude": "93.23682915214720"
+      },
+      {
+        "name": "Malvern",
+        "elementType": "3",
+        "destinationId": "13555",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LIT",
+        "cityLatitude": "34.36643831837770",
+        "cityLongitude": "92.80476504563050"
+      },
+      {
+        "name": "Marion",
+        "elementType": "3",
+        "destinationId": "24867",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LRF",
+        "cityLatitude": "40.55879974365230",
+        "cityLongitude": "85.66037750244140"
+      },
+      {
+        "name": "Maumelle",
+        "elementType": "3",
+        "destinationId": "18978",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LIT",
+        "cityLatitude": "34.86373756165710",
+        "cityLongitude": "92.42915245260400"
+      },
+      {
+        "name": "Monticello",
+        "elementType": "3",
+        "destinationId": "12298",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GLH",
+        "cityLatitude": "33.63429326577110",
+        "cityLongitude": "91.78350150055190"
+      },
+      {
+        "name": "Morrilton",
+        "elementType": "3",
+        "destinationId": "6898",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MPJ",
+        "cityLatitude": "35.16140745097000",
+        "cityLongitude": "92.74488477717700"
+      },
+      {
+        "name": "Mountain Home",
+        "elementType": "3",
+        "destinationId": "6964",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WMH",
+        "cityLatitude": "36.33690008260210",
+        "cityLongitude": "92.38894312896020"
+      },
+      {
+        "name": "Mountain View",
+        "elementType": "3",
+        "destinationId": "13632",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HRO",
+        "cityLatitude": "35.87381325687530",
+        "cityLongitude": "92.11684888299440"
+      },
+      {
+        "name": "North Little Rock",
+        "elementType": "3",
+        "destinationId": "13685",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LIT",
+        "cityLatitude": "34.76784512080470",
+        "cityLongitude": "92.28266538547480"
+      },
+      {
+        "name": "Osceola",
+        "elementType": "3",
+        "destinationId": "12542",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JBR",
+        "cityLatitude": "35.71032243380730",
+        "cityLongitude": "89.97165038923340"
+      },
+      {
+        "name": "Paragould",
+        "elementType": "3",
+        "destinationId": "7833",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PGR",
+        "cityLatitude": "36.06325538369480",
+        "cityLongitude": "90.48747993573110"
+      },
+      {
+        "name": "Pine Bluff",
+        "elementType": "3",
+        "destinationId": "8050",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PBF",
+        "cityLatitude": "34.22554517617860",
+        "cityLongitude": "92.02294744228500"
+      },
+      {
+        "name": "Rogers",
+        "elementType": "3",
+        "destinationId": "8711",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ROG",
+        "cityLatitude": "36.33303078043730",
+        "cityLongitude": "94.12140695155560"
+      },
+      {
+        "name": "Russellville",
+        "elementType": "3",
+        "destinationId": "13824",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HRO",
+        "cityLatitude": "35.28255451627850",
+        "cityLongitude": "93.13476563537970"
+      },
+      {
+        "name": "Searcy",
+        "elementType": "3",
+        "destinationId": "9233",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SRC",
+        "cityLatitude": "35.25454049539770",
+        "cityLongitude": "91.73856568600240"
+      },
+      {
+        "name": "Siloam Springs",
+        "elementType": "3",
+        "destinationId": "9430",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLG",
+        "cityLatitude": "36.18613731705250",
+        "cityLongitude": "94.54256324596770"
+      },
+      {
+        "name": "Springdale",
+        "elementType": "3",
+        "destinationId": "9621",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SPZ",
+        "cityLatitude": "36.18527329812240",
+        "cityLongitude": "94.13902200942500"
+      },
+      {
+        "name": "Stuttgart",
+        "elementType": "3",
+        "destinationId": "9787",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SGT",
+        "cityLatitude": "34.50245812060390",
+        "cityLongitude": "91.54826978553670"
+      },
+      {
+        "name": "Texarkana",
+        "elementType": "3",
+        "destinationId": "10143",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TXK",
+        "cityLatitude": "33.44123455378610",
+        "cityLongitude": "94.03979302116310"
+      },
+      {
+        "name": "Trumann",
+        "elementType": "3",
+        "destinationId": "26750",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JBR",
+        "cityLatitude": "35.67369000000000",
+        "cityLongitude": "90.50732800000000"
+      },
+      {
+        "name": "Van Buren",
+        "elementType": "3",
+        "destinationId": "13990",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FSM",
+        "cityLatitude": "35.44037628233540",
+        "cityLongitude": "94.34504783554930"
+      },
+      {
+        "name": "West Memphis",
+        "elementType": "3",
+        "destinationId": "1020",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AWM",
+        "cityLatitude": "35.15492560144770",
+        "cityLongitude": "90.17629651714540"
+      },
+      {
+        "name": "White Hall",
+        "elementType": "3",
+        "destinationId": "26529",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LIT",
+        "cityLatitude": "34.27398600000000",
+        "cityLongitude": "92.09097700000000"
+      },
+      {
+        "name": "Wynne",
+        "elementType": "3",
+        "destinationId": "26307",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MEM",
+        "cityLatitude": "35.22453300000000",
+        "cityLongitude": "90.78677999999999"
+      }
+    ]
+  }
+}

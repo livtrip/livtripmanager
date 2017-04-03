@@ -1,0 +1,878 @@
+{
+  "State": {
+    "name": "Washington",
+    "elementType": "6",
+    "destinationId": "4000003",
+    "provider": "2;39",
+    "status": "UpToDate",
+    "StateShort": "WA",
+    "City": [
+      {
+        "name": "Aberdeen",
+        "elementType": "3",
+        "destinationId": "31",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HQM",
+        "cityLatitude": "46.97493679036990",
+        "cityLongitude": "123.81589342480700"
+      },
+      {
+        "name": "Airway Heights",
+        "elementType": "3",
+        "destinationId": "26422",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GEG",
+        "cityLatitude": "47.64461100000000",
+        "cityLongitude": "117.59327279999999"
+      },
+      {
+        "name": "Auburn",
+        "elementType": "3",
+        "destinationId": "11432",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.29719194560030",
+        "cityLongitude": "122.21384523422400"
+      },
+      {
+        "name": "Bainbridge Island",
+        "elementType": "3",
+        "destinationId": "24436",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.62693023681640",
+        "cityLongitude": "122.52100372314500"
+      },
+      {
+        "name": "Battle Ground",
+        "elementType": "3",
+        "destinationId": "24592",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PAE",
+        "cityLatitude": "45.78091812133790",
+        "cityLongitude": "122.53405761718800"
+      },
+      {
+        "name": "Bellevue",
+        "elementType": "3",
+        "destinationId": "12672",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.61184510028440",
+        "cityLongitude": "122.20104545971900"
+      },
+      {
+        "name": "Bellingham",
+        "elementType": "3",
+        "destinationId": "1621",
+        "provider": "2;39",
+        "status": "UpToDate",
+        "destinationCode": "BLI",
+        "cityLatitude": "48.75562516360020",
+        "cityLongitude": "122.47967619672100"
+      },
+      {
+        "name": "Blaine",
+        "elementType": "3",
+        "destinationId": "1807",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BWS",
+        "cityLatitude": "48.98507512348300",
+        "cityLongitude": "122.73766610205000"
+      },
+      {
+        "name": "Bothell",
+        "elementType": "3",
+        "destinationId": "12367",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.76474913013890",
+        "cityLongitude": "122.20422832787200"
+      },
+      {
+        "name": "Bremerton",
+        "elementType": "3",
+        "destinationId": "1993",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PWT",
+        "cityLatitude": "47.56902664437760",
+        "cityLongitude": "122.65338156769200"
+      },
+      {
+        "name": "Buckley",
+        "elementType": "3",
+        "destinationId": "13076",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.15837176581440",
+        "cityLongitude": "122.01667133326400"
+      },
+      {
+        "name": "Burlington",
+        "elementType": "3",
+        "destinationId": "22303",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "48.47552935102170",
+        "cityLongitude": "122.33154305400100"
+      },
+      {
+        "name": "Centralia",
+        "elementType": "3",
+        "destinationId": "12405",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "46.71865784742730",
+        "cityLongitude": "122.96732438270300"
+      },
+      {
+        "name": "Chehalis",
+        "elementType": "3",
+        "destinationId": "2466",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CLS",
+        "cityLatitude": "46.65837801290730",
+        "cityLongitude": "122.95915547645600"
+      },
+      {
+        "name": "Cheney",
+        "elementType": "3",
+        "destinationId": "24029",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GEG"
+      },
+      {
+        "name": "Clarkston",
+        "elementType": "3",
+        "destinationId": "13136",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LWS",
+        "cityLatitude": "46.40451695693090",
+        "cityLongitude": "117.05167022179800"
+      },
+      {
+        "name": "Cle Elum",
+        "elementType": "3",
+        "destinationId": "24593",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.19504165649410",
+        "cityLongitude": "120.93942260742200"
+      },
+      {
+        "name": "Colfax",
+        "elementType": "3",
+        "destinationId": "12609",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GEG",
+        "cityLatitude": "46.87836133060050",
+        "cityLongitude": "117.36199303654900"
+      },
+      {
+        "name": "Dupont",
+        "elementType": "3",
+        "destinationId": "28364",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA"
+      },
+      {
+        "name": "Edmonds",
+        "elementType": "3",
+        "destinationId": "12811",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.81180230333120",
+        "cityLongitude": "122.37622615155200"
+      },
+      {
+        "name": "Ellensburg",
+        "elementType": "3",
+        "destinationId": "3413",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ELN",
+        "cityLatitude": "46.99153415005310",
+        "cityLongitude": "120.53868669876500"
+      },
+      {
+        "name": "Ephrata",
+        "elementType": "3",
+        "destinationId": "3461",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EPH",
+        "cityLatitude": "47.31308921089350",
+        "cityLongitude": "119.54534496701300"
+      },
+      {
+        "name": "Everett",
+        "elementType": "3",
+        "destinationId": "3520",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.97665574913860",
+        "cityLongitude": "122.20645496954200"
+      },
+      {
+        "name": "Federal Way",
+        "elementType": "3",
+        "destinationId": "12282",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.32108394731700",
+        "cityLongitude": "122.31213165638000"
+      },
+      {
+        "name": "Ferndale",
+        "elementType": "3",
+        "destinationId": "12190",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "YVR",
+        "cityLatitude": "48.85444434051190",
+        "cityLongitude": "122.59110390284000"
+      },
+      {
+        "name": "Fife",
+        "elementType": "3",
+        "destinationId": "13280",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.23791956398290",
+        "cityLongitude": "122.37063905681100"
+      },
+      {
+        "name": "Forks",
+        "elementType": "3",
+        "destinationId": "27017",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CLM",
+        "cityLatitude": "47.95035500000000",
+        "cityLongitude": "124.38548700000000"
+      },
+      {
+        "name": "Gig Harbor",
+        "elementType": "3",
+        "destinationId": "20283",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.32804732517580",
+        "cityLongitude": "122.58036684546500"
+      },
+      {
+        "name": "Hoquiam",
+        "elementType": "3",
+        "destinationId": "4512",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HQM",
+        "cityLatitude": "46.97837579061700",
+        "cityLongitude": "123.90558746898800"
+      },
+      {
+        "name": "Issaquah",
+        "elementType": "3",
+        "destinationId": "19279",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.53010100000000",
+        "cityLongitude": "122.03261900000000"
+      },
+      {
+        "name": "Kelso",
+        "elementType": "3",
+        "destinationId": "5183",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "KLS",
+        "cityLatitude": "46.14412965520250",
+        "cityLongitude": "122.90090762321400"
+      },
+      {
+        "name": "Kennewick",
+        "elementType": "3",
+        "destinationId": "13457",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "VSK",
+        "cityLatitude": "46.19682114955460",
+        "cityLongitude": "119.11412780395400"
+      },
+      {
+        "name": "Kent",
+        "elementType": "3",
+        "destinationId": "12623",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.37880587599280",
+        "cityLongitude": "122.22768319748200"
+      },
+      {
+        "name": "Kirkland",
+        "elementType": "3",
+        "destinationId": "11433",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.67574151996990",
+        "cityLongitude": "122.20293059193000"
+      },
+      {
+        "name": "Lacey",
+        "elementType": "3",
+        "destinationId": "13480",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.03007690753940",
+        "cityLongitude": "122.81576248502000"
+      },
+      {
+        "name": "Lakewood",
+        "elementType": "3",
+        "destinationId": "13491",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.16886293637950",
+        "cityLongitude": "122.50405997205800"
+      },
+      {
+        "name": "Leavenworth",
+        "elementType": "3",
+        "destinationId": "12705",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EAT",
+        "cityLatitude": "47.59541849533060",
+        "cityLongitude": "120.65097500872000"
+      },
+      {
+        "name": "Liberty Lake",
+        "elementType": "3",
+        "destinationId": "11434",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GEG",
+        "cityLatitude": "47.64514227248830",
+        "cityLongitude": "117.09221422471100"
+      },
+      {
+        "name": "Long Beach",
+        "elementType": "3",
+        "destinationId": "26701",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OLM",
+        "cityLatitude": "46.35232200000000",
+        "cityLongitude": "124.05432300000000"
+      },
+      {
+        "name": "Longview",
+        "elementType": "3",
+        "destinationId": "6013",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LOG",
+        "cityLatitude": "46.13163382411600",
+        "cityLongitude": "122.93527713511700"
+      },
+      {
+        "name": "Lynnwood",
+        "elementType": "3",
+        "destinationId": "12420",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.81714351126210",
+        "cityLongitude": "122.33532697880200"
+      },
+      {
+        "name": "Marysville",
+        "elementType": "3",
+        "destinationId": "24163",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BLI",
+        "cityLatitude": "48.05176400000000",
+        "cityLongitude": "122.17708200000000"
+      },
+      {
+        "name": "Monroe",
+        "elementType": "3",
+        "destinationId": "24861",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MVW",
+        "cityLatitude": "41.91606140136720",
+        "cityLongitude": "83.39790344238280"
+      },
+      {
+        "name": "Moses Lake",
+        "elementType": "3",
+        "destinationId": "6910",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MWH",
+        "cityLatitude": "47.12252351795560",
+        "cityLongitude": "119.27746494776500"
+      },
+      {
+        "name": "Mount Vernon",
+        "elementType": "3",
+        "destinationId": "6961",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MVW",
+        "cityLatitude": "48.41154755397160",
+        "cityLongitude": "122.33464395988500"
+      },
+      {
+        "name": "Mukilteo",
+        "elementType": "3",
+        "destinationId": "19278",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.94454000000000",
+        "cityLongitude": "122.30458100000000"
+      },
+      {
+        "name": "Oak Harbor",
+        "elementType": "3",
+        "destinationId": "7481",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "48.29673548911830",
+        "cityLongitude": "122.64334118961300"
+      },
+      {
+        "name": "Ocean Shores",
+        "elementType": "3",
+        "destinationId": "12363",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "46.96135495920540",
+        "cityLongitude": "124.15740288330800"
+      },
+      {
+        "name": "Olympia",
+        "elementType": "3",
+        "destinationId": "7582",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OLM",
+        "cityLatitude": "47.04314305942170",
+        "cityLongitude": "122.88750679206200"
+      },
+      {
+        "name": "Omak",
+        "elementType": "3",
+        "destinationId": "7587",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OMK",
+        "cityLatitude": "48.41163634643080",
+        "cityLongitude": "119.52301024842700"
+      },
+      {
+        "name": "Pacific",
+        "elementType": "3",
+        "destinationId": "25890",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.26454500000000",
+        "cityLongitude": "122.25012000000000"
+      },
+      {
+        "name": "Pasco",
+        "elementType": "3",
+        "destinationId": "7875",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PSC",
+        "cityLatitude": "46.23020028402840",
+        "cityLongitude": "119.08732614165000"
+      },
+      {
+        "name": "Port Angeles",
+        "elementType": "3",
+        "destinationId": "8166",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CLM",
+        "cityLatitude": "48.11364885332150",
+        "cityLongitude": "123.43280177463900"
+      },
+      {
+        "name": "Port Orchard",
+        "elementType": "3",
+        "destinationId": "26739",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.54037300000000",
+        "cityLongitude": "122.63624900000001"
+      },
+      {
+        "name": "Pullman",
+        "elementType": "3",
+        "destinationId": "8376",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PUW",
+        "cityLatitude": "46.73190499932250",
+        "cityLongitude": "117.17693589117600"
+      },
+      {
+        "name": "Puyallup",
+        "elementType": "3",
+        "destinationId": "12380",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.19286763621750",
+        "cityLongitude": "122.29588946653400"
+      },
+      {
+        "name": "Quincy",
+        "elementType": "3",
+        "destinationId": "26492",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EAT",
+        "cityLatitude": "47.23430000000000",
+        "cityLongitude": "119.85254999999999"
+      },
+      {
+        "name": "Renton",
+        "elementType": "3",
+        "destinationId": "8583",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RNT",
+        "cityLatitude": "47.48061667576100",
+        "cityLongitude": "122.20284862966000"
+      },
+      {
+        "name": "Richland",
+        "elementType": "3",
+        "destinationId": "8614",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RLD",
+        "cityLatitude": "46.28685670319370",
+        "cityLongitude": "119.28467762752900"
+      },
+      {
+        "name": "Ritzville",
+        "elementType": "3",
+        "destinationId": "13810",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GEG",
+        "cityLatitude": "47.12441548035570",
+        "cityLongitude": "118.37500571311000"
+      },
+      {
+        "name": "SeaTac",
+        "elementType": "3",
+        "destinationId": "12300",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.42694504926300",
+        "cityLongitude": "122.29486493815800"
+      },
+      {
+        "name": "Seattle",
+        "elementType": "3",
+        "destinationId": "9234",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.59943464656250",
+        "cityLongitude": "122.33412486550800",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "9235",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Seattle-Tacoma International Airport Area",
+            "destinationCode": "SEA",
+            "city": "Seattle",
+            "cityDestinationId": "9234"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "11142",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown Area",
+            "destinationCode": "SEA",
+            "city": "Seattle",
+            "cityDestinationId": "9234"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16137",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Seattle Center",
+            "destinationCode": "SEA",
+            "city": "Seattle",
+            "cityDestinationId": "9234"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20167",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Seattle Tacoma International Airport",
+            "destinationCode": "SEA",
+            "city": "Seattle",
+            "cityDestinationId": "9234"
+          }
+        ]
+      },
+      {
+        "name": "Sequim",
+        "elementType": "3",
+        "destinationId": "9291",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SQV",
+        "cityLatitude": "48.07738054882880",
+        "cityLongitude": "123.10839510982000"
+      },
+      {
+        "name": "Shelton",
+        "elementType": "3",
+        "destinationId": "9356",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SHN",
+        "cityLatitude": "47.21049976955990",
+        "cityLongitude": "123.09902409027900"
+      },
+      {
+        "name": "Spokane",
+        "elementType": "3",
+        "destinationId": "9616",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GEG",
+        "cityLatitude": "47.66395944365160",
+        "cityLongitude": "117.40082949216900",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "21021",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Downtown Spokane",
+          "destinationCode": "GEG",
+          "city": "Spokane",
+          "cityDestinationId": "9616"
+        }
+      },
+      {
+        "name": "Spokane Valley",
+        "elementType": "3",
+        "destinationId": "13896",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFF",
+        "cityLatitude": "47.65708485825200",
+        "cityLongitude": "117.24850261330000"
+      },
+      {
+        "name": "Stevenson",
+        "elementType": "3",
+        "destinationId": "13926",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CZK",
+        "cityLatitude": "45.69364452849430",
+        "cityLongitude": "121.88393343693400"
+      },
+      {
+        "name": "Sumner",
+        "elementType": "3",
+        "destinationId": "13941",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.20130633493710",
+        "cityLongitude": "122.22802470694100"
+      },
+      {
+        "name": "Sunnyside",
+        "elementType": "3",
+        "destinationId": "13943",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FCT",
+        "cityLatitude": "46.32515015877540",
+        "cityLongitude": "120.00549481139700"
+      },
+      {
+        "name": "Tacoma",
+        "elementType": "3",
+        "destinationId": "9916",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TIW",
+        "cityLatitude": "47.26750794346740",
+        "cityLongitude": "122.46729989394500",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "11180",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Mc Chord AFB",
+          "destinationCode": "TCM",
+          "city": "Tacoma",
+          "cityDestinationId": "9916"
+        }
+      },
+      {
+        "name": "Tukwila",
+        "elementType": "3",
+        "destinationId": "12409",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.45937820253680",
+        "cityLongitude": "122.25448485978500"
+      },
+      {
+        "name": "Tulalip",
+        "elementType": "3",
+        "destinationId": "21982",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "48.06833396327310",
+        "cityLongitude": "122.28550757899600"
+      },
+      {
+        "name": "Tumwater",
+        "elementType": "3",
+        "destinationId": "13981",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA",
+        "cityLatitude": "47.01295703838480",
+        "cityLongitude": "122.89600354739000"
+      },
+      {
+        "name": "Union Gap",
+        "elementType": "3",
+        "destinationId": "26469",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "YKM",
+        "cityLatitude": "46.55734900000000",
+        "cityLongitude": "120.47506400000000"
+      },
+      {
+        "name": "Vancouver",
+        "elementType": "3",
+        "destinationId": "11435",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.64204927950400",
+        "cityLongitude": "122.63302760396600"
+      },
+      {
+        "name": "Walla Walla",
+        "elementType": "3",
+        "destinationId": "913",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALW",
+        "cityLatitude": "46.06345487582090",
+        "cityLongitude": "118.32028223748000"
+      },
+      {
+        "name": "Washougal",
+        "elementType": "3",
+        "destinationId": "14021",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.58011995429950",
+        "cityLongitude": "122.35363188577700"
+      },
+      {
+        "name": "Wenatchee",
+        "elementType": "3",
+        "destinationId": "1010",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EAT",
+        "cityLatitude": "47.41627970887410",
+        "cityLongitude": "120.31315385237100"
+      },
+      {
+        "name": "Woodinville",
+        "elementType": "3",
+        "destinationId": "27895",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEA"
+      },
+      {
+        "name": "Woodland",
+        "elementType": "3",
+        "destinationId": "14075",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.15675409369090",
+        "cityLongitude": "67.40445948470120"
+      },
+      {
+        "name": "Yakima",
+        "elementType": "3",
+        "destinationId": "1214",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "YKM",
+        "cityLatitude": "46.60205627301140",
+        "cityLongitude": "120.49916722422700"
+      }
+    ]
+  }
+}

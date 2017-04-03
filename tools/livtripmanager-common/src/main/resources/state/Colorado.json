@@ -1,0 +1,908 @@
+{
+  "State": {
+    "name": "Colorado",
+    "elementType": "6",
+    "destinationId": "4000046",
+    "provider": "2;39",
+    "status": "UpToDate",
+    "StateShort": "CO",
+    "City": [
+      {
+        "name": "Alamosa",
+        "elementType": "3",
+        "destinationId": "162",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALS",
+        "cityLatitude": "37.46383689942460",
+        "cityLongitude": "105.87220100342900"
+      },
+      {
+        "name": "Aspen",
+        "elementType": "3",
+        "destinationId": "533",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ASE",
+        "cityLatitude": "39.19342521237950",
+        "cityLongitude": "106.81958922244500"
+      },
+      {
+        "name": "Aurora",
+        "elementType": "3",
+        "destinationId": "11667",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.73696483633990",
+        "cityLongitude": "104.82602092825800"
+      },
+      {
+        "name": "Avon",
+        "elementType": "3",
+        "destinationId": "12296",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EGE",
+        "cityLatitude": "39.63159209291950",
+        "cityLongitude": "106.52094603117500"
+      },
+      {
+        "name": "Beaver Creek",
+        "elementType": "3",
+        "destinationId": "19467",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EGE",
+        "cityLatitude": "39.60422500000000",
+        "cityLongitude": "106.51651500000000"
+      },
+      {
+        "name": "Boulder",
+        "elementType": "3",
+        "destinationId": "1925",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WBU",
+        "cityLatitude": "40.02547202688120",
+        "cityLongitude": "105.27312511132700"
+      },
+      {
+        "name": "Breckenridge",
+        "elementType": "3",
+        "destinationId": "1986",
+        "provider": "2;39",
+        "status": "UpToDate",
+        "destinationCode": "LXV",
+        "cityLatitude": "39.47981845937270",
+        "cityLongitude": "106.04317429873300"
+      },
+      {
+        "name": "Brighton",
+        "elementType": "3",
+        "destinationId": "13058",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.98332634460770",
+        "cityLongitude": "104.80798239866000"
+      },
+      {
+        "name": "Broomfield",
+        "elementType": "3",
+        "destinationId": "2048",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BJC",
+        "cityLatitude": "39.92692264244170",
+        "cityLongitude": "105.06864290795500"
+      },
+      {
+        "name": "Brush",
+        "elementType": "3",
+        "destinationId": "12209",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "40.25407845840160",
+        "cityLongitude": "103.63198091793500"
+      },
+      {
+        "name": "Buena Vista",
+        "elementType": "3",
+        "destinationId": "24493",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AFF",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Burlington",
+        "elementType": "3",
+        "destinationId": "12519",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.30352444670550",
+        "cityLongitude": "102.26705640476700"
+      },
+      {
+        "name": "Canon City",
+        "elementType": "3",
+        "destinationId": "2258",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CNE",
+        "cityLatitude": "38.43991532804910",
+        "cityLongitude": "105.22612657964800"
+      },
+      {
+        "name": "Carbondale",
+        "elementType": "3",
+        "destinationId": "12637",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ASE",
+        "cityLatitude": "39.40103905748580",
+        "cityLongitude": "107.21401898663500"
+      },
+      {
+        "name": "Castle Rock",
+        "elementType": "3",
+        "destinationId": "11668",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.37594835756970",
+        "cityLongitude": "104.85996013824400"
+      },
+      {
+        "name": "Centennial",
+        "elementType": "3",
+        "destinationId": "19414",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.58074500000000",
+        "cityLongitude": "104.87717300000000"
+      },
+      {
+        "name": "Clifton",
+        "elementType": "3",
+        "destinationId": "24873",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "40.86563110351560",
+        "cityLongitude": "74.16024780273440"
+      },
+      {
+        "name": "Colorado City",
+        "elementType": "3",
+        "destinationId": "26350",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PUB",
+        "cityLatitude": "37.94528600000000",
+        "cityLongitude": "104.83526300000000"
+      },
+      {
+        "name": "Colorado Springs",
+        "elementType": "3",
+        "destinationId": "2703",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "COS",
+        "cityLatitude": "38.84143482859740",
+        "cityLongitude": "104.81158873854200"
+      },
+      {
+        "name": "Cortez",
+        "elementType": "3",
+        "destinationId": "2809",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CEZ",
+        "cityLatitude": "37.35124806114620",
+        "cityLongitude": "108.58590346256700"
+      },
+      {
+        "name": "Craig",
+        "elementType": "3",
+        "destinationId": "2845",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CIG",
+        "cityLatitude": "40.52024410016780",
+        "cityLongitude": "107.54504410475900"
+      },
+      {
+        "name": "Crested Butte",
+        "elementType": "3",
+        "destinationId": "2857",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GUC",
+        "cityLatitude": "38.87017284953030",
+        "cityLongitude": "106.98582919665400"
+      },
+      {
+        "name": "Delta",
+        "elementType": "3",
+        "destinationId": "12730",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MTJ",
+        "cityLatitude": "38.73754765132150",
+        "cityLongitude": "108.06663833091600"
+      },
+      {
+        "name": "Denver",
+        "elementType": "3",
+        "destinationId": "3050",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.74065313849170",
+        "cityLongitude": "104.98487746797400",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "10796",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Tech Center",
+            "destinationCode": "DEN",
+            "city": "Denver",
+            "cityDestinationId": "3050"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "10798",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Denver International Airport Area",
+            "destinationCode": "DEN",
+            "city": "Denver",
+            "cityDestinationId": "3050"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16508",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown Area",
+            "destinationCode": "DEN",
+            "city": "Denver",
+            "cityDestinationId": "3050"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16509",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Englewood/Cherry Creek",
+            "destinationCode": "DEN",
+            "city": "Denver",
+            "cityDestinationId": "3050"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "18673",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Westminster",
+            "destinationCode": "DEN",
+            "city": "Denver",
+            "cityDestinationId": "3050"
+          }
+        ]
+      },
+      {
+        "name": "Dillon",
+        "elementType": "3",
+        "destinationId": "11669",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.63012701734260",
+        "cityLongitude": "106.04540777059100"
+      },
+      {
+        "name": "Durango",
+        "elementType": "3",
+        "destinationId": "3238",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DRO",
+        "cityLatitude": "37.27714050865150",
+        "cityLongitude": "107.87873982684900"
+      },
+      {
+        "name": "Eagle",
+        "elementType": "3",
+        "destinationId": "11670",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EGE",
+        "cityLatitude": "39.64941547155870",
+        "cityLongitude": "106.82689069466700"
+      },
+      {
+        "name": "Englewood",
+        "elementType": "3",
+        "destinationId": "3446",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "APA",
+        "cityLatitude": "39.65439467946360",
+        "cityLongitude": "104.99355863840900"
+      },
+      {
+        "name": "Estes Park",
+        "elementType": "3",
+        "destinationId": "12140",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "40.38047110899270",
+        "cityLongitude": "105.51540558156600"
+      },
+      {
+        "name": "Evans",
+        "elementType": "3",
+        "destinationId": "13268",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "40.37565924072240",
+        "cityLongitude": "104.69363137157600"
+      },
+      {
+        "name": "Evergreen",
+        "elementType": "3",
+        "destinationId": "13270",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.63348064022500",
+        "cityLongitude": "105.32020560527600"
+      },
+      {
+        "name": "Firestone",
+        "elementType": "3",
+        "destinationId": "23251",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ASE",
+        "cityLatitude": "40.11688727873270",
+        "cityLongitude": "104.93831606840200"
+      },
+      {
+        "name": "Florence",
+        "elementType": "3",
+        "destinationId": "26311",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PUB",
+        "cityLatitude": "38.39027800000000",
+        "cityLongitude": "105.11859900000000"
+      },
+      {
+        "name": "Fort Collins",
+        "elementType": "3",
+        "destinationId": "11671",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "40.56648448084880",
+        "cityLongitude": "105.07388849323800"
+      },
+      {
+        "name": "Fort Morgan",
+        "elementType": "3",
+        "destinationId": "13308",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "40.25468293014310",
+        "cityLongitude": "103.80372602461500"
+      },
+      {
+        "name": "Fountain",
+        "elementType": "3",
+        "destinationId": "26780",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "COS",
+        "cityLatitude": "38.68221900000000",
+        "cityLongitude": "104.70080600000000"
+      },
+      {
+        "name": "Frisco",
+        "elementType": "3",
+        "destinationId": "11672",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.56109771049580",
+        "cityLongitude": "106.13055290878500"
+      },
+      {
+        "name": "Fruita",
+        "elementType": "3",
+        "destinationId": "13303",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GJT",
+        "cityLatitude": "39.16315381397800",
+        "cityLongitude": "108.73204219004800"
+      },
+      {
+        "name": "Glendale",
+        "elementType": "3",
+        "destinationId": "22325",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.69935781476980",
+        "cityLongitude": "104.93642410600200"
+      },
+      {
+        "name": "Glenwood Springs",
+        "elementType": "3",
+        "destinationId": "4010",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GWS",
+        "cityLatitude": "39.55327372880160",
+        "cityLongitude": "107.32682639096700"
+      },
+      {
+        "name": "Golden",
+        "elementType": "3",
+        "destinationId": "12670",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.75655381887950",
+        "cityLongitude": "105.21633208837800"
+      },
+      {
+        "name": "Grand Junction",
+        "elementType": "3",
+        "destinationId": "4095",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GJT",
+        "cityLatitude": "39.07088137338570",
+        "cityLongitude": "108.56279010241500"
+      },
+      {
+        "name": "Greeley",
+        "elementType": "3",
+        "destinationId": "4122",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GXY",
+        "cityLatitude": "40.41675648895830",
+        "cityLongitude": "104.69783876810400"
+      },
+      {
+        "name": "Greenwood Village",
+        "elementType": "3",
+        "destinationId": "11673",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.61507669550640",
+        "cityLongitude": "104.90360504704000"
+      },
+      {
+        "name": "Gunnison",
+        "elementType": "3",
+        "destinationId": "4227",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GUC",
+        "cityLatitude": "38.54697512819440",
+        "cityLongitude": "106.92998557000000"
+      },
+      {
+        "name": "Highlands Ranch",
+        "elementType": "3",
+        "destinationId": "13398",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "40.48504130518560",
+        "cityLongitude": "107.56300750227600"
+      },
+      {
+        "name": "Ignacio",
+        "elementType": "3",
+        "destinationId": "28136",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DRO"
+      },
+      {
+        "name": "Kremmling",
+        "elementType": "3",
+        "destinationId": "27963",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN"
+      },
+      {
+        "name": "La Junta",
+        "elementType": "3",
+        "destinationId": "13476",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PUB",
+        "cityLatitude": "37.98103931394550",
+        "cityLongitude": "103.54074325100200"
+      },
+      {
+        "name": "Lakewood",
+        "elementType": "3",
+        "destinationId": "11674",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.74263389335100",
+        "cityLongitude": "105.06864290795500"
+      },
+      {
+        "name": "Lamar",
+        "elementType": "3",
+        "destinationId": "5686",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAA",
+        "cityLatitude": "38.08689017060780",
+        "cityLongitude": "102.61956246783100"
+      },
+      {
+        "name": "Leadville",
+        "elementType": "3",
+        "destinationId": "5791",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LXV",
+        "cityLatitude": "39.25302544307700",
+        "cityLongitude": "106.29104186371200"
+      },
+      {
+        "name": "Limon",
+        "elementType": "3",
+        "destinationId": "5909",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LIC",
+        "cityLatitude": "39.26041912285350",
+        "cityLongitude": "103.68885590315300"
+      },
+      {
+        "name": "Littleton",
+        "elementType": "3",
+        "destinationId": "11675",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.59401239210610",
+        "cityLongitude": "105.01056580944300"
+      },
+      {
+        "name": "Lone Tree",
+        "elementType": "3",
+        "destinationId": "15781",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.54954786060930",
+        "cityLongitude": "104.89355100858200"
+      },
+      {
+        "name": "Longmont",
+        "elementType": "3",
+        "destinationId": "13535",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "40.17435307531460",
+        "cityLongitude": "105.10025985362300"
+      },
+      {
+        "name": "Louisville",
+        "elementType": "3",
+        "destinationId": "11676",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WBI",
+        "cityLatitude": "39.97825151405440",
+        "cityLongitude": "105.12835925186900"
+      },
+      {
+        "name": "Loveland",
+        "elementType": "3",
+        "destinationId": "11677",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FNL",
+        "cityLatitude": "40.40213646903990",
+        "cityLongitude": "105.08144951264900"
+      },
+      {
+        "name": "Manitou Springs",
+        "elementType": "3",
+        "destinationId": "19821",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "COS",
+        "cityLatitude": "38.85971300000000",
+        "cityLongitude": "104.91719900000000"
+      },
+      {
+        "name": "Mesa Verde National Park",
+        "elementType": "3",
+        "destinationId": "11678",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "COS",
+        "cityLatitude": "39.16642205949580",
+        "cityLongitude": "108.13802746812100"
+      },
+      {
+        "name": "Monte Vista",
+        "elementType": "3",
+        "destinationId": "13618",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALS",
+        "cityLatitude": "37.58026430401670",
+        "cityLongitude": "106.14335268328900"
+      },
+      {
+        "name": "Montrose",
+        "elementType": "3",
+        "destinationId": "6858",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MTJ",
+        "cityLatitude": "38.47972167053190",
+        "cityLongitude": "107.87436167559100"
+      },
+      {
+        "name": "Monument",
+        "elementType": "3",
+        "destinationId": "22951",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "COS",
+        "cityLatitude": "39.09160416732750",
+        "cityLongitude": "104.87155779945500"
+      },
+      {
+        "name": "New Castle",
+        "elementType": "3",
+        "destinationId": "13662",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ASE",
+        "cityLatitude": "39.57278416416570",
+        "cityLongitude": "107.53602825505500"
+      },
+      {
+        "name": "Northglenn",
+        "elementType": "3",
+        "destinationId": "13691",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.90223150859210",
+        "cityLongitude": "104.97491222197500"
+      },
+      {
+        "name": "Pagosa Springs",
+        "elementType": "3",
+        "destinationId": "7755",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PGO",
+        "cityLatitude": "37.26889305522870",
+        "cityLongitude": "107.02397580316800"
+      },
+      {
+        "name": "Parachute",
+        "elementType": "3",
+        "destinationId": "24209",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GJT",
+        "cityLatitude": "39.45192200000000",
+        "cityLongitude": "108.05285300000000"
+      },
+      {
+        "name": "Parker",
+        "elementType": "3",
+        "destinationId": "16882",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.52004827358410",
+        "cityLongitude": "104.76210401800500"
+      },
+      {
+        "name": "Pueblo",
+        "elementType": "3",
+        "destinationId": "8326",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PUB",
+        "cityLatitude": "38.26172593788720",
+        "cityLongitude": "104.63125808407500"
+      },
+      {
+        "name": "Pueblo West",
+        "elementType": "3",
+        "destinationId": "13782",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PUB",
+        "cityLatitude": "38.31606350782920",
+        "cityLongitude": "104.71992076969100"
+      },
+      {
+        "name": "Rifle",
+        "elementType": "3",
+        "destinationId": "8623",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RIL",
+        "cityLatitude": "39.53612995398490",
+        "cityLongitude": "107.78182627271600"
+      },
+      {
+        "name": "Salida",
+        "elementType": "3",
+        "destinationId": "8882",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLT",
+        "cityLatitude": "38.53124520253590",
+        "cityLongitude": "105.99755546526600"
+      },
+      {
+        "name": "Silt",
+        "elementType": "3",
+        "destinationId": "24256",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RIL"
+      },
+      {
+        "name": "Silverthorne",
+        "elementType": "3",
+        "destinationId": "12339",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EGE",
+        "cityLatitude": "39.63829933868450",
+        "cityLongitude": "106.07375988583600"
+      },
+      {
+        "name": "Steamboat Springs",
+        "elementType": "3",
+        "destinationId": "9722",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBS",
+        "cityLatitude": "40.48899598471500",
+        "cityLongitude": "106.83324960078500"
+      },
+      {
+        "name": "Sterling",
+        "elementType": "3",
+        "destinationId": "9731",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STK",
+        "cityLatitude": "40.62437716425380",
+        "cityLongitude": "103.21297613311100"
+      },
+      {
+        "name": "Stratton",
+        "elementType": "3",
+        "destinationId": "24619",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Telluride",
+        "elementType": "3",
+        "destinationId": "10096",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TEX",
+        "cityLatitude": "37.94454902830470",
+        "cityLongitude": "107.83655657853500"
+      },
+      {
+        "name": "Thornton",
+        "elementType": "3",
+        "destinationId": "13963",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.87049161951910",
+        "cityLongitude": "104.98118233563300"
+      },
+      {
+        "name": "Trinidad",
+        "elementType": "3",
+        "destinationId": "10358",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TAD",
+        "cityLatitude": "37.16918936881950",
+        "cityLongitude": "104.50573286750900"
+      },
+      {
+        "name": "Vail",
+        "elementType": "3",
+        "destinationId": "12474",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EGE",
+        "cityLatitude": "39.63970635765350",
+        "cityLongitude": "106.34628443371900"
+      },
+      {
+        "name": "Walsenburg",
+        "elementType": "3",
+        "destinationId": "18466",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "37.62552455255180",
+        "cityLongitude": "104.78650145372000"
+      },
+      {
+        "name": "Westminster",
+        "elementType": "3",
+        "destinationId": "11680",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.83378959801400",
+        "cityLongitude": "105.01684275329000"
+      },
+      {
+        "name": "Wheat Ridge",
+        "elementType": "3",
+        "destinationId": "11681",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN",
+        "cityLatitude": "39.77452404658580",
+        "cityLongitude": "105.07852619168400"
+      },
+      {
+        "name": "Winter Park",
+        "elementType": "3",
+        "destinationId": "1119",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "QWP",
+        "cityLatitude": "39.89354009287330",
+        "cityLongitude": "105.77383261900200"
+      }
+    ]
+  }
+}

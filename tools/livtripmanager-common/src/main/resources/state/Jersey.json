@@ -1,0 +1,1282 @@
+{
+  "State": {
+    "name": "New Jersey",
+    "elementType": "6",
+    "destinationId": "4000018",
+    "provider": "2;39",
+    "status": "UpToDate",
+    "StateShort": "NJ",
+    "City": [
+      {
+        "name": "Absecon",
+        "elementType": "3",
+        "destinationId": "12583",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACY",
+        "cityLatitude": "39.42020798339140",
+        "cityLongitude": "74.49800025854210"
+      },
+      {
+        "name": "Allamuchy",
+        "elementType": "3",
+        "destinationId": "18959",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.92174652524320",
+        "cityLongitude": "74.81055654515110"
+      },
+      {
+        "name": "Asbury Park",
+        "elementType": "3",
+        "destinationId": "514",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.21706907838390",
+        "cityLongitude": "74.01300901614700"
+      },
+      {
+        "name": "Atlantic City",
+        "elementType": "3",
+        "destinationId": "568",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AIY",
+        "cityLatitude": "39.35905729975230",
+        "cityLongitude": "74.43090048013590",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "570",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Steel Pier Hlpt",
+          "destinationCode": "JSL",
+          "city": "Atlantic City",
+          "cityDestinationId": "568"
+        }
+      },
+      {
+        "name": "Avenel",
+        "elementType": "3",
+        "destinationId": "12995",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.57181544349600",
+        "cityLongitude": "74.28330009217190"
+      },
+      {
+        "name": "Basking Ridge",
+        "elementType": "3",
+        "destinationId": "11803",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.70564958518780",
+        "cityLongitude": "74.55212267752530"
+      },
+      {
+        "name": "Belleville",
+        "elementType": "3",
+        "destinationId": "19859",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.73340000000000",
+        "cityLongitude": "74.16590000000000"
+      },
+      {
+        "name": "Bellmawr",
+        "elementType": "3",
+        "destinationId": "13019",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "39.87213086491990",
+        "cityLongitude": "75.08969271615120"
+      },
+      {
+        "name": "Berlin",
+        "elementType": "3",
+        "destinationId": "20468",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "39.79593327453920",
+        "cityLongitude": "74.93229783691740"
+      },
+      {
+        "name": "Blackwood",
+        "elementType": "3",
+        "destinationId": "22866",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACY",
+        "cityLatitude": "39.80152036928030",
+        "cityLongitude": "75.06657935599980"
+      },
+      {
+        "name": "Bordentown",
+        "elementType": "3",
+        "destinationId": "11804",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.14904380934510",
+        "cityLongitude": "74.71356102874770"
+      },
+      {
+        "name": "Branchburg",
+        "elementType": "3",
+        "destinationId": "24010",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGA",
+        "cityLatitude": "40.58681100000000",
+        "cityLongitude": "74.69858900000000"
+      },
+      {
+        "name": "Bridgewater",
+        "elementType": "3",
+        "destinationId": "11805",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.60372267220370",
+        "cityLongitude": "74.61827988982610"
+      },
+      {
+        "name": "Budd Lake",
+        "elementType": "3",
+        "destinationId": "13077",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.86386750221660",
+        "cityLongitude": "74.74560827633340"
+      },
+      {
+        "name": "Buena",
+        "elementType": "3",
+        "destinationId": "13078",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AIY",
+        "cityLatitude": "39.51265459380750",
+        "cityLongitude": "74.92688832709470"
+      },
+      {
+        "name": "Carlstadt",
+        "elementType": "3",
+        "destinationId": "12507",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.82989755637950",
+        "cityLongitude": "74.05442045308480"
+      },
+      {
+        "name": "Carneys Point",
+        "elementType": "3",
+        "destinationId": "13103",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ILG",
+        "cityLatitude": "39.70752672101720",
+        "cityLongitude": "75.47063968691950"
+      },
+      {
+        "name": "Cherry Hill",
+        "elementType": "3",
+        "destinationId": "11806",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACY",
+        "cityLatitude": "39.90973788649000",
+        "cityLongitude": "74.98711010500670"
+      },
+      {
+        "name": "Cinnaminson",
+        "elementType": "3",
+        "destinationId": "11807",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LLY",
+        "cityLatitude": "39.99272810000020",
+        "cityLongitude": "75.00137153999370"
+      },
+      {
+        "name": "Clark",
+        "elementType": "3",
+        "destinationId": "16341",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.62162801311290",
+        "cityLongitude": "74.30915918836960"
+      },
+      {
+        "name": "Clifton",
+        "elementType": "3",
+        "destinationId": "19667",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.73340000000000",
+        "cityLongitude": "74.16590000000000"
+      },
+      {
+        "name": "Clinton",
+        "elementType": "3",
+        "destinationId": "22310",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.87868218252630",
+        "cityLongitude": "74.31525854729840"
+      },
+      {
+        "name": "Cookstown",
+        "elementType": "3",
+        "destinationId": "13161",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.04842487758710",
+        "cityLongitude": "74.56441018784220"
+      },
+      {
+        "name": "Cranbury",
+        "elementType": "3",
+        "destinationId": "24043",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL"
+      },
+      {
+        "name": "Cranford",
+        "elementType": "3",
+        "destinationId": "19343",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.73340000000000",
+        "cityLongitude": "74.16590000000000"
+      },
+      {
+        "name": "Denville",
+        "elementType": "3",
+        "destinationId": "19342",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.73340000000000",
+        "cityLongitude": "74.16590000000000"
+      },
+      {
+        "name": "Dover",
+        "elementType": "3",
+        "destinationId": "22873",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.88520842827830",
+        "cityLongitude": "74.55865233837180"
+      },
+      {
+        "name": "East Brunswick",
+        "elementType": "3",
+        "destinationId": "18957",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.43269815048120",
+        "cityLongitude": "74.42230810216000"
+      },
+      {
+        "name": "East Orange",
+        "elementType": "3",
+        "destinationId": "26381",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR"
+      },
+      {
+        "name": "East Rutherford",
+        "elementType": "3",
+        "destinationId": "11808",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.83781033053300",
+        "cityLongitude": "74.09635098439950"
+      },
+      {
+        "name": "East Windsor",
+        "elementType": "3",
+        "destinationId": "13235",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TTN",
+        "cityLatitude": "40.27616387508280",
+        "cityLongitude": "74.53502671403280"
+      },
+      {
+        "name": "Eatontown",
+        "elementType": "3",
+        "destinationId": "21921",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACY",
+        "cityLatitude": "40.30513412244740",
+        "cityLongitude": "74.05871664207280"
+      },
+      {
+        "name": "Edgewater",
+        "elementType": "3",
+        "destinationId": "13242",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGA",
+        "cityLatitude": "40.82800559397940",
+        "cityLongitude": "73.97624210784490"
+      },
+      {
+        "name": "Edison",
+        "elementType": "3",
+        "destinationId": "12469",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.51617330742250",
+        "cityLongitude": "74.39911277973870"
+      },
+      {
+        "name": "Egg Harbor Township",
+        "elementType": "3",
+        "destinationId": "13246",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACY",
+        "cityLatitude": "39.52753074581980",
+        "cityLongitude": "74.64843517501170"
+      },
+      {
+        "name": "Elizabeth",
+        "elementType": "3",
+        "destinationId": "13249",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.65927260072340",
+        "cityLongitude": "74.21774393651820",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "27851",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Newark Liberty International Airport",
+          "destinationCode": "EWR",
+          "city": "Elizabeth",
+          "cityDestinationId": "13249"
+        }
+      },
+      {
+        "name": "Ewing",
+        "elementType": "3",
+        "destinationId": "19634",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ZRP"
+      },
+      {
+        "name": "Fair Lawn",
+        "elementType": "3",
+        "destinationId": "11810",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.92715945016050",
+        "cityLongitude": "74.13939483654890"
+      },
+      {
+        "name": "Fairfield",
+        "elementType": "3",
+        "destinationId": "12135",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.88074148456110",
+        "cityLongitude": "74.30090831985220"
+      },
+      {
+        "name": "Flemington",
+        "elementType": "3",
+        "destinationId": "22323",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.51041204285760",
+        "cityLongitude": "74.86099066198250"
+      },
+      {
+        "name": "Fort Lee",
+        "elementType": "3",
+        "destinationId": "11812",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.85027884086280",
+        "cityLongitude": "73.97005395645680"
+      },
+      {
+        "name": "Galloway",
+        "elementType": "3",
+        "destinationId": "19341",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACY",
+        "cityLatitude": "39.49282400000000",
+        "cityLongitude": "74.55968799999999"
+      },
+      {
+        "name": "Gloucester City",
+        "elementType": "3",
+        "destinationId": "13337",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "39.88803837549680",
+        "cityLongitude": "75.12139845427840"
+      },
+      {
+        "name": "Hackensack",
+        "elementType": "3",
+        "destinationId": "20380",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.88607244720830",
+        "cityLongitude": "74.04445520708580"
+      },
+      {
+        "name": "Hackettstown",
+        "elementType": "3",
+        "destinationId": "13369",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.85276844481530",
+        "cityLongitude": "74.83375186757240"
+      },
+      {
+        "name": "Hamilton",
+        "elementType": "3",
+        "destinationId": "19971",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.73340000000000",
+        "cityLongitude": "74.16590000000000"
+      },
+      {
+        "name": "Harrison",
+        "elementType": "3",
+        "destinationId": "19340",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.73340000000000",
+        "cityLongitude": "74.16590000000000"
+      },
+      {
+        "name": "Hasbrouck Heights",
+        "elementType": "3",
+        "destinationId": "11813",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.85999820005170",
+        "cityLongitude": "74.08191879468330"
+      },
+      {
+        "name": "Haskell",
+        "elementType": "3",
+        "destinationId": "26242",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACY"
+      },
+      {
+        "name": "Hazlet",
+        "elementType": "3",
+        "destinationId": "24104",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.42895300000000",
+        "cityLongitude": "74.16509900000000"
+      },
+      {
+        "name": "Hillsborough",
+        "elementType": "3",
+        "destinationId": "22152",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.48254828613850",
+        "cityLongitude": "74.65307287345810"
+      },
+      {
+        "name": "Hoboken",
+        "elementType": "3",
+        "destinationId": "22098",
+        "provider": "2;39",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.73719139877490",
+        "cityLongitude": "74.03097241366420"
+      },
+      {
+        "name": "Iselin",
+        "elementType": "3",
+        "destinationId": "18528",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.57302097188450",
+        "cityLongitude": "74.32402168000360"
+      },
+      {
+        "name": "Jersey City",
+        "elementType": "3",
+        "destinationId": "12166",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.72644751121050",
+        "cityLongitude": "74.06636645394320"
+      },
+      {
+        "name": "Kenilworth",
+        "elementType": "3",
+        "destinationId": "26283",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "27075",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Newark Airport Area",
+          "destinationCode": "EWR",
+          "city": "Kenilworth",
+          "cityDestinationId": "26283"
+        }
+      },
+      {
+        "name": "Lakewood",
+        "elementType": "3",
+        "destinationId": "12358",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TTN",
+        "cityLatitude": "40.08886984275730",
+        "cityLongitude": "74.22100876694140"
+      },
+      {
+        "name": "Lawrenceville",
+        "elementType": "3",
+        "destinationId": "20554",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACY",
+        "cityLatitude": "40.29843029177710",
+        "cityLongitude": "74.72911336948780"
+      },
+      {
+        "name": "Linden",
+        "elementType": "3",
+        "destinationId": "5919",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LDJ",
+        "cityLatitude": "40.61947650352430",
+        "cityLongitude": "74.23999669283410"
+      },
+      {
+        "name": "Livingston",
+        "elementType": "3",
+        "destinationId": "27761",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR"
+      },
+      {
+        "name": "Lyndhurst",
+        "elementType": "3",
+        "destinationId": "11814",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LDJ",
+        "cityLatitude": "40.81124430975620",
+        "cityLongitude": "74.12796793006750"
+      },
+      {
+        "name": "Madison",
+        "elementType": "3",
+        "destinationId": "22933",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.75713896624590",
+        "cityLongitude": "74.41603798850200"
+      },
+      {
+        "name": "Mahwah",
+        "elementType": "3",
+        "destinationId": "13552",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "41.08927057501620",
+        "cityLongitude": "74.14248208205380"
+      },
+      {
+        "name": "Manahawkin",
+        "elementType": "3",
+        "destinationId": "24160",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACY"
+      },
+      {
+        "name": "Middletown",
+        "elementType": "3",
+        "destinationId": "12569",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.39500233645190",
+        "cityLongitude": "74.12307068443260"
+      },
+      {
+        "name": "Millville",
+        "elementType": "3",
+        "destinationId": "6673",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MIV",
+        "cityLatitude": "39.39605301939160",
+        "cityLongitude": "75.03281773093250"
+      },
+      {
+        "name": "Monmouth Junction",
+        "elementType": "3",
+        "destinationId": "12483",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.37892407114570",
+        "cityLongitude": "74.54688392243190"
+      },
+      {
+        "name": "Morris Plains",
+        "elementType": "3",
+        "destinationId": "24176",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR"
+      },
+      {
+        "name": "Morristown",
+        "elementType": "3",
+        "destinationId": "6900",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MMU",
+        "cityLatitude": "40.79809278050930",
+        "cityLongitude": "74.48021444594340"
+      },
+      {
+        "name": "Mount Arlington",
+        "elementType": "3",
+        "destinationId": "13627",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.92862452573740",
+        "cityLongitude": "74.62824513582510"
+      },
+      {
+        "name": "Mount Laurel",
+        "elementType": "3",
+        "destinationId": "12249",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "39.93456903921760",
+        "cityLongitude": "74.89054489052110"
+      },
+      {
+        "name": "Neptune",
+        "elementType": "3",
+        "destinationId": "24187",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACY",
+        "cityLatitude": "40.20912200000000",
+        "cityLongitude": "74.03862700000001"
+      },
+      {
+        "name": "New Brunswick",
+        "elementType": "3",
+        "destinationId": "13659",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.49278332460980",
+        "cityLongitude": "74.44894583992310"
+      },
+      {
+        "name": "New Providence",
+        "elementType": "3",
+        "destinationId": "24722",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.70967102050780",
+        "cityLongitude": "74.40225982666020"
+      },
+      {
+        "name": "Newark",
+        "elementType": "3",
+        "destinationId": "7268",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.74389864453990",
+        "cityLongitude": "74.17495963155720",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "20637",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Newark Liberty International Airport",
+          "destinationCode": "EWR",
+          "city": "Newark",
+          "cityDestinationId": "7268"
+        }
+      },
+      {
+        "name": "Newton",
+        "elementType": "3",
+        "destinationId": "13673",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "41.05454930837040",
+        "cityLongitude": "74.75780699419110"
+      },
+      {
+        "name": "North Bergen",
+        "elementType": "3",
+        "destinationId": "13681",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.81347778161480",
+        "cityLongitude": "74.01404037471170"
+      },
+      {
+        "name": "North Brunswick",
+        "elementType": "3",
+        "destinationId": "13682",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.47197173820870",
+        "cityLongitude": "74.45298248172260"
+      },
+      {
+        "name": "Paramus",
+        "elementType": "3",
+        "destinationId": "11816",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.94479158350290",
+        "cityLongitude": "74.07538913383680"
+      },
+      {
+        "name": "Parsippany",
+        "elementType": "3",
+        "destinationId": "11817",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.86137106807490",
+        "cityLongitude": "74.43691104660550"
+      },
+      {
+        "name": "Pennsville",
+        "elementType": "3",
+        "destinationId": "22376",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACY",
+        "cityLatitude": "39.65499915120520",
+        "cityLongitude": "75.52098501129160"
+      },
+      {
+        "name": "Pine Brook",
+        "elementType": "3",
+        "destinationId": "26356",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.86748800000000",
+        "cityLongitude": "74.34408400000000"
+      },
+      {
+        "name": "Piscataway",
+        "elementType": "3",
+        "destinationId": "12228",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.57568133056620",
+        "cityLongitude": "74.45443731201580"
+      },
+      {
+        "name": "Plainsboro",
+        "elementType": "3",
+        "destinationId": "25350",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR"
+      },
+      {
+        "name": "Pleasantville",
+        "elementType": "3",
+        "destinationId": "13760",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AIY",
+        "cityLatitude": "39.39064009447440",
+        "cityLongitude": "74.52558056241060"
+      },
+      {
+        "name": "Pompton Plains",
+        "elementType": "3",
+        "destinationId": "20656",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.96837622670690",
+        "cityLongitude": "74.29592911194730"
+      },
+      {
+        "name": "Princeton",
+        "elementType": "3",
+        "destinationId": "8300",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.35219754092340",
+        "cityLongitude": "74.66046313814000"
+      },
+      {
+        "name": "Rahway",
+        "elementType": "3",
+        "destinationId": "20304",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.60890678578370",
+        "cityLongitude": "74.28690643205370"
+      },
+      {
+        "name": "Ramsey",
+        "elementType": "3",
+        "destinationId": "12362",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "41.05815564825220",
+        "cityLongitude": "74.13947679881900"
+      },
+      {
+        "name": "Red Bank",
+        "elementType": "3",
+        "destinationId": "11819",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.34669923864150",
+        "cityLongitude": "74.07237702041280"
+      },
+      {
+        "name": "Ridgefield",
+        "elementType": "3",
+        "destinationId": "26338",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TEB",
+        "cityLatitude": "40.83426700000000",
+        "cityLongitude": "74.00875100000000"
+      },
+      {
+        "name": "Ridgefield Park",
+        "elementType": "3",
+        "destinationId": "21986",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.85836578484010",
+        "cityLongitude": "74.02478426227610"
+      },
+      {
+        "name": "Robbinsville",
+        "elementType": "3",
+        "destinationId": "28355",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR"
+      },
+      {
+        "name": "Rochelle Park",
+        "elementType": "3",
+        "destinationId": "26343",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.90733300000000",
+        "cityLongitude": "74.07512699999999"
+      },
+      {
+        "name": "Rockaway",
+        "elementType": "3",
+        "destinationId": "19339",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.73340000000000",
+        "cityLongitude": "74.16590000000000"
+      },
+      {
+        "name": "Runnemede",
+        "elementType": "3",
+        "destinationId": "11821",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LDJ",
+        "cityLatitude": "39.84435931575460",
+        "cityLongitude": "75.07130584690550"
+      },
+      {
+        "name": "Rutherford",
+        "elementType": "3",
+        "destinationId": "11822",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.82568674475620",
+        "cityLongitude": "74.10880924944560"
+      },
+      {
+        "name": "Seaside Heights",
+        "elementType": "3",
+        "destinationId": "13853",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TTN",
+        "cityLatitude": "39.94127970007710",
+        "cityLongitude": "74.07375671862510"
+      },
+      {
+        "name": "Secaucus",
+        "elementType": "3",
+        "destinationId": "12530",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.79319553487440",
+        "cityLongitude": "74.05605286829640"
+      },
+      {
+        "name": "Somers Point",
+        "elementType": "3",
+        "destinationId": "13880",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AIY",
+        "cityLatitude": "39.31916557990480",
+        "cityLongitude": "74.59104792560520"
+      },
+      {
+        "name": "Somerset",
+        "elementType": "3",
+        "destinationId": "12176",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.49157779622130",
+        "cityLongitude": "74.46655406760340"
+      },
+      {
+        "name": "South Amboy",
+        "elementType": "3",
+        "destinationId": "26716",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.47788400000000",
+        "cityLongitude": "74.29070200000000"
+      },
+      {
+        "name": "South Plainfield",
+        "elementType": "3",
+        "destinationId": "13890",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.56975272636660",
+        "cityLongitude": "74.41784115844290"
+      },
+      {
+        "name": "Swedesboro",
+        "elementType": "3",
+        "destinationId": "22392",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "39.74752772389130",
+        "cityLongitude": "75.31058103390940"
+      },
+      {
+        "name": "Teaneck",
+        "elementType": "3",
+        "destinationId": "11823",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.88692963594910",
+        "cityLongitude": "74.02435396035840"
+      },
+      {
+        "name": "Thorofare",
+        "elementType": "3",
+        "destinationId": "13964",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "39.84100569287210",
+        "cityLongitude": "75.19949483724830"
+      },
+      {
+        "name": "Tinton Falls",
+        "elementType": "3",
+        "destinationId": "19090",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.28974229115280",
+        "cityLongitude": "74.09806536188120"
+      },
+      {
+        "name": "Toms River",
+        "elementType": "3",
+        "destinationId": "10282",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MJX",
+        "cityLatitude": "39.95331107830010",
+        "cityLongitude": "74.19334650080290"
+      },
+      {
+        "name": "Totowa",
+        "elementType": "3",
+        "destinationId": "19071",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACY",
+        "cityLatitude": "40.90352016544310",
+        "cityLongitude": "74.21139186059010"
+      },
+      {
+        "name": "Upper Saddle River",
+        "elementType": "3",
+        "destinationId": "19066",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "41.07947266865180",
+        "cityLongitude": "74.09952702236360"
+      },
+      {
+        "name": "Vineland",
+        "elementType": "3",
+        "destinationId": "11825",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "39.48145087458430",
+        "cityLongitude": "75.02182112636870"
+      },
+      {
+        "name": "Voorhees",
+        "elementType": "3",
+        "destinationId": "12710",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "39.85699858081370",
+        "cityLongitude": "74.95111500808080"
+      },
+      {
+        "name": "Wall",
+        "elementType": "3",
+        "destinationId": "14011",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.85259769008600",
+        "cityLongitude": "74.11568041975070"
+      },
+      {
+        "name": "Wayne",
+        "elementType": "3",
+        "destinationId": "11827",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.91245746797200",
+        "cityLongitude": "74.25727024124500"
+      },
+      {
+        "name": "Weehawken",
+        "elementType": "3",
+        "destinationId": "12268",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.76703249525870",
+        "cityLongitude": "74.02349335652300"
+      },
+      {
+        "name": "West Atlantic City",
+        "elementType": "3",
+        "destinationId": "12633",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACY",
+        "cityLatitude": "39.38084560320460",
+        "cityLongitude": "74.49086954104860"
+      },
+      {
+        "name": "West Long Branch",
+        "elementType": "3",
+        "destinationId": "23025",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.29069168744740",
+        "cityLongitude": "74.01602112957100"
+      },
+      {
+        "name": "West Orange",
+        "elementType": "3",
+        "destinationId": "11828",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.80857712088530",
+        "cityLongitude": "74.24635559895140"
+      },
+      {
+        "name": "Westampton",
+        "elementType": "3",
+        "destinationId": "14048",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.89096969284320",
+        "cityLongitude": "74.20434310536660"
+      },
+      {
+        "name": "Westfield",
+        "elementType": "3",
+        "destinationId": "24807",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.65438842773440",
+        "cityLongitude": "74.34544372558590"
+      },
+      {
+        "name": "Whippany",
+        "elementType": "3",
+        "destinationId": "12588",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.82439583900310",
+        "cityLongitude": "74.41724010179590"
+      },
+      {
+        "name": "Wildwood",
+        "elementType": "3",
+        "destinationId": "1078",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WWD",
+        "cityLatitude": "38.98342080106370",
+        "cityLongitude": "74.82249571582030"
+      },
+      {
+        "name": "Williamstown",
+        "elementType": "3",
+        "destinationId": "24727",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "42.71466064453130",
+        "cityLongitude": "73.20877075195310"
+      },
+      {
+        "name": "Woodbridge",
+        "elementType": "3",
+        "destinationId": "22394",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.55556300836590",
+        "cityLongitude": "74.27608058221920"
+      },
+      {
+        "name": "Woodcliff Lake",
+        "elementType": "3",
+        "destinationId": "11829",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "41.01943872094190",
+        "cityLongitude": "74.04101962193330"
+      },
+      {
+        "name": "Wrightstown",
+        "elementType": "3",
+        "destinationId": "26504",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TTN",
+        "cityLatitude": "40.03622400000000",
+        "cityLongitude": "74.61793400000001"
+      }
+    ]
+  }
+}

@@ -1,0 +1,742 @@
+{
+  "State": {
+    "name": "Louisiana",
+    "elementType": "6",
+    "destinationId": "4000029",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "LA",
+    "City": [
+      {
+        "name": "Abbeville",
+        "elementType": "3",
+        "destinationId": "24835",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LFT",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Alexandria",
+        "elementType": "3",
+        "destinationId": "200",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AEX",
+        "cityLatitude": "31.29997366408170",
+        "cityLongitude": "92.46428694569460"
+      },
+      {
+        "name": "Amite",
+        "elementType": "3",
+        "destinationId": "12970",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "30.71971835823780",
+        "cityLongitude": "90.50861254102320"
+      },
+      {
+        "name": "Avondale",
+        "elementType": "3",
+        "destinationId": "23380",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "29.91262905496330",
+        "cityLongitude": "90.20404757574310"
+      },
+      {
+        "name": "Baton Rouge",
+        "elementType": "3",
+        "destinationId": "1527",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BTR",
+        "cityLatitude": "30.46163283025970",
+        "cityLongitude": "91.14773383222880"
+      },
+      {
+        "name": "Belle Chasse",
+        "elementType": "3",
+        "destinationId": "1616",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BCS",
+        "cityLatitude": "29.85551159802900",
+        "cityLongitude": "89.98882831499600"
+      },
+      {
+        "name": "Bossier City",
+        "elementType": "3",
+        "destinationId": "11769",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SHV",
+        "cityLatitude": "32.52167935563810",
+        "cityLongitude": "93.73152609335290"
+      },
+      {
+        "name": "Breaux Bridge",
+        "elementType": "3",
+        "destinationId": "12286",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LFT",
+        "cityLatitude": "30.27330402427490",
+        "cityLongitude": "91.89965569757710"
+      },
+      {
+        "name": "Broussard",
+        "elementType": "3",
+        "destinationId": "23031",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LFT",
+        "cityLatitude": "30.14820569453160",
+        "cityLongitude": "91.96486351358320"
+      },
+      {
+        "name": "Bunkie",
+        "elementType": "3",
+        "destinationId": "26328",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AEX",
+        "cityLatitude": "30.95324700000000",
+        "cityLongitude": "92.18262600000000"
+      },
+      {
+        "name": "Covington",
+        "elementType": "3",
+        "destinationId": "12359",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "30.47676511436590",
+        "cityLongitude": "90.10516009693970"
+      },
+      {
+        "name": "Crowley",
+        "elementType": "3",
+        "destinationId": "22566",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LFT",
+        "cityLatitude": "30.21059947259960",
+        "cityLongitude": "92.37218867492610"
+      },
+      {
+        "name": "Cut Off",
+        "elementType": "3",
+        "destinationId": "24045",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY"
+      },
+      {
+        "name": "Darrow",
+        "elementType": "3",
+        "destinationId": "27894",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BTR"
+      },
+      {
+        "name": "Denham Springs",
+        "elementType": "3",
+        "destinationId": "13202",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BTR",
+        "cityLatitude": "30.48158039773070",
+        "cityLongitude": "90.95313491258590"
+      },
+      {
+        "name": "Deridder",
+        "elementType": "3",
+        "destinationId": "24537",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AEX",
+        "cityLatitude": "30.84733963012700",
+        "cityLongitude": "93.28896331787110"
+      },
+      {
+        "name": "Donaldsonville",
+        "elementType": "3",
+        "destinationId": "24540",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Duson",
+        "elementType": "3",
+        "destinationId": "26443",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LFT",
+        "cityLatitude": "30.23575800000000",
+        "cityLongitude": "92.18540400000001"
+      },
+      {
+        "name": "Eunice",
+        "elementType": "3",
+        "destinationId": "3509",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "UCE",
+        "cityLatitude": "30.48828422840110",
+        "cityLongitude": "92.41463147042860"
+      },
+      {
+        "name": "Franklin",
+        "elementType": "3",
+        "destinationId": "24833",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LFT",
+        "cityLatitude": "35.92425155639650",
+        "cityLongitude": "86.87093353271480"
+      },
+      {
+        "name": "Galliano",
+        "elementType": "3",
+        "destinationId": "24541",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "29.43549919128420",
+        "cityLongitude": "90.29842376708980"
+      },
+      {
+        "name": "Gonzales",
+        "elementType": "3",
+        "destinationId": "13338",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BTR",
+        "cityLatitude": "30.24657749405270",
+        "cityLongitude": "90.92151796691790"
+      },
+      {
+        "name": "Gray",
+        "elementType": "3",
+        "destinationId": "24542",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "43.88677978515630",
+        "cityLongitude": "70.33132934570310"
+      },
+      {
+        "name": "Gretna",
+        "elementType": "3",
+        "destinationId": "13361",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "29.92070916875140",
+        "cityLongitude": "90.05876262190780"
+      },
+      {
+        "name": "Hammond",
+        "elementType": "3",
+        "destinationId": "13374",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "30.50483719185460",
+        "cityLongitude": "90.46162083953350"
+      },
+      {
+        "name": "Harahan",
+        "elementType": "3",
+        "destinationId": "19389",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY"
+      },
+      {
+        "name": "Harvey",
+        "elementType": "3",
+        "destinationId": "13382",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "29.90876316789300",
+        "cityLongitude": "90.07491601929490"
+      },
+      {
+        "name": "Houma",
+        "elementType": "3",
+        "destinationId": "4528",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "29.59734069268630",
+        "cityLongitude": "90.71910531086460"
+      },
+      {
+        "name": "Iowa",
+        "elementType": "3",
+        "destinationId": "22568",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LCH",
+        "cityLatitude": "30.23918722937070",
+        "cityLongitude": "93.01362540026040"
+      },
+      {
+        "name": "Jennings",
+        "elementType": "3",
+        "destinationId": "12719",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LFT",
+        "cityLatitude": "30.22074571861170",
+        "cityLongitude": "92.65364711024400"
+      },
+      {
+        "name": "Kenner",
+        "elementType": "3",
+        "destinationId": "11770",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "29.99416102308570",
+        "cityLongitude": "90.24322554082230"
+      },
+      {
+        "name": "Kinder",
+        "elementType": "3",
+        "destinationId": "13463",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LCH",
+        "cityLatitude": "30.48002994478910",
+        "cityLongitude": "92.85021312436780"
+      },
+      {
+        "name": "Lafayette",
+        "elementType": "3",
+        "destinationId": "5639",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LFT",
+        "cityLatitude": "30.21232068027050",
+        "cityLongitude": "92.02345970647280"
+      },
+      {
+        "name": "Lake Charles",
+        "elementType": "3",
+        "destinationId": "5660",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LCH",
+        "cityLatitude": "30.23003136078830",
+        "cityLongitude": "93.21922092446690"
+      },
+      {
+        "name": "LaPlace",
+        "elementType": "3",
+        "destinationId": "18950",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "30.06271904687970",
+        "cityLongitude": "90.48687887908420"
+      },
+      {
+        "name": "Leesville",
+        "elementType": "3",
+        "destinationId": "24141",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AEX",
+        "cityLatitude": "31.14351900000000",
+        "cityLongitude": "93.26099800000000"
+      },
+      {
+        "name": "Luling",
+        "elementType": "3",
+        "destinationId": "13542",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "29.93188335823350",
+        "cityLongitude": "90.36642849307100"
+      },
+      {
+        "name": "Mansfield",
+        "elementType": "3",
+        "destinationId": "24836",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SHV",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Mansura",
+        "elementType": "3",
+        "destinationId": "25024",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AEX",
+        "cityLatitude": "31.05796600000000",
+        "cityLongitude": "92.04901200000000"
+      },
+      {
+        "name": "Marrero",
+        "elementType": "3",
+        "destinationId": "24353",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CWF",
+        "cityLatitude": "29.90262031555180",
+        "cityLongitude": "90.10971832275390"
+      },
+      {
+        "name": "Metairie",
+        "elementType": "3",
+        "destinationId": "11771",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "29.98599894702750",
+        "cityLongitude": "90.13136070259590"
+      },
+      {
+        "name": "Minden",
+        "elementType": "3",
+        "destinationId": "24171",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MIN"
+      },
+      {
+        "name": "Monroe",
+        "elementType": "3",
+        "destinationId": "6808",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MLU",
+        "cityLatitude": "32.50796775087930",
+        "cityLongitude": "92.10860484466620"
+      },
+      {
+        "name": "Morgan City",
+        "elementType": "3",
+        "destinationId": "6879",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PTN",
+        "cityLatitude": "29.70354671918540",
+        "cityLongitude": "91.20598168547060"
+      },
+      {
+        "name": "Natchitoches",
+        "elementType": "3",
+        "destinationId": "12251",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ESF",
+        "cityLatitude": "31.75936877256210",
+        "cityLongitude": "93.09868174599450"
+      },
+      {
+        "name": "New Iberia",
+        "elementType": "3",
+        "destinationId": "7250",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ARA",
+        "cityLatitude": "30.01376025090900",
+        "cityLongitude": "91.82474218276040"
+      },
+      {
+        "name": "New Orleans",
+        "elementType": "3",
+        "destinationId": "7254",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "29.97250590832220",
+        "cityLongitude": "90.06460926383730",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "12012",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "French Quarter area",
+            "destinationCode": "MSY",
+            "city": "New Orleans",
+            "cityDestinationId": "7254"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12013",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown Area",
+            "destinationCode": "MSY",
+            "city": "New Orleans",
+            "cityDestinationId": "7254"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12014",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Convention Center area",
+            "destinationCode": "MSY",
+            "city": "New Orleans",
+            "cityDestinationId": "7254"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16440",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Garden District",
+            "destinationCode": "MSY",
+            "city": "New Orleans",
+            "cityDestinationId": "7254"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16442",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Central Business District",
+            "destinationCode": "MSY",
+            "city": "New Orleans",
+            "cityDestinationId": "7254"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20686",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Warehouse District",
+            "destinationCode": "MSY",
+            "city": "New Orleans",
+            "cityDestinationId": "7254"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "28524",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Mid City",
+            "destinationCode": "MSY",
+            "city": "New Orleans",
+            "cityDestinationId": "7254"
+          }
+        ]
+      },
+      {
+        "name": "Opelousas",
+        "elementType": "3",
+        "destinationId": "7612",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OPL",
+        "cityLatitude": "30.53035819368840",
+        "cityLongitude": "92.08686435253800"
+      },
+      {
+        "name": "Pearl River",
+        "elementType": "3",
+        "destinationId": "26491",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "30.37602600000000",
+        "cityLongitude": "89.74839700000000"
+      },
+      {
+        "name": "Pineville",
+        "elementType": "3",
+        "destinationId": "13752",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ESF",
+        "cityLatitude": "31.32739004341010",
+        "cityLongitude": "92.43052532062720"
+      },
+      {
+        "name": "Plaquemine",
+        "elementType": "3",
+        "destinationId": "24719",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BTR",
+        "cityLatitude": "30.28903007507320",
+        "cityLongitude": "91.23503112792970"
+      },
+      {
+        "name": "Ponchatoula",
+        "elementType": "3",
+        "destinationId": "26416",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "30.43880400000000",
+        "cityLongitude": "90.44147599999999"
+      },
+      {
+        "name": "Port Allen",
+        "elementType": "3",
+        "destinationId": "13764",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BTR",
+        "cityLatitude": "30.46000041504810",
+        "cityLongitude": "91.20976561027080"
+      },
+      {
+        "name": "Raceland",
+        "elementType": "3",
+        "destinationId": "26185",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY"
+      },
+      {
+        "name": "Rayne",
+        "elementType": "3",
+        "destinationId": "13793",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAF",
+        "cityLatitude": "30.23080317216450",
+        "cityLongitude": "92.26556942198220"
+      },
+      {
+        "name": "Ruston",
+        "elementType": "3",
+        "destinationId": "8802",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RSN",
+        "cityLatitude": "32.53036052607320",
+        "cityLongitude": "92.63465918435140"
+      },
+      {
+        "name": "Saint Rose",
+        "elementType": "3",
+        "destinationId": "26186",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY"
+      },
+      {
+        "name": "Scott",
+        "elementType": "3",
+        "destinationId": "13848",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAF",
+        "cityLatitude": "30.23541013475970",
+        "cityLongitude": "92.09958216477260"
+      },
+      {
+        "name": "Shreveport",
+        "elementType": "3",
+        "destinationId": "9386",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SHV",
+        "cityLatitude": "32.47590001272610",
+        "cityLongitude": "93.77010300178510"
+      },
+      {
+        "name": "Slidell",
+        "elementType": "3",
+        "destinationId": "12337",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "30.27768559062750",
+        "cityLongitude": "89.77842433761380"
+      },
+      {
+        "name": "Sulphur",
+        "elementType": "3",
+        "destinationId": "13937",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LCH",
+        "cityLatitude": "30.22297919047030",
+        "cityLongitude": "93.37558444513600"
+      },
+      {
+        "name": "Tallulah",
+        "elementType": "3",
+        "destinationId": "26514",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "VKS",
+        "cityLatitude": "32.40847700000000",
+        "cityLongitude": "91.18677700000001"
+      },
+      {
+        "name": "Thibodaux",
+        "elementType": "3",
+        "destinationId": "26506",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "29.79576300000000",
+        "cityLongitude": "90.82287100000001"
+      },
+      {
+        "name": "Ville Platte",
+        "elementType": "3",
+        "destinationId": "24723",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LFT",
+        "cityLatitude": "30.68919944763180",
+        "cityLongitude": "92.27609252929690"
+      },
+      {
+        "name": "West Monroe",
+        "elementType": "3",
+        "destinationId": "14046",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MLU",
+        "cityLatitude": "32.51725339305590",
+        "cityLongitude": "92.13841179020410"
+      },
+      {
+        "name": "Westwego",
+        "elementType": "3",
+        "destinationId": "19259",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSY",
+        "cityLatitude": "29.91065171519850",
+        "cityLongitude": "90.14390776010120"
+      },
+      {
+        "name": "Zachary",
+        "elementType": "3",
+        "destinationId": "24323",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BTR",
+        "cityLatitude": "30.64851900000000",
+        "cityLongitude": "91.15649600000000"
+      }
+    ]
+  }
+}

@@ -118,6 +118,12 @@
         <if test="name != null and name != ''">
             and t1.name like   "%"#{name}"%"
         </if>
+        <if test="city != null and city != ''">
+            and t3.city like   "%"#{city}"%"
+        </if>
+        <if test="hotelId != null and hotelId != ''">
+            and t2.hotel_id =#{hotelId}
+        </if>
         <if test="isBest != null and isBest != -1">
             and t1.is_best = #{isBest}
         </if>

@@ -1,0 +1,446 @@
+{
+  "State": {
+    "name": "New Mexico",
+    "elementType": "6",
+    "destinationId": "4000019",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "NM",
+    "City": [
+      {
+        "name": "Alamogordo",
+        "elementType": "3",
+        "destinationId": "19338",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALM",
+        "cityLatitude": "32.89953250000000",
+        "cityLongitude": "105.96026499999900"
+      },
+      {
+        "name": "Albuquerque",
+        "elementType": "3",
+        "destinationId": "177",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABQ",
+        "cityLatitude": "35.08846786082350",
+        "cityLongitude": "106.65153924810600",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "19974",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Albuquerque International Sunport ABQ",
+            "destinationCode": "ABQ",
+            "city": "Albuquerque",
+            "cityDestinationId": "177"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "19975",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Northern Albuquerque",
+            "destinationCode": "ABQ",
+            "city": "Albuquerque",
+            "cityDestinationId": "177"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "19976",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown",
+            "destinationCode": "ABQ",
+            "city": "Albuquerque",
+            "cityDestinationId": "177"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20879",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Albuquerque and vicinity",
+            "destinationCode": "ABQ",
+            "city": "Albuquerque",
+            "cityDestinationId": "177"
+          }
+        ]
+      },
+      {
+        "name": "Artesia",
+        "elementType": "3",
+        "destinationId": "497",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ATS",
+        "cityLatitude": "32.84147222767270",
+        "cityLongitude": "104.40280874690600"
+      },
+      {
+        "name": "Aztec",
+        "elementType": "3",
+        "destinationId": "26746",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FMN",
+        "cityLatitude": "36.82222610000000",
+        "cityLongitude": "107.99284549999901"
+      },
+      {
+        "name": "Belen",
+        "elementType": "3",
+        "destinationId": "26241",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABQ",
+        "cityLatitude": "34.66276520000000",
+        "cityLongitude": "106.77615459999900"
+      },
+      {
+        "name": "Bernalillo",
+        "elementType": "3",
+        "destinationId": "13029",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABQ",
+        "cityLatitude": "35.30413449896120",
+        "cityLongitude": "106.55179116546700"
+      },
+      {
+        "name": "Carlsbad",
+        "elementType": "3",
+        "destinationId": "2306",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CNM",
+        "cityLatitude": "32.41896014071030",
+        "cityLongitude": "104.23312635735500"
+      },
+      {
+        "name": "Clayton",
+        "elementType": "3",
+        "destinationId": "2612",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CAO",
+        "cityLatitude": "36.45006607186550",
+        "cityLongitude": "103.18101767798500"
+      },
+      {
+        "name": "Clovis",
+        "elementType": "3",
+        "destinationId": "2633",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CVN",
+        "cityLatitude": "34.41276066132870",
+        "cityLongitude": "103.20627571753500"
+      },
+      {
+        "name": "Deming",
+        "elementType": "3",
+        "destinationId": "3042",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DMN",
+        "cityLatitude": "32.26969660168340",
+        "cityLongitude": "107.76112396934200"
+      },
+      {
+        "name": "Espanola",
+        "elementType": "3",
+        "destinationId": "3492",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ESO",
+        "cityLatitude": "36.00063620938410",
+        "cityLongitude": "106.07573381050600"
+      },
+      {
+        "name": "Farmington",
+        "elementType": "3",
+        "destinationId": "3573",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FMN",
+        "cityLatitude": "36.73171233738560",
+        "cityLongitude": "108.21011328462200"
+      },
+      {
+        "name": "Fort Sumner",
+        "elementType": "3",
+        "destinationId": "3737",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FSU",
+        "cityLatitude": "34.47898959061570",
+        "cityLongitude": "104.24403416946000"
+      },
+      {
+        "name": "Gallup",
+        "elementType": "3",
+        "destinationId": "3851",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GUP",
+        "cityLatitude": "35.52748851500980",
+        "cityLongitude": "108.74012230383600"
+      },
+      {
+        "name": "Grants",
+        "elementType": "3",
+        "destinationId": "4107",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GNT",
+        "cityLatitude": "35.15882905455830",
+        "cityLongitude": "107.85115952298100"
+      },
+      {
+        "name": "Hobbs",
+        "elementType": "3",
+        "destinationId": "4466",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HOB",
+        "cityLatitude": "32.70648378401110",
+        "cityLongitude": "103.13195642917600"
+      },
+      {
+        "name": "Las Cruces",
+        "elementType": "3",
+        "destinationId": "5741",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LRU",
+        "cityLatitude": "32.30716701947010",
+        "cityLongitude": "106.77138857747200"
+      },
+      {
+        "name": "Las Vegas",
+        "elementType": "3",
+        "destinationId": "5750",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LVS",
+        "cityLatitude": "35.59828342575700",
+        "cityLongitude": "105.22526597581300"
+      },
+      {
+        "name": "Lordsburg",
+        "elementType": "3",
+        "destinationId": "6023",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LSB",
+        "cityLatitude": "32.35139932453510",
+        "cityLongitude": "108.70876490535700"
+      },
+      {
+        "name": "Los Alamos",
+        "elementType": "3",
+        "destinationId": "6029",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAM",
+        "cityLatitude": "35.89005544672160",
+        "cityLongitude": "106.31750201655700"
+      },
+      {
+        "name": "Los Lunas",
+        "elementType": "3",
+        "destinationId": "13539",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABQ",
+        "cityLatitude": "34.81121682203430",
+        "cityLongitude": "106.73598770700400"
+      },
+      {
+        "name": "Moriarty",
+        "elementType": "3",
+        "destinationId": "13622",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABQ",
+        "cityLatitude": "34.99293058980790",
+        "cityLongitude": "106.04781199717900"
+      },
+      {
+        "name": "Portales",
+        "elementType": "3",
+        "destinationId": "24224",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LUB",
+        "cityLatitude": "34.18619200000000",
+        "cityLongitude": "103.33439799999999"
+      },
+      {
+        "name": "Raton",
+        "elementType": "3",
+        "destinationId": "8529",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RTN",
+        "cityLatitude": "36.90241925531170",
+        "cityLongitude": "104.43614007005500"
+      },
+      {
+        "name": "Red River",
+        "elementType": "3",
+        "destinationId": "12389",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABQ",
+        "cityLatitude": "36.70814818474900",
+        "cityLongitude": "105.40603376238600"
+      },
+      {
+        "name": "Rio Rancho",
+        "elementType": "3",
+        "destinationId": "18523",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABQ",
+        "cityLatitude": "35.22776615385130",
+        "cityLongitude": "106.65927102224600"
+      },
+      {
+        "name": "Roswell",
+        "elementType": "3",
+        "destinationId": "8756",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ROW",
+        "cityLatitude": "33.38842353112350",
+        "cityLongitude": "104.52807441628400"
+      },
+      {
+        "name": "Ruidoso",
+        "elementType": "3",
+        "destinationId": "8788",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RUI",
+        "cityLatitude": "33.33125826286510",
+        "cityLongitude": "105.68361948044500"
+      },
+      {
+        "name": "Ruidoso Downs",
+        "elementType": "3",
+        "destinationId": "12412",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABQ",
+        "cityLatitude": "33.32893599854730",
+        "cityLongitude": "105.60397947472200"
+      },
+      {
+        "name": "Santa Ana Pueblo",
+        "elementType": "3",
+        "destinationId": "17831",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABQ",
+        "cityLatitude": "35.45008539624060",
+        "cityLongitude": "106.61863139668500"
+      },
+      {
+        "name": "Santa Fe",
+        "elementType": "3",
+        "destinationId": "9070",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAF",
+        "cityLatitude": "35.68273529974960",
+        "cityLongitude": "105.95537221695200",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "25018",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown",
+            "destinationCode": "ABQ",
+            "city": "Santa Fe",
+            "cityDestinationId": "9070"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "25019",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Historic Plaza",
+            "destinationCode": "ABQ",
+            "city": "Santa Fe",
+            "cityDestinationId": "9070"
+          }
+        ]
+      },
+      {
+        "name": "Santa Rosa",
+        "elementType": "3",
+        "destinationId": "12650",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABQ",
+        "cityLatitude": "34.94371566174340",
+        "cityLongitude": "104.68280552174100"
+      },
+      {
+        "name": "Silver City",
+        "elementType": "3",
+        "destinationId": "9433",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SVC",
+        "cityLatitude": "32.77464907192780",
+        "cityLongitude": "108.27584019500500"
+      },
+      {
+        "name": "Socorro",
+        "elementType": "3",
+        "destinationId": "9533",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONM",
+        "cityLatitude": "34.06386093814610",
+        "cityLongitude": "106.89931119043700"
+      },
+      {
+        "name": "Taos",
+        "elementType": "3",
+        "destinationId": "10015",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABQ",
+        "cityLatitude": "36.40957671046570",
+        "cityLongitude": "105.57331192534900"
+      },
+      {
+        "name": "Truth Or Consequences",
+        "elementType": "3",
+        "destinationId": "10379",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TCS",
+        "cityLatitude": "33.13588411675150",
+        "cityLongitude": "107.25019166847900"
+      },
+      {
+        "name": "Tucumcari",
+        "elementType": "3",
+        "destinationId": "10400",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TCC",
+        "cityLatitude": "35.17300852727530",
+        "cityLongitude": "103.72347813205600"
+      }
+    ]
+  }
+}

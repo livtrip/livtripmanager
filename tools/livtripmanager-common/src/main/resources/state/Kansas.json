@@ -1,0 +1,566 @@
+{
+  "State": {
+    "name": "Kansas",
+    "elementType": "6",
+    "destinationId": "4000033",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "KS",
+    "City": [
+      {
+        "name": "Abilene",
+        "elementType": "3",
+        "destinationId": "12666",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLN",
+        "cityLatitude": "38.91960634364820",
+        "cityLongitude": "97.22129513655500"
+      },
+      {
+        "name": "Andover",
+        "elementType": "3",
+        "destinationId": "23990",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JAB",
+        "cityLatitude": "37.71390410000000",
+        "cityLongitude": "97.13642940000000"
+      },
+      {
+        "name": "Arkansas City",
+        "elementType": "3",
+        "destinationId": "24434",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ICT",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Atchison",
+        "elementType": "3",
+        "destinationId": "12986",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TCH",
+        "cityLatitude": "39.56633646558920",
+        "cityLongitude": "95.12806755218870"
+      },
+      {
+        "name": "Belleville",
+        "elementType": "3",
+        "destinationId": "17285",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "KCK",
+        "cityLatitude": "39.82459616339120",
+        "cityLongitude": "97.63127724148500"
+      },
+      {
+        "name": "Bonner Springs",
+        "elementType": "3",
+        "destinationId": "24009",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "39.05972600000000",
+        "cityLongitude": "94.88357499999999"
+      },
+      {
+        "name": "Chanute",
+        "elementType": "3",
+        "destinationId": "2433",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CNU",
+        "cityLatitude": "37.67984846211550",
+        "cityLongitude": "95.45446180205610"
+      },
+      {
+        "name": "Coffeyville",
+        "elementType": "3",
+        "destinationId": "2666",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CFV",
+        "cityLatitude": "37.03753405747290",
+        "cityLongitude": "95.62122087064200"
+      },
+      {
+        "name": "Colby",
+        "elementType": "3",
+        "destinationId": "2674",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CBK",
+        "cityLatitude": "39.39450598154460",
+        "cityLongitude": "101.04818865681100"
+      },
+      {
+        "name": "Concordia",
+        "elementType": "3",
+        "destinationId": "2741",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CNK",
+        "cityLatitude": "39.56633646558920",
+        "cityLongitude": "97.65842724343580"
+      },
+      {
+        "name": "De Soto",
+        "elementType": "3",
+        "destinationId": "26752",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "38.97917100000000",
+        "cityLongitude": "94.96857799999999"
+      },
+      {
+        "name": "Derby",
+        "elementType": "3",
+        "destinationId": "22854",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IAB",
+        "cityLatitude": "37.54484977317020",
+        "cityLongitude": "97.27009000798560"
+      },
+      {
+        "name": "Dodge City",
+        "elementType": "3",
+        "destinationId": "3143",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DDC",
+        "cityLatitude": "37.75458439201370",
+        "cityLongitude": "100.02030665842600"
+      },
+      {
+        "name": "El Dorado",
+        "elementType": "3",
+        "destinationId": "3358",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EDK",
+        "cityLatitude": "37.81978196273610",
+        "cityLongitude": "96.85916533695010"
+      },
+      {
+        "name": "Ellis",
+        "elementType": "3",
+        "destinationId": "26447",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HYS",
+        "cityLatitude": "38.93806600000000",
+        "cityLongitude": "99.56066700000000"
+      },
+      {
+        "name": "Emporia",
+        "elementType": "3",
+        "destinationId": "3436",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EMP",
+        "cityLatitude": "38.41387523183840",
+        "cityLongitude": "96.18962921337040"
+      },
+      {
+        "name": "Fort Scott",
+        "elementType": "3",
+        "destinationId": "3728",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FSK",
+        "cityLatitude": "37.83963390755870",
+        "cityLongitude": "94.69995812520150"
+      },
+      {
+        "name": "Garden City",
+        "elementType": "3",
+        "destinationId": "3880",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GCK",
+        "cityLatitude": "37.97287723788740",
+        "cityLongitude": "100.86922404017800"
+      },
+      {
+        "name": "Gardner",
+        "elementType": "3",
+        "destinationId": "26425",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "38.81084100000000",
+        "cityLongitude": "94.92718700000000"
+      },
+      {
+        "name": "Goodland",
+        "elementType": "3",
+        "destinationId": "4040",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GLD",
+        "cityLatitude": "39.34495637421080",
+        "cityLongitude": "101.71574402553100"
+      },
+      {
+        "name": "Great Bend",
+        "elementType": "3",
+        "destinationId": "4118",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GBD",
+        "cityLatitude": "38.36268296400920",
+        "cityLongitude": "98.76491788897790"
+      },
+      {
+        "name": "Greensburg",
+        "elementType": "3",
+        "destinationId": "13355",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ICT",
+        "cityLatitude": "37.60726404180570",
+        "cityLongitude": "99.28856800207530"
+      },
+      {
+        "name": "Hays",
+        "elementType": "3",
+        "destinationId": "4373",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HYS",
+        "cityLatitude": "38.88031226535320",
+        "cityLongitude": "99.31151060749730"
+      },
+      {
+        "name": "Holton",
+        "elementType": "3",
+        "destinationId": "26745",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TOP",
+        "cityLatitude": "39.46527200000000",
+        "cityLongitude": "95.73637200000000"
+      },
+      {
+        "name": "Hutchinson",
+        "elementType": "3",
+        "destinationId": "4583",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HUT",
+        "cityLatitude": "38.06644058423280",
+        "cityLongitude": "97.92940133837770"
+      },
+      {
+        "name": "Independence",
+        "elementType": "3",
+        "destinationId": "4676",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IDP",
+        "cityLatitude": "37.22371476896370",
+        "cityLongitude": "95.70713782021160"
+      },
+      {
+        "name": "Iola",
+        "elementType": "3",
+        "destinationId": "24706",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PPF",
+        "cityLatitude": "37.92142105102540",
+        "cityLongitude": "95.40612792968750"
+      },
+      {
+        "name": "Junction City",
+        "elementType": "3",
+        "destinationId": "13449",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHK",
+        "cityLatitude": "39.02945286097500",
+        "cityLongitude": "96.84094922243370"
+      },
+      {
+        "name": "Kansas City",
+        "elementType": "3",
+        "destinationId": "5063",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "KCK",
+        "cityLatitude": "39.08770071421680",
+        "cityLongitude": "94.63938800764180"
+      },
+      {
+        "name": "Lansing",
+        "elementType": "3",
+        "destinationId": "13498",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "39.25052900893540",
+        "cityLongitude": "94.89824534699610"
+      },
+      {
+        "name": "Lawrence",
+        "elementType": "3",
+        "destinationId": "5778",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LWC",
+        "cityLatitude": "38.96279021467560",
+        "cityLongitude": "95.24276691892080"
+      },
+      {
+        "name": "Leavenworth",
+        "elementType": "3",
+        "destinationId": "12703",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "39.30532761664640",
+        "cityLongitude": "94.91801191445420"
+      },
+      {
+        "name": "Leawood",
+        "elementType": "3",
+        "destinationId": "26233",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BEC"
+      },
+      {
+        "name": "Lenexa",
+        "elementType": "3",
+        "destinationId": "11765",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "KCK",
+        "cityLatitude": "38.96081287491090",
+        "cityLongitude": "94.73836427890450"
+      },
+      {
+        "name": "Liberal",
+        "elementType": "3",
+        "destinationId": "5872",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LBL",
+        "cityLatitude": "37.03839124621370",
+        "cityLongitude": "100.92567555366800"
+      },
+      {
+        "name": "Maize",
+        "elementType": "3",
+        "destinationId": "26178",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ANY"
+      },
+      {
+        "name": "Manhattan",
+        "elementType": "3",
+        "destinationId": "6313",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHK",
+        "cityLatitude": "39.19411506148560",
+        "cityLongitude": "96.61465139485280"
+      },
+      {
+        "name": "Mcpherson",
+        "elementType": "3",
+        "destinationId": "6542",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MPR",
+        "cityLatitude": "38.37488851205600",
+        "cityLongitude": "97.66598826284700"
+      },
+      {
+        "name": "Merriam",
+        "elementType": "3",
+        "destinationId": "13596",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MKC",
+        "cityLatitude": "39.03916538997470",
+        "cityLongitude": "94.69179604914330"
+      },
+      {
+        "name": "Newton",
+        "elementType": "3",
+        "destinationId": "7290",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWK",
+        "cityLatitude": "38.05549179099320",
+        "cityLongitude": "97.34002431489730"
+      },
+      {
+        "name": "Oakly",
+        "elementType": "3",
+        "destinationId": "28334",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GCK"
+      },
+      {
+        "name": "Olathe",
+        "elementType": "3",
+        "destinationId": "12299",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MKC",
+        "cityLatitude": "38.88452649207110",
+        "cityLongitude": "94.80864009527470"
+      },
+      {
+        "name": "Ottawa",
+        "elementType": "3",
+        "destinationId": "13719",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FOE",
+        "cityLatitude": "38.61346018957530",
+        "cityLongitude": "95.26536118469520"
+      },
+      {
+        "name": "Overland Park",
+        "elementType": "3",
+        "destinationId": "11766",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "KCK",
+        "cityLatitude": "38.97654280056950",
+        "cityLongitude": "94.66043865066380"
+      },
+      {
+        "name": "Park City",
+        "elementType": "3",
+        "destinationId": "13729",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ICT",
+        "cityLatitude": "37.79932896126650",
+        "cityLongitude": "97.32344744578170"
+      },
+      {
+        "name": "Parsons",
+        "elementType": "3",
+        "destinationId": "7871",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PPF",
+        "cityLatitude": "37.34565755131050",
+        "cityLongitude": "95.27275144937710"
+      },
+      {
+        "name": "Pittsburg",
+        "elementType": "3",
+        "destinationId": "8068",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PTS",
+        "cityLatitude": "37.41049995219600",
+        "cityLongitude": "94.70047038938920"
+      },
+      {
+        "name": "Pratt",
+        "elementType": "3",
+        "destinationId": "8276",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PTT",
+        "cityLatitude": "37.64872670516230",
+        "cityLongitude": "98.73631305673390"
+      },
+      {
+        "name": "Russell",
+        "elementType": "3",
+        "destinationId": "8800",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RSL",
+        "cityLatitude": "38.89148645483530",
+        "cityLongitude": "98.85787676358180"
+      },
+      {
+        "name": "Salina",
+        "elementType": "3",
+        "destinationId": "8884",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLN",
+        "cityLatitude": "38.84886265931980",
+        "cityLongitude": "97.61082765511000"
+      },
+      {
+        "name": "Scott City",
+        "elementType": "3",
+        "destinationId": "24707",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GCK",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Shawnee",
+        "elementType": "3",
+        "destinationId": "20342",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHK",
+        "cityLatitude": "39.02297784164180",
+        "cityLongitude": "94.71516212629390"
+      },
+      {
+        "name": "Topeka",
+        "elementType": "3",
+        "destinationId": "10295",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TOP",
+        "cityLatitude": "39.04844761705680",
+        "cityLongitude": "95.68393566760100"
+      },
+      {
+        "name": "WaKeeney",
+        "elementType": "3",
+        "destinationId": "14007",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HYS",
+        "cityLatitude": "39.02945286097500",
+        "cityLongitude": "99.87940668603810"
+      },
+      {
+        "name": "Wichita",
+        "elementType": "3",
+        "destinationId": "1066",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ICT",
+        "cityLatitude": "37.68414806619800",
+        "cityLongitude": "97.31880291714610"
+      },
+      {
+        "name": "Winfield",
+        "elementType": "3",
+        "destinationId": "1109",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WLD",
+        "cityLatitude": "37.24202992122310",
+        "cityLongitude": "96.99001127088000"
+      }
+    ]
+  }
+}

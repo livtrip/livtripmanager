@@ -1,0 +1,650 @@
+{
+  "State": {
+    "name": "Oklahoma",
+    "elementType": "6",
+    "destinationId": "4000011",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "OK",
+    "City": [
+      {
+        "name": "Ada",
+        "elementType": "3",
+        "destinationId": "56",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ADT",
+        "cityLatitude": "34.78340770682860",
+        "cityLongitude": "96.67642362570640"
+      },
+      {
+        "name": "Afton",
+        "elementType": "3",
+        "destinationId": "20063",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUL",
+        "cityLatitude": "36.69368700000000",
+        "cityLongitude": "94.96301710000000"
+      },
+      {
+        "name": "Altus",
+        "elementType": "3",
+        "destinationId": "257",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LTS",
+        "cityLatitude": "34.66268069815400",
+        "cityLongitude": "99.33599683567180"
+      },
+      {
+        "name": "Alva",
+        "elementType": "3",
+        "destinationId": "26160",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MIO",
+        "cityLatitude": "36.80503080000000",
+        "cityLongitude": "98.66647369999990"
+      },
+      {
+        "name": "Anadarko",
+        "elementType": "3",
+        "destinationId": "26556",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OKC",
+        "cityLatitude": "35.07256200000000",
+        "cityLongitude": "98.24366250000000"
+      },
+      {
+        "name": "Ardmore",
+        "elementType": "3",
+        "destinationId": "455",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ADM",
+        "cityLatitude": "34.17926381436260",
+        "cityLongitude": "97.12704535619800"
+      },
+      {
+        "name": "Atoka",
+        "elementType": "3",
+        "destinationId": "24435",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MLC",
+        "cityLatitude": "34.38594055175780",
+        "cityLongitude": "96.12766265869140"
+      },
+      {
+        "name": "Bartlesville",
+        "elementType": "3",
+        "destinationId": "1499",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BVO",
+        "cityLatitude": "36.74927958393080",
+        "cityLongitude": "95.97991508509440"
+      },
+      {
+        "name": "Bethany",
+        "elementType": "3",
+        "destinationId": "24002",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PWA"
+      },
+      {
+        "name": "Blackwell",
+        "elementType": "3",
+        "destinationId": "1805",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BWL",
+        "cityLatitude": "36.80317660667140",
+        "cityLongitude": "97.28967899052520"
+      },
+      {
+        "name": "Broken Arrow",
+        "elementType": "3",
+        "destinationId": "11381",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUL",
+        "cityLatitude": "36.05311596787190",
+        "cityLongitude": "95.80241212894410"
+      },
+      {
+        "name": "Broken Bow",
+        "elementType": "3",
+        "destinationId": "24817",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WWR",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Catoosa",
+        "elementType": "3",
+        "destinationId": "12561",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUL",
+        "cityLatitude": "36.18888646819340",
+        "cityLongitude": "95.75077589881880"
+      },
+      {
+        "name": "Chandler",
+        "elementType": "3",
+        "destinationId": "13120",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OKC",
+        "cityLatitude": "35.70902811295960",
+        "cityLongitude": "96.88029794224210"
+      },
+      {
+        "name": "Chickasha",
+        "elementType": "3",
+        "destinationId": "2516",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CHK",
+        "cityLatitude": "35.05765687747750",
+        "cityLongitude": "97.94246066007080"
+      },
+      {
+        "name": "Claremore",
+        "elementType": "3",
+        "destinationId": "17335",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUL",
+        "cityLatitude": "36.31678517549650",
+        "cityLongitude": "95.61495075698390"
+      },
+      {
+        "name": "Clinton",
+        "elementType": "3",
+        "destinationId": "2626",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CSM",
+        "cityLatitude": "35.52190483536330",
+        "cityLongitude": "98.97257613031380"
+      },
+      {
+        "name": "Duncan",
+        "elementType": "3",
+        "destinationId": "3225",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DUC",
+        "cityLatitude": "34.51423678182760",
+        "cityLongitude": "97.95474817038770"
+      },
+      {
+        "name": "Durant",
+        "elementType": "3",
+        "destinationId": "3240",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DUA",
+        "cityLatitude": "34.00167889594230",
+        "cityLongitude": "96.38267768007170"
+      },
+      {
+        "name": "Edmond",
+        "elementType": "3",
+        "destinationId": "11383",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OKC",
+        "cityLatitude": "35.65432171280230",
+        "cityLongitude": "97.47998172118010"
+      },
+      {
+        "name": "El Reno",
+        "elementType": "3",
+        "destinationId": "12473",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OKC",
+        "cityLatitude": "35.54124110090360",
+        "cityLongitude": "97.95491892511690"
+      },
+      {
+        "name": "Elk City",
+        "elementType": "3",
+        "destinationId": "3407",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ELK",
+        "cityLatitude": "35.42293197919520",
+        "cityLongitude": "99.40919597300690"
+      },
+      {
+        "name": "Enid",
+        "elementType": "3",
+        "destinationId": "3447",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WDG",
+        "cityLatitude": "36.40536931393690",
+        "cityLongitude": "97.88403522191050"
+      },
+      {
+        "name": "Erick",
+        "elementType": "3",
+        "destinationId": "13265",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OKC",
+        "cityLatitude": "35.22466866306270",
+        "cityLongitude": "99.87055476087370"
+      },
+      {
+        "name": "Glenpool",
+        "elementType": "3",
+        "destinationId": "13334",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUL",
+        "cityLatitude": "35.95388356451530",
+        "cityLongitude": "96.00877946452680"
+      },
+      {
+        "name": "Guthrie",
+        "elementType": "3",
+        "destinationId": "4240",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GOK",
+        "cityLatitude": "35.88704674839220",
+        "cityLongitude": "97.42559975500840"
+      },
+      {
+        "name": "Guymon",
+        "elementType": "3",
+        "destinationId": "4241",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GUY",
+        "cityLatitude": "36.68828940973720",
+        "cityLongitude": "101.47879110284500"
+      },
+      {
+        "name": "Henryetta",
+        "elementType": "3",
+        "destinationId": "26604",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUL",
+        "cityLatitude": "35.43982600000000",
+        "cityLongitude": "95.98194300000000"
+      },
+      {
+        "name": "Idabel",
+        "elementType": "3",
+        "destinationId": "13429",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SHV",
+        "cityLatitude": "33.89839960550250",
+        "cityLongitude": "94.82891209673130"
+      },
+      {
+        "name": "Jenks",
+        "elementType": "3",
+        "destinationId": "24123",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUL",
+        "cityLatitude": "36.02287300000000",
+        "cityLongitude": "95.96832800000000"
+      },
+      {
+        "name": "Lawton",
+        "elementType": "3",
+        "destinationId": "5782",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAW",
+        "cityLatitude": "34.61708577034960",
+        "cityLongitude": "98.42650250617130"
+      },
+      {
+        "name": "Locust Grove",
+        "elementType": "3",
+        "destinationId": "24814",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUL",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Madill",
+        "elementType": "3",
+        "destinationId": "28381",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OKC"
+      },
+      {
+        "name": "Mcalester",
+        "elementType": "3",
+        "destinationId": "13586",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUL",
+        "cityLatitude": "34.94207983143720",
+        "cityLongitude": "95.76426552242960"
+      },
+      {
+        "name": "Miami",
+        "elementType": "3",
+        "destinationId": "6638",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MIO",
+        "cityLatitude": "36.88367038604000",
+        "cityLongitude": "94.87951696829200"
+      },
+      {
+        "name": "Midwest City",
+        "elementType": "3",
+        "destinationId": "11384",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OKC",
+        "cityLatitude": "35.45369515121700",
+        "cityLongitude": "97.39999337581010"
+      },
+      {
+        "name": "Moore",
+        "elementType": "3",
+        "destinationId": "12107",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "QNU",
+        "cityLatitude": "35.34715444544850",
+        "cityLongitude": "97.48788425004980"
+      },
+      {
+        "name": "Muskogee",
+        "elementType": "3",
+        "destinationId": "7039",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MKO",
+        "cityLatitude": "35.75889190899520",
+        "cityLongitude": "95.36854485248650"
+      },
+      {
+        "name": "Newcastle",
+        "elementType": "3",
+        "destinationId": "27136",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OKC",
+        "cityLatitude": "35.24728700000000",
+        "cityLongitude": "97.59976000000000"
+      },
+      {
+        "name": "Norman",
+        "elementType": "3",
+        "destinationId": "7381",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OUN",
+        "cityLatitude": "35.22363388940340",
+        "cityLongitude": "97.44690311502970"
+      },
+      {
+        "name": "Okemah",
+        "elementType": "3",
+        "destinationId": "26732",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OKC"
+      },
+      {
+        "name": "Oklahoma City",
+        "elementType": "3",
+        "destinationId": "7550",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OKC",
+        "cityLatitude": "35.47467066215810",
+        "cityLongitude": "97.51958998817700",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "7553",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Will Rogers World",
+          "destinationCode": "OKC",
+          "city": "Oklahoma City",
+          "cityDestinationId": "7550"
+        }
+      },
+      {
+        "name": "Okmulgee",
+        "elementType": "3",
+        "destinationId": "7554",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OKM",
+        "cityLatitude": "35.63205529610810",
+        "cityLongitude": "95.95577036637840"
+      },
+      {
+        "name": "Owasso",
+        "elementType": "3",
+        "destinationId": "12767",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUL",
+        "cityLatitude": "36.27514151212690",
+        "cityLongitude": "95.85464941571630"
+      },
+      {
+        "name": "Pauls Valley",
+        "elementType": "3",
+        "destinationId": "24211",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OKC",
+        "cityLatitude": "34.74008100000000",
+        "cityLongitude": "97.22224500000000"
+      },
+      {
+        "name": "Perry",
+        "elementType": "3",
+        "destinationId": "24214",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OKC",
+        "cityLatitude": "36.28948500000000",
+        "cityLongitude": "97.28809800000001"
+      },
+      {
+        "name": "Ponca City",
+        "elementType": "3",
+        "destinationId": "8130",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PNC",
+        "cityLatitude": "36.70341827874880",
+        "cityLongitude": "97.08692482501340"
+      },
+      {
+        "name": "Poteau",
+        "elementType": "3",
+        "destinationId": "8252",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RKR",
+        "cityLatitude": "35.06350693450160",
+        "cityLongitude": "94.62529732738410"
+      },
+      {
+        "name": "Pryor",
+        "elementType": "3",
+        "destinationId": "12500",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUL",
+        "cityLatitude": "36.30690872195660",
+        "cityLongitude": "95.31381454666720"
+      },
+      {
+        "name": "Purcell",
+        "elementType": "3",
+        "destinationId": "13784",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OKC",
+        "cityLatitude": "35.01854038410090",
+        "cityLongitude": "97.35996163708460"
+      },
+      {
+        "name": "Roland",
+        "elementType": "3",
+        "destinationId": "12707",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FSM",
+        "cityLatitude": "35.42112539415980",
+        "cityLongitude": "94.49531199728960"
+      },
+      {
+        "name": "Sallisaw",
+        "elementType": "3",
+        "destinationId": "13835",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FSM",
+        "cityLatitude": "35.46728039747610",
+        "cityLongitude": "94.79644137741710"
+      },
+      {
+        "name": "Sapulpa",
+        "elementType": "3",
+        "destinationId": "26332",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUL"
+      },
+      {
+        "name": "Seminole",
+        "elementType": "3",
+        "destinationId": "24702",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OKC",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Shawnee",
+        "elementType": "3",
+        "destinationId": "9340",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNL",
+        "cityLatitude": "35.33641738807330",
+        "cityLongitude": "96.92360134158000"
+      },
+      {
+        "name": "Stillwater",
+        "elementType": "3",
+        "destinationId": "9738",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SWO",
+        "cityLatitude": "36.12322102951290",
+        "cityLongitude": "97.06724705001450"
+      },
+      {
+        "name": "Tahlequah",
+        "elementType": "3",
+        "destinationId": "18770",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUL",
+        "cityLatitude": "35.92349605289800",
+        "cityLongitude": "94.97513961667210"
+      },
+      {
+        "name": "Tulsa",
+        "elementType": "3",
+        "destinationId": "10418",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUL",
+        "cityLatitude": "36.15226640895840",
+        "cityLongitude": "95.99099365192810"
+      },
+      {
+        "name": "Vinita",
+        "elementType": "3",
+        "destinationId": "24295",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUL"
+      },
+      {
+        "name": "Wagoner",
+        "elementType": "3",
+        "destinationId": "27959",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUL"
+      },
+      {
+        "name": "Weatherford",
+        "elementType": "3",
+        "destinationId": "14027",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OKC",
+        "cityLatitude": "35.53642923263330",
+        "cityLongitude": "98.70555671490130"
+      },
+      {
+        "name": "West Siloam Springs",
+        "elementType": "3",
+        "destinationId": "25636",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ADM",
+        "cityLatitude": "36.17619300000000",
+        "cityLongitude": "94.57494199999999"
+      },
+      {
+        "name": "Woodward",
+        "elementType": "3",
+        "destinationId": "1161",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WWR",
+        "cityLatitude": "36.43837620310100",
+        "cityLongitude": "99.39106865094960"
+      },
+      {
+        "name": "Yukon",
+        "elementType": "3",
+        "destinationId": "14089",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OKC",
+        "cityLatitude": "35.51382813666980",
+        "cityLongitude": "97.75396109935680"
+      }
+    ]
+  }
+}

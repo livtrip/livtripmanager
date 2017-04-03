@@ -1,0 +1,184 @@
+{
+  "State": {
+    "name": "Alaska",
+    "elementType": "6",
+    "destinationId": "4000047",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "AK",
+    "City": [
+      {
+        "name": "Anchorage",
+        "elementType": "3",
+        "destinationId": "318",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ANC",
+        "cityLatitude": "61.21518111545660",
+        "cityLongitude": "149.88590586404500",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "19989",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Anchorage",
+            "destinationCode": "ANC",
+            "city": "Anchorage",
+            "cityDestinationId": "318"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20835",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Anchorage Airport",
+            "destinationCode": "ANC",
+            "city": "Anchorage",
+            "cityDestinationId": "318"
+          }
+        ]
+      },
+      {
+        "name": "Eagle River",
+        "elementType": "3",
+        "destinationId": "26326",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ANC",
+        "cityLatitude": "61.32931900000000",
+        "cityLongitude": "149.56805000000000"
+      },
+      {
+        "name": "Fairbanks",
+        "elementType": "3",
+        "destinationId": "3534",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FAI",
+        "cityLatitude": "64.84043379103510",
+        "cityLongitude": "147.70239000904100"
+      },
+      {
+        "name": "Girdwood",
+        "elementType": "3",
+        "destinationId": "12733",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ANC",
+        "cityLatitude": "60.94704154902020",
+        "cityLongitude": "149.18896702151500"
+      },
+      {
+        "name": "Gustavus",
+        "elementType": "3",
+        "destinationId": "4238",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GST",
+        "cityLatitude": "58.41419566891520",
+        "cityLongitude": "135.74591164050100"
+      },
+      {
+        "name": "Homer",
+        "elementType": "3",
+        "destinationId": "4491",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HOM",
+        "cityLatitude": "59.64259836095290",
+        "cityLongitude": "151.50505684831000"
+      },
+      {
+        "name": "Juneau",
+        "elementType": "3",
+        "destinationId": "4946",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JNU",
+        "cityLatitude": "58.30328022698340",
+        "cityLongitude": "134.41045939360200"
+      },
+      {
+        "name": "Kenai",
+        "elementType": "3",
+        "destinationId": "5192",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ENA",
+        "cityLatitude": "60.56111537034700",
+        "cityLongitude": "151.24378845217900"
+      },
+      {
+        "name": "Ketchikan",
+        "elementType": "3",
+        "destinationId": "5226",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "KTN",
+        "cityLatitude": "55.33896446681950",
+        "cityLongitude": "131.64031225116300"
+      },
+      {
+        "name": "Kodiak",
+        "elementType": "3",
+        "destinationId": "5391",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ADQ",
+        "cityLatitude": "57.80085151163730",
+        "cityLongitude": "152.38679328902400"
+      },
+      {
+        "name": "Nome",
+        "elementType": "3",
+        "destinationId": "7359",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OME",
+        "cityLatitude": "64.50338444606250",
+        "cityLongitude": "165.42708607506000"
+      },
+      {
+        "name": "Sitka",
+        "elementType": "3",
+        "destinationId": "9483",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SIT",
+        "cityLatitude": "57.05476604293470",
+        "cityLongitude": "135.33686527148800"
+      },
+      {
+        "name": "Soldotna",
+        "elementType": "3",
+        "destinationId": "9551",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SXQ",
+        "cityLatitude": "60.49495815804630",
+        "cityLongitude": "151.06894926980500"
+      },
+      {
+        "name": "Valdez",
+        "elementType": "3",
+        "destinationId": "10594",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "VDZ",
+        "cityLatitude": "61.13699594002750",
+        "cityLongitude": "146.35971142199900"
+      },
+      {
+        "name": "Wasilla",
+        "elementType": "3",
+        "destinationId": "956",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WWA",
+        "cityLatitude": "61.58280921734340",
+        "cityLongitude": "149.44610998338800"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "State": {
+    "name": "District of Columbia",
+    "elementType": "6",
+    "destinationId": "4000042",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "DC",
+    "City": {
+      "name": "Washington",
+      "elementType": "3",
+      "destinationId": "949",
+      "provider": "2",
+      "status": "UpToDate",
+      "destinationCode": "WAS",
+      "cityLatitude": "38.89937873842120",
+      "cityLongitude": "77.02208300594200",
+      "CityLocation": [
+        {
+          "elementType": "2",
+          "destinationId": "950",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Dupont Circle/Kalorama",
+          "destinationCode": "WAS",
+          "city": "Washington",
+          "cityDestinationId": "949"
+        },
+        {
+          "elementType": "2",
+          "destinationId": "952",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Ronald Reagan National Airport Area",
+          "destinationCode": "DCA",
+          "city": "Washington",
+          "cityDestinationId": "949"
+        },
+        {
+          "elementType": "2",
+          "destinationId": "10677",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Capitol Hill",
+          "destinationCode": "WAS",
+          "city": "Washington",
+          "cityDestinationId": "949"
+        },
+        {
+          "elementType": "2",
+          "destinationId": "16135",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Georgetown",
+          "destinationCode": "WAS",
+          "city": "Washington",
+          "cityDestinationId": "949"
+        },
+        {
+          "elementType": "2",
+          "destinationId": "17097",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Downtown Area",
+          "destinationCode": "WAS",
+          "city": "Washington",
+          "cityDestinationId": "949"
+        },
+        {
+          "elementType": "2",
+          "destinationId": "21468",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Foggy Bottom",
+          "destinationCode": "WAS",
+          "city": "Washington",
+          "cityDestinationId": "949"
+        }
+      ]
+    }
+  }
+}

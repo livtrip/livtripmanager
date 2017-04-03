@@ -1,0 +1,140 @@
+{
+  "State": {
+    "name": "Rhode Island",
+    "elementType": "6",
+    "destinationId": "4000050",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "RI",
+    "City": [
+      {
+        "name": "Coventry",
+        "elementType": "3",
+        "destinationId": "21920",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PVD",
+        "cityLatitude": "41.70364267576420",
+        "cityLongitude": "71.63867816629970"
+      },
+      {
+        "name": "Cranston",
+        "elementType": "3",
+        "destinationId": "26622",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PVD",
+        "cityLatitude": "41.77982300000000",
+        "cityLongitude": "71.43728000000000"
+      },
+      {
+        "name": "Jamestown",
+        "elementType": "3",
+        "destinationId": "22574",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PVD",
+        "cityLatitude": "41.50027379322710",
+        "cityLongitude": "71.37844112873300"
+      },
+      {
+        "name": "Middletown",
+        "elementType": "3",
+        "destinationId": "12572",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PVD",
+        "cityLatitude": "41.52004036068510",
+        "cityLongitude": "71.28951889592860"
+      },
+      {
+        "name": "Newport",
+        "elementType": "3",
+        "destinationId": "7281",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "NPT",
+        "cityLatitude": "41.48505954685090",
+        "cityLongitude": "71.31186044470380"
+      },
+      {
+        "name": "Providence",
+        "elementType": "3",
+        "destinationId": "8312",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PVD",
+        "cityLatitude": "41.83009338296320",
+        "cityLongitude": "71.41082988577720"
+      },
+      {
+        "name": "Quonset Point",
+        "elementType": "3",
+        "destinationId": "8460",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "NCO",
+        "cityLatitude": "41.62564191544270",
+        "cityLongitude": "71.45490509649130"
+      },
+      {
+        "name": "Smithfield",
+        "elementType": "3",
+        "destinationId": "9521",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFZ",
+        "cityLatitude": "41.92182623861110",
+        "cityLongitude": "71.55293197145930"
+      },
+      {
+        "name": "South Kingstown",
+        "elementType": "3",
+        "destinationId": "13889",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PVD",
+        "cityLatitude": "41.41186723970500",
+        "cityLongitude": "71.76084292979450"
+      },
+      {
+        "name": "Warwick",
+        "elementType": "3",
+        "destinationId": "12219",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PVD",
+        "cityLatitude": "41.70416177014110",
+        "cityLongitude": "71.40567992314300"
+      },
+      {
+        "name": "West Greenwich",
+        "elementType": "3",
+        "destinationId": "24738",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PVD",
+        "cityLatitude": "41.63808059692380",
+        "cityLongitude": "71.75183868408200"
+      },
+      {
+        "name": "West Warwick",
+        "elementType": "3",
+        "destinationId": "12440",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PVD",
+        "cityLatitude": "41.70510775134120",
+        "cityLongitude": "71.53188132843740"
+      },
+      {
+        "name": "Woonsocket",
+        "elementType": "3",
+        "destinationId": "24319",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS"
+      }
+    ]
+  }
+}

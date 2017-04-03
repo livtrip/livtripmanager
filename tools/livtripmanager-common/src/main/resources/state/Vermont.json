@@ -1,0 +1,182 @@
+{
+  "State": {
+    "name": "Vermont",
+    "elementType": "6",
+    "destinationId": "4000002",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "VT",
+    "City": [
+      {
+        "name": "Arlington",
+        "elementType": "3",
+        "destinationId": "15808",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AIV",
+        "cityLatitude": "43.07560228377720",
+        "cityLongitude": "73.15429714312550"
+      },
+      {
+        "name": "Barre",
+        "elementType": "3",
+        "destinationId": "1487",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MPV",
+        "cityLatitude": "44.19675051527810",
+        "cityLongitude": "72.50658347394400"
+      },
+      {
+        "name": "Bennington",
+        "elementType": "3",
+        "destinationId": "12198",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "42.88569911918870",
+        "cityLongitude": "73.19785325946270"
+      },
+      {
+        "name": "Brattleboro",
+        "elementType": "3",
+        "destinationId": "1980",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EEN",
+        "cityLatitude": "42.85276053191630",
+        "cityLongitude": "72.56242710059810"
+      },
+      {
+        "name": "Burlington",
+        "elementType": "3",
+        "destinationId": "2126",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BTV",
+        "cityLatitude": "44.47291555398920",
+        "cityLongitude": "73.20936895840330"
+      },
+      {
+        "name": "Colchester",
+        "elementType": "3",
+        "destinationId": "25413",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BTV",
+        "cityLatitude": "44.54393800000000",
+        "cityLongitude": "73.14790700000000"
+      },
+      {
+        "name": "Montpelier",
+        "elementType": "3",
+        "destinationId": "6850",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MPV",
+        "cityLatitude": "44.26021321795120",
+        "cityLongitude": "72.57531566756190"
+      },
+      {
+        "name": "Quechee",
+        "elementType": "3",
+        "destinationId": "13786",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "43.64377498497930",
+        "cityLongitude": "72.42015426018670"
+      },
+      {
+        "name": "Rutland",
+        "elementType": "3",
+        "destinationId": "8805",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BTV",
+        "cityLatitude": "43.60483949161560",
+        "cityLongitude": "72.97155543188180"
+      },
+      {
+        "name": "Saint Johnsbury",
+        "elementType": "3",
+        "destinationId": "13911",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BTV",
+        "cityLatitude": "44.41888875765440",
+        "cityLongitude": "72.01678377837330"
+      },
+      {
+        "name": "Shelburne",
+        "elementType": "3",
+        "destinationId": "13865",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BTV",
+        "cityLatitude": "44.38018549072250",
+        "cityLongitude": "73.22826809183680"
+      },
+      {
+        "name": "South Burlington",
+        "elementType": "3",
+        "destinationId": "12652",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BTV",
+        "cityLatitude": "44.46859204424460",
+        "cityLongitude": "73.17473989931140"
+      },
+      {
+        "name": "Springfield",
+        "elementType": "3",
+        "destinationId": "9628",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "VSF",
+        "cityLatitude": "43.29651109210290",
+        "cityLongitude": "72.47806060397010"
+      },
+      {
+        "name": "Stowe",
+        "elementType": "3",
+        "destinationId": "9761",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MVL",
+        "cityLatitude": "44.42997756977190",
+        "cityLongitude": "72.71991077229100"
+      },
+      {
+        "name": "Waterbury",
+        "elementType": "3",
+        "destinationId": "24859",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RUT",
+        "cityLatitude": "41.55406951904300",
+        "cityLongitude": "73.04617309570310"
+      },
+      {
+        "name": "White River",
+        "elementType": "3",
+        "destinationId": "1055",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LEB",
+        "cityLatitude": "43.65306404225050",
+        "cityLongitude": "72.32633478174740"
+      },
+      {
+        "name": "White River Junction",
+        "elementType": "3",
+        "destinationId": "12792",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LEB",
+        "cityLatitude": "43.65306404225050",
+        "cityLongitude": "72.32633478174740"
+      }
+    ]
+  }
+}

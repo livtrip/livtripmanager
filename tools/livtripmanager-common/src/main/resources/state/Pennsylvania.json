@@ -1,0 +1,2052 @@
+{
+  "State": {
+    "name": "Pennsylvania",
+    "elementType": "6",
+    "destinationId": "4000013",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "PA",
+    "City": [
+      {
+        "name": "Allentown",
+        "elementType": "3",
+        "destinationId": "222",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABE",
+        "cityLatitude": "40.60916291787760",
+        "cityLongitude": "75.47931402716540"
+      },
+      {
+        "name": "Altoona",
+        "elementType": "3",
+        "destinationId": "256",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AOO",
+        "cityLatitude": "40.49931640055090",
+        "cityLongitude": "78.39757382175580"
+      },
+      {
+        "name": "Audubon",
+        "elementType": "3",
+        "destinationId": "19314",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.12788390000000",
+        "cityLongitude": "75.43185319999991"
+      },
+      {
+        "name": "Barkeyville",
+        "elementType": "3",
+        "destinationId": "13002",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "41.19160729935050",
+        "cityLongitude": "79.97634472764760"
+      },
+      {
+        "name": "Bartonsville",
+        "elementType": "3",
+        "destinationId": "13003",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CMH",
+        "cityLatitude": "41.00498945575280",
+        "cityLongitude": "75.27999544680610"
+      },
+      {
+        "name": "Beaver Falls",
+        "elementType": "3",
+        "destinationId": "1567",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BFP",
+        "cityLatitude": "40.75052051294020",
+        "cityLongitude": "80.32223916759540"
+      },
+      {
+        "name": "Bedford",
+        "elementType": "3",
+        "destinationId": "12194",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AOO",
+        "cityLatitude": "40.02005568686940",
+        "cityLongitude": "78.50084628200640"
+      },
+      {
+        "name": "Belle Vernon",
+        "elementType": "3",
+        "destinationId": "19313",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.12507250000000",
+        "cityLongitude": "79.86643559999990"
+      },
+      {
+        "name": "Bellefonte",
+        "elementType": "3",
+        "destinationId": "1617",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PSB",
+        "cityLatitude": "40.91417867564290",
+        "cityLongitude": "77.77581487142040"
+      },
+      {
+        "name": "Bensalem",
+        "elementType": "3",
+        "destinationId": "12614",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.11009465560310",
+        "cityLongitude": "74.96133980126830"
+      },
+      {
+        "name": "Bentleyville",
+        "elementType": "3",
+        "destinationId": "15872",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.11654235417960",
+        "cityLongitude": "79.99867944623360"
+      },
+      {
+        "name": "Bethel",
+        "elementType": "3",
+        "destinationId": "13030",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HAR",
+        "cityLatitude": "40.47446817235040",
+        "cityLongitude": "76.29318570828570"
+      },
+      {
+        "name": "Bethlehem",
+        "elementType": "3",
+        "destinationId": "1701",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABE",
+        "cityLatitude": "40.62884410797100",
+        "cityLongitude": "75.38326790705660"
+      },
+      {
+        "name": "Bird-in-Hand",
+        "elementType": "3",
+        "destinationId": "22982",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "40.03905385804580",
+        "cityLongitude": "76.18983128576510"
+      },
+      {
+        "name": "Blairsville",
+        "elementType": "3",
+        "destinationId": "1808",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BSI",
+        "cityLatitude": "40.43175216928110",
+        "cityLongitude": "79.24486561848510"
+      },
+      {
+        "name": "Bloomsburg",
+        "elementType": "3",
+        "destinationId": "13037",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AVP",
+        "cityLatitude": "41.00051909694100",
+        "cityLongitude": "76.45633843698980"
+      },
+      {
+        "name": "Bradford",
+        "elementType": "3",
+        "destinationId": "1961",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BFD",
+        "cityLatitude": "41.96362016614240",
+        "cityLongitude": "78.62585240419600"
+      },
+      {
+        "name": "Breezewood",
+        "elementType": "3",
+        "destinationId": "13053",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AOO",
+        "cityLatitude": "39.99917238348210",
+        "cityLongitude": "78.25083403762730"
+      },
+      {
+        "name": "Breinigsville",
+        "elementType": "3",
+        "destinationId": "19312",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABE",
+        "cityLatitude": "40.60850000000000",
+        "cityLongitude": "75.46640000000000"
+      },
+      {
+        "name": "Bridgeville",
+        "elementType": "3",
+        "destinationId": "13057",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.35778122056990",
+        "cityLongitude": "80.10504598217820"
+      },
+      {
+        "name": "Brookville",
+        "elementType": "3",
+        "destinationId": "13071",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DUJ",
+        "cityLatitude": "41.16022599520880",
+        "cityLongitude": "79.07363960618210"
+      },
+      {
+        "name": "Burnham",
+        "elementType": "3",
+        "destinationId": "13083",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AOO",
+        "cityLatitude": "40.63864201433540",
+        "cityLongitude": "77.56987783775540"
+      },
+      {
+        "name": "Butler",
+        "elementType": "3",
+        "destinationId": "2145",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BTP",
+        "cityLatitude": "40.85767252063940",
+        "cityLongitude": "79.89558457090140"
+      },
+      {
+        "name": "Camp Hill",
+        "elementType": "3",
+        "destinationId": "23270",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABE",
+        "cityLatitude": "40.24020292910270",
+        "cityLongitude": "76.92122160246840"
+      },
+      {
+        "name": "Canonsburg",
+        "elementType": "3",
+        "destinationId": "19311",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.26257000000000",
+        "cityLongitude": "80.18728000000000"
+      },
+      {
+        "name": "Carlisle",
+        "elementType": "3",
+        "destinationId": "12423",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "40.19876075631360",
+        "cityLongitude": "77.18446392326990"
+      },
+      {
+        "name": "Chambersburg",
+        "elementType": "3",
+        "destinationId": "12690",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "39.92743490662950",
+        "cityLongitude": "77.65278267390100"
+      },
+      {
+        "name": "Chester",
+        "elementType": "3",
+        "destinationId": "12579",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "39.85485048631970",
+        "cityLongitude": "75.35697167875210"
+      },
+      {
+        "name": "Clarion",
+        "elementType": "3",
+        "destinationId": "13134",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "41.21147290455140",
+        "cityLongitude": "79.38422196812090"
+      },
+      {
+        "name": "Clarks Summit",
+        "elementType": "3",
+        "destinationId": "13135",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AVP",
+        "cityLatitude": "41.49391488710980",
+        "cityLongitude": "75.70665004350010"
+      },
+      {
+        "name": "Clearfield",
+        "elementType": "3",
+        "destinationId": "2614",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PSB",
+        "cityLatitude": "41.02158681543590",
+        "cityLongitude": "78.43383529605940"
+      },
+      {
+        "name": "Coatesville",
+        "elementType": "3",
+        "destinationId": "2644",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CTH",
+        "cityLatitude": "39.98384202389000",
+        "cityLongitude": "75.82005167428980"
+      },
+      {
+        "name": "Collegeville",
+        "elementType": "3",
+        "destinationId": "19892",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL"
+      },
+      {
+        "name": "Concordville",
+        "elementType": "3",
+        "destinationId": "17200",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "39.88347922422590",
+        "cityLongitude": "75.52132652075010"
+      },
+      {
+        "name": "Coraopolis",
+        "elementType": "3",
+        "destinationId": "13162",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.51766570375610",
+        "cityLongitude": "80.16741926967870"
+      },
+      {
+        "name": "Cranberry",
+        "elementType": "3",
+        "destinationId": "17872",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "41.34889972574670",
+        "cityLongitude": "79.71215984074070"
+      },
+      {
+        "name": "Cranberry Township",
+        "elementType": "3",
+        "destinationId": "19309",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FKL",
+        "cityLatitude": "41.39800000000000",
+        "cityLongitude": "79.83150000000000"
+      },
+      {
+        "name": "Danville",
+        "elementType": "3",
+        "destinationId": "13185",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AVP",
+        "cityLatitude": "40.96399466035440",
+        "cityLongitude": "76.61596678808220"
+      },
+      {
+        "name": "Delmont",
+        "elementType": "3",
+        "destinationId": "24050",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LBE",
+        "cityLatitude": "40.41312300000000",
+        "cityLongitude": "79.57032000000000"
+      },
+      {
+        "name": "Denver",
+        "elementType": "3",
+        "destinationId": "12734",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "40.23736157040800",
+        "cityLongitude": "76.14059928222770"
+      },
+      {
+        "name": "Dickson City",
+        "elementType": "3",
+        "destinationId": "24051",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AVP",
+        "cityLatitude": "41.46764200000000",
+        "cityLongitude": "75.61877699999999"
+      },
+      {
+        "name": "Dillsburg",
+        "elementType": "3",
+        "destinationId": "13210",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HAR",
+        "cityLatitude": "40.11104063680320",
+        "cityLongitude": "77.03660398811740"
+      },
+      {
+        "name": "Donegal",
+        "elementType": "3",
+        "destinationId": "24054",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.11257300000000",
+        "cityLongitude": "79.38253500000000"
+      },
+      {
+        "name": "Douglassville",
+        "elementType": "3",
+        "destinationId": "13214",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.25674564727250",
+        "cityLongitude": "75.72907355454520"
+      },
+      {
+        "name": "Downingtown",
+        "elementType": "3",
+        "destinationId": "28360",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL"
+      },
+      {
+        "name": "Drums",
+        "elementType": "3",
+        "destinationId": "13218",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DUJ",
+        "cityLatitude": "41.01737258871800",
+        "cityLongitude": "75.99755463044010"
+      },
+      {
+        "name": "Du Bois",
+        "elementType": "3",
+        "destinationId": "13219",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DUJ",
+        "cityLatitude": "41.12117438862930",
+        "cityLongitude": "78.76039347046690"
+      },
+      {
+        "name": "Dubois",
+        "elementType": "3",
+        "destinationId": "3211",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DUJ",
+        "cityLatitude": "41.12117438862930",
+        "cityLongitude": "78.76039347046690"
+      },
+      {
+        "name": "Duncansville",
+        "elementType": "3",
+        "destinationId": "12116",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AOO",
+        "cityLatitude": "40.42252116861780",
+        "cityLongitude": "78.43924480588210"
+      },
+      {
+        "name": "Dunmore",
+        "elementType": "3",
+        "destinationId": "13226",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AVP",
+        "cityLatitude": "41.42768254272820",
+        "cityLongitude": "75.63121060411730"
+      },
+      {
+        "name": "East Stroudsburg",
+        "elementType": "3",
+        "destinationId": "3297",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ESP",
+        "cityLatitude": "40.99553305884690",
+        "cityLongitude": "75.17681177901470"
+      },
+      {
+        "name": "Easton",
+        "elementType": "3",
+        "destinationId": "3302",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABE",
+        "cityLatitude": "40.69413730134170",
+        "cityLongitude": "75.21220581929370"
+      },
+      {
+        "name": "Elizabethtown",
+        "elementType": "3",
+        "destinationId": "24060",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT"
+      },
+      {
+        "name": "Enola",
+        "elementType": "3",
+        "destinationId": "13263",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "40.28983108361200",
+        "cityLongitude": "76.93454047134990"
+      },
+      {
+        "name": "Ephrata",
+        "elementType": "3",
+        "destinationId": "19308",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "40.17981700000000",
+        "cityLongitude": "76.17883900000000"
+      },
+      {
+        "name": "Erie",
+        "elementType": "3",
+        "destinationId": "3472",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ERI",
+        "cityLatitude": "42.10536708198770",
+        "cityLongitude": "80.10057903846100"
+      },
+      {
+        "name": "Essington",
+        "elementType": "3",
+        "destinationId": "12713",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "39.86215537363710",
+        "cityLongitude": "75.30215941066280"
+      },
+      {
+        "name": "Exton",
+        "elementType": "3",
+        "destinationId": "12172",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.02563936651590",
+        "cityLongitude": "75.62425747154220"
+      },
+      {
+        "name": "Feasterville Trevose",
+        "elementType": "3",
+        "destinationId": "24069",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "40.14663800000000",
+        "cityLongitude": "74.99522600000000"
+      },
+      {
+        "name": "Fogelsville",
+        "elementType": "3",
+        "destinationId": "26757",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABE",
+        "cityLatitude": "40.58324400000000",
+        "cityLongitude": "75.63263900000000"
+      },
+      {
+        "name": "Fort Washington",
+        "elementType": "3",
+        "destinationId": "3738",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "QFW",
+        "cityLatitude": "40.14044118608550",
+        "cityLongitude": "75.21100370599980"
+      },
+      {
+        "name": "Frackville",
+        "elementType": "3",
+        "destinationId": "13295",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AVP",
+        "cityLatitude": "40.78718155331020",
+        "cityLongitude": "76.23519057204320"
+      },
+      {
+        "name": "Franklin",
+        "elementType": "3",
+        "destinationId": "3767",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FKL",
+        "cityLatitude": "41.39577189892590",
+        "cityLongitude": "79.82728267920130"
+      },
+      {
+        "name": "Frazer",
+        "elementType": "3",
+        "destinationId": "19307",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.03232900000000",
+        "cityLongitude": "75.55603800000000"
+      },
+      {
+        "name": "Gettysburg",
+        "elementType": "3",
+        "destinationId": "3954",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "39.83026522040230",
+        "cityLongitude": "77.23111411530110"
+      },
+      {
+        "name": "Gibsonia",
+        "elementType": "3",
+        "destinationId": "13328",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.62944516461800",
+        "cityLongitude": "79.96998582153030"
+      },
+      {
+        "name": "Glen Mills",
+        "elementType": "3",
+        "destinationId": "18524",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "39.91798192481820",
+        "cityLongitude": "75.49469561317620"
+      },
+      {
+        "name": "Grantville",
+        "elementType": "3",
+        "destinationId": "13350",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HAR",
+        "cityLatitude": "40.37643105209860",
+        "cityLongitude": "76.64990599806800"
+      },
+      {
+        "name": "Greencastle",
+        "elementType": "3",
+        "destinationId": "12267",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "39.78638808517410",
+        "cityLongitude": "77.72993649076540"
+      },
+      {
+        "name": "Greensburg",
+        "elementType": "3",
+        "destinationId": "12470",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.30152436747110",
+        "cityLongitude": "79.54161684735460"
+      },
+      {
+        "name": "Grove City",
+        "elementType": "3",
+        "destinationId": "13364",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "41.15593322131550",
+        "cityLongitude": "80.08510865999090"
+      },
+      {
+        "name": "Hanover",
+        "elementType": "3",
+        "destinationId": "12199",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "39.79782182184470",
+        "cityLongitude": "76.98205126721650"
+      },
+      {
+        "name": "Harmarville",
+        "elementType": "3",
+        "destinationId": "13378",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.53141145946080",
+        "cityLongitude": "79.84876362414090"
+      },
+      {
+        "name": "Harrisburg",
+        "elementType": "3",
+        "destinationId": "4329",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HAR",
+        "cityLatitude": "40.26731194991850",
+        "cityLongitude": "76.87877880696600",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "10865",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "International",
+          "destinationCode": "MDT",
+          "city": "Harrisburg",
+          "cityDestinationId": "4329"
+        }
+      },
+      {
+        "name": "Harrisville",
+        "elementType": "3",
+        "destinationId": "13380",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CAK",
+        "cityLatitude": "39.98633504293710",
+        "cityLongitude": "78.06010783524390"
+      },
+      {
+        "name": "Hazleton",
+        "elementType": "3",
+        "destinationId": "4377",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HZL",
+        "cityLatitude": "40.96072982993110",
+        "cityLongitude": "75.97942730838290"
+      },
+      {
+        "name": "Hermitage",
+        "elementType": "3",
+        "destinationId": "13396",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "YNG",
+        "cityLatitude": "41.22680667923810",
+        "cityLongitude": "80.44174015731390"
+      },
+      {
+        "name": "Hershey",
+        "elementType": "3",
+        "destinationId": "11386",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "40.28836942312960",
+        "cityLongitude": "76.65694792310230"
+      },
+      {
+        "name": "Horsham",
+        "elementType": "3",
+        "destinationId": "12768",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.18113886825500",
+        "cityLongitude": "75.12861113404190"
+      },
+      {
+        "name": "Hummelstown",
+        "elementType": "3",
+        "destinationId": "24121",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "40.26536800000000",
+        "cityLongitude": "76.70830300000000"
+      },
+      {
+        "name": "Huntingdon",
+        "elementType": "3",
+        "destinationId": "12217",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AOO",
+        "cityLatitude": "40.50198358942180",
+        "cityLongitude": "78.01568428488210"
+      },
+      {
+        "name": "Indiana",
+        "elementType": "3",
+        "destinationId": "4678",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IDI",
+        "cityLatitude": "40.62282671131220",
+        "cityLongitude": "79.15113493250500"
+      },
+      {
+        "name": "Intercourse",
+        "elementType": "3",
+        "destinationId": "24728",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LNS",
+        "cityLatitude": "40.03770065307620",
+        "cityLongitude": "76.10910034179690"
+      },
+      {
+        "name": "Johnstown",
+        "elementType": "3",
+        "destinationId": "4909",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JST",
+        "cityLatitude": "40.31957997254200",
+        "cityLongitude": "78.92028136874780"
+      },
+      {
+        "name": "Jonestown - Lebanon",
+        "elementType": "3",
+        "destinationId": "18965",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LNS",
+        "cityLatitude": "41.12926133260660",
+        "cityLongitude": "76.30435306757870"
+      },
+      {
+        "name": "Kennett Square",
+        "elementType": "3",
+        "destinationId": "19260",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "39.84736801408400",
+        "cityLongitude": "75.71248985524040"
+      },
+      {
+        "name": "King Of Prussia",
+        "elementType": "3",
+        "destinationId": "5306",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "KPD",
+        "cityLatitude": "40.09093255988660",
+        "cityLongitude": "75.37269477422150"
+      },
+      {
+        "name": "Kittanning",
+        "elementType": "3",
+        "destinationId": "13471",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.81846381970890",
+        "cityLongitude": "79.51627001534470"
+      },
+      {
+        "name": "Kutztown",
+        "elementType": "3",
+        "destinationId": "26522",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABE",
+        "cityLatitude": "40.51731700000000",
+        "cityLongitude": "75.77741800000000"
+      },
+      {
+        "name": "Lakeville",
+        "elementType": "3",
+        "destinationId": "25573",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AVP",
+        "cityLatitude": "41.43814400000000",
+        "cityLongitude": "75.27656700000000"
+      },
+      {
+        "name": "Lancaster",
+        "elementType": "3",
+        "destinationId": "5701",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LNS",
+        "cityLatitude": "40.04636557555230",
+        "cityLongitude": "76.30795940746050"
+      },
+      {
+        "name": "Langhorne",
+        "elementType": "3",
+        "destinationId": "24137",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL"
+      },
+      {
+        "name": "Lansdale",
+        "elementType": "3",
+        "destinationId": "19306",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.24149500000000",
+        "cityLongitude": "75.28378600000001"
+      },
+      {
+        "name": "Latrobe",
+        "elementType": "3",
+        "destinationId": "5762",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LBE",
+        "cityLatitude": "40.31304006641170",
+        "cityLongitude": "79.38293106236770"
+      },
+      {
+        "name": "Lebanon",
+        "elementType": "3",
+        "destinationId": "13509",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HAR",
+        "cityLatitude": "40.34030959667300",
+        "cityLongitude": "76.41483820759290"
+      },
+      {
+        "name": "Lehighton",
+        "elementType": "3",
+        "destinationId": "19305",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABE",
+        "cityLatitude": "40.60850000000000",
+        "cityLongitude": "75.46640000000000"
+      },
+      {
+        "name": "Leola",
+        "elementType": "3",
+        "destinationId": "25131",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LNS",
+        "cityLatitude": "40.08762200000000",
+        "cityLongitude": "76.18742800000000"
+      },
+      {
+        "name": "Lester",
+        "elementType": "3",
+        "destinationId": "13515",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "39.86817277029590",
+        "cityLongitude": "75.26899884224230"
+      },
+      {
+        "name": "Levittown",
+        "elementType": "3",
+        "destinationId": "13516",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.16679205590340",
+        "cityLongitude": "74.85471371813520"
+      },
+      {
+        "name": "Lewisburg",
+        "elementType": "3",
+        "destinationId": "13517",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "40.96347898107200",
+        "cityLongitude": "76.88840254350650"
+      },
+      {
+        "name": "Ligonier",
+        "elementType": "3",
+        "destinationId": "27964",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LBE"
+      },
+      {
+        "name": "Limerick",
+        "elementType": "3",
+        "destinationId": "24143",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.23093400000000",
+        "cityLongitude": "75.52212500000000"
+      },
+      {
+        "name": "Lititz",
+        "elementType": "3",
+        "destinationId": "24145",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT"
+      },
+      {
+        "name": "Lock Haven",
+        "elementType": "3",
+        "destinationId": "5958",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LHV",
+        "cityLatitude": "41.12667952110030",
+        "cityLongitude": "77.44598503640050"
+      },
+      {
+        "name": "Malvern",
+        "elementType": "3",
+        "destinationId": "13554",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.03509917851640",
+        "cityLongitude": "75.51539791655050"
+      },
+      {
+        "name": "Manheim",
+        "elementType": "3",
+        "destinationId": "13558",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HAR",
+        "cityLatitude": "40.16868060320890",
+        "cityLongitude": "76.39834330074730"
+      },
+      {
+        "name": "Mansfield",
+        "elementType": "3",
+        "destinationId": "13561",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ELM",
+        "cityLatitude": "41.80520758872230",
+        "cityLongitude": "77.07131500947940"
+      },
+      {
+        "name": "Mars",
+        "elementType": "3",
+        "destinationId": "13574",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.69671228265880",
+        "cityLongitude": "80.01363073032670"
+      },
+      {
+        "name": "Matamoras",
+        "elementType": "3",
+        "destinationId": "12564",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SWF",
+        "cityLatitude": "40.43862333958620",
+        "cityLongitude": "76.93488198080840"
+      },
+      {
+        "name": "Meadville",
+        "elementType": "3",
+        "destinationId": "6544",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MEJ",
+        "cityLatitude": "41.64542214327900",
+        "cityLongitude": "80.14250273958650"
+      },
+      {
+        "name": "Mechanicsburg",
+        "elementType": "3",
+        "destinationId": "12404",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "40.21319977621900",
+        "cityLongitude": "77.00834066533190"
+      },
+      {
+        "name": "Mendenhall",
+        "elementType": "3",
+        "destinationId": "18966",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "39.85235405217810",
+        "cityLongitude": "75.64332735970490"
+      },
+      {
+        "name": "Mercer",
+        "elementType": "3",
+        "destinationId": "19304",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FKL",
+        "cityLatitude": "41.39800000000000",
+        "cityLongitude": "79.83150000000000"
+      },
+      {
+        "name": "Mifflintown",
+        "elementType": "3",
+        "destinationId": "13601",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IPT",
+        "cityLatitude": "40.56975272636660",
+        "cityLongitude": "77.39719016496990"
+      },
+      {
+        "name": "Mifflinville",
+        "elementType": "3",
+        "destinationId": "26640",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IPT",
+        "cityLatitude": "41.03230800000000",
+        "cityLongitude": "76.30799399999999"
+      },
+      {
+        "name": "Milesburg",
+        "elementType": "3",
+        "destinationId": "13605",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "40.54120936582520",
+        "cityLongitude": "76.96117137892380"
+      },
+      {
+        "name": "Mill Hall",
+        "elementType": "3",
+        "destinationId": "13607",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IPT",
+        "cityLatitude": "41.10724080272250",
+        "cityLongitude": "77.48473269956200"
+      },
+      {
+        "name": "Milroy",
+        "elementType": "3",
+        "destinationId": "24729",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SCE",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Monaca",
+        "elementType": "3",
+        "destinationId": "19303",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.68728900000000",
+        "cityLongitude": "80.27145100000000"
+      },
+      {
+        "name": "Monroeville",
+        "elementType": "3",
+        "destinationId": "19302",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.42118000000000",
+        "cityLongitude": "79.78810199999999"
+      },
+      {
+        "name": "Montgomeryville",
+        "elementType": "3",
+        "destinationId": "12105",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.24604957103220",
+        "cityLongitude": "75.24072868926770"
+      },
+      {
+        "name": "Moon Township",
+        "elementType": "3",
+        "destinationId": "18698",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.50594168404580",
+        "cityLongitude": "80.23434829335570"
+      },
+      {
+        "name": "Moosic",
+        "elementType": "3",
+        "destinationId": "13620",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AVP",
+        "cityLatitude": "41.37461538797180",
+        "cityLongitude": "75.70183476013520"
+      },
+      {
+        "name": "Morgantown",
+        "elementType": "3",
+        "destinationId": "24175",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MQS"
+      },
+      {
+        "name": "Mount Pleasant",
+        "elementType": "3",
+        "destinationId": "24178",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT"
+      },
+      {
+        "name": "Mount Pocono",
+        "elementType": "3",
+        "destinationId": "6984",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MPO",
+        "cityLatitude": "41.12599308708870",
+        "cityLongitude": "75.35929394306990"
+      },
+      {
+        "name": "Mountville",
+        "elementType": "3",
+        "destinationId": "13633",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LNS",
+        "cityLatitude": "40.58411319909660",
+        "cityLongitude": "75.45964308235570"
+      },
+      {
+        "name": "Munhall",
+        "elementType": "3",
+        "destinationId": "26180",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT"
+      },
+      {
+        "name": "New Castle",
+        "elementType": "3",
+        "destinationId": "13661",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "41.00714096534130",
+        "cityLongitude": "80.35161581121560"
+      },
+      {
+        "name": "New Columbia",
+        "elementType": "3",
+        "destinationId": "11932",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IPT",
+        "cityLatitude": "41.04008296770830",
+        "cityLongitude": "76.86829446659000"
+      },
+      {
+        "name": "New Cumberland",
+        "elementType": "3",
+        "destinationId": "12394",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "40.23280924932620",
+        "cityLongitude": "76.88720043021260"
+      },
+      {
+        "name": "New Freedom",
+        "elementType": "3",
+        "destinationId": "19301",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "39.73788100000000",
+        "cityLongitude": "76.70136100000001"
+      },
+      {
+        "name": "New Holland",
+        "elementType": "3",
+        "destinationId": "13664",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "40.10519740996820",
+        "cityLongitude": "76.09240546744410"
+      },
+      {
+        "name": "New Hope",
+        "elementType": "3",
+        "destinationId": "26577",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.36427300000000",
+        "cityLongitude": "74.95127900000000"
+      },
+      {
+        "name": "New Milford",
+        "elementType": "3",
+        "destinationId": "24191",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AVP"
+      },
+      {
+        "name": "New Stanton",
+        "elementType": "3",
+        "destinationId": "13666",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LBE",
+        "cityLatitude": "40.21896104078400",
+        "cityLongitude": "79.61138039953720"
+      },
+      {
+        "name": "North East",
+        "elementType": "3",
+        "destinationId": "24196",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ERI"
+      },
+      {
+        "name": "North Huntingdon",
+        "elementType": "3",
+        "destinationId": "24198",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT"
+      },
+      {
+        "name": "North Welsh",
+        "elementType": "3",
+        "destinationId": "19206",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.21087751190120",
+        "cityLongitude": "75.27853378632370"
+      },
+      {
+        "name": "Oakdale",
+        "elementType": "3",
+        "destinationId": "13703",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.39826716687510",
+        "cityLongitude": "80.18562855400600"
+      },
+      {
+        "name": "Oil City",
+        "elementType": "3",
+        "destinationId": "7537",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OIL",
+        "cityLatitude": "41.43103616561070",
+        "cityLongitude": "79.70150474563550"
+      },
+      {
+        "name": "Palmyra",
+        "elementType": "3",
+        "destinationId": "22149",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "40.31166719838850",
+        "cityLongitude": "76.58718437091980"
+      },
+      {
+        "name": "Paradise",
+        "elementType": "3",
+        "destinationId": "24825",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABE",
+        "cityLatitude": "39.74974822998050",
+        "cityLongitude": "121.60771942138700"
+      },
+      {
+        "name": "Philadelphia",
+        "elementType": "3",
+        "destinationId": "8000",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "39.94959545539160",
+        "cityLongitude": "75.16083596654600",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "16229",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Airport Area",
+            "destinationCode": "PHL",
+            "city": "Philadelphia",
+            "cityDestinationId": "8000"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16230",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Center City",
+            "destinationCode": "PHL",
+            "city": "Philadelphia",
+            "cityDestinationId": "8000"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16231",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown Area",
+            "destinationCode": "PHL",
+            "city": "Philadelphia",
+            "cityDestinationId": "8000"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16232",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Society Hill",
+            "destinationCode": "PHL",
+            "city": "Philadelphia",
+            "cityDestinationId": "8000"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16233",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Theatre District",
+            "destinationCode": "PHL",
+            "city": "Philadelphia",
+            "cityDestinationId": "8000"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16234",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "University Of Pennsylvania Area",
+            "destinationCode": "PHL",
+            "city": "Philadelphia",
+            "cityDestinationId": "8000"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "17050",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "City Center",
+            "destinationCode": "PHL",
+            "city": "Philadelphia",
+            "cityDestinationId": "8000"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20571",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Historic District",
+            "destinationCode": "PHL",
+            "city": "Philadelphia",
+            "cityDestinationId": "8000"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "28514",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Penns Landing",
+            "destinationCode": "PHL",
+            "city": "Philadelphia",
+            "cityDestinationId": "8000"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "28515",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "South Philadelphia",
+            "destinationCode": "PHL",
+            "city": "Philadelphia",
+            "cityDestinationId": "8000"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "28516",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Old City",
+            "destinationCode": "PHL",
+            "city": "Philadelphia",
+            "cityDestinationId": "8000"
+          }
+        ]
+      },
+      {
+        "name": "Phoenixville",
+        "elementType": "3",
+        "destinationId": "19300",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.13038200000000",
+        "cityLongitude": "75.51491300000001"
+      },
+      {
+        "name": "Pine Grove",
+        "elementType": "3",
+        "destinationId": "13748",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "39.79275040638600",
+        "cityLongitude": "76.04961433229390"
+      },
+      {
+        "name": "Pittsburgh",
+        "elementType": "3",
+        "destinationId": "8069",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.44214771719790",
+        "cityLongitude": "79.97634472764760",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "8070",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "International airport",
+          "destinationCode": "PIT",
+          "city": "Pittsburgh",
+          "cityDestinationId": "8069"
+        }
+      },
+      {
+        "name": "Pittston",
+        "elementType": "3",
+        "destinationId": "19009",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "41.33025330931250",
+        "cityLongitude": "75.78577095484550"
+      },
+      {
+        "name": "Plymouth Meeting",
+        "elementType": "3",
+        "destinationId": "12312",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.10218529654420",
+        "cityLongitude": "75.27690137111200"
+      },
+      {
+        "name": "Pocono Manor",
+        "elementType": "3",
+        "destinationId": "28550",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AVP"
+      },
+      {
+        "name": "Pottstown",
+        "elementType": "3",
+        "destinationId": "8256",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PTW",
+        "cityLatitude": "40.25554011888400",
+        "cityLongitude": "75.64169494449330"
+      },
+      {
+        "name": "Pottsville",
+        "elementType": "3",
+        "destinationId": "13771",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "40.69058218787870",
+        "cityLongitude": "76.19704396552870"
+      },
+      {
+        "name": "Quakertown",
+        "elementType": "3",
+        "destinationId": "8422",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "UKT",
+        "cityLatitude": "40.44644732128040",
+        "cityLongitude": "75.34460220616520"
+      },
+      {
+        "name": "Reading",
+        "elementType": "3",
+        "destinationId": "8539",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RDG",
+        "cityLatitude": "40.34151512506150",
+        "cityLongitude": "75.93784511671580"
+      },
+      {
+        "name": "Ronks",
+        "elementType": "3",
+        "destinationId": "23060",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LNS",
+        "cityLatitude": "40.01841985656320",
+        "cityLongitude": "76.17238698262490"
+      },
+      {
+        "name": "Royersford",
+        "elementType": "3",
+        "destinationId": "24234",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL"
+      },
+      {
+        "name": "Saint Marys",
+        "elementType": "3",
+        "destinationId": "9680",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STQ",
+        "cityLatitude": "41.42114946678710",
+        "cityLongitude": "78.55824036160210"
+      },
+      {
+        "name": "Sayre",
+        "elementType": "3",
+        "destinationId": "22862",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ERI",
+        "cityLatitude": "41.98520014882510",
+        "cityLongitude": "76.52721531000710"
+      },
+      {
+        "name": "Scotland",
+        "elementType": "3",
+        "destinationId": "26626",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HGR",
+        "cityLatitude": "39.96853300000000",
+        "cityLongitude": "77.58728300000000"
+      },
+      {
+        "name": "Scranton",
+        "elementType": "3",
+        "destinationId": "9228",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AVP",
+        "cityLatitude": "41.44642458181070",
+        "cityLongitude": "75.65518456810400"
+      },
+      {
+        "name": "Selinsgrove",
+        "elementType": "3",
+        "destinationId": "9263",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SEG",
+        "cityLatitude": "40.80720083776750",
+        "cityLongitude": "76.85824725832090"
+      },
+      {
+        "name": "Shamokin Dam",
+        "elementType": "3",
+        "destinationId": "13862",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IPT",
+        "cityLatitude": "40.85311678446300",
+        "cityLongitude": "76.81511461371230"
+      },
+      {
+        "name": "Shippensburg",
+        "elementType": "3",
+        "destinationId": "24733",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "40.05184173583980",
+        "cityLongitude": "77.51719665527340"
+      },
+      {
+        "name": "Somerset",
+        "elementType": "3",
+        "destinationId": "12174",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AOO",
+        "cityLatitude": "40.00149123270530",
+        "cityLongitude": "79.08240273888720"
+      },
+      {
+        "name": "State College",
+        "elementType": "3",
+        "destinationId": "9712",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SCE",
+        "cityLatitude": "40.79070593092200",
+        "cityLongitude": "77.85880850002520"
+      },
+      {
+        "name": "Stroudsburg",
+        "elementType": "3",
+        "destinationId": "13934",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABE",
+        "cityLatitude": "40.98650696385870",
+        "cityLongitude": "75.19098442154250"
+      },
+      {
+        "name": "Tannersville",
+        "elementType": "3",
+        "destinationId": "26566",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABE"
+      },
+      {
+        "name": "Towanda",
+        "elementType": "3",
+        "destinationId": "13972",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ELM",
+        "cityLatitude": "41.76841677475800",
+        "cityLongitude": "76.44937847422560"
+      },
+      {
+        "name": "Trevose",
+        "elementType": "3",
+        "destinationId": "12313",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.15110652647450",
+        "cityLongitude": "74.98754040692450"
+      },
+      {
+        "name": "Tunkhannock",
+        "elementType": "3",
+        "destinationId": "25026",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AVP",
+        "cityLatitude": "41.53868800000000",
+        "cityLongitude": "75.94658800000001"
+      },
+      {
+        "name": "Uniontown",
+        "elementType": "3",
+        "destinationId": "12578",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "39.89035722472010",
+        "cityLongitude": "79.72582021908070"
+      },
+      {
+        "name": "Warminster",
+        "elementType": "3",
+        "destinationId": "24303",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL"
+      },
+      {
+        "name": "Warren",
+        "elementType": "3",
+        "destinationId": "22887",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BFD",
+        "cityLatitude": "41.84401672358630",
+        "cityLongitude": "79.14348512063460"
+      },
+      {
+        "name": "Warrington",
+        "elementType": "3",
+        "destinationId": "19299",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.24927400000000",
+        "cityLongitude": "75.13406000000001"
+      },
+      {
+        "name": "Washington",
+        "elementType": "3",
+        "destinationId": "955",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WSG",
+        "cityLatitude": "40.17925373604410",
+        "cityLongitude": "80.25968829517640"
+      },
+      {
+        "name": "Wayne",
+        "elementType": "3",
+        "destinationId": "21988",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.04507125470460",
+        "cityLongitude": "75.39125239819640"
+      },
+      {
+        "name": "Waynesboro",
+        "elementType": "3",
+        "destinationId": "26672",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "THV",
+        "cityLatitude": "39.75592700000000",
+        "cityLongitude": "77.57776900000000"
+      },
+      {
+        "name": "Waynesburg",
+        "elementType": "3",
+        "destinationId": "987",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WAY",
+        "cityLatitude": "39.89517592317950",
+        "cityLongitude": "80.17798557232470"
+      },
+      {
+        "name": "West Chester",
+        "elementType": "3",
+        "destinationId": "14039",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "39.95718038046490",
+        "cityLongitude": "75.59315279006200"
+      },
+      {
+        "name": "West Hazleton",
+        "elementType": "3",
+        "destinationId": "14043",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "40.96872115126000",
+        "cityLongitude": "76.00476731020360"
+      },
+      {
+        "name": "West Middlesex",
+        "elementType": "3",
+        "destinationId": "12574",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "41.17423812829110",
+        "cityLongitude": "80.45359736571310"
+      },
+      {
+        "name": "West Mifflin",
+        "elementType": "3",
+        "destinationId": "14045",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.36370982476950",
+        "cityLongitude": "79.87805830549110"
+      },
+      {
+        "name": "Wexford",
+        "elementType": "3",
+        "destinationId": "14051",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.62609495683010",
+        "cityLongitude": "80.05873729960550"
+      },
+      {
+        "name": "White Haven",
+        "elementType": "3",
+        "destinationId": "14055",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AVP",
+        "cityLatitude": "41.06253721460470",
+        "cityLongitude": "75.79582499330380"
+      },
+      {
+        "name": "Whitehall",
+        "elementType": "3",
+        "destinationId": "25280",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABE",
+        "cityLatitude": "40.65723300000000",
+        "cityLongitude": "75.49855200000000"
+      },
+      {
+        "name": "Whitehall Township",
+        "elementType": "3",
+        "destinationId": "26594",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABE",
+        "cityLatitude": "40.65723300000000",
+        "cityLongitude": "75.49855200000000"
+      },
+      {
+        "name": "Wilkes Barre",
+        "elementType": "3",
+        "destinationId": "1080",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AVP",
+        "cityLatitude": "41.24527892584840",
+        "cityLongitude": "75.88217224479110"
+      },
+      {
+        "name": "Wilkes-Barre",
+        "elementType": "3",
+        "destinationId": "24735",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AVP",
+        "cityLatitude": "41.24259948730470",
+        "cityLongitude": "75.87732696533200"
+      },
+      {
+        "name": "Williamsport",
+        "elementType": "3",
+        "destinationId": "1086",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IPT",
+        "cityLatitude": "41.23969524620190",
+        "cityLongitude": "77.02234255313050"
+      },
+      {
+        "name": "Willow Grove",
+        "elementType": "3",
+        "destinationId": "1091",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.14181746920320",
+        "cityLongitude": "75.11907618996060"
+      },
+      {
+        "name": "Wormleysburg",
+        "elementType": "3",
+        "destinationId": "14080",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDT",
+        "cityLatitude": "40.26301576093050",
+        "cityLongitude": "76.91649511156280"
+      },
+      {
+        "name": "Wyomissing",
+        "elementType": "3",
+        "destinationId": "14083",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RDG",
+        "cityLatitude": "40.32791963351860",
+        "cityLongitude": "75.97873745927670"
+      },
+      {
+        "name": "Yardley",
+        "elementType": "3",
+        "destinationId": "12493",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "40.23874126862030",
+        "cityLongitude": "74.83907941512510"
+      },
+      {
+        "name": "York",
+        "elementType": "3",
+        "destinationId": "1284",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "THV",
+        "cityLatitude": "39.95718038046490",
+        "cityLongitude": "76.71597441790950"
+      }
+    ]
+  }
+}

@@ -1,0 +1,776 @@
+{
+  "State": {
+    "name": "Arizona",
+    "elementType": "6",
+    "destinationId": "4000044",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "AZ",
+    "City": [
+      {
+        "name": "Anthem",
+        "elementType": "3",
+        "destinationId": "19403",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "33.85433460000000",
+        "cityLongitude": "112.12513719999900"
+      },
+      {
+        "name": "Avondale",
+        "elementType": "3",
+        "destinationId": "11644",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "33.43985827066830",
+        "cityLongitude": "112.34956309148600"
+      },
+      {
+        "name": "Benson",
+        "elementType": "3",
+        "destinationId": "12640",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUS",
+        "cityLatitude": "31.96325674947620",
+        "cityLongitude": "110.29517196274100"
+      },
+      {
+        "name": "Buckeye",
+        "elementType": "3",
+        "destinationId": "2075",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BXK",
+        "cityLatitude": "33.37492366222900",
+        "cityLongitude": "112.58831918411300"
+      },
+      {
+        "name": "Bullhead City",
+        "elementType": "3",
+        "destinationId": "2101",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IFP",
+        "cityLatitude": "35.14769926130580",
+        "cityLongitude": "114.56229166557100"
+      },
+      {
+        "name": "Camp Verde",
+        "elementType": "3",
+        "destinationId": "12551",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PRC",
+        "cityLatitude": "34.57023067264330",
+        "cityLongitude": "111.85426509363400"
+      },
+      {
+        "name": "Carefree",
+        "elementType": "3",
+        "destinationId": "22870",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "33.82400518506280",
+        "cityLongitude": "111.92230743814500"
+      },
+      {
+        "name": "Casa Grande",
+        "elementType": "3",
+        "destinationId": "2330",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CGZ",
+        "cityLatitude": "32.87908607943190",
+        "cityLongitude": "111.75485852045300"
+      },
+      {
+        "name": "Chambers",
+        "elementType": "3",
+        "destinationId": "26478",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SOW",
+        "cityLatitude": "35.18863500000000",
+        "cityLongitude": "109.43316100000000"
+      },
+      {
+        "name": "Chandler",
+        "elementType": "3",
+        "destinationId": "2420",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "33.31175124259560",
+        "cityLongitude": "111.84610301757500"
+      },
+      {
+        "name": "Chinle",
+        "elementType": "3",
+        "destinationId": "11645",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FLG",
+        "cityLatitude": "36.15200686176990",
+        "cityLongitude": "109.56223802328500"
+      },
+      {
+        "name": "Chino Valley",
+        "elementType": "3",
+        "destinationId": "26702",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "34.75752300000000",
+        "cityLongitude": "112.45378100000001"
+      },
+      {
+        "name": "Cottonwood",
+        "elementType": "3",
+        "destinationId": "2824",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "34.74000185465320",
+        "cityLongitude": "112.00976801046700"
+      },
+      {
+        "name": "Douglas",
+        "elementType": "3",
+        "destinationId": "3180",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DUG",
+        "cityLatitude": "31.34982379973900",
+        "cityLongitude": "109.54084587080400"
+      },
+      {
+        "name": "Eloy",
+        "elementType": "3",
+        "destinationId": "13259",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "32.75281295715130",
+        "cityLongitude": "111.55674205338800"
+      },
+      {
+        "name": "Flagstaff",
+        "elementType": "3",
+        "destinationId": "11319",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FLG",
+        "cityLatitude": "35.19896324612130",
+        "cityLongitude": "111.64935941853300",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "20843",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Flagstaff",
+          "destinationCode": "FLG",
+          "city": "Flagstaff",
+          "cityDestinationId": "11319"
+        }
+      },
+      {
+        "name": "Fountain Hills",
+        "elementType": "3",
+        "destinationId": "13292",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "33.60756332045420",
+        "cityLongitude": "111.71637040448000"
+      },
+      {
+        "name": "Gila Bend",
+        "elementType": "3",
+        "destinationId": "13330",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "32.94484372566620",
+        "cityLongitude": "112.72114587290200"
+      },
+      {
+        "name": "Gilbert",
+        "elementType": "3",
+        "destinationId": "11488",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "33.35214156625240",
+        "cityLongitude": "111.79506784409700"
+      },
+      {
+        "name": "Glendale",
+        "elementType": "3",
+        "destinationId": "11299",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "33.53970197595560",
+        "cityLongitude": "112.18675870243000"
+      },
+      {
+        "name": "Globe",
+        "elementType": "3",
+        "destinationId": "13335",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GLB",
+        "cityLatitude": "33.40325187181160",
+        "cityLongitude": "110.78617377160500"
+      },
+      {
+        "name": "Goodyear",
+        "elementType": "3",
+        "destinationId": "4042",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GYR",
+        "cityLatitude": "33.43985827066830",
+        "cityLongitude": "112.37834550864900"
+      },
+      {
+        "name": "Grand Canyon",
+        "elementType": "3",
+        "destinationId": "4086",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GCN",
+        "cityLatitude": "36.05139817529560",
+        "cityLongitude": "112.14173409542100",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "4089",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Pulliam Field",
+            "destinationCode": "FLG",
+            "city": "Grand Canyon",
+            "cityDestinationId": "4086"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "11230",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "South Rim",
+            "destinationCode": "GCN",
+            "city": "Grand Canyon",
+            "cityDestinationId": "4086"
+          }
+        ]
+      },
+      {
+        "name": "Green Valley",
+        "elementType": "3",
+        "destinationId": "12447",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUS",
+        "cityLatitude": "31.87673874325960",
+        "cityLongitude": "110.99202884300000"
+      },
+      {
+        "name": "Holbrook",
+        "elementType": "3",
+        "destinationId": "11300",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HBK",
+        "cityLatitude": "34.90546660239130",
+        "cityLongitude": "110.16595844402200"
+      },
+      {
+        "name": "Kingman",
+        "elementType": "3",
+        "destinationId": "5310",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IGM",
+        "cityLatitude": "35.21564256807450",
+        "cityLongitude": "114.03606657115700"
+      },
+      {
+        "name": "Lake Havasu City",
+        "elementType": "3",
+        "destinationId": "5664",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HII",
+        "cityLatitude": "34.47486757145160",
+        "cityLongitude": "114.34321334794300",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "20788",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "London Bridge Area",
+          "destinationCode": "HII",
+          "city": "Lake Havasu City",
+          "cityDestinationId": "5664"
+        }
+      },
+      {
+        "name": "Marana",
+        "elementType": "3",
+        "destinationId": "6375",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MZJ",
+        "cityLatitude": "32.45149233172700",
+        "cityLongitude": "111.20853217931100"
+      },
+      {
+        "name": "Mesa",
+        "elementType": "3",
+        "destinationId": "6619",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "33.41708300488090",
+        "cityLongitude": "111.83150007313000"
+      },
+      {
+        "name": "Nogales",
+        "elementType": "3",
+        "destinationId": "7354",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OLS",
+        "cityLatitude": "31.34449625218640",
+        "cityLongitude": "110.93583687669900"
+      },
+      {
+        "name": "North Rim",
+        "elementType": "3",
+        "destinationId": "28337",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GCN"
+      },
+      {
+        "name": "Oro Valley",
+        "elementType": "3",
+        "destinationId": "26265",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUS",
+        "cityLatitude": "32.39090700000000",
+        "cityLongitude": "110.96648800000000"
+      },
+      {
+        "name": "Overgaard",
+        "elementType": "3",
+        "destinationId": "26892",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FLG",
+        "cityLatitude": "34.39087200000000",
+        "cityLongitude": "110.55317900000000"
+      },
+      {
+        "name": "Page",
+        "elementType": "3",
+        "destinationId": "7753",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PGA",
+        "cityLatitude": "36.90766142549970",
+        "cityLongitude": "111.46601665064300",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "20750",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Lake Powell",
+          "destinationCode": "PGA",
+          "city": "Page",
+          "cityDestinationId": "7753"
+        }
+      },
+      {
+        "name": "Paradise Valley",
+        "elementType": "3",
+        "destinationId": "21444",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "33.53110276779050",
+        "cityLongitude": "111.94035279793200"
+      },
+      {
+        "name": "Parker",
+        "elementType": "3",
+        "destinationId": "24865",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Payson",
+        "elementType": "3",
+        "destinationId": "7911",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PJB",
+        "cityLatitude": "34.24110434710790",
+        "cityLongitude": "111.33010271634900"
+      },
+      {
+        "name": "Peoria",
+        "elementType": "3",
+        "destinationId": "12226",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "33.58495880939610",
+        "cityLongitude": "112.24191247997800"
+      },
+      {
+        "name": "Phoenix",
+        "elementType": "3",
+        "destinationId": "8013",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "33.45032895066590",
+        "cityLongitude": "112.07386250563900",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "8016",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Sky Harbor International",
+            "destinationCode": "PHX",
+            "city": "Phoenix",
+            "cityDestinationId": "8013"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "17031",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Sky Harbor International Airport",
+            "destinationCode": "PHX",
+            "city": "Phoenix",
+            "cityDestinationId": "8013"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20732",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown Area",
+            "destinationCode": "PHX",
+            "city": "Phoenix",
+            "cityDestinationId": "8013"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20733",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "North",
+            "destinationCode": "PHX",
+            "city": "Phoenix",
+            "cityDestinationId": "8013"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20762",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Peoria - Glendale",
+            "destinationCode": "PHX",
+            "city": "Phoenix",
+            "cityDestinationId": "8013"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "21630",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Northern Phoenix",
+            "destinationCode": "PHX",
+            "city": "Phoenix",
+            "cityDestinationId": "8013"
+          }
+        ]
+      },
+      {
+        "name": "Pinetop",
+        "elementType": "3",
+        "destinationId": "13750",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SOW",
+        "cityLatitude": "34.13034941462160",
+        "cityLongitude": "109.93192884230100"
+      },
+      {
+        "name": "Prescott",
+        "elementType": "3",
+        "destinationId": "8280",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PRC",
+        "cityLatitude": "34.54814867105670",
+        "cityLongitude": "112.47327830792300"
+      },
+      {
+        "name": "Prescott Valley",
+        "elementType": "3",
+        "destinationId": "13775",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PRC",
+        "cityLatitude": "34.60969209057310",
+        "cityLongitude": "112.31648448533600"
+      },
+      {
+        "name": "Quartzsite",
+        "elementType": "3",
+        "destinationId": "13785",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "33.66400117356600",
+        "cityLongitude": "114.21563224443600"
+      },
+      {
+        "name": "Safford",
+        "elementType": "3",
+        "destinationId": "8839",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAD",
+        "cityLatitude": "32.83081371747290",
+        "cityLongitude": "109.71516595880200"
+      },
+      {
+        "name": "Scottsdale",
+        "elementType": "3",
+        "destinationId": "9227",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "33.49397727455690",
+        "cityLongitude": "111.92127607958100"
+      },
+      {
+        "name": "Sedona",
+        "elementType": "3",
+        "destinationId": "9245",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "34.86605299578580",
+        "cityLongitude": "111.76371044561800",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "20165",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "West Sedona",
+          "destinationCode": "SDX",
+          "city": "Sedona",
+          "cityDestinationId": "9245"
+        }
+      },
+      {
+        "name": "Show Low",
+        "elementType": "3",
+        "destinationId": "9385",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SOW",
+        "cityLatitude": "34.28430529360830",
+        "cityLongitude": "110.15762561323500"
+      },
+      {
+        "name": "Sierra Vista",
+        "elementType": "3",
+        "destinationId": "9414",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FHU",
+        "cityLatitude": "31.55217498408980",
+        "cityLongitude": "110.36631521313600"
+      },
+      {
+        "name": "Surprise",
+        "elementType": "3",
+        "destinationId": "12727",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "33.63309115247710",
+        "cityLongitude": "112.34269192118100"
+      },
+      {
+        "name": "Tempe",
+        "elementType": "3",
+        "destinationId": "11646",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "33.41407772164610",
+        "cityLongitude": "111.94266823206100"
+      },
+      {
+        "name": "Tombstone",
+        "elementType": "3",
+        "destinationId": "17642",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUS",
+        "cityLatitude": "31.71548822223940",
+        "cityLongitude": "110.06810232378400"
+      },
+      {
+        "name": "Tuba City",
+        "elementType": "3",
+        "destinationId": "10393",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TBC",
+        "cityLatitude": "36.13422104917120",
+        "cityLongitude": "111.24169274773200"
+      },
+      {
+        "name": "Tucson",
+        "elementType": "3",
+        "destinationId": "10397",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TUS",
+        "cityLatitude": "32.22615414572460",
+        "cityLongitude": "110.97638770980100",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "11201",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Davis Monthan AFB",
+            "destinationCode": "DMA",
+            "city": "Tucson",
+            "cityDestinationId": "10397"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16494",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Santa Catalina Mountains Area",
+            "destinationCode": "TUS",
+            "city": "Tucson",
+            "cityDestinationId": "10397"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "17094",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown Area",
+            "destinationCode": "TUS",
+            "city": "Tucson",
+            "cityDestinationId": "10397"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20723",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Airport Area",
+            "destinationCode": "TUS",
+            "city": "Tucson",
+            "cityDestinationId": "10397"
+          }
+        ]
+      },
+      {
+        "name": "Wellton",
+        "elementType": "3",
+        "destinationId": "26389",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "YUM",
+        "cityLatitude": "32.67282600000000",
+        "cityLongitude": "114.14688200000001"
+      },
+      {
+        "name": "Wickenburg",
+        "elementType": "3",
+        "destinationId": "23076",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHX",
+        "cityLatitude": "33.96995266724760",
+        "cityLongitude": "112.73154142081900"
+      },
+      {
+        "name": "Willcox",
+        "elementType": "3",
+        "destinationId": "14060",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CWX",
+        "cityLatitude": "32.25496046854910",
+        "cityLongitude": "109.84334811895500"
+      },
+      {
+        "name": "Williams",
+        "elementType": "3",
+        "destinationId": "11350",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FLG",
+        "cityLatitude": "35.25497079731540",
+        "cityLongitude": "112.19190866506400"
+      },
+      {
+        "name": "Window Rock",
+        "elementType": "3",
+        "destinationId": "14071",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABQ",
+        "cityLatitude": "35.69003677197230",
+        "cityLongitude": "109.05594342086900"
+      },
+      {
+        "name": "Winslow",
+        "elementType": "3",
+        "destinationId": "1116",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "INW",
+        "cityLatitude": "35.02893934711220",
+        "cityLongitude": "110.70335089773000"
+      },
+      {
+        "name": "Yuma",
+        "elementType": "3",
+        "destinationId": "1301",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "YUM",
+        "cityLatitude": "32.70991936916360",
+        "cityLongitude": "114.62904310433000"
+      }
+    ]
+  }
+}

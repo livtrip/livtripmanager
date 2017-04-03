@@ -1,0 +1,356 @@
+{
+  "State": {
+    "name": "Nebraska",
+    "elementType": "6",
+    "destinationId": "4000022",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "NE",
+    "City": [
+      {
+        "name": "Ainsworth",
+        "elementType": "3",
+        "destinationId": "108",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ANW",
+        "cityLatitude": "42.55057930265660",
+        "cityLongitude": "99.85912785439230"
+      },
+      {
+        "name": "Alliance",
+        "elementType": "3",
+        "destinationId": "223",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AIA",
+        "cityLatitude": "42.10313361012910",
+        "cityLongitude": "102.87189697652800"
+      },
+      {
+        "name": "Alma",
+        "elementType": "3",
+        "destinationId": "26565",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EAR",
+        "cityLatitude": "40.09751079999990",
+        "cityLongitude": "99.36204269999990"
+      },
+      {
+        "name": "Beatrice",
+        "elementType": "3",
+        "destinationId": "1558",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BIE",
+        "cityLatitude": "40.26817255375390",
+        "cityLongitude": "96.75211578208850"
+      },
+      {
+        "name": "Bellevue",
+        "elementType": "3",
+        "destinationId": "12671",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OMA",
+        "cityLatitude": "41.14389842799790",
+        "cityLongitude": "95.90645640057090"
+      },
+      {
+        "name": "Blair",
+        "elementType": "3",
+        "destinationId": "13034",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OMA",
+        "cityLatitude": "41.54248094720320",
+        "cityLongitude": "96.13687966241040"
+      },
+      {
+        "name": "Central City",
+        "elementType": "3",
+        "destinationId": "26387",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GRI",
+        "cityLatitude": "41.11584800000000",
+        "cityLongitude": "98.00172499999999"
+      },
+      {
+        "name": "Chadron",
+        "elementType": "3",
+        "destinationId": "2400",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CDR",
+        "cityLatitude": "42.82954471892750",
+        "cityLongitude": "102.99750415536500"
+      },
+      {
+        "name": "Columbus",
+        "elementType": "3",
+        "destinationId": "2715",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OLU",
+        "cityLatitude": "41.43257978836310",
+        "cityLongitude": "97.35858193887230"
+      },
+      {
+        "name": "Cozad",
+        "elementType": "3",
+        "destinationId": "13173",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LNK",
+        "cityLatitude": "40.86506961551050",
+        "cityLongitude": "99.98198246699330"
+      },
+      {
+        "name": "Crete",
+        "elementType": "3",
+        "destinationId": "26480",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LNK",
+        "cityLatitude": "40.62521700000000",
+        "cityLongitude": "96.96151399999999"
+      },
+      {
+        "name": "Fremont",
+        "elementType": "3",
+        "destinationId": "3787",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FET",
+        "cityLatitude": "41.44203618526900",
+        "cityLongitude": "96.49874991482690"
+      },
+      {
+        "name": "Gothenburg",
+        "elementType": "3",
+        "destinationId": "28478",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LBF"
+      },
+      {
+        "name": "Grand Island",
+        "elementType": "3",
+        "destinationId": "4094",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GRI",
+        "cityLatitude": "40.92105667613710",
+        "cityLongitude": "98.35029808560150"
+      },
+      {
+        "name": "Gretna",
+        "elementType": "3",
+        "destinationId": "24095",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OMA",
+        "cityLatitude": "41.14045500000000",
+        "cityLongitude": "96.24368400000000"
+      },
+      {
+        "name": "Hastings",
+        "elementType": "3",
+        "destinationId": "4344",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HSI",
+        "cityLatitude": "40.58488501047280",
+        "cityLongitude": "98.39067816397460"
+      },
+      {
+        "name": "Holdrege",
+        "elementType": "3",
+        "destinationId": "4476",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HDE",
+        "cityLatitude": "40.44300832103330",
+        "cityLongitude": "99.37388389499790"
+      },
+      {
+        "name": "Kearney",
+        "elementType": "3",
+        "destinationId": "5164",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EAR",
+        "cityLatitude": "40.69997711308210",
+        "cityLongitude": "99.08315006278710"
+      },
+      {
+        "name": "Kimball",
+        "elementType": "3",
+        "destinationId": "26525",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DEN"
+      },
+      {
+        "name": "La Vista",
+        "elementType": "3",
+        "destinationId": "27155",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LNK"
+      },
+      {
+        "name": "Lexington",
+        "elementType": "3",
+        "destinationId": "5865",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LXN",
+        "cityLatitude": "40.78331566624000",
+        "cityLongitude": "99.74177154407310"
+      },
+      {
+        "name": "Lincoln",
+        "elementType": "3",
+        "destinationId": "5914",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LNK",
+        "cityLatitude": "40.81055446065000",
+        "cityLongitude": "96.68793249445790"
+      },
+      {
+        "name": "Mccook",
+        "elementType": "3",
+        "destinationId": "6539",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCK",
+        "cityLatitude": "40.20658132291330",
+        "cityLongitude": "100.62213511676400"
+      },
+      {
+        "name": "Nebraska City",
+        "elementType": "3",
+        "destinationId": "24709",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OMA",
+        "cityLatitude": "40.67713928222660",
+        "cityLongitude": "95.85890197753910"
+      },
+      {
+        "name": "Norfolk",
+        "elementType": "3",
+        "destinationId": "7376",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OFK",
+        "cityLatitude": "42.02968175579480",
+        "cityLongitude": "97.41683662230330"
+      },
+      {
+        "name": "North Platte",
+        "elementType": "3",
+        "destinationId": "7395",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LBF",
+        "cityLatitude": "41.14544546584490",
+        "cityLongitude": "100.77093761802100"
+      },
+      {
+        "name": "Ogallala",
+        "elementType": "3",
+        "destinationId": "7527",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OGA",
+        "cityLatitude": "41.13166897428900",
+        "cityLongitude": "101.72192534673000"
+      },
+      {
+        "name": "Omaha",
+        "elementType": "3",
+        "destinationId": "7584",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OMA",
+        "cityLatitude": "41.25929447402530",
+        "cityLongitude": "95.94443225235620",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "7585",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Millard",
+          "destinationCode": "MIQ",
+          "city": "Omaha",
+          "cityDestinationId": "7584"
+        }
+      },
+      {
+        "name": "Oneill",
+        "elementType": "3",
+        "destinationId": "7596",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONL",
+        "cityLatitude": "42.45985389991130",
+        "cityLongitude": "98.64842218249420"
+      },
+      {
+        "name": "Scottsbluff",
+        "elementType": "3",
+        "destinationId": "9226",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BFF",
+        "cityLatitude": "41.86859515931460",
+        "cityLongitude": "103.65766925940300"
+      },
+      {
+        "name": "Sidney",
+        "elementType": "3",
+        "destinationId": "9405",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNY",
+        "cityLatitude": "41.14527471111570",
+        "cityLongitude": "102.98650755080100"
+      },
+      {
+        "name": "Valentine",
+        "elementType": "3",
+        "destinationId": "10605",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "VTN",
+        "cityLatitude": "42.87726725065830",
+        "cityLongitude": "100.55280186649900"
+      },
+      {
+        "name": "West Point",
+        "elementType": "3",
+        "destinationId": "19572",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OMA",
+        "cityLatitude": "41.84166600000000",
+        "cityLongitude": "96.70864299999999"
+      },
+      {
+        "name": "York",
+        "elementType": "3",
+        "destinationId": "12537",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LNK",
+        "cityLatitude": "40.86922920071500",
+        "cityLongitude": "97.59209927640580"
+      }
+    ]
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "State": {
+    "name": "Montana",
+    "elementType": "6",
+    "destinationId": "4000025",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "MT",
+    "City": [
+      {
+        "name": "Belgrade",
+        "elementType": "3",
+        "destinationId": "23020",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BZN",
+        "cityLatitude": "45.77654594954530",
+        "cityLongitude": "111.17768704502000"
+      },
+      {
+        "name": "Big Sky",
+        "elementType": "3",
+        "destinationId": "11792",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BZN",
+        "cityLatitude": "45.26702749784070",
+        "cityLongitude": "111.27013365543600"
+      },
+      {
+        "name": "Big Timber",
+        "elementType": "3",
+        "destinationId": "26684",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LVM",
+        "cityLatitude": "45.83435430000000",
+        "cityLongitude": "109.95406439999999"
+      },
+      {
+        "name": "Billings",
+        "elementType": "3",
+        "destinationId": "1759",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BIL",
+        "cityLatitude": "45.78326002549950",
+        "cityLongitude": "108.52928802453600"
+      },
+      {
+        "name": "Bozeman",
+        "elementType": "3",
+        "destinationId": "1952",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BZN",
+        "cityLatitude": "45.67893571611670",
+        "cityLongitude": "111.04511990341900",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "21294",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Gallatin Valley",
+          "destinationCode": "BZN",
+          "city": "Bozeman",
+          "cityDestinationId": "1952"
+        }
+      },
+      {
+        "name": "Butte",
+        "elementType": "3",
+        "destinationId": "2146",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BTM",
+        "cityLatitude": "45.99490026712150",
+        "cityLongitude": "112.50687600845000"
+      },
+      {
+        "name": "Conrad",
+        "elementType": "3",
+        "destinationId": "26754",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GTF",
+        "cityLatitude": "48.16830600000000",
+        "cityLongitude": "111.94474099999999"
+      },
+      {
+        "name": "Cooke City",
+        "elementType": "3",
+        "destinationId": "26511",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "COD",
+        "cityLatitude": "45.01877200000000",
+        "cityLongitude": "109.93446700000000"
+      },
+      {
+        "name": "Cut Bank",
+        "elementType": "3",
+        "destinationId": "2908",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CTB",
+        "cityLatitude": "48.63273981514790",
+        "cityLongitude": "112.32481731612300"
+      },
+      {
+        "name": "Deer Lodge",
+        "elementType": "3",
+        "destinationId": "26580",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BTM",
+        "cityLatitude": "46.39909400000000",
+        "cityLongitude": "112.73837200000000"
+      },
+      {
+        "name": "Dillon",
+        "elementType": "3",
+        "destinationId": "3104",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DLN",
+        "cityLatitude": "45.21488924881140",
+        "cityLongitude": "112.64038571615600"
+      },
+      {
+        "name": "Gardiner",
+        "elementType": "3",
+        "destinationId": "13323",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WYS",
+        "cityLatitude": "45.03979393434360",
+        "cityLongitude": "110.70782467163600"
+      },
+      {
+        "name": "Glendive",
+        "elementType": "3",
+        "destinationId": "4004",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GDV",
+        "cityLatitude": "47.10841576222490",
+        "cityLongitude": "104.73744703510100"
+      },
+      {
+        "name": "Great Falls",
+        "elementType": "3",
+        "destinationId": "4119",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GTF",
+        "cityLatitude": "47.50812867773780",
+        "cityLongitude": "111.30467392206900"
+      },
+      {
+        "name": "Hamilton",
+        "elementType": "3",
+        "destinationId": "13372",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSO",
+        "cityLatitude": "46.24215653017050",
+        "cityLongitude": "114.15883922148800"
+      },
+      {
+        "name": "Hardin",
+        "elementType": "3",
+        "destinationId": "26499",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BIL"
+      },
+      {
+        "name": "Havre",
+        "elementType": "3",
+        "destinationId": "4360",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HVR",
+        "cityLatitude": "48.54862945061380",
+        "cityLongitude": "109.67762040893400"
+      },
+      {
+        "name": "Helena",
+        "elementType": "3",
+        "destinationId": "4398",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HLN",
+        "cityLatitude": "46.59457721587030",
+        "cityLongitude": "112.03554514439500"
+      },
+      {
+        "name": "Kalispell",
+        "elementType": "3",
+        "destinationId": "5006",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FCA",
+        "cityLatitude": "48.20050836899660",
+        "cityLongitude": "114.32164361054400"
+      },
+      {
+        "name": "Laurel",
+        "elementType": "3",
+        "destinationId": "24803",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BDX",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Lewistown",
+        "elementType": "3",
+        "destinationId": "5862",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LWT",
+        "cityLatitude": "47.06850013671540",
+        "cityLongitude": "109.43061344779000"
+      },
+      {
+        "name": "Livingston",
+        "elementType": "3",
+        "destinationId": "5947",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LVM",
+        "cityLatitude": "45.66999158339860",
+        "cityLongitude": "110.56434288774200"
+      },
+      {
+        "name": "Miles City",
+        "elementType": "3",
+        "destinationId": "6664",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MLS",
+        "cityLatitude": "46.41097490079110",
+        "cityLongitude": "105.84230526543200"
+      },
+      {
+        "name": "Missoula",
+        "elementType": "3",
+        "destinationId": "6729",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSO",
+        "cityLatitude": "46.86400427296520",
+        "cityLongitude": "114.01071973914700"
+      },
+      {
+        "name": "Red Lodge",
+        "elementType": "3",
+        "destinationId": "13794",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "COD",
+        "cityLatitude": "45.18497643534140",
+        "cityLongitude": "109.24830203846400"
+      },
+      {
+        "name": "Shelby",
+        "elementType": "3",
+        "destinationId": "9353",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBX",
+        "cityLatitude": "48.50520652296540",
+        "cityLongitude": "111.85512569746900"
+      },
+      {
+        "name": "Sidney",
+        "elementType": "3",
+        "destinationId": "9404",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SDY",
+        "cityLatitude": "47.71392910761950",
+        "cityLongitude": "104.15331559690300"
+      },
+      {
+        "name": "St Regis",
+        "elementType": "3",
+        "destinationId": "27970",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FCA"
+      },
+      {
+        "name": "West Yellowstone",
+        "elementType": "3",
+        "destinationId": "1026",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WYS",
+        "cityLatitude": "44.66330366200870",
+        "cityLongitude": "111.10096353007300"
+      },
+      {
+        "name": "Whitefish",
+        "elementType": "3",
+        "destinationId": "14058",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FCA",
+        "cityLatitude": "48.41180710116010",
+        "cityLongitude": "114.34123259308400"
+      }
+    ]
+  }
+}

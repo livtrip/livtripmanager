@@ -1,0 +1,1068 @@
+{
+  "State": {
+    "name": "Massachusetts",
+    "elementType": "6",
+    "destinationId": "4000030",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "MA",
+    "City": [
+      {
+        "name": "Amesbury",
+        "elementType": "3",
+        "destinationId": "28354",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS"
+      },
+      {
+        "name": "Andover",
+        "elementType": "3",
+        "destinationId": "17142",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.65299457416640",
+        "cityLongitude": "71.14424077228250"
+      },
+      {
+        "name": "Arlington",
+        "elementType": "3",
+        "destinationId": "27055",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS"
+      },
+      {
+        "name": "Auburn",
+        "elementType": "3",
+        "destinationId": "12991",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.19325795622740",
+        "cityLongitude": "71.83378935013030"
+      },
+      {
+        "name": "Bedford",
+        "elementType": "3",
+        "destinationId": "21942",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.49165526068690",
+        "cityLongitude": "71.27405534764770"
+      },
+      {
+        "name": "Beverly",
+        "elementType": "3",
+        "destinationId": "1711",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BVY",
+        "cityLatitude": "42.55075005738590",
+        "cityLongitude": "70.87773362105770"
+      },
+      {
+        "name": "Billerica",
+        "elementType": "3",
+        "destinationId": "12395",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.55831449189170",
+        "cityLongitude": "71.26314070535400"
+      },
+      {
+        "name": "Boston",
+        "elementType": "3",
+        "destinationId": "1913",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.36482547798900",
+        "cityLongitude": "71.05755201133670",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "10724",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Back Bay Area",
+            "destinationCode": "BOS",
+            "city": "Boston",
+            "cityDestinationId": "1913"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "10728",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Boston-Logan International Airport Area",
+            "destinationCode": "BOS",
+            "city": "Boston",
+            "cityDestinationId": "1913"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12015",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown Area",
+            "destinationCode": "BOS",
+            "city": "Boston",
+            "cityDestinationId": "1913"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12016",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Cambridge area",
+            "destinationCode": "BOS",
+            "city": "Boston",
+            "cityDestinationId": "1913"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12088",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Theatre District/Downtown Crossing",
+            "destinationCode": "BOS",
+            "city": "Boston",
+            "cityDestinationId": "1913"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16251",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Quincy/Financial/Waterfront",
+            "destinationCode": "BOS",
+            "city": "Boston",
+            "cityDestinationId": "1913"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "17047",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Longwood Medical Area",
+            "destinationCode": "BOS",
+            "city": "Boston",
+            "cityDestinationId": "1913"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20653",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Worcester",
+            "destinationCode": "BOS",
+            "city": "Boston",
+            "cityDestinationId": "1913"
+          }
+        ]
+      },
+      {
+        "name": "Braintree",
+        "elementType": "3",
+        "destinationId": "11776",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.22394258107370",
+        "cityLongitude": "71.00291049797660"
+      },
+      {
+        "name": "Brockton",
+        "elementType": "3",
+        "destinationId": "11777",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.08522143903070",
+        "cityLongitude": "71.01700117823430"
+      },
+      {
+        "name": "Brookline",
+        "elementType": "3",
+        "destinationId": "16512",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.33727932506630",
+        "cityLongitude": "71.12164650650810"
+      },
+      {
+        "name": "Burlington",
+        "elementType": "3",
+        "destinationId": "2125",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BBF",
+        "cityLatitude": "42.50678754479310",
+        "cityLongitude": "71.19587017221860"
+      },
+      {
+        "name": "Cambridge",
+        "elementType": "3",
+        "destinationId": "2209",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JHY",
+        "cityLatitude": "42.36886553488300",
+        "cityLongitude": "71.10961171319050"
+      },
+      {
+        "name": "Canton",
+        "elementType": "3",
+        "destinationId": "27054",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS"
+      },
+      {
+        "name": "Cape Cod",
+        "elementType": "3",
+        "destinationId": "12119",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.46285918314610",
+        "cityLongitude": "71.34648267360650"
+      },
+      {
+        "name": "Chelsea",
+        "elementType": "3",
+        "destinationId": "27097",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.39176400000000",
+        "cityLongitude": "71.03282799999999"
+      },
+      {
+        "name": "Chicopee",
+        "elementType": "3",
+        "destinationId": "2520",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CEF",
+        "cityLatitude": "42.14000297126880",
+        "cityLongitude": "72.60727412268840"
+      },
+      {
+        "name": "Concord",
+        "elementType": "3",
+        "destinationId": "24838",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "43.20724868774410",
+        "cityLongitude": "71.53659820556640"
+      },
+      {
+        "name": "Danvers",
+        "elementType": "3",
+        "destinationId": "11908",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.56639119058520",
+        "cityLongitude": "70.93529162519340"
+      },
+      {
+        "name": "Dedham",
+        "elementType": "3",
+        "destinationId": "12557",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.24973679047420",
+        "cityLongitude": "71.17516786884430"
+      },
+      {
+        "name": "Dennis Port",
+        "elementType": "3",
+        "destinationId": "17903",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HYA",
+        "cityLatitude": "41.66806080528300",
+        "cityLongitude": "70.11377696239180"
+      },
+      {
+        "name": "Devens",
+        "elementType": "3",
+        "destinationId": "25032",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ORH",
+        "cityLatitude": "42.54550300000000",
+        "cityLongitude": "71.61393500000000"
+      },
+      {
+        "name": "Edgartown",
+        "elementType": "3",
+        "destinationId": "13240",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HYA",
+        "cityLatitude": "41.39336084214890",
+        "cityLongitude": "70.52565102972190"
+      },
+      {
+        "name": "Everett",
+        "elementType": "3",
+        "destinationId": "21328",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.40814595279980",
+        "cityLongitude": "71.05445793564260"
+      },
+      {
+        "name": "Fairhaven",
+        "elementType": "3",
+        "destinationId": "16516",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BED",
+        "cityLatitude": "41.64189435057270",
+        "cityLongitude": "70.90573739665480"
+      },
+      {
+        "name": "Fall River",
+        "elementType": "3",
+        "destinationId": "3553",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWB",
+        "cityLatitude": "41.69453120341140",
+        "cityLongitude": "71.16417126428060"
+      },
+      {
+        "name": "Falmouth",
+        "elementType": "3",
+        "destinationId": "3559",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FMH",
+        "cityLatitude": "41.55882217479240",
+        "cityLongitude": "70.61981201761970"
+      },
+      {
+        "name": "Foxboro",
+        "elementType": "3",
+        "destinationId": "13294",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JBC",
+        "cityLatitude": "42.06672870185290",
+        "cityLongitude": "71.24999942139090"
+      },
+      {
+        "name": "Framingham",
+        "elementType": "3",
+        "destinationId": "11778",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.28003209453780",
+        "cityLongitude": "71.41409471620050"
+      },
+      {
+        "name": "Franklin",
+        "elementType": "3",
+        "destinationId": "16518",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AIV",
+        "cityLatitude": "42.08582591077230",
+        "cityLongitude": "71.39193075234380"
+      },
+      {
+        "name": "Gardner",
+        "elementType": "3",
+        "destinationId": "3884",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GDM",
+        "cityLatitude": "42.57661939886730",
+        "cityLongitude": "71.98679924791690"
+      },
+      {
+        "name": "Great Barrington",
+        "elementType": "3",
+        "destinationId": "4116",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GBR",
+        "cityLatitude": "42.19669695647450",
+        "cityLongitude": "73.36006342206130"
+      },
+      {
+        "name": "Greenfield",
+        "elementType": "3",
+        "destinationId": "22256",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BDL",
+        "cityLatitude": "42.58770821098480",
+        "cityLongitude": "72.60083325430110"
+      },
+      {
+        "name": "Hadley",
+        "elementType": "3",
+        "destinationId": "12807",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.34063294794880",
+        "cityLongitude": "72.58966589500810"
+      },
+      {
+        "name": "Hancock",
+        "elementType": "3",
+        "destinationId": "12698",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "42.54284411342160",
+        "cityLongitude": "73.32423224967540"
+      },
+      {
+        "name": "Haverhill",
+        "elementType": "3",
+        "destinationId": "11779",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WBN",
+        "cityLatitude": "42.78035028143040",
+        "cityLongitude": "71.08418291891050"
+      },
+      {
+        "name": "Holyoke",
+        "elementType": "3",
+        "destinationId": "17130",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BDL",
+        "cityLatitude": "42.20322661732100",
+        "cityLongitude": "72.62557902966400"
+      },
+      {
+        "name": "Hudson",
+        "elementType": "3",
+        "destinationId": "24120",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT"
+      },
+      {
+        "name": "Hull",
+        "elementType": "3",
+        "destinationId": "13423",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JBC",
+        "cityLatitude": "42.30289273768990",
+        "cityLongitude": "70.90840117043110"
+      },
+      {
+        "name": "Hyannis",
+        "elementType": "3",
+        "destinationId": "4587",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HYA",
+        "cityLatitude": "41.66187606898960",
+        "cityLongitude": "70.28509176715410"
+      },
+      {
+        "name": "Lawrence",
+        "elementType": "3",
+        "destinationId": "5779",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LWM",
+        "cityLatitude": "42.70940169142690",
+        "cityLongitude": "71.15867296199870"
+      },
+      {
+        "name": "Lee",
+        "elementType": "3",
+        "destinationId": "12556",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BDL",
+        "cityLatitude": "42.31638577639520",
+        "cityLongitude": "73.24502254587080"
+      },
+      {
+        "name": "Lenox",
+        "elementType": "3",
+        "destinationId": "12554",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BDL",
+        "cityLatitude": "42.35938523231500",
+        "cityLongitude": "73.27955598231440"
+      },
+      {
+        "name": "Leominster",
+        "elementType": "3",
+        "destinationId": "18452",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.53009215024120",
+        "cityLongitude": "71.75603447661890"
+      },
+      {
+        "name": "Lexington",
+        "elementType": "3",
+        "destinationId": "12629",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.44650429517850",
+        "cityLongitude": "71.22302017416940"
+      },
+      {
+        "name": "Ludlow",
+        "elementType": "3",
+        "destinationId": "13541",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BDL",
+        "cityLatitude": "42.16889808655260",
+        "cityLongitude": "72.48209724576950"
+      },
+      {
+        "name": "Malden",
+        "elementType": "3",
+        "destinationId": "11780",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.42903950147080",
+        "cityLongitude": "71.06708695541800"
+      },
+      {
+        "name": "Mansfield",
+        "elementType": "3",
+        "destinationId": "11781",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ORH",
+        "cityLatitude": "42.03174105782950",
+        "cityLongitude": "71.21838247572290"
+      },
+      {
+        "name": "Marlboro",
+        "elementType": "3",
+        "destinationId": "12336",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.71673389950090",
+        "cityLongitude": "70.97360898643720"
+      },
+      {
+        "name": "Marlborough",
+        "elementType": "3",
+        "destinationId": "6423",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MXG",
+        "cityLatitude": "42.35216230726770",
+        "cityLongitude": "71.54065129133170"
+      },
+      {
+        "name": "Methuen",
+        "elementType": "3",
+        "destinationId": "26724",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "42.72620200000000",
+        "cityLongitude": "71.19089200000001"
+      },
+      {
+        "name": "Middleboro",
+        "elementType": "3",
+        "destinationId": "20353",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "41.89447474607980",
+        "cityLongitude": "70.90685754767870"
+      },
+      {
+        "name": "Milford",
+        "elementType": "3",
+        "destinationId": "12178",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.14361614133970",
+        "cityLongitude": "71.51985336530900"
+      },
+      {
+        "name": "Natick",
+        "elementType": "3",
+        "destinationId": "12436",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.28690667993740",
+        "cityLongitude": "71.35000022102910"
+      },
+      {
+        "name": "Needham",
+        "elementType": "3",
+        "destinationId": "12779",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.27814354723230",
+        "cityLongitude": "71.23170134460450"
+      },
+      {
+        "name": "Newton",
+        "elementType": "3",
+        "destinationId": "11782",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.33848485345480",
+        "cityLongitude": "71.20935979582940"
+      },
+      {
+        "name": "North Adams",
+        "elementType": "3",
+        "destinationId": "12260",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BDL",
+        "cityLatitude": "42.70208997392040",
+        "cityLongitude": "73.11159480043460"
+      },
+      {
+        "name": "North Attleboro",
+        "elementType": "3",
+        "destinationId": "24195",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS"
+      },
+      {
+        "name": "North Dartmouth",
+        "elementType": "3",
+        "destinationId": "13683",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PVD",
+        "cityLatitude": "41.63888565224330",
+        "cityLongitude": "70.98142955303690"
+      },
+      {
+        "name": "Northampton",
+        "elementType": "3",
+        "destinationId": "12747",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BDL",
+        "cityLatitude": "42.32747800360730",
+        "cityLongitude": "72.63133687913430"
+      },
+      {
+        "name": "Northborough",
+        "elementType": "3",
+        "destinationId": "13690",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PVD",
+        "cityLatitude": "42.32103030503080",
+        "cityLongitude": "71.64279677036920"
+      },
+      {
+        "name": "Norwood",
+        "elementType": "3",
+        "destinationId": "7408",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OWD",
+        "cityLatitude": "42.19308720149820",
+        "cityLongitude": "71.20034394612490"
+      },
+      {
+        "name": "Peabody",
+        "elementType": "3",
+        "destinationId": "12683",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.52957988605340",
+        "cityLongitude": "70.92876196434690"
+      },
+      {
+        "name": "Pittsfield",
+        "elementType": "3",
+        "destinationId": "8071",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PSF",
+        "cityLatitude": "42.45890450361670",
+        "cityLongitude": "73.24252952682370"
+      },
+      {
+        "name": "Plainville",
+        "elementType": "3",
+        "destinationId": "24218",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS"
+      },
+      {
+        "name": "Plymouth",
+        "elementType": "3",
+        "destinationId": "8099",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PYM",
+        "cityLatitude": "41.96766363813110",
+        "cityLongitude": "70.68279319195640"
+      },
+      {
+        "name": "Quincy",
+        "elementType": "3",
+        "destinationId": "8452",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MQI",
+        "cityLatitude": "42.25033443202660",
+        "cityLongitude": "71.00909181917540"
+      },
+      {
+        "name": "Randolph",
+        "elementType": "3",
+        "destinationId": "15687",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.16313340689310",
+        "cityLongitude": "71.04251193478430"
+      },
+      {
+        "name": "Raynham",
+        "elementType": "3",
+        "destinationId": "19391",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "41.94870800000000",
+        "cityLongitude": "71.07311600000000"
+      },
+      {
+        "name": "Revere",
+        "elementType": "3",
+        "destinationId": "13799",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.41373646263540",
+        "cityLongitude": "71.01665283858660"
+      },
+      {
+        "name": "Rockland",
+        "elementType": "3",
+        "destinationId": "12762",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.13192285748070",
+        "cityLongitude": "70.91570264265380"
+      },
+      {
+        "name": "Saugus",
+        "elementType": "3",
+        "destinationId": "17930",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.46629818339320",
+        "cityLongitude": "71.01218589486940"
+      },
+      {
+        "name": "Seekonk",
+        "elementType": "3",
+        "destinationId": "16522",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AIV",
+        "cityLatitude": "41.82077358984080",
+        "cityLongitude": "71.32895640819630"
+      },
+      {
+        "name": "Sharon",
+        "elementType": "3",
+        "destinationId": "18951",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.12178344165780",
+        "cityLongitude": "71.18074813339620"
+      },
+      {
+        "name": "Shrewsbury",
+        "elementType": "3",
+        "destinationId": "26361",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ORH",
+        "cityLatitude": "42.29592700000000",
+        "cityLongitude": "71.71284700000000"
+      },
+      {
+        "name": "Somerset",
+        "elementType": "3",
+        "destinationId": "13881",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PVD",
+        "cityLatitude": "41.73288613069560",
+        "cityLongitude": "71.17241530260880"
+      },
+      {
+        "name": "South Yarmouth",
+        "elementType": "3",
+        "destinationId": "12098",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "41.67614091907120",
+        "cityLongitude": "70.18912077912620"
+      },
+      {
+        "name": "Springfield",
+        "elementType": "3",
+        "destinationId": "9623",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BDL",
+        "cityLatitude": "42.10124164772900",
+        "cityLongitude": "72.58923559309040"
+      },
+      {
+        "name": "Stoughton",
+        "elementType": "3",
+        "destinationId": "12628",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.12350123423410",
+        "cityLongitude": "71.10282933534470"
+      },
+      {
+        "name": "Sturbridge",
+        "elementType": "3",
+        "destinationId": "12693",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PVD",
+        "cityLatitude": "42.11318764858730",
+        "cityLongitude": "72.08302295294400"
+      },
+      {
+        "name": "Sudbury",
+        "elementType": "3",
+        "destinationId": "13935",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JBC",
+        "cityLatitude": "42.38330455478840",
+        "cityLongitude": "71.41666969751760"
+      },
+      {
+        "name": "Swansea",
+        "elementType": "3",
+        "destinationId": "24267",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS"
+      },
+      {
+        "name": "Taunton",
+        "elementType": "3",
+        "destinationId": "24275",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS"
+      },
+      {
+        "name": "Tewksbury",
+        "elementType": "3",
+        "destinationId": "13959",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.61256326937450",
+        "cityLongitude": "71.23101149549830"
+      },
+      {
+        "name": "Wakefield",
+        "elementType": "3",
+        "destinationId": "12438",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.50635724287540",
+        "cityLongitude": "71.07052254057050"
+      },
+      {
+        "name": "Waltham",
+        "elementType": "3",
+        "destinationId": "918",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WLM",
+        "cityLatitude": "42.38176093203600",
+        "cityLongitude": "71.23694009969790"
+      },
+      {
+        "name": "Watertown",
+        "elementType": "3",
+        "destinationId": "26713",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.37093000000000",
+        "cityLongitude": "71.18283200000000"
+      },
+      {
+        "name": "West Bridgewater",
+        "elementType": "3",
+        "destinationId": "20462",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.01893786823030",
+        "cityLongitude": "71.00832000779920"
+      },
+      {
+        "name": "West Dennis",
+        "elementType": "3",
+        "destinationId": "14042",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HYA",
+        "cityLatitude": "41.66436908803660",
+        "cityLongitude": "70.17331572138680"
+      },
+      {
+        "name": "West Springfield",
+        "elementType": "3",
+        "destinationId": "12514",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BDL",
+        "cityLatitude": "42.11353257314040",
+        "cityLongitude": "72.63528472847460"
+      },
+      {
+        "name": "West Yarmouth",
+        "elementType": "3",
+        "destinationId": "12202",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HYA",
+        "cityLatitude": "41.65152833239700",
+        "cityLongitude": "70.24273776411080"
+      },
+      {
+        "name": "Westborough",
+        "elementType": "3",
+        "destinationId": "12164",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.27710877357310",
+        "cityLongitude": "71.61221118326590"
+      },
+      {
+        "name": "Westfield",
+        "elementType": "3",
+        "destinationId": "1030",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BAF",
+        "cityLatitude": "42.12779742322200",
+        "cityLongitude": "72.74749107615960"
+      },
+      {
+        "name": "Westford",
+        "elementType": "3",
+        "destinationId": "19392",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.57925800000000",
+        "cityLongitude": "71.43784100000001"
+      },
+      {
+        "name": "Westminster",
+        "elementType": "3",
+        "destinationId": "17249",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "42.54860196289190",
+        "cityLongitude": "71.91644146927660"
+      },
+      {
+        "name": "Westport",
+        "elementType": "3",
+        "destinationId": "19393",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWB",
+        "cityLatitude": "41.63620000000000",
+        "cityLongitude": "70.93430000000000"
+      },
+      {
+        "name": "Williamstown",
+        "elementType": "3",
+        "destinationId": "26403",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "42.71202000000000",
+        "cityLongitude": "73.20368999999999"
+      },
+      {
+        "name": "Woburn",
+        "elementType": "3",
+        "destinationId": "1134",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WBN",
+        "cityLatitude": "42.47867448616930",
+        "cityLongitude": "71.15592039576320"
+      },
+      {
+        "name": "Worcester",
+        "elementType": "3",
+        "destinationId": "1165",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ORH",
+        "cityLatitude": "39.45000126855100",
+        "cityLongitude": "98.90796937095460"
+      }
+    ]
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "State": {
+    "name": "South Dakota",
+    "elementType": "6",
+    "destinationId": "4000009",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "SD",
+    "City": [
+      {
+        "name": "Aberdeen",
+        "elementType": "3",
+        "destinationId": "30",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABR",
+        "cityLatitude": "45.46291390814210",
+        "cityLongitude": "98.48621201989550"
+      },
+      {
+        "name": "Beresford",
+        "elementType": "3",
+        "destinationId": "26334",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FSD",
+        "cityLatitude": "43.08054460000000",
+        "cityLongitude": "96.77365499999991"
+      },
+      {
+        "name": "Brandon",
+        "elementType": "3",
+        "destinationId": "24011",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FSD",
+        "cityLatitude": "43.59469600000000",
+        "cityLongitude": "96.57199000000000"
+      },
+      {
+        "name": "Brookings",
+        "elementType": "3",
+        "destinationId": "2042",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BKX",
+        "cityLatitude": "44.31011116493280",
+        "cityLongitude": "96.79524159650800"
+      },
+      {
+        "name": "Canistota",
+        "elementType": "3",
+        "destinationId": "24575",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FSD",
+        "cityLatitude": "43.60128021240230",
+        "cityLongitude": "97.29488372802730"
+      },
+      {
+        "name": "Chamberlain",
+        "elementType": "3",
+        "destinationId": "24576",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHE",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Custer",
+        "elementType": "3",
+        "destinationId": "12464",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RAP",
+        "cityLatitude": "43.76770193728000",
+        "cityLongitude": "103.60019321753800"
+      },
+      {
+        "name": "Deadwood",
+        "elementType": "3",
+        "destinationId": "13195",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RAP",
+        "cityLatitude": "44.38199207575800",
+        "cityLongitude": "103.73284232140800"
+      },
+      {
+        "name": "Hill City",
+        "elementType": "3",
+        "destinationId": "13401",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RCA",
+        "cityLatitude": "43.93548553424130",
+        "cityLongitude": "103.57656759319800"
+      },
+      {
+        "name": "Hot Springs",
+        "elementType": "3",
+        "destinationId": "13419",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RAP",
+        "cityLatitude": "43.43361006421800",
+        "cityLongitude": "103.48334917140600"
+      },
+      {
+        "name": "Huron",
+        "elementType": "3",
+        "destinationId": "4579",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HON",
+        "cityLatitude": "44.35885480994460",
+        "cityLongitude": "98.21953411394150"
+      },
+      {
+        "name": "Keystone",
+        "elementType": "3",
+        "destinationId": "12122",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RAP",
+        "cityLatitude": "43.89558015401550",
+        "cityLongitude": "103.41797060067100"
+      },
+      {
+        "name": "Madison",
+        "elementType": "3",
+        "destinationId": "6180",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "XMD",
+        "cityLatitude": "44.00531397322100",
+        "cityLongitude": "97.11570724217580"
+      },
+      {
+        "name": "Milbank",
+        "elementType": "3",
+        "destinationId": "19864",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHE",
+        "cityLatitude": "43.71350000000000",
+        "cityLongitude": "98.02520000000000"
+      },
+      {
+        "name": "Miller",
+        "elementType": "3",
+        "destinationId": "26335",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HON",
+        "cityLatitude": "44.51831500000000",
+        "cityLongitude": "98.98843400000000"
+      },
+      {
+        "name": "Mission",
+        "elementType": "3",
+        "destinationId": "13614",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIR",
+        "cityLatitude": "43.30915377225660",
+        "cityLongitude": "100.65950991190200"
+      },
+      {
+        "name": "Mitchell",
+        "elementType": "3",
+        "destinationId": "6732",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHE",
+        "cityLatitude": "43.71257889558340",
+        "cityLongitude": "98.02493519429870"
+      },
+      {
+        "name": "Murdo",
+        "elementType": "3",
+        "destinationId": "24754",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RAP",
+        "cityLatitude": "43.88912963867190",
+        "cityLongitude": "100.71327209472700"
+      },
+      {
+        "name": "North Sioux City",
+        "elementType": "3",
+        "destinationId": "13688",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SUX",
+        "cityLatitude": "42.53086737671200",
+        "cityLongitude": "96.49995202812080"
+      },
+      {
+        "name": "Oacoma",
+        "elementType": "3",
+        "destinationId": "13699",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIR",
+        "cityLatitude": "43.80313354359940",
+        "cityLongitude": "99.38763306579710"
+      },
+      {
+        "name": "Pierre",
+        "elementType": "3",
+        "destinationId": "8033",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIR",
+        "cityLatitude": "44.36581818780340",
+        "cityLongitude": "100.35631781464500"
+      },
+      {
+        "name": "Rapid City",
+        "elementType": "3",
+        "destinationId": "8518",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RAP",
+        "cityLatitude": "44.07712316705990",
+        "cityLongitude": "103.23127420989800"
+      },
+      {
+        "name": "Redfield",
+        "elementType": "3",
+        "destinationId": "26540",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ABR",
+        "cityLatitude": "44.87581000000000",
+        "cityLongitude": "98.51870599999999"
+      },
+      {
+        "name": "Sioux Falls",
+        "elementType": "3",
+        "destinationId": "9466",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FSD",
+        "cityLatitude": "43.54642771383370",
+        "cityLongitude": "96.72960347858410"
+      },
+      {
+        "name": "Sisseton",
+        "elementType": "3",
+        "destinationId": "26508",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ATY",
+        "cityLatitude": "45.66468200000000",
+        "cityLongitude": "97.04980500000001"
+      },
+      {
+        "name": "Spearfish",
+        "elementType": "3",
+        "destinationId": "9609",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SPF",
+        "cityLatitude": "44.49921519738830",
+        "cityLongitude": "103.86532750073900"
+      },
+      {
+        "name": "Sturgis",
+        "elementType": "3",
+        "destinationId": "24264",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RAP",
+        "cityLatitude": "44.40970700000000",
+        "cityLongitude": "103.50907900000000"
+      },
+      {
+        "name": "Wall",
+        "elementType": "3",
+        "destinationId": "14010",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RAP",
+        "cityLatitude": "43.99473742529120",
+        "cityLongitude": "102.23767293095800"
+      },
+      {
+        "name": "Watertown",
+        "elementType": "3",
+        "destinationId": "968",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ATY",
+        "cityLatitude": "44.89790016943110",
+        "cityLongitude": "97.11141105318790"
+      },
+      {
+        "name": "Winner",
+        "elementType": "3",
+        "destinationId": "24315",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIR",
+        "cityLatitude": "43.37666700000000",
+        "cityLongitude": "99.85900700000001"
+      },
+      {
+        "name": "Yankton",
+        "elementType": "3",
+        "destinationId": "1236",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "YKN",
+        "cityLatitude": "42.87855815641150",
+        "cityLongitude": "97.38762390322320"
+      }
+    ]
+  }
+}
+}

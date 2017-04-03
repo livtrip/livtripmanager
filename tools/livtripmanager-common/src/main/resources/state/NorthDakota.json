@@ -1,0 +1,196 @@
+{
+  "State": {
+    "name": "North Dakota",
+    "elementType": "6",
+    "destinationId": "4000021",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "ND",
+    "City": [
+      {
+        "name": "Bismarck",
+        "elementType": "3",
+        "destinationId": "1790",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BIS",
+        "cityLatitude": "46.81111128803260",
+        "cityLongitude": "100.80496562046600"
+      },
+      {
+        "name": "Bottineau",
+        "elementType": "3",
+        "destinationId": "26376",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MOT",
+        "cityLatitude": "48.82723000000000",
+        "cityLongitude": "100.44569799999999"
+      },
+      {
+        "name": "Bowman",
+        "elementType": "3",
+        "destinationId": "1950",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BWM",
+        "cityLatitude": "46.17807569537750",
+        "cityLongitude": "103.40009599561300"
+      },
+      {
+        "name": "Casselton",
+        "elementType": "3",
+        "destinationId": "26516",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FAR",
+        "cityLatitude": "46.90052900000000",
+        "cityLongitude": "97.21120000000001"
+      },
+      {
+        "name": "Devils Lake",
+        "elementType": "3",
+        "destinationId": "3072",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DVL",
+        "cityLatitude": "48.10840326803900",
+        "cityLongitude": "98.86707019820460"
+      },
+      {
+        "name": "Dickinson",
+        "elementType": "3",
+        "destinationId": "3090",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DIK",
+        "cityLatitude": "46.87879163251820",
+        "cityLongitude": "102.79491391439300"
+      },
+      {
+        "name": "Fargo",
+        "elementType": "3",
+        "destinationId": "3568",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FAR",
+        "cityLatitude": "46.87638740593040",
+        "cityLongitude": "96.79137570943770"
+      },
+      {
+        "name": "Grand Forks",
+        "elementType": "3",
+        "destinationId": "4093",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GFK",
+        "cityLatitude": "47.92325050001830",
+        "cityLongitude": "97.05041063371050"
+      },
+      {
+        "name": "Jamestown",
+        "elementType": "3",
+        "destinationId": "4833",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JMS",
+        "cityLatitude": "46.90648121941350",
+        "cityLongitude": "98.70512641298360"
+      },
+      {
+        "name": "Lisbon",
+        "elementType": "3",
+        "destinationId": "26428",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FAR"
+      },
+      {
+        "name": "Mandan",
+        "elementType": "3",
+        "destinationId": "24689",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BIS",
+        "cityLatitude": "46.82651138305660",
+        "cityLongitude": "100.88896942138700"
+      },
+      {
+        "name": "Minot",
+        "elementType": "3",
+        "destinationId": "6704",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MOT",
+        "cityLatitude": "48.23654103196300",
+        "cityLongitude": "101.29974452394200"
+      },
+      {
+        "name": "Moorhead",
+        "elementType": "3",
+        "destinationId": "27955",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FAR"
+      },
+      {
+        "name": "South Grand Forks",
+        "elementType": "3",
+        "destinationId": "24259",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GFK"
+      },
+      {
+        "name": "Stanley",
+        "elementType": "3",
+        "destinationId": "26450",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MOT",
+        "cityLatitude": "48.31724100000000",
+        "cityLongitude": "102.39045100000000"
+      },
+      {
+        "name": "Tioga",
+        "elementType": "3",
+        "destinationId": "10228",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "VEX",
+        "cityLatitude": "48.39726904351170",
+        "cityLongitude": "102.93796539637000"
+      },
+      {
+        "name": "Valley City",
+        "elementType": "3",
+        "destinationId": "26645",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JMS",
+        "cityLatitude": "46.92331300000000",
+        "cityLongitude": "98.00315500000001"
+      },
+      {
+        "name": "Wahpeton",
+        "elementType": "3",
+        "destinationId": "891",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WAH",
+        "cityLatitude": "46.26502058841710",
+        "cityLongitude": "96.60906430011180"
+      },
+      {
+        "name": "Williston",
+        "elementType": "3",
+        "destinationId": "1087",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ISN",
+        "cityLatitude": "48.14925462946480",
+        "cityLongitude": "103.62278748331200"
+      }
+    ]
+  }
+}

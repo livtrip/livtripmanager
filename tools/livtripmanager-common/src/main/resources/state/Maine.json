@@ -1,0 +1,268 @@
+{
+  "State": {
+    "name": "Maine",
+    "elementType": "6",
+    "destinationId": "4000026",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "ME",
+    "City": [
+      {
+        "name": "Auburn",
+        "elementType": "3",
+        "destinationId": "587",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LEW",
+        "cityLatitude": "44.09793475346090",
+        "cityLongitude": "70.22598331007680"
+      },
+      {
+        "name": "Augusta",
+        "elementType": "3",
+        "destinationId": "592",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AUG",
+        "cityLatitude": "44.31062684421510",
+        "cityLongitude": "69.78592788223120"
+      },
+      {
+        "name": "Bangor",
+        "elementType": "3",
+        "destinationId": "1427",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BGR",
+        "cityLatitude": "44.80320984187270",
+        "cityLongitude": "68.77462958315160"
+      },
+      {
+        "name": "Bar Harbor",
+        "elementType": "3",
+        "destinationId": "1445",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BHB",
+        "cityLatitude": "44.38545498166720",
+        "cityLongitude": "68.21008029730420"
+      },
+      {
+        "name": "Bath",
+        "elementType": "3",
+        "destinationId": "11772",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AUG",
+        "cityLatitude": "43.91518621202810",
+        "cityLongitude": "69.82089845078170"
+      },
+      {
+        "name": "Biddeford",
+        "elementType": "3",
+        "destinationId": "12555",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PWM",
+        "cityLatitude": "43.49061140793630",
+        "cityLongitude": "70.46645378018540"
+      },
+      {
+        "name": "Brunswick",
+        "elementType": "3",
+        "destinationId": "2057",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "NHZ",
+        "cityLatitude": "43.91432902328720",
+        "cityLongitude": "69.96523400832240"
+      },
+      {
+        "name": "Ellsworth",
+        "elementType": "3",
+        "destinationId": "13257",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BGR",
+        "cityLatitude": "44.54254591748290",
+        "cityLongitude": "68.42830484128610"
+      },
+      {
+        "name": "Freeport",
+        "elementType": "3",
+        "destinationId": "12684",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PWM",
+        "cityLatitude": "43.86524386881690",
+        "cityLongitude": "70.10604518825140"
+      },
+      {
+        "name": "Kennebunk",
+        "elementType": "3",
+        "destinationId": "13455",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PWM",
+        "cityLatitude": "43.38706915521350",
+        "cityLongitude": "70.54352563477980"
+      },
+      {
+        "name": "Kittery",
+        "elementType": "3",
+        "destinationId": "18980",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BGR",
+        "cityLatitude": "43.08900653002330",
+        "cityLongitude": "70.73605500710420"
+      },
+      {
+        "name": "Lewiston",
+        "elementType": "3",
+        "destinationId": "5860",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LEW",
+        "cityLatitude": "44.10593290497900",
+        "cityLongitude": "70.21043096933670"
+      },
+      {
+        "name": "Ogunquit",
+        "elementType": "3",
+        "destinationId": "15870",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PWM",
+        "cityLatitude": "43.24725859799790",
+        "cityLongitude": "70.60710103557430"
+      },
+      {
+        "name": "Oxford",
+        "elementType": "3",
+        "destinationId": "28441",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PWM"
+      },
+      {
+        "name": "Portland",
+        "elementType": "3",
+        "destinationId": "8226",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PWM",
+        "cityLatitude": "43.65538630656830",
+        "cityLongitude": "70.27675893636670"
+      },
+      {
+        "name": "Presque Isle",
+        "elementType": "3",
+        "destinationId": "8285",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PQI",
+        "cityLatitude": "46.68066492016910",
+        "cityLongitude": "68.01600047203830"
+      },
+      {
+        "name": "Saco",
+        "elementType": "3",
+        "destinationId": "13826",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "43.50248569180840",
+        "cityLongitude": "70.44601102399960"
+      },
+      {
+        "name": "Sanford",
+        "elementType": "3",
+        "destinationId": "9035",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFM",
+        "cityLatitude": "43.44065881944140",
+        "cityLongitude": "70.77729568931270"
+      },
+      {
+        "name": "Scarborough",
+        "elementType": "3",
+        "destinationId": "22871",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PWM",
+        "cityLatitude": "43.58994626413040",
+        "cityLongitude": "70.33603814817320"
+      },
+      {
+        "name": "South Portland",
+        "elementType": "3",
+        "destinationId": "12752",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PWM",
+        "cityLatitude": "43.63534994663800",
+        "cityLongitude": "70.25527799142700"
+      },
+      {
+        "name": "Thomaston",
+        "elementType": "3",
+        "destinationId": "22393",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PWM",
+        "cityLatitude": "44.08168231833090",
+        "cityLongitude": "69.17009070590620"
+      },
+      {
+        "name": "Waterville",
+        "elementType": "3",
+        "destinationId": "969",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WVL",
+        "cityLatitude": "44.55665708830810",
+        "cityLongitude": "69.63205738060920"
+      },
+      {
+        "name": "Wells",
+        "elementType": "3",
+        "destinationId": "17821",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PWM",
+        "cityLatitude": "43.30107024337390",
+        "cityLongitude": "70.57565484463560"
+      },
+      {
+        "name": "Westbrook",
+        "elementType": "3",
+        "destinationId": "26314",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PWM",
+        "cityLatitude": "43.67702500000000",
+        "cityLongitude": "70.37116200000000"
+      },
+      {
+        "name": "Windham",
+        "elementType": "3",
+        "destinationId": "27973",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PWM"
+      },
+      {
+        "name": "York",
+        "elementType": "3",
+        "destinationId": "14087",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PWM",
+        "cityLatitude": "43.17036774341650",
+        "cityLongitude": "70.61973005534970"
+      }
+    ]
+  }
+}

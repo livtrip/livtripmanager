@@ -1,0 +1,720 @@
+{
+  "State": {
+    "name": "Oregon",
+    "elementType": "6",
+    "destinationId": "4000012",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "OR",
+    "City": [
+      {
+        "name": "Albany",
+        "elementType": "3",
+        "destinationId": "168",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CVO",
+        "cityLatitude": "44.63611609401750",
+        "cityLongitude": "123.09043171230300"
+      },
+      {
+        "name": "Aloha",
+        "elementType": "3",
+        "destinationId": "11385",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.49472551420140",
+        "cityLongitude": "122.86611463958200"
+      },
+      {
+        "name": "Ashland",
+        "elementType": "3",
+        "destinationId": "12444",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AHM",
+        "cityLatitude": "42.19721263575680",
+        "cityLongitude": "122.71464836454700"
+      },
+      {
+        "name": "Astoria",
+        "elementType": "3",
+        "destinationId": "539",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AST",
+        "cityLatitude": "46.18632656389480",
+        "cityLongitude": "123.81915825523000"
+      },
+      {
+        "name": "Baker City",
+        "elementType": "3",
+        "destinationId": "12999",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOI",
+        "cityLatitude": "44.77861433067150",
+        "cityLongitude": "117.83624039137900"
+      },
+      {
+        "name": "Bandon",
+        "elementType": "3",
+        "destinationId": "1418",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BDY",
+        "cityLatitude": "43.12528849489440",
+        "cityLongitude": "124.40156848575700"
+      },
+      {
+        "name": "Beaverton",
+        "elementType": "3",
+        "destinationId": "12158",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.48655319285950",
+        "cityLongitude": "122.79557244583400"
+      },
+      {
+        "name": "Bend",
+        "elementType": "3",
+        "destinationId": "1642",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RDM",
+        "cityLatitude": "44.06276952451910",
+        "cityLongitude": "121.30452848964200"
+      },
+      {
+        "name": "Boardman",
+        "elementType": "3",
+        "destinationId": "13041",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDT",
+        "cityLatitude": "45.84001206731310",
+        "cityLongitude": "119.69895592144700"
+      },
+      {
+        "name": "Burns",
+        "elementType": "3",
+        "destinationId": "2128",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BNO",
+        "cityLatitude": "43.60010958561540",
+        "cityLongitude": "119.05339376185400"
+      },
+      {
+        "name": "Canyonville",
+        "elementType": "3",
+        "destinationId": "24020",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EUG"
+      },
+      {
+        "name": "Cascade Locks",
+        "elementType": "3",
+        "destinationId": "2333",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CZK",
+        "cityLatitude": "45.67179475333940",
+        "cityLongitude": "121.88437056904100"
+      },
+      {
+        "name": "Central Point",
+        "elementType": "3",
+        "destinationId": "13118",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MFR",
+        "cityLatitude": "42.37453800698870",
+        "cityLongitude": "122.91835192635400"
+      },
+      {
+        "name": "Clackamas",
+        "elementType": "3",
+        "destinationId": "12353",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.41861671628000",
+        "cityLongitude": "122.56712993885400"
+      },
+      {
+        "name": "Coos Bay",
+        "elementType": "3",
+        "destinationId": "14140",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OTH",
+        "cityLatitude": "43.37099088990730",
+        "cityLongitude": "124.21556877427900"
+      },
+      {
+        "name": "Corvallis",
+        "elementType": "3",
+        "destinationId": "2813",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CVO",
+        "cityLatitude": "44.57730475016910",
+        "cityLongitude": "123.26827617791200"
+      },
+      {
+        "name": "Cottage Grove",
+        "elementType": "3",
+        "destinationId": "13168",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EUG",
+        "cityLatitude": "43.79789137341140",
+        "cityLongitude": "123.04902710555500"
+      },
+      {
+        "name": "Dallas",
+        "elementType": "3",
+        "destinationId": "24820",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DLS",
+        "cityLatitude": "32.77814865112300",
+        "cityLongitude": "96.79540252685550"
+      },
+      {
+        "name": "Depoe Bay",
+        "elementType": "3",
+        "destinationId": "27969",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EUG"
+      },
+      {
+        "name": "Eugene",
+        "elementType": "3",
+        "destinationId": "3508",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EUG",
+        "cityLatitude": "44.05563197683640",
+        "cityLongitude": "123.07659374904500"
+      },
+      {
+        "name": "Florence",
+        "elementType": "3",
+        "destinationId": "23476",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FMU",
+        "cityLatitude": "43.98262100000000",
+        "cityLongitude": "124.09984100000000"
+      },
+      {
+        "name": "Forest Grove",
+        "elementType": "3",
+        "destinationId": "24572",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.51898956298830",
+        "cityLongitude": "123.11119079589800"
+      },
+      {
+        "name": "Government Camp",
+        "elementType": "3",
+        "destinationId": "24573",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Grants Pass",
+        "elementType": "3",
+        "destinationId": "13349",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GTP",
+        "cityLatitude": "42.44521338942540",
+        "cityLongitude": "123.31622410588500"
+      },
+      {
+        "name": "Gresham",
+        "elementType": "3",
+        "destinationId": "13360",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.50143275996640",
+        "cityLongitude": "122.42013060753700"
+      },
+      {
+        "name": "Hermiston",
+        "elementType": "3",
+        "destinationId": "4422",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HES",
+        "cityLatitude": "45.84181523725400",
+        "cityLongitude": "119.28287445758800"
+      },
+      {
+        "name": "Hillsboro",
+        "elementType": "3",
+        "destinationId": "4448",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HIO",
+        "cityLatitude": "45.51949861032110",
+        "cityLongitude": "122.97444143981800"
+      },
+      {
+        "name": "Hines",
+        "elementType": "3",
+        "destinationId": "13408",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOI",
+        "cityLatitude": "43.56422718681070",
+        "cityLongitude": "119.08003149961700"
+      },
+      {
+        "name": "Hood River",
+        "elementType": "3",
+        "destinationId": "13414",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.70725026532100",
+        "cityLongitude": "121.51442020283600"
+      },
+      {
+        "name": "John Day",
+        "elementType": "3",
+        "destinationId": "4903",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JDA",
+        "cityLatitude": "44.41613277632430",
+        "cityLongitude": "118.95202009419200"
+      },
+      {
+        "name": "Klamath Falls",
+        "elementType": "3",
+        "destinationId": "5374",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LMT",
+        "cityLatitude": "42.23451229881430",
+        "cityLongitude": "121.76409093775700"
+      },
+      {
+        "name": "La Grande",
+        "elementType": "3",
+        "destinationId": "5587",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGD",
+        "cityLatitude": "45.32548025675770",
+        "cityLongitude": "118.08032403155900"
+      },
+      {
+        "name": "La Pine",
+        "elementType": "3",
+        "destinationId": "24708",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDT",
+        "cityLatitude": "43.67005157470700",
+        "cityLongitude": "121.50402069091800"
+      },
+      {
+        "name": "Lake Oswego",
+        "elementType": "3",
+        "destinationId": "19315",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.51960000000000",
+        "cityLongitude": "122.67810000000000"
+      },
+      {
+        "name": "Lincoln City",
+        "elementType": "3",
+        "destinationId": "12476",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "44.98363953408230",
+        "cityLongitude": "124.00705675929700"
+      },
+      {
+        "name": "Madras",
+        "elementType": "3",
+        "destinationId": "6182",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MDJ",
+        "cityLatitude": "44.62880779160560",
+        "cityLongitude": "121.12796809959700"
+      },
+      {
+        "name": "Medford",
+        "elementType": "3",
+        "destinationId": "6550",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MFR",
+        "cityLatitude": "42.33994651393720",
+        "cityLongitude": "122.86319131861700"
+      },
+      {
+        "name": "Milwaukie",
+        "elementType": "3",
+        "destinationId": "13611",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.44168909529630",
+        "cityLongitude": "122.63861469870700"
+      },
+      {
+        "name": "Newberg",
+        "elementType": "3",
+        "destinationId": "24711",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.30030059814450",
+        "cityLongitude": "122.97535705566400"
+      },
+      {
+        "name": "Newport",
+        "elementType": "3",
+        "destinationId": "7280",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONP",
+        "cityLatitude": "44.64609841548950",
+        "cityLongitude": "124.05087925301200"
+      },
+      {
+        "name": "North Bend",
+        "elementType": "3",
+        "destinationId": "7392",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OTH",
+        "cityLatitude": "43.40160379776730",
+        "cityLongitude": "124.22948869980800"
+      },
+      {
+        "name": "Oakridge",
+        "elementType": "3",
+        "destinationId": "24713",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EUG",
+        "cityLatitude": "36.01453018188480",
+        "cityLongitude": "84.25653839111330"
+      },
+      {
+        "name": "Ontario",
+        "elementType": "3",
+        "destinationId": "7608",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONO",
+        "cityLatitude": "44.02793897484660",
+        "cityLongitude": "116.96077406432400"
+      },
+      {
+        "name": "Oregon City",
+        "elementType": "3",
+        "destinationId": "24714",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.33650970458980",
+        "cityLongitude": "122.59278106689500"
+      },
+      {
+        "name": "Pendleton",
+        "elementType": "3",
+        "destinationId": "7939",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDT",
+        "cityLatitude": "45.66440107356290",
+        "cityLongitude": "118.79959759267400"
+      },
+      {
+        "name": "Portland",
+        "elementType": "3",
+        "destinationId": "8227",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.51961130844240",
+        "cityLongitude": "122.68466383409100",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "20924",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown Area",
+            "destinationCode": "PDX",
+            "city": "Portland",
+            "cityDestinationId": "8227"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20925",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "North Portland",
+            "destinationCode": "PDX",
+            "city": "Portland",
+            "cityDestinationId": "8227"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20927",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "East Portland",
+            "destinationCode": "PDX",
+            "city": "Portland",
+            "cityDestinationId": "8227"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20928",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Portland International Airport",
+            "destinationCode": "PDX",
+            "city": "Portland",
+            "cityDestinationId": "8227"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20969",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Convention Center - Rose Quarter",
+            "destinationCode": "PDX",
+            "city": "Portland",
+            "cityDestinationId": "8227"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20970",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "West Portland",
+            "destinationCode": "PDX",
+            "city": "Portland",
+            "cityDestinationId": "8227"
+          }
+        ]
+      },
+      {
+        "name": "Prineville",
+        "elementType": "3",
+        "destinationId": "8304",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PRZ",
+        "cityLatitude": "44.30864608935580",
+        "cityLongitude": "120.84746589076300"
+      },
+      {
+        "name": "Redmond",
+        "elementType": "3",
+        "destinationId": "8558",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RDM",
+        "cityLatitude": "44.27440635104650",
+        "cityLongitude": "121.17273315941700"
+      },
+      {
+        "name": "Reedsport",
+        "elementType": "3",
+        "destinationId": "24717",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OTH",
+        "cityLatitude": "43.70222854614260",
+        "cityLongitude": "124.09767150878900"
+      },
+      {
+        "name": "Roseburg",
+        "elementType": "3",
+        "destinationId": "8745",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RBG",
+        "cityLatitude": "43.22719833240560",
+        "cityLongitude": "123.36141263743400"
+      },
+      {
+        "name": "Saint Helens",
+        "elementType": "3",
+        "destinationId": "25637",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.85901100000000",
+        "cityLongitude": "122.81581799999999"
+      },
+      {
+        "name": "Salem",
+        "elementType": "3",
+        "destinationId": "8880",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLE",
+        "cityLatitude": "44.94614521063350",
+        "cityLongitude": "123.03184234960300"
+      },
+      {
+        "name": "Sandy",
+        "elementType": "3",
+        "destinationId": "24823",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AST",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Seaside",
+        "elementType": "3",
+        "destinationId": "12163",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.99464071993300",
+        "cityLongitude": "123.92028603608100"
+      },
+      {
+        "name": "Sisters",
+        "elementType": "3",
+        "destinationId": "13875",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EUG",
+        "cityLatitude": "44.29470908835440",
+        "cityLongitude": "121.54809303544400"
+      },
+      {
+        "name": "Springfield",
+        "elementType": "3",
+        "destinationId": "13899",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EUG",
+        "cityLatitude": "44.05778348642500",
+        "cityLongitude": "123.02565419821500"
+      },
+      {
+        "name": "Sunriver",
+        "elementType": "3",
+        "destinationId": "20026",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RDM",
+        "cityLatitude": "44.27280000000000",
+        "cityLongitude": "121.17280000000000"
+      },
+      {
+        "name": "Sutherlin",
+        "elementType": "3",
+        "destinationId": "24718",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EUG",
+        "cityLatitude": "43.39057159423830",
+        "cityLongitude": "123.31069183349600"
+      },
+      {
+        "name": "The Dalles",
+        "elementType": "3",
+        "destinationId": "10157",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DLS",
+        "cityLatitude": "45.59947671040730",
+        "cityLongitude": "121.18913927380300"
+      },
+      {
+        "name": "Tigard",
+        "elementType": "3",
+        "destinationId": "13966",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.42369154683330",
+        "cityLongitude": "122.76576550029600"
+      },
+      {
+        "name": "Tillamook",
+        "elementType": "3",
+        "destinationId": "12165",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OTK",
+        "cityLatitude": "45.45612811520170",
+        "cityLongitude": "123.83531848280600"
+      },
+      {
+        "name": "Troutdale",
+        "elementType": "3",
+        "destinationId": "10371",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TTD",
+        "cityLatitude": "45.54049461182970",
+        "cityLongitude": "122.39056954880900"
+      },
+      {
+        "name": "Tualatin",
+        "elementType": "3",
+        "destinationId": "13979",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.38078429846730",
+        "cityLongitude": "122.75829327334400"
+      },
+      {
+        "name": "Wilsonville",
+        "elementType": "3",
+        "destinationId": "14067",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PDX",
+        "cityLatitude": "45.30286208532120",
+        "cityLongitude": "122.77169410449500"
+      },
+      {
+        "name": "Woodburn",
+        "elementType": "3",
+        "destinationId": "12701",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLE",
+        "cityLatitude": "45.14040945100700",
+        "cityLongitude": "122.84668958158200"
+      }
+    ]
+  }
+}

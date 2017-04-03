@@ -1,0 +1,1072 @@
+{
+  "State": {
+    "name": "Missouri",
+    "elementType": "6",
+    "destinationId": "4000023",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "MO",
+    "City": [
+      {
+        "name": "Ava",
+        "elementType": "3",
+        "destinationId": "26458",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SGF",
+        "cityLatitude": "36.95199900000000",
+        "cityLongitude": "92.66044569999990"
+      },
+      {
+        "name": "Belton",
+        "elementType": "3",
+        "destinationId": "13023",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "38.81787067596090",
+        "cityLongitude": "94.53560328320350"
+      },
+      {
+        "name": "Berkeley",
+        "elementType": "3",
+        "destinationId": "13027",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "COU",
+        "cityLatitude": "38.75637848286330",
+        "cityLongitude": "90.33446320775530"
+      },
+      {
+        "name": "Bethany",
+        "elementType": "3",
+        "destinationId": "26518",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IRK",
+        "cityLatitude": "40.26833440000000",
+        "cityLongitude": "94.02828610000000"
+      },
+      {
+        "name": "Blue Springs",
+        "elementType": "3",
+        "destinationId": "12429",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "39.02593189845780",
+        "cityLongitude": "94.27021628300260"
+      },
+      {
+        "name": "Bolivar",
+        "elementType": "3",
+        "destinationId": "26654",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SGF",
+        "cityLatitude": "37.61448400000000",
+        "cityLongitude": "93.41047500000001"
+      },
+      {
+        "name": "Bonne Terre",
+        "elementType": "3",
+        "destinationId": "26348",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "37.92310700000000",
+        "cityLongitude": "90.55540400000000"
+      },
+      {
+        "name": "Boonville",
+        "elementType": "3",
+        "destinationId": "12498",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "COU",
+        "cityLatitude": "38.96811776222830",
+        "cityLongitude": "92.74127843729530"
+      },
+      {
+        "name": "Bowling Green",
+        "elementType": "3",
+        "destinationId": "26772",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "UIN",
+        "cityLatitude": "39.34198900000000",
+        "cityLongitude": "91.19514400000000"
+      },
+      {
+        "name": "Branson",
+        "elementType": "3",
+        "destinationId": "11789",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SGF",
+        "cityLatitude": "36.64223002906920",
+        "cityLongitude": "93.23725945406490",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "21157",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Indian Point",
+          "destinationCode": "SGF",
+          "city": "Branson",
+          "cityDestinationId": "11789"
+        }
+      },
+      {
+        "name": "Branson West",
+        "elementType": "3",
+        "destinationId": "13052",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFY",
+        "cityLatitude": "36.64223002906920",
+        "cityLongitude": "93.23725945406490"
+      },
+      {
+        "name": "Bridgeton",
+        "elementType": "3",
+        "destinationId": "12390",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "38.77927327696120",
+        "cityLongitude": "90.43962763040600"
+      },
+      {
+        "name": "Brookfield",
+        "elementType": "3",
+        "destinationId": "24844",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Butler",
+        "elementType": "3",
+        "destinationId": "2144",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUM",
+        "cityLatitude": "38.26129905106410",
+        "cityLongitude": "94.33911923134970"
+      },
+      {
+        "name": "Camdenton",
+        "elementType": "3",
+        "destinationId": "13093",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "38.00948363674400",
+        "cityLongitude": "92.74548583382400"
+      },
+      {
+        "name": "Cameron",
+        "elementType": "3",
+        "destinationId": "13094",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "UIN",
+        "cityLatitude": "39.73979594975090",
+        "cityLongitude": "94.24014296008710"
+      },
+      {
+        "name": "Cape Girardeau",
+        "elementType": "3",
+        "destinationId": "2269",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CGI",
+        "cityLatitude": "37.30412317096770",
+        "cityLongitude": "89.52979179144700"
+      },
+      {
+        "name": "Carthage",
+        "elementType": "3",
+        "destinationId": "12292",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JLN",
+        "cityLatitude": "37.17065102930180",
+        "cityLongitude": "94.31007726699880"
+      },
+      {
+        "name": "Charleston",
+        "elementType": "3",
+        "destinationId": "13124",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CGI",
+        "cityLatitude": "36.92283127564630",
+        "cityLongitude": "89.34834098595640"
+      },
+      {
+        "name": "Chesterfield",
+        "elementType": "3",
+        "destinationId": "12375",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "38.67677604318140",
+        "cityLongitude": "90.51849582475220"
+      },
+      {
+        "name": "Chillicothe",
+        "elementType": "3",
+        "destinationId": "26383",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IRK",
+        "cityLatitude": "39.79529500000000",
+        "cityLongitude": "93.55243600000000"
+      },
+      {
+        "name": "Clayton",
+        "elementType": "3",
+        "destinationId": "24038",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SUS",
+        "cityLatitude": "38.64255200000000",
+        "cityLongitude": "90.32372599999999"
+      },
+      {
+        "name": "Clinton",
+        "elementType": "3",
+        "destinationId": "22311",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "38.36689719072710",
+        "cityLongitude": "93.77525979460850"
+      },
+      {
+        "name": "Columbia",
+        "elementType": "3",
+        "destinationId": "2708",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "COU",
+        "cityLatitude": "38.96090166737010",
+        "cityLongitude": "92.33678780445800"
+      },
+      {
+        "name": "Concordia",
+        "elementType": "3",
+        "destinationId": "26624",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "COH",
+        "cityLatitude": "38.98334900000000",
+        "cityLongitude": "93.56854600000000"
+      },
+      {
+        "name": "Cuba",
+        "elementType": "3",
+        "destinationId": "24556",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "42.21950149536130",
+        "cityLongitude": "78.27690124511720"
+      },
+      {
+        "name": "Earth City",
+        "elementType": "3",
+        "destinationId": "24057",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL"
+      },
+      {
+        "name": "Eureka",
+        "elementType": "3",
+        "destinationId": "12342",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "38.50382882320750",
+        "cityLongitude": "90.64023711651850"
+      },
+      {
+        "name": "Farmington",
+        "elementType": "3",
+        "destinationId": "3572",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FAM",
+        "cityLatitude": "37.78485237532070",
+        "cityLongitude": "90.42330347828970"
+      },
+      {
+        "name": "Fenton",
+        "elementType": "3",
+        "destinationId": "13277",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CGI",
+        "cityLatitude": "38.51534110705350",
+        "cityLongitude": "90.44572698933490"
+      },
+      {
+        "name": "Festus",
+        "elementType": "3",
+        "destinationId": "24070",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FES",
+        "cityLatitude": "38.22061000000000",
+        "cityLongitude": "90.39595400000000"
+      },
+      {
+        "name": "Florissant",
+        "elementType": "3",
+        "destinationId": "19357",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "38.78921700000000",
+        "cityLongitude": "90.32261400000000"
+      },
+      {
+        "name": "Foristell",
+        "elementType": "3",
+        "destinationId": "24557",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "38.81452941894530",
+        "cityLongitude": "90.95600891113280"
+      },
+      {
+        "name": "Grain Valley",
+        "elementType": "3",
+        "destinationId": "13346",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "39.01601104868840",
+        "cityLongitude": "94.20027514590170"
+      },
+      {
+        "name": "Grandview",
+        "elementType": "3",
+        "destinationId": "4103",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GVW",
+        "cityLatitude": "38.88718685075280",
+        "cityLongitude": "94.51618505539310"
+      },
+      {
+        "name": "Hannibal",
+        "elementType": "3",
+        "destinationId": "12682",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CGI",
+        "cityLatitude": "39.70400234340540",
+        "cityLongitude": "91.37412045226880"
+      },
+      {
+        "name": "Hayti",
+        "elementType": "3",
+        "destinationId": "13387",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CGI",
+        "cityLatitude": "36.23585767911560",
+        "cityLongitude": "89.75368539244000"
+      },
+      {
+        "name": "Hazelwood",
+        "elementType": "3",
+        "destinationId": "11790",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "38.77867222031420",
+        "cityLongitude": "90.35113569951930"
+      },
+      {
+        "name": "Higginsville",
+        "elementType": "3",
+        "destinationId": "26386",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "39.07251200000000",
+        "cityLongitude": "93.71716200000000"
+      },
+      {
+        "name": "Hollister",
+        "elementType": "3",
+        "destinationId": "13412",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "36.62068761242700",
+        "cityLongitude": "93.22179590578400"
+      },
+      {
+        "name": "Independence",
+        "elementType": "3",
+        "destinationId": "12222",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "39.09383763918610",
+        "cityLongitude": "94.41240033095480"
+      },
+      {
+        "name": "Jefferson City",
+        "elementType": "3",
+        "destinationId": "4857",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JEF",
+        "cityLatitude": "38.57027973364250",
+        "cityLongitude": "92.16968722641360"
+      },
+      {
+        "name": "Joplin",
+        "elementType": "3",
+        "destinationId": "4920",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JLN",
+        "cityLatitude": "37.08568347602690",
+        "cityLongitude": "94.51317977215830"
+      },
+      {
+        "name": "Kansas City",
+        "elementType": "3",
+        "destinationId": "5064",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MKC",
+        "cityLatitude": "39.10144646992150",
+        "cityLongitude": "94.57615411630580",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "17049",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown Area",
+            "destinationCode": "MKC",
+            "city": "Kansas City",
+            "cityDestinationId": "5064"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20988",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Kansas City International Airport",
+            "destinationCode": "MKC",
+            "city": "Kansas City",
+            "cityDestinationId": "5064"
+          }
+        ]
+      },
+      {
+        "name": "Kearney",
+        "elementType": "3",
+        "destinationId": "12343",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "39.36809022492960",
+        "cityLongitude": "94.36282681795880"
+      },
+      {
+        "name": "Kennett",
+        "elementType": "3",
+        "destinationId": "5201",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "KNT",
+        "cityLatitude": "36.24161552858590",
+        "cityLongitude": "90.05060054584960"
+      },
+      {
+        "name": "Kingdom City",
+        "elementType": "3",
+        "destinationId": "13465",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MRC",
+        "cityLatitude": "38.95281813848740",
+        "cityLongitude": "91.93892245511550"
+      },
+      {
+        "name": "Kirksville",
+        "elementType": "3",
+        "destinationId": "5334",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IRK",
+        "cityLatitude": "40.19472069941960",
+        "cityLongitude": "92.56996363253300"
+      },
+      {
+        "name": "Lebanon",
+        "elementType": "3",
+        "destinationId": "13510",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFY",
+        "cityLatitude": "37.68681525506890",
+        "cityLongitude": "92.66721869612480"
+      },
+      {
+        "name": "Lees Summit",
+        "elementType": "3",
+        "destinationId": "11791",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "38.91263955069480",
+        "cityLongitude": "94.37674674348730"
+      },
+      {
+        "name": "Liberty",
+        "elementType": "3",
+        "destinationId": "12318",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "39.24691925395900",
+        "cityLongitude": "94.42108150138990"
+      },
+      {
+        "name": "Macon",
+        "elementType": "3",
+        "destinationId": "26691",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IRK",
+        "cityLatitude": "39.74225600000000",
+        "cityLongitude": "92.47268600000000"
+      },
+      {
+        "name": "Marshall",
+        "elementType": "3",
+        "destinationId": "6444",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHL",
+        "cityLatitude": "39.12404756588510",
+        "cityLongitude": "93.19730967760950"
+      },
+      {
+        "name": "Marshfield",
+        "elementType": "3",
+        "destinationId": "24162",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL"
+      },
+      {
+        "name": "Maryland Heights",
+        "elementType": "3",
+        "destinationId": "19356",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "38.71310700000000",
+        "cityLongitude": "90.42984000000000"
+      },
+      {
+        "name": "Maryville",
+        "elementType": "3",
+        "destinationId": "13579",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "COU",
+        "cityLatitude": "40.34695195564080",
+        "cityLongitude": "94.87660047751640"
+      },
+      {
+        "name": "Mexico",
+        "elementType": "3",
+        "destinationId": "13599",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "UIN",
+        "cityLatitude": "39.17545156957860",
+        "cityLongitude": "91.88428094175540"
+      },
+      {
+        "name": "Moberly",
+        "elementType": "3",
+        "destinationId": "6761",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MBY",
+        "cityLatitude": "39.41977768147370",
+        "cityLongitude": "92.43533377380290"
+      },
+      {
+        "name": "Monett",
+        "elementType": "3",
+        "destinationId": "26421",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JLN",
+        "cityLatitude": "36.92895000000000",
+        "cityLongitude": "93.92770700000000"
+      },
+      {
+        "name": "Mound City",
+        "elementType": "3",
+        "destinationId": "26385",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "38.62700300000000",
+        "cityLongitude": "90.19940400000000"
+      },
+      {
+        "name": "Mount Vernon",
+        "elementType": "3",
+        "destinationId": "13629",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "37.10488313778380",
+        "cityLongitude": "93.81340640112300"
+      },
+      {
+        "name": "Mountain Grove",
+        "elementType": "3",
+        "destinationId": "26395",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SGF",
+        "cityLatitude": "37.13060800000000",
+        "cityLongitude": "92.26349399999999"
+      },
+      {
+        "name": "Neosho",
+        "elementType": "3",
+        "destinationId": "7220",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EOS",
+        "cityLatitude": "36.86862689439310",
+        "cityLongitude": "94.36987557318230"
+      },
+      {
+        "name": "Nevada",
+        "elementType": "3",
+        "destinationId": "7237",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "NVD",
+        "cityLatitude": "37.84531320985360",
+        "cityLongitude": "94.35415247771290"
+      },
+      {
+        "name": "New Florence",
+        "elementType": "3",
+        "destinationId": "26774",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "38.91032000000000",
+        "cityLongitude": "91.44821700000000"
+      },
+      {
+        "name": "Nixa",
+        "elementType": "3",
+        "destinationId": "26581",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SGF",
+        "cityLatitude": "37.04338600000000",
+        "cityLongitude": "93.29435300000000"
+      },
+      {
+        "name": "North Kansas City",
+        "elementType": "3",
+        "destinationId": "24199",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI"
+      },
+      {
+        "name": "O'Fallon",
+        "elementType": "3",
+        "destinationId": "13697",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SGF",
+        "cityLatitude": "38.80755367521960",
+        "cityLongitude": "90.70071844161890"
+      },
+      {
+        "name": "Osage Beach",
+        "elementType": "3",
+        "destinationId": "7659",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OSB",
+        "cityLatitude": "38.15028798648390",
+        "cityLongitude": "92.61781593785810"
+      },
+      {
+        "name": "Ozark",
+        "elementType": "3",
+        "destinationId": "12181",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "37.02309162247290",
+        "cityLongitude": "93.20461114983230"
+      },
+      {
+        "name": "Pacific",
+        "elementType": "3",
+        "destinationId": "13724",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CGI",
+        "cityLatitude": "38.48393589724980",
+        "cityLongitude": "90.75106376599110"
+      },
+      {
+        "name": "Perryville",
+        "elementType": "3",
+        "destinationId": "13739",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "37.72604786166140",
+        "cityLongitude": "89.86554340047730"
+      },
+      {
+        "name": "Pevely",
+        "elementType": "3",
+        "destinationId": "26664",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SUS",
+        "cityLatitude": "38.28338800000000",
+        "cityLongitude": "90.39512000000001"
+      },
+      {
+        "name": "Platte City",
+        "elementType": "3",
+        "destinationId": "13759",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BYR",
+        "cityLatitude": "39.37041248924740",
+        "cityLongitude": "94.77959813092380"
+      },
+      {
+        "name": "Poplar Bluff",
+        "elementType": "3",
+        "destinationId": "8147",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "POF",
+        "cityLatitude": "36.76552518887170",
+        "cityLongitude": "90.40079117478530"
+      },
+      {
+        "name": "Potosi",
+        "elementType": "3",
+        "destinationId": "26625",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "37.93643800000000",
+        "cityLongitude": "90.78790900000000"
+      },
+      {
+        "name": "Richmond Heights",
+        "elementType": "3",
+        "destinationId": "27053",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL"
+      },
+      {
+        "name": "Rock Port",
+        "elementType": "3",
+        "destinationId": "26633",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CBF",
+        "cityLatitude": "40.41111200000000",
+        "cityLongitude": "95.51692900000000"
+      },
+      {
+        "name": "Rolla",
+        "elementType": "3",
+        "destinationId": "8718",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RLA",
+        "cityLatitude": "37.95315165156440",
+        "cityLongitude": "91.77447882065830"
+      },
+      {
+        "name": "Saint Charles",
+        "elementType": "3",
+        "destinationId": "12548",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "38.78890042859630",
+        "cityLongitude": "90.49065597369520"
+      },
+      {
+        "name": "Saint Joseph",
+        "elementType": "3",
+        "destinationId": "9663",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STJ",
+        "cityLatitude": "39.77942470731530",
+        "cityLongitude": "94.83072209686140"
+      },
+      {
+        "name": "Saint Louis",
+        "elementType": "3",
+        "destinationId": "12668",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "38.62719911509080",
+        "cityLongitude": "90.21307025563670"
+      },
+      {
+        "name": "Saint Peters",
+        "elementType": "3",
+        "destinationId": "21353",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "38.80024195771310",
+        "cityLongitude": "90.62949322895400"
+      },
+      {
+        "name": "Saint Robert",
+        "elementType": "3",
+        "destinationId": "13919",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "37.82812162371270",
+        "cityLongitude": "92.12466944959400"
+      },
+      {
+        "name": "Sainte Genevieve",
+        "elementType": "3",
+        "destinationId": "13924",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "37.98164037059250",
+        "cityLongitude": "90.04192620560370"
+      },
+      {
+        "name": "Sedalia",
+        "elementType": "3",
+        "destinationId": "9242",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DMO",
+        "cityLatitude": "38.70556187543840",
+        "cityLongitude": "93.22978722711290"
+      },
+      {
+        "name": "Seymour",
+        "elementType": "3",
+        "destinationId": "26985",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SGF",
+        "cityLatitude": "37.14644000000000",
+        "cityLongitude": "92.76878200000000"
+      },
+      {
+        "name": "Sikeston",
+        "elementType": "3",
+        "destinationId": "9424",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SIK",
+        "cityLatitude": "36.87980449896980",
+        "cityLongitude": "89.58408496515940"
+      },
+      {
+        "name": "Smithville",
+        "elementType": "3",
+        "destinationId": "26585",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCI",
+        "cityLatitude": "39.38694400000000",
+        "cityLongitude": "94.58106600000001"
+      },
+      {
+        "name": "Springfield",
+        "elementType": "3",
+        "destinationId": "9626",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SGF",
+        "cityLatitude": "37.20205282401100",
+        "cityLongitude": "93.27369168309780"
+      },
+      {
+        "name": "St Clair",
+        "elementType": "3",
+        "destinationId": "27961",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL"
+      },
+      {
+        "name": "St Louis",
+        "elementType": "3",
+        "destinationId": "18954",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "38.62719911509080",
+        "cityLongitude": "90.21307025563670",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "22826",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown Area",
+            "destinationCode": "STL",
+            "city": "St Louis",
+            "cityDestinationId": "18954"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "22828",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Airport Area",
+            "destinationCode": "STL",
+            "city": "St Louis",
+            "cityDestinationId": "18954"
+          }
+        ]
+      },
+      {
+        "name": "St. Louis",
+        "elementType": "3",
+        "destinationId": "26452",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "38.62700300000000",
+        "cityLongitude": "90.19940400000000"
+      },
+      {
+        "name": "Strafford",
+        "elementType": "3",
+        "destinationId": "26725",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SGF",
+        "cityLatitude": "37.26838000000000",
+        "cityLongitude": "93.11712600000000"
+      },
+      {
+        "name": "Troy",
+        "elementType": "3",
+        "destinationId": "12407",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "38.72921500000000",
+        "cityLongitude": "89.88315400000000"
+      },
+      {
+        "name": "Union",
+        "elementType": "3",
+        "destinationId": "26476",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "38.45005200000000",
+        "cityLongitude": "91.00847600000000"
+      },
+      {
+        "name": "Warrensburg",
+        "elementType": "3",
+        "destinationId": "941",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SZL",
+        "cityLatitude": "38.76543531370270",
+        "cityLongitude": "93.74192164126970"
+      },
+      {
+        "name": "Warrenton",
+        "elementType": "3",
+        "destinationId": "14016",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "38.81185327930210",
+        "cityLongitude": "91.13957175617060"
+      },
+      {
+        "name": "Washington",
+        "elementType": "3",
+        "destinationId": "26718",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL"
+      },
+      {
+        "name": "Wentzville",
+        "elementType": "3",
+        "destinationId": "14033",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL",
+        "cityLatitude": "38.81193524157220",
+        "cityLongitude": "90.85278577330010"
+      },
+      {
+        "name": "West Plains",
+        "elementType": "3",
+        "destinationId": "24311",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SGF",
+        "cityLatitude": "36.72811500000000",
+        "cityLongitude": "91.85237100000001"
+      },
+      {
+        "name": "Woodson Terrace",
+        "elementType": "3",
+        "destinationId": "26191",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STL"
+      }
+    ]
+  }
+}

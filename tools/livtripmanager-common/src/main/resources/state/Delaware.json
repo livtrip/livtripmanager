@@ -1,0 +1,150 @@
+{
+  "State": {
+    "name": "Delaware",
+    "elementType": "6",
+    "destinationId": "4000043",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "DE",
+    "City": [
+      {
+        "name": "Bethany Beach",
+        "elementType": "3",
+        "destinationId": "24001",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBY"
+      },
+      {
+        "name": "Claymont",
+        "elementType": "3",
+        "destinationId": "24037",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "39.80066900000000",
+        "cityLongitude": "75.45963999999999"
+      },
+      {
+        "name": "Dover",
+        "elementType": "3",
+        "destinationId": "12653",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ILG",
+        "cityLatitude": "39.15258068114280",
+        "cityLongitude": "75.52485089836180"
+      },
+      {
+        "name": "Georgetown",
+        "elementType": "3",
+        "destinationId": "3938",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GED",
+        "cityLatitude": "38.69327436512150",
+        "cityLongitude": "75.38369137878520"
+      },
+      {
+        "name": "Harrington",
+        "elementType": "3",
+        "destinationId": "24101",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BWI",
+        "cityLatitude": "38.92372400000000",
+        "cityLongitude": "75.57770300000000"
+      },
+      {
+        "name": "Lewes",
+        "elementType": "3",
+        "destinationId": "12608",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACY",
+        "cityLatitude": "38.77317050293780",
+        "cityLongitude": "75.13995607825330"
+      },
+      {
+        "name": "Middletown",
+        "elementType": "3",
+        "destinationId": "22339",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DOV",
+        "cityLatitude": "39.45004566478060",
+        "cityLongitude": "75.71678604422840"
+      },
+      {
+        "name": "Milford",
+        "elementType": "3",
+        "destinationId": "22860",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GED",
+        "cityLatitude": "38.91074758829470",
+        "cityLongitude": "75.42853840087550"
+      },
+      {
+        "name": "New Castle",
+        "elementType": "3",
+        "destinationId": "13663",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PHL",
+        "cityLatitude": "39.65663156641680",
+        "cityLongitude": "75.57305154333460"
+      },
+      {
+        "name": "Newark",
+        "elementType": "3",
+        "destinationId": "26501",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ILG",
+        "cityLatitude": "39.68372300000000",
+        "cityLongitude": "75.74965700000000"
+      },
+      {
+        "name": "Rehoboth Beach",
+        "elementType": "3",
+        "destinationId": "8571",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "REH",
+        "cityLatitude": "38.71097821545020",
+        "cityLongitude": "75.08118913063450"
+      },
+      {
+        "name": "Seaford",
+        "elementType": "3",
+        "destinationId": "12252",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BWI",
+        "cityLatitude": "38.64518641827010",
+        "cityLongitude": "75.60853437607280"
+      },
+      {
+        "name": "Smyrna",
+        "elementType": "3",
+        "destinationId": "24874",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GED",
+        "cityLatitude": "33.88486099243160",
+        "cityLongitude": "84.51643371582030"
+      },
+      {
+        "name": "Wilmington",
+        "elementType": "3",
+        "destinationId": "1093",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ILG",
+        "cityLatitude": "39.73111819441040",
+        "cityLongitude": "75.56368735398250"
+      }
+    ]
+  }
+}

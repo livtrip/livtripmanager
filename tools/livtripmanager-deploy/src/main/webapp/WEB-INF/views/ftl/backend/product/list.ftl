@@ -24,49 +24,40 @@
         <form class="form-inline" action="list.html" method="post" style="margin:25px auto; padding:0px;">
             <div class="form-group">
                 <label  class="control-label" for="inputSuccess1">产品名称</label>
-                <input type="text"  name="name"  class="form-control" id="inputSuccess1"/>
+                <input type="text"  name="name" value="${name}"  class="form-control" id="inputSuccess1"/>
             </div>
             <div class="form-group">
                 <label  class="control-label" for="inputSuccess1">城市</label>
-                <input type="text"  name="city"  class="form-control" id="inputSuccess1"/>
+                <input type="text"  name="city" value="${city}" class="form-control" id="inputSuccess1"/>
             </div>
             <div class="form-group">
                 <label  class="control-label" for="inputSuccess1">酒店ID</label>
-                <input type="text"  name="hotelId"  class="form-control" id="inputSuccess1"/>
+                <input type="text"  name="hotelId" value="${hotelId}"  class="form-control" id="inputSuccess1"/>
             </div>
             <div class="form-group">
                 <label class="control-label" for="inputSuccess2">精品</label>
                 <select name="isBest" class="form-control" id="inputSuccess2">
-                    <option value="-1">请选择</option>
-                    <option value="0">否</option>
-                    <option value="1">是</option>
+                    <option [#if isBest==null]selected="selected"[/#if] value="-1">请选择</option>
+                    <option [#if isBest==0]selected="selected"[/#if] value="0">否</option>
+                    <option [#if isBest==1]selected="selected"[/#if] value="1">是</option>
                 </select>
             </div>
             <div class="form-group">
                 <label class="control-label" for="inputSuccess2">星级</label>
-                <select name="" class="form-control" id="inputSuccess2">
-                    <option value="-1">请选择</option>
-                    <option value="1">1星级</option>
-                    <option value="1.5">1.5星级</option>
-                    <option value="2">2星级</option>
-                    <option value="2.5">2.5星级</option>
-                    <option value="3">3星级</option>
-                    <option value="3.5">3.5星级</option>
-                    <option value="4">4星级</option>
-                    <option value="4.5">4.5星级</option>
-                    <option value="5">5星级</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label class="control-label" for="inputSuccess2">采集状态</label>
-                <select class="form-control" id="inputSuccess2">
-                    <option value="0">请选择</option>
-                    <option value="1">已采集</option>
-                    <option value="1">未采集</option>
+                <select name="starLevel" class="form-control" id="inputSuccess2">
+                    <option [#if starLevel==null]selected="selected"[/#if] value="-1">请选择</option>
+                    <option [#if starLevel==1]selected="selected"[/#if] value="1">1星级</option>
+                    <option [#if starLevel==1.5]selected="selected"[/#if] value="1.5">1.5星级</option>
+                    <option [#if starLevel==2]selected="selected"[/#if] value="2">2星级</option>
+                    <option [#if starLevel==2.5]selected="selected"[/#if] value="2.5">2.5星级</option>
+                    <option [#if starLevel==3]selected="selected"[/#if] value="3">3星级</option>
+                    <option [#if starLevel==3.5]selected="selected"[/#if] value="3.5">3.5星级</option>
+                    <option [#if starLevel==4]selected="selected"[/#if] value="4">4星级</option>
+                    <option [#if starLevel==4.5]selected="selected"[/#if] value="4.5">4.5星级</option>
+                    <option [#if starLevel==5]selected="selected"[/#if] value="5">5星级</option>
                 </select>
             </div>
             <button type="submit" class="btn btn-primary" style="width:120px">查询</button>
-        </form>
     </div>
 </div>
 
@@ -110,18 +101,10 @@
         [/#list]
         </tbody>
     </table>
-    <div class="page">
-        <form id="listForm" action="list.jhtml" method="post" >
-            <input type="hidden" name="name" value="${name}"/>
-            <input type="hidden" name="city" value="${city}"/>
-            <input type="hidden" name="hotelId" value="${hotelId}"/>
-            <input type="hidden" name="isBest" value="${isBest}"/>
-            <input type="hidden" name="starLevel" value="${starLevel}"/>
-            [@pagination pageNumber = page.pageNumber totalPages = page.totalPages]
-                [#include "pagination_admin.ftl"]
-            [/@pagination]
-        </form>
-    </div>
+        [@pagination pageNumber = page.pageNumber totalPages = page.totalPages]
+            [#include "pagination_admin.ftl"]
+        [/@pagination]
+    </form>
 </div>
 
 </body>

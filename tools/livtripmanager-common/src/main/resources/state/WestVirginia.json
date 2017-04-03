@@ -1,0 +1,436 @@
+{
+  "State": {
+    "name": "West Virginia",
+    "elementType": "6",
+    "destinationId": "4000000",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "WV",
+    "City": [
+      {
+        "name": "Barboursville",
+        "elementType": "3",
+        "destinationId": "13001",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HTS",
+        "cityLatitude": "38.40940828812120",
+        "cityLongitude": "82.29466119611170"
+      },
+      {
+        "name": "Beaver",
+        "elementType": "3",
+        "destinationId": "13010",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BKW",
+        "cityLatitude": "37.74753563679030",
+        "cityLongitude": "81.14280443410240"
+      },
+      {
+        "name": "Beckley",
+        "elementType": "3",
+        "destinationId": "1571",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BKW",
+        "cityLatitude": "37.77934724284960",
+        "cityLongitude": "81.18558873906330"
+      },
+      {
+        "name": "Berkeley Springs",
+        "elementType": "3",
+        "destinationId": "20478",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MGW",
+        "cityLatitude": "39.62814967757790",
+        "cityLongitude": "78.22686690382970"
+      },
+      {
+        "name": "Bluefield",
+        "elementType": "3",
+        "destinationId": "1828",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BLF",
+        "cityLatitude": "37.25793743180000",
+        "cityLongitude": "81.23705421445940"
+      },
+      {
+        "name": "Bridgeport",
+        "elementType": "3",
+        "destinationId": "13056",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CKB",
+        "cityLatitude": "39.28389789812550",
+        "cityLongitude": "80.25582240810620"
+      },
+      {
+        "name": "Buckhannon",
+        "elementType": "3",
+        "destinationId": "22304",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CKB",
+        "cityLatitude": "38.99330749988730",
+        "cityLongitude": "80.23168451957940"
+      },
+      {
+        "name": "Chapmanville",
+        "elementType": "3",
+        "destinationId": "13122",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CRW",
+        "cityLatitude": "37.97253231333430",
+        "cityLongitude": "82.02317483698200"
+      },
+      {
+        "name": "Charles Town",
+        "elementType": "3",
+        "destinationId": "25030",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CKB",
+        "cityLatitude": "39.28899000000000",
+        "cityLongitude": "77.85971700000000"
+      },
+      {
+        "name": "Charleston",
+        "elementType": "3",
+        "destinationId": "2441",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CRW",
+        "cityLatitude": "38.35228400099780",
+        "cityLongitude": "81.63690031866110"
+      },
+      {
+        "name": "Clarksburg",
+        "elementType": "3",
+        "destinationId": "2609",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CKB",
+        "cityLatitude": "39.28149025644300",
+        "cityLongitude": "80.35367852834500"
+      },
+      {
+        "name": "Cross Lanes",
+        "elementType": "3",
+        "destinationId": "13176",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CRW",
+        "cityLatitude": "38.42006338322640",
+        "cityLongitude": "81.79326383933020"
+      },
+      {
+        "name": "Dunbar",
+        "elementType": "3",
+        "destinationId": "26697",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CRW",
+        "cityLatitude": "38.36065100000000",
+        "cityLongitude": "81.73734899999999"
+      },
+      {
+        "name": "Elkins",
+        "elementType": "3",
+        "destinationId": "3410",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EKN",
+        "cityLatitude": "38.92175785323680",
+        "cityLongitude": "79.85331253012820"
+      },
+      {
+        "name": "Fairmont",
+        "elementType": "3",
+        "destinationId": "12244",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CKB",
+        "cityLatitude": "39.47535493075010",
+        "cityLongitude": "80.13064553118740"
+      },
+      {
+        "name": "Fayetteville",
+        "elementType": "3",
+        "destinationId": "12443",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CRW",
+        "cityLatitude": "38.05213475301620",
+        "cityLongitude": "81.10525888423480"
+      },
+      {
+        "name": "Gassaway",
+        "elementType": "3",
+        "destinationId": "25383",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CRW",
+        "cityLatitude": "38.67315400000000",
+        "cityLongitude": "80.77482200000000"
+      },
+      {
+        "name": "Harpers Ferry",
+        "elementType": "3",
+        "destinationId": "13379",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IAD",
+        "cityLatitude": "39.32165518385730",
+        "cityLongitude": "77.74600109569330"
+      },
+      {
+        "name": "Hazelton",
+        "elementType": "3",
+        "destinationId": "26590",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MGW",
+        "cityLatitude": "39.65369300000000",
+        "cityLongitude": "79.53059900000000"
+      },
+      {
+        "name": "Huntington",
+        "elementType": "3",
+        "destinationId": "4574",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HTS",
+        "cityLatitude": "38.40949366548580",
+        "cityLongitude": "82.42138852597210"
+      },
+      {
+        "name": "Hurricane",
+        "elementType": "3",
+        "destinationId": "13426",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CRW",
+        "cityLatitude": "38.43518542204880",
+        "cityLongitude": "82.01604411948850"
+      },
+      {
+        "name": "Inwood",
+        "elementType": "3",
+        "destinationId": "22367",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MGW",
+        "cityLatitude": "39.36198403581160",
+        "cityLongitude": "78.04180292826820"
+      },
+      {
+        "name": "Keyser",
+        "elementType": "3",
+        "destinationId": "13460",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CKB",
+        "cityLatitude": "39.43439087120290",
+        "cityLongitude": "78.97586544821330"
+      },
+      {
+        "name": "Lewisburg",
+        "elementType": "3",
+        "destinationId": "5858",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LWB",
+        "cityLatitude": "37.79752237623100",
+        "cityLongitude": "80.44904845972590"
+      },
+      {
+        "name": "Logan",
+        "elementType": "3",
+        "destinationId": "24147",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CRW",
+        "cityLatitude": "37.84871500000000",
+        "cityLongitude": "81.99345800000000"
+      },
+      {
+        "name": "Martinsburg",
+        "elementType": "3",
+        "destinationId": "6451",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MRB",
+        "cityLatitude": "39.45847753331100",
+        "cityLongitude": "77.96877454566240"
+      },
+      {
+        "name": "Mineral Wells",
+        "elementType": "3",
+        "destinationId": "13613",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CKB",
+        "cityLatitude": "39.18878068374390",
+        "cityLongitude": "81.53517831135210"
+      },
+      {
+        "name": "Morgantown",
+        "elementType": "3",
+        "destinationId": "6881",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MGW",
+        "cityLatitude": "39.64108264077130",
+        "cityLongitude": "79.95349091468480"
+      },
+      {
+        "name": "Mount Hope",
+        "elementType": "3",
+        "destinationId": "13637",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BKW",
+        "cityLatitude": "37.89392025108200",
+        "cityLongitude": "81.17614258744120"
+      },
+      {
+        "name": "Newell",
+        "elementType": "3",
+        "destinationId": "24192",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT"
+      },
+      {
+        "name": "Oak Hill",
+        "elementType": "3",
+        "destinationId": "25727",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BKW",
+        "cityLatitude": "37.97233400000000",
+        "cityLongitude": "81.14871300000000"
+      },
+      {
+        "name": "Parkersburg",
+        "elementType": "3",
+        "destinationId": "7859",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PKB",
+        "cityLatitude": "39.25955851901810",
+        "cityLongitude": "81.55004080298610"
+      },
+      {
+        "name": "Princeton",
+        "elementType": "3",
+        "destinationId": "8302",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BLF",
+        "cityLatitude": "37.36090594863250",
+        "cityLongitude": "81.09950786495370"
+      },
+      {
+        "name": "Ranson",
+        "elementType": "3",
+        "destinationId": "24229",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BWI"
+      },
+      {
+        "name": "Ripley",
+        "elementType": "3",
+        "destinationId": "13808",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CRW",
+        "cityLatitude": "38.81589333619620",
+        "cityLongitude": "81.70932764461990"
+      },
+      {
+        "name": "Shepherdstown",
+        "elementType": "3",
+        "destinationId": "13867",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IAD",
+        "cityLatitude": "39.43043960676810",
+        "cityLongitude": "77.80683076044140"
+      },
+      {
+        "name": "South Charleston",
+        "elementType": "3",
+        "destinationId": "24258",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CRW"
+      },
+      {
+        "name": "Summersville",
+        "elementType": "3",
+        "destinationId": "13938",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CRW",
+        "cityLatitude": "38.27419103312250",
+        "cityLongitude": "80.84493988439810"
+      },
+      {
+        "name": "Sutton",
+        "elementType": "3",
+        "destinationId": "26360",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CRW",
+        "cityLatitude": "38.66454400000000",
+        "cityLongitude": "80.70981900000000"
+      },
+      {
+        "name": "Triadelphia",
+        "elementType": "3",
+        "destinationId": "26190",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BKW",
+        "cityLatitude": "40.05257300000000",
+        "cityLongitude": "80.62841000000000"
+      },
+      {
+        "name": "Weirton",
+        "elementType": "3",
+        "destinationId": "24308",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PIT",
+        "cityLatitude": "40.41895700000000",
+        "cityLongitude": "80.58951700000000"
+      },
+      {
+        "name": "Weston",
+        "elementType": "3",
+        "destinationId": "14050",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CKB",
+        "cityLatitude": "39.03108869128120",
+        "cityLongitude": "80.47481876346430"
+      },
+      {
+        "name": "Wheeling",
+        "elementType": "3",
+        "destinationId": "1049",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HLG",
+        "cityLatitude": "40.07259008687060",
+        "cityLongitude": "80.72045285658550"
+      }
+    ]
+  }
+}

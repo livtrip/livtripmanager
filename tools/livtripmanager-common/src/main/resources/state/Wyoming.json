@@ -1,0 +1,332 @@
+{
+  "State": {
+    "name": "Wyoming",
+    "elementType": "6",
+    "destinationId": "4000001",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "WY",
+    "City": [
+      {
+        "name": "Afton",
+        "elementType": "3",
+        "destinationId": "70",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JAC",
+        "cityLatitude": "42.72764854179460",
+        "cityLongitude": "110.93317310292200"
+      },
+      {
+        "name": "Buffalo",
+        "elementType": "3",
+        "destinationId": "2085",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BYG",
+        "cityLatitude": "44.35188801699120",
+        "cityLongitude": "106.70153623283000"
+      },
+      {
+        "name": "Casper",
+        "elementType": "3",
+        "destinationId": "2339",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CPR",
+        "cityLatitude": "42.84871705992770",
+        "cityLongitude": "106.31741322409800"
+      },
+      {
+        "name": "Cheyenne",
+        "elementType": "3",
+        "destinationId": "2500",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CYS",
+        "cityLatitude": "41.13796982379830",
+        "cityLongitude": "104.81485356896500"
+      },
+      {
+        "name": "Cody",
+        "elementType": "3",
+        "destinationId": "11437",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "COD",
+        "cityLatitude": "44.53455118105940",
+        "cityLongitude": "109.05121692996300",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "21379",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Yellowstone National Park Area",
+          "destinationCode": "COD",
+          "city": "Cody",
+          "cityDestinationId": "11437"
+        }
+      },
+      {
+        "name": "Douglas",
+        "elementType": "3",
+        "destinationId": "3181",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DGW",
+        "cityLatitude": "42.75841854400550",
+        "cityLongitude": "105.37948481708300"
+      },
+      {
+        "name": "Dubois",
+        "elementType": "3",
+        "destinationId": "26578",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JAC",
+        "cityLatitude": "43.53356500000000",
+        "cityLongitude": "109.63043300000000"
+      },
+      {
+        "name": "Evanston",
+        "elementType": "3",
+        "destinationId": "3517",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EVW",
+        "cityLatitude": "41.27898249430780",
+        "cityLongitude": "110.97364197375500"
+      },
+      {
+        "name": "Evansville",
+        "elementType": "3",
+        "destinationId": "13269",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CPR",
+        "cityLatitude": "42.86006883432820",
+        "cityLongitude": "106.26801729602000"
+      },
+      {
+        "name": "Gillette",
+        "elementType": "3",
+        "destinationId": "3976",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GCC",
+        "cityLatitude": "44.29204189948350",
+        "cityLongitude": "105.50070701447200"
+      },
+      {
+        "name": "Green River",
+        "elementType": "3",
+        "destinationId": "22884",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EMM",
+        "cityLatitude": "41.52889570094400",
+        "cityLongitude": "109.46687492209300"
+      },
+      {
+        "name": "Hulett",
+        "elementType": "3",
+        "destinationId": "24800",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RIW",
+        "cityLatitude": "44.68252182006840",
+        "cityLongitude": "104.60031890869100"
+      },
+      {
+        "name": "Jackson",
+        "elementType": "3",
+        "destinationId": "4807",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JAC",
+        "cityLatitude": "43.48790323793040",
+        "cityLongitude": "110.75971361876100"
+      },
+      {
+        "name": "Jackson Hole",
+        "elementType": "3",
+        "destinationId": "11438",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JAC",
+        "cityLatitude": "43.48790323793040",
+        "cityLongitude": "110.75971361876100"
+      },
+      {
+        "name": "Kemerer",
+        "elementType": "3",
+        "destinationId": "5187",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EMM",
+        "cityLatitude": "41.80443236225150",
+        "cityLongitude": "110.54741767897800"
+      },
+      {
+        "name": "Kemmerer",
+        "elementType": "3",
+        "destinationId": "24801",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RKS",
+        "cityLatitude": "41.79790878295900",
+        "cityLongitude": "110.54041290283200"
+      },
+      {
+        "name": "Lander",
+        "elementType": "3",
+        "destinationId": "5703",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LND",
+        "cityLatitude": "42.83470492684540",
+        "cityLongitude": "108.73599686957800"
+      },
+      {
+        "name": "Laramie",
+        "elementType": "3",
+        "destinationId": "5732",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAR",
+        "cityLatitude": "41.31246408161920",
+        "cityLongitude": "105.58267611470100"
+      },
+      {
+        "name": "Lusk",
+        "elementType": "3",
+        "destinationId": "6114",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LSK",
+        "cityLatitude": "42.76254397826420",
+        "cityLongitude": "104.44834561810200"
+      },
+      {
+        "name": "Pinedale",
+        "elementType": "3",
+        "destinationId": "22849",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JAC",
+        "cityLatitude": "42.86660532536390",
+        "cityLongitude": "109.86053287490700"
+      },
+      {
+        "name": "Powell",
+        "elementType": "3",
+        "destinationId": "8263",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "POY",
+        "cityLatitude": "44.75136529097770",
+        "cityLongitude": "108.75799007870500"
+      },
+      {
+        "name": "Rawlins",
+        "elementType": "3",
+        "destinationId": "8537",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RWL",
+        "cityLatitude": "41.79316938031020",
+        "cityLongitude": "107.23696159205700"
+      },
+      {
+        "name": "Riverton",
+        "elementType": "3",
+        "destinationId": "8663",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RIW",
+        "cityLatitude": "43.02295177056010",
+        "cityLongitude": "108.39079227873600"
+      },
+      {
+        "name": "Rock Springs",
+        "elementType": "3",
+        "destinationId": "8692",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RKS",
+        "cityLatitude": "41.59263161118400",
+        "cityLongitude": "109.21891856465400"
+      },
+      {
+        "name": "Sheridan",
+        "elementType": "3",
+        "destinationId": "9362",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SHR",
+        "cityLatitude": "44.80191893611950",
+        "cityLongitude": "106.95369998679800"
+      },
+      {
+        "name": "Sundance",
+        "elementType": "3",
+        "destinationId": "9839",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SUC",
+        "cityLatitude": "44.40126686959580",
+        "cityLongitude": "104.37093225404900"
+      },
+      {
+        "name": "Teton Village",
+        "elementType": "3",
+        "destinationId": "19465",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JAC",
+        "cityLatitude": "43.47940000000000",
+        "cityLongitude": "110.76150000000000"
+      },
+      {
+        "name": "Thermopolis",
+        "elementType": "3",
+        "destinationId": "10164",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "THP",
+        "cityLatitude": "43.64627141912090",
+        "cityLongitude": "108.21182766210300"
+      },
+      {
+        "name": "Torrington",
+        "elementType": "3",
+        "destinationId": "10308",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TOR",
+        "cityLatitude": "42.06707362640600",
+        "cityLongitude": "104.18304058017100"
+      },
+      {
+        "name": "Wheatland",
+        "elementType": "3",
+        "destinationId": "1048",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EAN",
+        "cityLatitude": "42.06053713537030",
+        "cityLongitude": "104.95515248470600"
+      },
+      {
+        "name": "Worland",
+        "elementType": "3",
+        "destinationId": "1166",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WRL",
+        "cityLatitude": "44.01933293649240",
+        "cityLongitude": "107.95915847413700"
+      }
+    ]
+  }
+}

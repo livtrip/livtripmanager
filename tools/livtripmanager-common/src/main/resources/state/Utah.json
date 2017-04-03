@@ -1,0 +1,582 @@
+{
+  "State": {
+    "name": "Utah",
+    "elementType": "6",
+    "destinationId": "4000006",
+    "provider": "2;39",
+    "status": "UpToDate",
+    "StateShort": "UT",
+    "City": [
+      {
+        "name": "American Fork",
+        "elementType": "3",
+        "destinationId": "12968",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.39500233645190",
+        "cityLongitude": "111.79713056122600"
+      },
+      {
+        "name": "Beaver",
+        "elementType": "3",
+        "destinationId": "11416",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CDC",
+        "cityLatitude": "38.27719631635730",
+        "cityLongitude": "112.64261918801500"
+      },
+      {
+        "name": "Blanding",
+        "elementType": "3",
+        "destinationId": "1811",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BDG",
+        "cityLatitude": "37.62414826943400",
+        "cityLongitude": "109.47932635695000"
+      },
+      {
+        "name": "Brian Head",
+        "elementType": "3",
+        "destinationId": "17884",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CDC",
+        "cityLatitude": "37.69283606682220",
+        "cityLongitude": "112.85001788216200"
+      },
+      {
+        "name": "Brigham City",
+        "elementType": "3",
+        "destinationId": "2004",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BMC",
+        "cityLatitude": "41.51918317194430",
+        "cityLongitude": "112.01818963371400"
+      },
+      {
+        "name": "Bryce Canyon National Park",
+        "elementType": "3",
+        "destinationId": "11417",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BCE",
+        "cityLatitude": "37.62818491123350",
+        "cityLongitude": "112.16725168216000"
+      },
+      {
+        "name": "Bullfrog Basin",
+        "elementType": "3",
+        "destinationId": "2100",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BFG",
+        "cityLatitude": "38.40966442021510",
+        "cityLongitude": "112.33796543027600"
+      },
+      {
+        "name": "Cedar City",
+        "elementType": "3",
+        "destinationId": "2383",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CDC",
+        "cityLatitude": "37.67864634882150",
+        "cityLongitude": "113.06025110481500"
+      },
+      {
+        "name": "Clearfield",
+        "elementType": "3",
+        "destinationId": "26468",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "41.11077700000000",
+        "cityLongitude": "112.02605400000000"
+      },
+      {
+        "name": "Coalville",
+        "elementType": "3",
+        "destinationId": "24591",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.91823959350590",
+        "cityLongitude": "111.39965820312500"
+      },
+      {
+        "name": "Delta",
+        "elementType": "3",
+        "destinationId": "3038",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DTA",
+        "cityLatitude": "39.35407126165820",
+        "cityLongitude": "112.57869544757300"
+      },
+      {
+        "name": "Draper",
+        "elementType": "3",
+        "destinationId": "13217",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.51144340142220",
+        "cityLongitude": "111.88682460540700"
+      },
+      {
+        "name": "Eden",
+        "elementType": "3",
+        "destinationId": "23265",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "41.29798749567340",
+        "cityLongitude": "111.81543546820200"
+      },
+      {
+        "name": "Fillmore",
+        "elementType": "3",
+        "destinationId": "3621",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FIL",
+        "cityLatitude": "38.97327797014620",
+        "cityLongitude": "112.32954380702900"
+      },
+      {
+        "name": "Garden City",
+        "elementType": "3",
+        "destinationId": "20032",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.76470000000000",
+        "cityLongitude": "111.88710000000000"
+      },
+      {
+        "name": "Green River",
+        "elementType": "3",
+        "destinationId": "4127",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RVR",
+        "cityLatitude": "38.99580393402890",
+        "cityLongitude": "110.16114999084700"
+      },
+      {
+        "name": "Heber City",
+        "elementType": "3",
+        "destinationId": "24105",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC"
+      },
+      {
+        "name": "Hurricane",
+        "elementType": "3",
+        "destinationId": "11418",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CDC",
+        "cityLatitude": "37.17675721841980",
+        "cityLongitude": "113.28551757383100"
+      },
+      {
+        "name": "Kanab",
+        "elementType": "3",
+        "destinationId": "5038",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "KNB",
+        "cityLatitude": "37.05214724720210",
+        "cityLongitude": "112.52878042511800"
+      },
+      {
+        "name": "La Verkin",
+        "elementType": "3",
+        "destinationId": "27278",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "37.20513900000000",
+        "cityLongitude": "113.27215800000000"
+      },
+      {
+        "name": "Layton",
+        "elementType": "3",
+        "destinationId": "11419",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "41.07577412121620",
+        "cityLongitude": "111.96320661089500"
+      },
+      {
+        "name": "LEHI",
+        "elementType": "3",
+        "destinationId": "19281",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.76470000000000",
+        "cityLongitude": "111.88710000000000"
+      },
+      {
+        "name": "Logan",
+        "elementType": "3",
+        "destinationId": "5968",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "41.73623975357810",
+        "cityLongitude": "111.83484686582300"
+      },
+      {
+        "name": "Midvale",
+        "elementType": "3",
+        "destinationId": "11420",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.62265595658300",
+        "cityLongitude": "111.90641358794700"
+      },
+      {
+        "name": "Midway",
+        "elementType": "3",
+        "destinationId": "19728",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.76470000000000",
+        "cityLongitude": "111.88710000000000"
+      },
+      {
+        "name": "Moab",
+        "elementType": "3",
+        "destinationId": "6754",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CNY",
+        "cityLatitude": "38.57354797916040",
+        "cityLongitude": "109.55338609812100"
+      },
+      {
+        "name": "Monticello",
+        "elementType": "3",
+        "destinationId": "6846",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MXC",
+        "cityLatitude": "37.87446445723120",
+        "cityLongitude": "109.34899268720800"
+      },
+      {
+        "name": "Mount Carmel",
+        "elementType": "3",
+        "destinationId": "23256",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "37.24727209141100",
+        "cityLongitude": "112.65903213259000"
+      },
+      {
+        "name": "Murray",
+        "elementType": "3",
+        "destinationId": "12416",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.66297456325360",
+        "cityLongitude": "111.88820430361900"
+      },
+      {
+        "name": "Nephi",
+        "elementType": "3",
+        "destinationId": "7222",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "NPH",
+        "cityLatitude": "39.71165557037040",
+        "cityLongitude": "111.83450535636500"
+      },
+      {
+        "name": "North Salt Lake",
+        "elementType": "3",
+        "destinationId": "22381",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.84038531185010",
+        "cityLongitude": "111.91096932412300"
+      },
+      {
+        "name": "Ogden",
+        "elementType": "3",
+        "destinationId": "7528",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OGD",
+        "cityLatitude": "41.23092869840220",
+        "cityLongitude": "111.95701845950700"
+      },
+      {
+        "name": "Orem",
+        "elementType": "3",
+        "destinationId": "11421",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.32491093518920",
+        "cityLongitude": "111.68991025163600"
+      },
+      {
+        "name": "Panguitch",
+        "elementType": "3",
+        "destinationId": "7820",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PNU",
+        "cityLatitude": "37.82691268022960",
+        "cityLongitude": "112.43908638093800"
+      },
+      {
+        "name": "Park City",
+        "elementType": "3",
+        "destinationId": "17254",
+        "provider": "2;39",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.65996244982960",
+        "cityLongitude": "111.50502386099300"
+      },
+      {
+        "name": "Price",
+        "elementType": "3",
+        "destinationId": "8291",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PUC",
+        "cityLatitude": "39.59788169427090",
+        "cityLongitude": "110.80636381079200"
+      },
+      {
+        "name": "Provo",
+        "elementType": "3",
+        "destinationId": "8318",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.23383719279620",
+        "cityLongitude": "111.66851809915500"
+      },
+      {
+        "name": "Richfield",
+        "elementType": "3",
+        "destinationId": "8613",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RIF",
+        "cityLatitude": "38.77514784270250",
+        "cityLongitude": "112.08744092170900"
+      },
+      {
+        "name": "Salina",
+        "elementType": "3",
+        "destinationId": "8885",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBO",
+        "cityLatitude": "38.96244529012260",
+        "cityLongitude": "111.86088354693900"
+      },
+      {
+        "name": "Salt Lake City",
+        "elementType": "3",
+        "destinationId": "8898",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.76023645703450",
+        "cityLongitude": "111.89336109644300",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "20242",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown",
+            "destinationCode": "SLC",
+            "city": "Salt Lake City",
+            "cityDestinationId": "8898"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20791",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Airport Area",
+            "destinationCode": "SLC",
+            "city": "Salt Lake City",
+            "cityDestinationId": "8898"
+          }
+        ]
+      },
+      {
+        "name": "Sandy",
+        "elementType": "3",
+        "destinationId": "13842",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.56983810373130",
+        "cityLongitude": "111.89086807739600"
+      },
+      {
+        "name": "South Jordan",
+        "elementType": "3",
+        "destinationId": "13888",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.56166919748390",
+        "cityLongitude": "111.93089981612100"
+      },
+      {
+        "name": "Springdale",
+        "elementType": "3",
+        "destinationId": "12481",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "KNB",
+        "cityLatitude": "37.18864857776480",
+        "cityLongitude": "113.00002249671400"
+      },
+      {
+        "name": "Springville",
+        "elementType": "3",
+        "destinationId": "24788",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "St George",
+        "elementType": "3",
+        "destinationId": "8859",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SGU",
+        "cityLatitude": "37.10906982421880",
+        "cityLongitude": "113.58329772949200",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "11422",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "City Center",
+          "destinationCode": "SGU",
+          "city": "St George",
+          "cityDestinationId": "8859"
+        }
+      },
+      {
+        "name": "Tooele",
+        "elementType": "3",
+        "destinationId": "13971",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.54155429037820",
+        "cityLongitude": "112.30402622029000"
+      },
+      {
+        "name": "Torrey",
+        "elementType": "3",
+        "destinationId": "11423",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RIF",
+        "cityLatitude": "38.29491041196970",
+        "cityLongitude": "111.42013826998800"
+      },
+      {
+        "name": "Tremonton",
+        "elementType": "3",
+        "destinationId": "10345",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TRT",
+        "cityLatitude": "41.72479918671830",
+        "cityLongitude": "112.17188938060700"
+      },
+      {
+        "name": "Uintah",
+        "elementType": "3",
+        "destinationId": "24789",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "41.14421081542970",
+        "cityLongitude": "111.92366790771500"
+      },
+      {
+        "name": "Vernal",
+        "elementType": "3",
+        "destinationId": "755",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "VEL",
+        "cityLatitude": "40.45555537853860",
+        "cityLongitude": "109.52838760575800"
+      },
+      {
+        "name": "Washington",
+        "elementType": "3",
+        "destinationId": "23236",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SGU",
+        "cityLatitude": "37.13032217734750",
+        "cityLongitude": "113.50941117482500"
+      },
+      {
+        "name": "Wendover",
+        "elementType": "3",
+        "destinationId": "1011",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ENV",
+        "cityLatitude": "40.74725226742230",
+        "cityLongitude": "114.00994792777100"
+      },
+      {
+        "name": "West Valley City",
+        "elementType": "3",
+        "destinationId": "14047",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.70006249044670",
+        "cityLongitude": "111.97059004538800"
+      },
+      {
+        "name": "Woods Cross",
+        "elementType": "3",
+        "destinationId": "14077",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLC",
+        "cityLatitude": "40.87541735210300",
+        "cityLongitude": "111.90907736172300"
+      }
+    ]
+  }
+}

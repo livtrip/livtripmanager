@@ -9,14 +9,12 @@ import javax.xml.ws.handler.Handler;
 import javax.xml.ws.handler.HandlerResolver;
 import javax.xml.ws.handler.PortInfo;
 
-import com.google.common.base.Function;
-import com.google.common.base.Predicate;
-import com.google.common.collect.Collections2;
+import com.alibaba.fastjson.JSON;
 import com.google.common.collect.Lists;
-import com.google.common.primitives.Ints;
-import com.qccr.livtrip.common.webservice.handler.HotelSOAPHandler;
-import com.qccr.livtrip.common.webservice.hotel.HotelFlow;
-import com.qccr.livtrip.common.webservice.hotel.IHotelFlow;
+import com.qccr.livtrip.common.dto.StateDTO;
+import com.qccr.livtrip.common.dto.StateJSON;
+
+
 /**
  * destination 处理器
  * @author xierongli
@@ -24,52 +22,26 @@ import com.qccr.livtrip.common.webservice.hotel.IHotelFlow;
  */
 public class DestinationProcessor {
 
-    private static IHotelFlow port = null;
-
-    static{
-        HotelFlow ss = new HotelFlow();
-        ss.setHandlerResolver(new HandlerResolver() {
-            @Override
-            public List<Handler> getHandlerChain(PortInfo portInfo) {
-                List<Handler> handlerList = new ArrayList<Handler>();
-                handlerList.add(new HotelSOAPHandler());
-                return handlerList;
-            }
-        });
-        port = ss.getBasicHttpBindingIHotelFlow();
-    }
 
     public static void main(String[] args) {
-//        InputStream inputStream =  DestinationProcessor.class.getResourceAsStream("/des_ws.xml");
-//        System.out.println(convertStreamToString(inputStream));
+       // System.out.println(inputStream2String(DestinationProcessor.class.getResourceAsStream("/destination.text")));
+        String  json = inputStream2String(DestinationProcessor.class.getResourceAsStream("/alabama.text"));
+        StateJSON stateDTO = JSON.parseObject(json,StateJSON.class);
+        System.out.println(JSON.toJSONString(stateDTO));
+    }
 
-}
-
-
-    public static String convertStreamToString(InputStream is) {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(is));
-        StringBuilder sb = new StringBuilder();
-        String line = null;
+    public static  String inputStream2String(InputStream is){
+        BufferedReader in = new BufferedReader(new InputStreamReader(is));
+        StringBuffer buffer = new StringBuffer();
+        String line = "";
         try {
-            while ((line = reader.readLine()) != null) {
-                sb.append(line + "\n");
+            while ((line = in.readLine()) != null){
+                buffer.append(line);
             }
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            try {
-                is.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
         }
-
-        return sb.toString();
+        return buffer.toString();
     }
-
-
-
-
-
 
 }

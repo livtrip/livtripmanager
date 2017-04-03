@@ -1,0 +1,320 @@
+{
+  "State": {
+    "name": "New Hampshire",
+    "elementType": "6",
+    "destinationId": "4000017",
+    "provider": "2",
+    "status": "UpToDate",
+    "StateShort": "NH",
+    "City": [
+      {
+        "name": "Ashland",
+        "elementType": "3",
+        "destinationId": "12985",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "43.69100915818450",
+        "cityLongitude": "71.62647944844200"
+      },
+      {
+        "name": "Bedford",
+        "elementType": "3",
+        "destinationId": "14139",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "42.94641267072100",
+        "cityLongitude": "71.51641778015650"
+      },
+      {
+        "name": "Bow",
+        "elementType": "3",
+        "destinationId": "19344",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "42.99490000000000",
+        "cityLongitude": "71.46350000000000"
+      },
+      {
+        "name": "Bretton Woods",
+        "elementType": "3",
+        "destinationId": "22527",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LEB",
+        "cityLatitude": "44.25884034992810",
+        "cityLongitude": "71.44030215204580"
+      },
+      {
+        "name": "Claremont",
+        "elementType": "3",
+        "destinationId": "2606",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CNH",
+        "cityLatitude": "43.37253451265970",
+        "cityLongitude": "72.33802123541730"
+      },
+      {
+        "name": "Concord",
+        "elementType": "3",
+        "destinationId": "2739",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "43.20724393474540",
+        "cityLongitude": "71.53660781934300"
+      },
+      {
+        "name": "Dover",
+        "elementType": "3",
+        "destinationId": "12654",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "43.19864814167490",
+        "cityLongitude": "70.87858739470400"
+      },
+      {
+        "name": "Exeter",
+        "elementType": "3",
+        "destinationId": "22917",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PSM",
+        "cityLatitude": "42.98143788078480",
+        "cityLongitude": "70.94637702221640"
+      },
+      {
+        "name": "Francestown",
+        "elementType": "3",
+        "destinationId": "26894",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "42.98758200000000",
+        "cityLongitude": "71.81257700000000"
+      },
+      {
+        "name": "Franconia",
+        "elementType": "3",
+        "destinationId": "24805",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Hampton",
+        "elementType": "3",
+        "destinationId": "24806",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "37.02779006958010",
+        "cityLongitude": "76.34512329101560"
+      },
+      {
+        "name": "Keene",
+        "elementType": "3",
+        "destinationId": "5167",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EEN",
+        "cityLatitude": "42.93643376434360",
+        "cityLongitude": "72.28062715582170"
+      },
+      {
+        "name": "Lebanon",
+        "elementType": "3",
+        "destinationId": "5796",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LEB",
+        "cityLatitude": "43.64411990953230",
+        "cityLongitude": "72.24669477602510"
+      },
+      {
+        "name": "Lincoln",
+        "elementType": "3",
+        "destinationId": "13522",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "44.04557793837820",
+        "cityLongitude": "71.67063662142620"
+      },
+      {
+        "name": "Littleton",
+        "elementType": "3",
+        "destinationId": "22333",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "NWH",
+        "cityLatitude": "44.30709905150880",
+        "cityLongitude": "71.77485164778220"
+      },
+      {
+        "name": "Londonderry",
+        "elementType": "3",
+        "destinationId": "13534",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "42.86376738176380",
+        "cityLongitude": "71.37551780776830"
+      },
+      {
+        "name": "Manchester",
+        "elementType": "3",
+        "destinationId": "6293",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "42.98925844738440",
+        "cityLongitude": "71.46254807817260"
+      },
+      {
+        "name": "Merrimack",
+        "elementType": "3",
+        "destinationId": "25224",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "42.86786900000000",
+        "cityLongitude": "71.49483200000000"
+      },
+      {
+        "name": "Nashua",
+        "elementType": "3",
+        "destinationId": "7171",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ASH",
+        "cityLatitude": "42.76641669552360",
+        "cityLongitude": "71.45344343600890"
+      },
+      {
+        "name": "New Durham",
+        "elementType": "3",
+        "destinationId": "21336",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "43.43584353607660",
+        "cityLongitude": "71.16580367949220"
+      },
+      {
+        "name": "North Conway",
+        "elementType": "3",
+        "destinationId": "11802",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BML",
+        "cityLatitude": "44.04557793837820",
+        "cityLongitude": "71.12379118590750"
+      },
+      {
+        "name": "Plymouth",
+        "elementType": "3",
+        "destinationId": "12585",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "43.76108006887960",
+        "cityLongitude": "71.69297817020130"
+      },
+      {
+        "name": "Portsmouth",
+        "elementType": "3",
+        "destinationId": "8245",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PSM",
+        "cityLatitude": "43.07483047240090",
+        "cityLongitude": "70.76071199000790",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "20916",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Portsmouth and vicinity",
+          "destinationCode": "PSM",
+          "city": "Portsmouth",
+          "cityDestinationId": "8245"
+        }
+      },
+      {
+        "name": "Rochester",
+        "elementType": "3",
+        "destinationId": "13814",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "43.30528447009180",
+        "cityLongitude": "70.97850623207210"
+      },
+      {
+        "name": "Salem",
+        "elementType": "3",
+        "destinationId": "13834",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "42.79479954661960",
+        "cityLongitude": "71.23247315598070"
+      },
+      {
+        "name": "Seabrook",
+        "elementType": "3",
+        "destinationId": "24250",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT"
+      },
+      {
+        "name": "Tamworth",
+        "elementType": "3",
+        "destinationId": "13954",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "43.85871420797040",
+        "cityLongitude": "71.26469115829560"
+      },
+      {
+        "name": "Tilton",
+        "elementType": "3",
+        "destinationId": "24280",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BOS",
+        "cityLatitude": "43.44264900000000",
+        "cityLongitude": "71.58920900000000"
+      },
+      {
+        "name": "Waterville Valley",
+        "elementType": "3",
+        "destinationId": "17858",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "43.94969574280950",
+        "cityLongitude": "71.50147332625250"
+      },
+      {
+        "name": "Whitefield",
+        "elementType": "3",
+        "destinationId": "1059",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHT",
+        "cityLatitude": "44.37261764112210",
+        "cityLongitude": "71.61212922099590"
+      }
+    ]
+  }
+}

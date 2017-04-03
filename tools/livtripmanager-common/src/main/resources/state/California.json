@@ -1,0 +1,4392 @@
+{
+  "State": {
+    "name": "California",
+    "elementType": "6",
+    "destinationId": "4000045",
+    "provider": "2;39",
+    "status": "UpToDate",
+    "StateShort": "CA",
+    "City": [
+      {
+        "name": "Adelanto",
+        "elementType": "3",
+        "destinationId": "12502",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "34.58604939076110",
+        "cityLongitude": "117.40571990761500"
+      },
+      {
+        "name": "Agoura Hills",
+        "elementType": "3",
+        "destinationId": "17201",
+        "provider": "2;39",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.14590858555090",
+        "cityLongitude": "118.77804151565400"
+      },
+      {
+        "name": "Alameda",
+        "elementType": "3",
+        "destinationId": "158",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "NGZ",
+        "cityLatitude": "37.76773933635520",
+        "cityLongitude": "122.26221663392600"
+      },
+      {
+        "name": "Alhambra",
+        "elementType": "3",
+        "destinationId": "12964",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUR",
+        "cityLatitude": "34.08922484562890",
+        "cityLongitude": "118.12439241208400"
+      },
+      {
+        "name": "Aliso Viejo",
+        "elementType": "3",
+        "destinationId": "19010",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.60833513183040",
+        "cityLongitude": "117.72531811925800"
+      },
+      {
+        "name": "Alpine",
+        "elementType": "3",
+        "destinationId": "12644",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAN",
+        "cityLatitude": "32.83399317053150",
+        "cityLongitude": "116.76033533294000"
+      },
+      {
+        "name": "Alturas",
+        "elementType": "3",
+        "destinationId": "24430",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "41.49406814575200",
+        "cityLongitude": "120.54261016845700"
+      },
+      {
+        "name": "American Canyon",
+        "elementType": "3",
+        "destinationId": "23989",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "38.17491780000000",
+        "cityLongitude": "122.26080439999900"
+      },
+      {
+        "name": "Anaheim",
+        "elementType": "3",
+        "destinationId": "311",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.83247803472820",
+        "cityLongitude": "117.90506137745600",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "11999",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown",
+            "destinationCode": "SNA",
+            "city": "Anaheim",
+            "cityDestinationId": "311"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12001",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Garden Grove",
+            "destinationCode": "SNA",
+            "city": "Anaheim",
+            "cityDestinationId": "311"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12002",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Disneyland Area",
+            "destinationCode": "SNA",
+            "city": "Anaheim",
+            "cityDestinationId": "311"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "28526",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Convention Center area",
+            "destinationCode": "SNA",
+            "city": "Anaheim",
+            "cityDestinationId": "311"
+          }
+        ]
+      },
+      {
+        "name": "Anderson",
+        "elementType": "3",
+        "destinationId": "24869",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RDD",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Angels Camp",
+        "elementType": "3",
+        "destinationId": "20029",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "38.06778320000000",
+        "cityLongitude": "120.53852990000000"
+      },
+      {
+        "name": "Antioch",
+        "elementType": "3",
+        "destinationId": "11324",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OAK",
+        "cityLatitude": "38.00871182536780",
+        "cityLongitude": "121.79682120425900"
+      },
+      {
+        "name": "Aptos",
+        "elementType": "3",
+        "destinationId": "24433",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SJC",
+        "cityLatitude": "36.97565841674800",
+        "cityLongitude": "121.88629150390600"
+      },
+      {
+        "name": "Arcadia",
+        "elementType": "3",
+        "destinationId": "12225",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUR",
+        "cityLatitude": "34.12828669749220",
+        "cityLongitude": "118.02550493328000"
+      },
+      {
+        "name": "Arcata",
+        "elementType": "3",
+        "destinationId": "449",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACV",
+        "cityLatitude": "40.88340525833740",
+        "cityLongitude": "124.07329593386800"
+      },
+      {
+        "name": "Arroyo Grande",
+        "elementType": "3",
+        "destinationId": "12981",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBP",
+        "cityLatitude": "35.13050084497570",
+        "cityLongitude": "120.60466632614700"
+      },
+      {
+        "name": "Artesia",
+        "elementType": "3",
+        "destinationId": "12982",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGB",
+        "cityLatitude": "33.86135265944440",
+        "cityLongitude": "118.07972297491200"
+      },
+      {
+        "name": "Atascadero",
+        "elementType": "3",
+        "destinationId": "23247",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBP",
+        "cityLatitude": "35.48877158769960",
+        "cityLongitude": "120.66902036850700"
+      },
+      {
+        "name": "Auburn",
+        "elementType": "3",
+        "destinationId": "586",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AUN",
+        "cityLatitude": "38.90223375749430",
+        "cityLongitude": "121.06482983090900"
+      },
+      {
+        "name": "Avila Beach",
+        "elementType": "3",
+        "destinationId": "26889",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBP",
+        "cityLatitude": "35.18001130000000",
+        "cityLongitude": "120.73191270000000"
+      },
+      {
+        "name": "Azusa",
+        "elementType": "3",
+        "destinationId": "26596",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "34.13361860000000",
+        "cityLongitude": "117.90756269999900"
+      },
+      {
+        "name": "Bakersfield",
+        "elementType": "3",
+        "destinationId": "697",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BFL",
+        "cityLatitude": "35.36872759794200",
+        "cityLongitude": "118.99522787088200"
+      },
+      {
+        "name": "Banning",
+        "elementType": "3",
+        "destinationId": "1437",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BNG",
+        "cityLatitude": "33.93059711725000",
+        "cityLongitude": "116.87468636002500"
+      },
+      {
+        "name": "Barstow",
+        "elementType": "3",
+        "destinationId": "11898",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "34.90039860202720",
+        "cityLongitude": "117.02383037074100"
+      },
+      {
+        "name": "Bass Lake",
+        "elementType": "3",
+        "destinationId": "23188",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCE",
+        "cityLatitude": "37.32931973881580",
+        "cityLongitude": "119.56802119505800"
+      },
+      {
+        "name": "Beaumont",
+        "elementType": "3",
+        "destinationId": "23995",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PSP",
+        "cityLatitude": "33.92946060000000",
+        "cityLongitude": "116.97724800000000"
+      },
+      {
+        "name": "Bell Gardens",
+        "elementType": "3",
+        "destinationId": "13015",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGB",
+        "cityLatitude": "33.96660245945970",
+        "cityLongitude": "118.15086622530700"
+      },
+      {
+        "name": "Bellflower",
+        "elementType": "3",
+        "destinationId": "13018",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGB",
+        "cityLatitude": "33.87510183024360",
+        "cityLongitude": "118.12611361975500"
+      },
+      {
+        "name": "Belmont",
+        "elementType": "3",
+        "destinationId": "13021",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.52281216781310",
+        "cityLongitude": "122.27605459718400"
+      },
+      {
+        "name": "Ben Lomond",
+        "elementType": "3",
+        "destinationId": "13024",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SJC",
+        "cityLatitude": "37.09611658998410",
+        "cityLongitude": "122.09786862211700"
+      },
+      {
+        "name": "Benicia",
+        "elementType": "3",
+        "destinationId": "22551",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OAK",
+        "cityLatitude": "38.05248309266390",
+        "cityLongitude": "122.15251013547700"
+      },
+      {
+        "name": "Berkeley",
+        "elementType": "3",
+        "destinationId": "1676",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OAK",
+        "cityLatitude": "37.86500123013620",
+        "cityLongitude": "122.27493444616000"
+      },
+      {
+        "name": "Beverly Hills",
+        "elementType": "3",
+        "destinationId": "12459",
+        "provider": "2;39",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.07426673134660",
+        "cityLongitude": "118.40318707362500"
+      },
+      {
+        "name": "Big Bear",
+        "elementType": "3",
+        "destinationId": "1740",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RBF",
+        "cityLatitude": "34.24162344148480",
+        "cityLongitude": "116.91945141984500"
+      },
+      {
+        "name": "Big Bear Lake",
+        "elementType": "3",
+        "destinationId": "12524",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PSP",
+        "cityLatitude": "34.24162344148480",
+        "cityLongitude": "116.91945141984500"
+      },
+      {
+        "name": "Bishop",
+        "elementType": "3",
+        "destinationId": "1787",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BIH",
+        "cityLatitude": "37.37396868542020",
+        "cityLongitude": "118.40765401734200"
+      },
+      {
+        "name": "Blythe",
+        "elementType": "3",
+        "destinationId": "1831",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BLH",
+        "cityLatitude": "33.61073935841830",
+        "cityLongitude": "114.60121691365100"
+      },
+      {
+        "name": "Brawley",
+        "elementType": "3",
+        "destinationId": "1983",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BWC",
+        "cityLatitude": "32.97428184098900",
+        "cityLongitude": "115.53613320724200"
+      },
+      {
+        "name": "Brea",
+        "elementType": "3",
+        "destinationId": "12192",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.91748656913810",
+        "cityLongitude": "117.90067639600900"
+      },
+      {
+        "name": "Brentwood",
+        "elementType": "3",
+        "destinationId": "22913",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SCK",
+        "cityLatitude": "37.93406127283420",
+        "cityLongitude": "121.69268814017300"
+      },
+      {
+        "name": "Brisbane",
+        "elementType": "3",
+        "destinationId": "22302",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.68586927386880",
+        "cityLongitude": "122.40328736104300"
+      },
+      {
+        "name": "Buellton",
+        "elementType": "3",
+        "destinationId": "12193",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMX",
+        "cityLatitude": "34.61261541153780",
+        "cityLongitude": "120.19202727763000"
+      },
+      {
+        "name": "Buena Park",
+        "elementType": "3",
+        "destinationId": "25135",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA"
+      },
+      {
+        "name": "Burbank",
+        "elementType": "3",
+        "destinationId": "2117",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUR",
+        "cityLatitude": "34.18236130515120",
+        "cityLongitude": "118.32346510563300"
+      },
+      {
+        "name": "Burlingame",
+        "elementType": "3",
+        "destinationId": "11283",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.57974862473430",
+        "cityLongitude": "122.34992992324700",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "28487",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Airport Area",
+          "destinationCode": "SFO",
+          "city": "Burlingame",
+          "cityDestinationId": "11283"
+        }
+      },
+      {
+        "name": "Calabasas",
+        "elementType": "3",
+        "destinationId": "19404",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUR",
+        "cityLatitude": "34.18090000000000",
+        "cityLongitude": "118.30910000000000"
+      },
+      {
+        "name": "Calexico",
+        "elementType": "3",
+        "destinationId": "2196",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CXL",
+        "cityLatitude": "32.67523908365290",
+        "cityLongitude": "115.48433305257700"
+      },
+      {
+        "name": "Calistoga",
+        "elementType": "3",
+        "destinationId": "12744",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMX",
+        "cityLatitude": "38.57552531892510",
+        "cityLongitude": "122.58018926054700"
+      },
+      {
+        "name": "Camarillo",
+        "elementType": "3",
+        "destinationId": "11250",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUR",
+        "cityLatitude": "34.21601023209730",
+        "cityLongitude": "119.03432387369100"
+      },
+      {
+        "name": "Cambria",
+        "elementType": "3",
+        "destinationId": "12763",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CSL",
+        "cityLatitude": "35.55645876237440",
+        "cityLongitude": "121.08656349284800"
+      },
+      {
+        "name": "Campbell",
+        "elementType": "3",
+        "destinationId": "28405",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SJC"
+      },
+      {
+        "name": "Canoga Park",
+        "elementType": "3",
+        "destinationId": "11351",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUR",
+        "cityLatitude": "34.20311483494430",
+        "cityLongitude": "118.59719176681000"
+      },
+      {
+        "name": "Canyon Lake",
+        "elementType": "3",
+        "destinationId": "19894",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACV",
+        "cityLatitude": "40.86670000000000",
+        "cityLongitude": "124.08170000000000"
+      },
+      {
+        "name": "Capistrano Beach",
+        "elementType": "3",
+        "destinationId": "13101",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.45877447957470",
+        "cityLongitude": "117.66716588866500"
+      },
+      {
+        "name": "Capitola",
+        "elementType": "3",
+        "destinationId": "24484",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SJC",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Cardiff By The Sea",
+        "elementType": "3",
+        "destinationId": "24021",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MYF"
+      },
+      {
+        "name": "Carlsbad",
+        "elementType": "3",
+        "destinationId": "11251",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CLD",
+        "cityLatitude": "33.15848521271510",
+        "cityLongitude": "117.34352420503300"
+      },
+      {
+        "name": "Carmel",
+        "elementType": "3",
+        "destinationId": "2308",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MRY",
+        "cityLatitude": "36.55567104171770",
+        "cityLongitude": "121.91890400548400"
+      },
+      {
+        "name": "Carpinteria",
+        "elementType": "3",
+        "destinationId": "12541",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBA",
+        "cityLatitude": "34.39247499949370",
+        "cityLongitude": "119.51029243619300"
+      },
+      {
+        "name": "Carson",
+        "elementType": "3",
+        "destinationId": "11598",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGB",
+        "cityLatitude": "33.84794499810370",
+        "cityLongitude": "118.26195242196800"
+      },
+      {
+        "name": "Castaic",
+        "elementType": "3",
+        "destinationId": "12791",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUR",
+        "cityLatitude": "34.50400515845090",
+        "cityLongitude": "118.62759976899500"
+      },
+      {
+        "name": "Castro Valley",
+        "elementType": "3",
+        "destinationId": "13110",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ODM",
+        "cityLatitude": "37.70022633150420",
+        "cityLongitude": "122.07114892208400"
+      },
+      {
+        "name": "Cathedral City",
+        "elementType": "3",
+        "destinationId": "12704",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PSP",
+        "cityLatitude": "33.77913084221580",
+        "cityLongitude": "116.46375485880000"
+      },
+      {
+        "name": "Chatsworth",
+        "elementType": "3",
+        "destinationId": "11325",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUR",
+        "cityLatitude": "34.25959025409660",
+        "cityLongitude": "118.59298437028200"
+      },
+      {
+        "name": "Chico",
+        "elementType": "3",
+        "destinationId": "2519",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CIC",
+        "cityLatitude": "39.73653111932760",
+        "cityLongitude": "121.83590354669000"
+      },
+      {
+        "name": "Chino Hills",
+        "elementType": "3",
+        "destinationId": "19405",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "33.98981900000000",
+        "cityLongitude": "117.73258500000000"
+      },
+      {
+        "name": "Chowchilla",
+        "elementType": "3",
+        "destinationId": "17278",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FAT",
+        "cityLatitude": "37.12009396906540",
+        "cityLongitude": "120.26642169807000"
+      },
+      {
+        "name": "Chula Vista",
+        "elementType": "3",
+        "destinationId": "11352",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAN",
+        "cityLatitude": "32.64016264717030",
+        "cityLongitude": "117.08259731836000"
+      },
+      {
+        "name": "Claremont",
+        "elementType": "3",
+        "destinationId": "12262",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "34.10362629949390",
+        "cityLongitude": "117.71097472200100"
+      },
+      {
+        "name": "Clear Lake",
+        "elementType": "3",
+        "destinationId": "2613",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CKE",
+        "cityLatitude": "38.96674147911050",
+        "cityLongitude": "122.65003477499900"
+      },
+      {
+        "name": "Clearlake",
+        "elementType": "3",
+        "destinationId": "12611",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "38.96631117719280",
+        "cityLongitude": "122.65157839775200"
+      },
+      {
+        "name": "Cloverdale",
+        "elementType": "3",
+        "destinationId": "24871",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Clovis",
+        "elementType": "3",
+        "destinationId": "20132",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FAT",
+        "cityLatitude": "36.82522800000000",
+        "cityLongitude": "119.70291899999999"
+      },
+      {
+        "name": "Coalinga",
+        "elementType": "3",
+        "destinationId": "2641",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CLG",
+        "cityLatitude": "36.14496152164100",
+        "cityLongitude": "120.36256344082700"
+      },
+      {
+        "name": "Colton",
+        "elementType": "3",
+        "destinationId": "13153",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "34.06902114606400",
+        "cityLongitude": "117.32435869422200"
+      },
+      {
+        "name": "Commerce",
+        "elementType": "3",
+        "destinationId": "11370",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.00658297176640",
+        "cityLongitude": "118.15627573512900"
+      },
+      {
+        "name": "Concord",
+        "elementType": "3",
+        "destinationId": "2738",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OAK",
+        "cityLatitude": "37.97794523825150",
+        "cityLongitude": "122.02552325842800"
+      },
+      {
+        "name": "Corning",
+        "elementType": "3",
+        "destinationId": "24041",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "39.92765700000000",
+        "cityLongitude": "122.17915600000001"
+      },
+      {
+        "name": "Corona",
+        "elementType": "3",
+        "destinationId": "12738",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "33.86307045202060",
+        "cityLongitude": "117.56956248542500"
+      },
+      {
+        "name": "Coronado",
+        "elementType": "3",
+        "destinationId": "11371",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAN",
+        "cityLatitude": "32.69105780177060",
+        "cityLongitude": "117.17367106075300"
+      },
+      {
+        "name": "Costa Mesa",
+        "elementType": "3",
+        "destinationId": "11489",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.63369562421870",
+        "cityLongitude": "117.91631752920800"
+      },
+      {
+        "name": "Crescent City",
+        "elementType": "3",
+        "destinationId": "2855",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CEC",
+        "cityLatitude": "41.76144998180460",
+        "cityLongitude": "124.20088386756400"
+      },
+      {
+        "name": "Culver City",
+        "elementType": "3",
+        "destinationId": "2893",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CVR",
+        "cityLatitude": "34.01346097226060",
+        "cityLongitude": "118.39503182775600"
+      },
+      {
+        "name": "Cupertino",
+        "elementType": "3",
+        "destinationId": "19406",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SJC",
+        "cityLatitude": "37.32299800000000",
+        "cityLongitude": "122.03218200000001"
+      },
+      {
+        "name": "Cypress",
+        "elementType": "3",
+        "destinationId": "12250",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGB",
+        "cityLatitude": "33.82211322266270",
+        "cityLongitude": "118.03581851892700"
+      },
+      {
+        "name": "Daly City",
+        "elementType": "3",
+        "destinationId": "19407",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.68792400000000",
+        "cityLongitude": "122.47020800000000"
+      },
+      {
+        "name": "Dana Point",
+        "elementType": "3",
+        "destinationId": "11353",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JNP",
+        "cityLatitude": "33.46788595192750",
+        "cityLongitude": "117.70221841948500"
+      },
+      {
+        "name": "Danville",
+        "elementType": "3",
+        "destinationId": "13186",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OAK",
+        "cityLatitude": "37.82210081195930",
+        "cityLongitude": "122.00327050211200"
+      },
+      {
+        "name": "Davis",
+        "elementType": "3",
+        "destinationId": "13191",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "38.55789660067730",
+        "cityLongitude": "121.73779470945200"
+      },
+      {
+        "name": "Del Mar",
+        "elementType": "3",
+        "destinationId": "12351",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAN",
+        "cityLatitude": "32.96087759474280",
+        "cityLongitude": "117.25872057629800"
+      },
+      {
+        "name": "Delano",
+        "elementType": "3",
+        "destinationId": "13199",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BFL",
+        "cityLatitude": "35.77363487231870",
+        "cityLongitude": "119.24652419082500"
+      },
+      {
+        "name": "Desert Hot Springs",
+        "elementType": "3",
+        "destinationId": "25020",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.96112400000000",
+        "cityLongitude": "116.50167800000000"
+      },
+      {
+        "name": "Diamond Bar",
+        "elementType": "3",
+        "destinationId": "13206",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "34.00503251882480",
+        "cityLongitude": "117.82859057950900"
+      },
+      {
+        "name": "Dinuba",
+        "elementType": "3",
+        "destinationId": "23078",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "36.54431585222250",
+        "cityLongitude": "119.38570978573200"
+      },
+      {
+        "name": "Dixon",
+        "elementType": "3",
+        "destinationId": "22656",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "38.44550242279010",
+        "cityLongitude": "121.81615063961100"
+      },
+      {
+        "name": "Downey",
+        "elementType": "3",
+        "destinationId": "3186",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JDY",
+        "cityLatitude": "33.94124879726060",
+        "cityLongitude": "118.13256131833100"
+      },
+      {
+        "name": "Duarte",
+        "elementType": "3",
+        "destinationId": "13220",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUR",
+        "cityLatitude": "34.14040686817440",
+        "cityLongitude": "117.95918379643900"
+      },
+      {
+        "name": "Dublin",
+        "elementType": "3",
+        "destinationId": "22107",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.70392829403430",
+        "cityLongitude": "121.91675932608500"
+      },
+      {
+        "name": "El Cajon",
+        "elementType": "3",
+        "destinationId": "3352",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CJN",
+        "cityLatitude": "32.79506109226240",
+        "cityLongitude": "116.96205813988800"
+      },
+      {
+        "name": "El Centro",
+        "elementType": "3",
+        "destinationId": "3354",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IPL",
+        "cityLatitude": "32.79179967693370",
+        "cityLongitude": "115.55666475588700"
+      },
+      {
+        "name": "El Dorado Hills",
+        "elementType": "3",
+        "destinationId": "24058",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO"
+      },
+      {
+        "name": "El Monte",
+        "elementType": "3",
+        "destinationId": "3372",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EMT",
+        "cityLatitude": "34.07942352417000",
+        "cityLongitude": "118.01614757411700"
+      },
+      {
+        "name": "El Portal",
+        "elementType": "3",
+        "destinationId": "12097",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OYS",
+        "cityLatitude": "37.67365689563290",
+        "cityLongitude": "119.77911502154600"
+      },
+      {
+        "name": "El Segundo",
+        "elementType": "3",
+        "destinationId": "11320",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.91851792770280",
+        "cityLongitude": "118.41384216873000"
+      },
+      {
+        "name": "Elk Grove",
+        "elementType": "3",
+        "destinationId": "13251",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "38.40966442021510",
+        "cityLongitude": "121.37325385307000"
+      },
+      {
+        "name": "Emeryville",
+        "elementType": "3",
+        "destinationId": "3429",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JEM",
+        "cityLatitude": "37.83671741678320",
+        "cityLongitude": "122.29005648498300"
+      },
+      {
+        "name": "Encinitas",
+        "elementType": "3",
+        "destinationId": "13261",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CLD",
+        "cityLatitude": "33.05108731820580",
+        "cityLongitude": "117.28870510675400"
+      },
+      {
+        "name": "Escondido",
+        "elementType": "3",
+        "destinationId": "11354",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CLD",
+        "cityLatitude": "33.11752798335710",
+        "cityLongitude": "117.07400494038400"
+      },
+      {
+        "name": "Eureka",
+        "elementType": "3",
+        "destinationId": "3510",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EKA",
+        "cityLatitude": "40.79242372349820",
+        "cityLongitude": "124.14650190139200"
+      },
+      {
+        "name": "Exeter",
+        "elementType": "3",
+        "destinationId": "20530",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FAT",
+        "cityLatitude": "36.29767430619880",
+        "cityLongitude": "119.13603905081100"
+      },
+      {
+        "name": "Fairfield",
+        "elementType": "3",
+        "destinationId": "3537",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SUU",
+        "cityLatitude": "38.25158652206430",
+        "cityLongitude": "122.04141027843800"
+      },
+      {
+        "name": "Fallbrook",
+        "elementType": "3",
+        "destinationId": "11355",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JNP",
+        "cityLatitude": "33.38120060607620",
+        "cityLongitude": "117.24643989617000"
+      },
+      {
+        "name": "Fish Camp",
+        "elementType": "3",
+        "destinationId": "26987",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FAT",
+        "cityLatitude": "37.47817500000000",
+        "cityLongitude": "119.63914100000000"
+      },
+      {
+        "name": "Folsom",
+        "elementType": "3",
+        "destinationId": "12237",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "38.67098404276520",
+        "cityLongitude": "121.17135346120500"
+      },
+      {
+        "name": "Fontana",
+        "elementType": "3",
+        "destinationId": "13286",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "34.10126646913570",
+        "cityLongitude": "117.43562247580100"
+      },
+      {
+        "name": "Foothill Ranch",
+        "elementType": "3",
+        "destinationId": "19408",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.68318300000000",
+        "cityLongitude": "117.66643100000000"
+      },
+      {
+        "name": "Fort Bragg",
+        "elementType": "3",
+        "destinationId": "3687",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FOB",
+        "cityLatitude": "39.43783328654460",
+        "cityLongitude": "123.80112655582100"
+      },
+      {
+        "name": "Fortuna",
+        "elementType": "3",
+        "destinationId": "12236",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACV",
+        "cityLatitude": "40.59580989805020",
+        "cityLongitude": "124.14254039167400"
+      },
+      {
+        "name": "Fountain Valley",
+        "elementType": "3",
+        "destinationId": "13293",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.69906053457570",
+        "cityLongitude": "117.96545391009800"
+      },
+      {
+        "name": "Fremont",
+        "elementType": "3",
+        "destinationId": "11231",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SJC",
+        "cityLatitude": "37.56057628373410",
+        "cityLongitude": "121.96993917896300"
+      },
+      {
+        "name": "Fresno",
+        "elementType": "3",
+        "destinationId": "3791",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FAT",
+        "cityLatitude": "36.75804613173050",
+        "cityLongitude": "119.77997562538100"
+      },
+      {
+        "name": "Fullerton",
+        "elementType": "3",
+        "destinationId": "3815",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.87037533933800",
+        "cityLongitude": "117.92911730371300"
+      },
+      {
+        "name": "Galt",
+        "elementType": "3",
+        "destinationId": "11491",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "38.25493672985220",
+        "cityLongitude": "121.30022547046500"
+      },
+      {
+        "name": "Garden Grove",
+        "elementType": "3",
+        "destinationId": "12434",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.77775797419260",
+        "cityLongitude": "117.95539987163900"
+      },
+      {
+        "name": "Gardena",
+        "elementType": "3",
+        "destinationId": "12374",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.88361224594950",
+        "cityLongitude": "118.31066533112800"
+      },
+      {
+        "name": "Gilroy",
+        "elementType": "3",
+        "destinationId": "11232",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SJC",
+        "cityLatitude": "37.00702360245040",
+        "cityLongitude": "121.56699899906700"
+      },
+      {
+        "name": "Glendale",
+        "elementType": "3",
+        "destinationId": "4002",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JGX",
+        "cityLatitude": "34.15149568029190",
+        "cityLongitude": "118.25713030841400"
+      },
+      {
+        "name": "Glendora",
+        "elementType": "3",
+        "destinationId": "13332",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "34.13172569773930",
+        "cityLongitude": "117.86510477081200"
+      },
+      {
+        "name": "Goleta",
+        "elementType": "3",
+        "destinationId": "19409",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBA",
+        "cityLatitude": "34.18090000000000",
+        "cityLongitude": "118.30910000000000"
+      },
+      {
+        "name": "Grass Valley",
+        "elementType": "3",
+        "destinationId": "11372",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "39.21236532694790",
+        "cityLongitude": "121.05752152849700"
+      },
+      {
+        "name": "Grover Beach",
+        "elementType": "3",
+        "destinationId": "19642",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMX",
+        "cityLatitude": "34.95300000000000",
+        "cityLongitude": "120.43470000000000"
+      },
+      {
+        "name": "Hacienda Heights",
+        "elementType": "3",
+        "destinationId": "19437",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA"
+      },
+      {
+        "name": "Half Moon Bay",
+        "elementType": "3",
+        "destinationId": "12388",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.46383689942460",
+        "cityLongitude": "122.42984313653600"
+      },
+      {
+        "name": "Hanford",
+        "elementType": "3",
+        "destinationId": "11531",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FAT",
+        "cityLatitude": "36.33002549720250",
+        "cityLongitude": "119.63992942663900"
+      },
+      {
+        "name": "Hawthorne",
+        "elementType": "3",
+        "destinationId": "4365",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HHR",
+        "cityLatitude": "33.91705626722040",
+        "cityLongitude": "118.35120933404100"
+      },
+      {
+        "name": "Hayward",
+        "elementType": "3",
+        "destinationId": "4374",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HWD",
+        "cityLatitude": "37.66660814040940",
+        "cityLongitude": "122.08669443263500"
+      },
+      {
+        "name": "Healdsburg",
+        "elementType": "3",
+        "destinationId": "23426",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OAK",
+        "cityLatitude": "38.61062566106980",
+        "cityLongitude": "122.86886037562800"
+      },
+      {
+        "name": "Hemet",
+        "elementType": "3",
+        "destinationId": "4404",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HMT",
+        "cityLatitude": "33.74944684008290",
+        "cityLongitude": "116.96163466815900"
+      },
+      {
+        "name": "Hermosa Beach",
+        "elementType": "3",
+        "destinationId": "11492",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HHR",
+        "cityLatitude": "33.86281090483220",
+        "cityLongitude": "118.39391167673200"
+      },
+      {
+        "name": "Hesperia",
+        "elementType": "3",
+        "destinationId": "13397",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "34.42075881284680",
+        "cityLongitude": "117.29334963539000"
+      },
+      {
+        "name": "Highland",
+        "elementType": "3",
+        "destinationId": "19858",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBD",
+        "cityLatitude": "34.12834400000000",
+        "cityLongitude": "117.20865100000000"
+      },
+      {
+        "name": "Hollister",
+        "elementType": "3",
+        "destinationId": "4481",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HLI",
+        "cityLatitude": "36.84714253435880",
+        "cityLongitude": "121.40153083623400"
+      },
+      {
+        "name": "Hollywood",
+        "elementType": "3",
+        "destinationId": "12777",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.09997897847710",
+        "cityLongitude": "118.32905220037400"
+      },
+      {
+        "name": "Huntington Beach",
+        "elementType": "3",
+        "destinationId": "11662",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.68015457095310",
+        "cityLongitude": "118.01546455520000",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "20932",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Huntington Beach",
+          "destinationCode": "SNA",
+          "city": "Huntington Beach",
+          "cityDestinationId": "11662"
+        }
+      },
+      {
+        "name": "Huntington Park",
+        "elementType": "3",
+        "destinationId": "21792",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.98044383781270",
+        "cityLongitude": "118.21916811700700"
+      },
+      {
+        "name": "Imperial",
+        "elementType": "3",
+        "destinationId": "4662",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IPL",
+        "cityLatitude": "32.85136234159080",
+        "cityLongitude": "115.56844000201700"
+      },
+      {
+        "name": "Imperial Beach",
+        "elementType": "3",
+        "destinationId": "4664",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "NRS",
+        "cityLatitude": "32.58536745455390",
+        "cityLongitude": "117.12159769852100"
+      },
+      {
+        "name": "Indian Wells",
+        "elementType": "3",
+        "destinationId": "12243",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PSP",
+        "cityLatitude": "33.71805870575210",
+        "cityLongitude": "116.30756209286000"
+      },
+      {
+        "name": "Indio",
+        "elementType": "3",
+        "destinationId": "12304",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PSP",
+        "cityLatitude": "33.72209876264620",
+        "cityLongitude": "116.21426170879800"
+      },
+      {
+        "name": "Inglewood",
+        "elementType": "3",
+        "destinationId": "13434",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.96273657238950",
+        "cityLongitude": "118.34493922038300"
+      },
+      {
+        "name": "Irvine",
+        "elementType": "3",
+        "destinationId": "11356",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.68324864664710",
+        "cityLongitude": "117.82318106968600"
+      },
+      {
+        "name": "Jackson",
+        "elementType": "3",
+        "destinationId": "21381",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "38.34712379307990",
+        "cityLongitude": "120.77339931940300"
+      },
+      {
+        "name": "June Lake",
+        "elementType": "3",
+        "destinationId": "26891",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MMH",
+        "cityLatitude": "37.77978300000000",
+        "cityLongitude": "119.07542300000000"
+      },
+      {
+        "name": "King City",
+        "elementType": "3",
+        "destinationId": "5302",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "KIC",
+        "cityLatitude": "36.21351954543500",
+        "cityLongitude": "121.12814568451500"
+      },
+      {
+        "name": "Kings Canyon National Park",
+        "elementType": "3",
+        "destinationId": "28440",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FAT"
+      },
+      {
+        "name": "La Jolla",
+        "elementType": "3",
+        "destinationId": "11252",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAN",
+        "cityLatitude": "33.85748335727960",
+        "cityLongitude": "117.86183994038800"
+      },
+      {
+        "name": "La Mesa",
+        "elementType": "3",
+        "destinationId": "12533",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAN",
+        "cityLatitude": "32.76837212808060",
+        "cityLongitude": "117.02615263505900"
+      },
+      {
+        "name": "La Mirada",
+        "elementType": "3",
+        "destinationId": "12720",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.89926020933800",
+        "cityLongitude": "118.01622953638700"
+      },
+      {
+        "name": "La Quinta",
+        "elementType": "3",
+        "destinationId": "27051",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PSP"
+      },
+      {
+        "name": "Laguna Beach",
+        "elementType": "3",
+        "destinationId": "11884",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.53239367354360",
+        "cityLongitude": "117.76905865070300"
+      },
+      {
+        "name": "Laguna Hills",
+        "elementType": "3",
+        "destinationId": "13482",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.60025501804230",
+        "cityLongitude": "117.68537517299200"
+      },
+      {
+        "name": "Laguna Woods",
+        "elementType": "3",
+        "destinationId": "25036",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.61030100000000",
+        "cityLongitude": "117.72533000000000"
+      },
+      {
+        "name": "Lake Arrowhead",
+        "elementType": "3",
+        "destinationId": "12401",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.24850144197900",
+        "cityLongitude": "117.18638887298800"
+      },
+      {
+        "name": "Lake Elsinore",
+        "elementType": "3",
+        "destinationId": "18941",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.67164757034190",
+        "cityLongitude": "117.32788307183300"
+      },
+      {
+        "name": "Lake Forest",
+        "elementType": "3",
+        "destinationId": "12147",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.62243264227730",
+        "cityLongitude": "117.69877600414400"
+      },
+      {
+        "name": "Lake Tahoe",
+        "elementType": "3",
+        "destinationId": "11253",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TVL",
+        "cityLatitude": "38.94594696818240",
+        "cityLongitude": "119.95695948715500",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "20923",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Olympic Valley",
+          "destinationCode": "TVL",
+          "city": "Lake Tahoe",
+          "cityDestinationId": "11253"
+        }
+      },
+      {
+        "name": "Lancaster",
+        "elementType": "3",
+        "destinationId": "5697",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WJF",
+        "cityLatitude": "34.69732341762430",
+        "cityLongitude": "118.14776531942300"
+      },
+      {
+        "name": "Larkspur",
+        "elementType": "3",
+        "destinationId": "12741",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.93113795186940",
+        "cityLongitude": "122.53121680419800"
+      },
+      {
+        "name": "Lathrop",
+        "elementType": "3",
+        "destinationId": "5759",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LRO",
+        "cityLatitude": "37.81780462297140",
+        "cityLongitude": "121.27582803474900"
+      },
+      {
+        "name": "Lawndale",
+        "elementType": "3",
+        "destinationId": "13505",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.90106337927880",
+        "cityLongitude": "118.34940616410100"
+      },
+      {
+        "name": "Lebec",
+        "elementType": "3",
+        "destinationId": "12540",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.83382133309250",
+        "cityLongitude": "118.86609631443400"
+      },
+      {
+        "name": "Lemoore",
+        "elementType": "3",
+        "destinationId": "5822",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "NLC",
+        "cityLatitude": "36.30123624985090",
+        "cityLongitude": "119.77953849327500"
+      },
+      {
+        "name": "Lincoln",
+        "elementType": "3",
+        "destinationId": "24144",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF"
+      },
+      {
+        "name": "Lindsay",
+        "elementType": "3",
+        "destinationId": "21892",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FAT",
+        "cityLatitude": "36.20367724284100",
+        "cityLongitude": "119.08912931159100"
+      },
+      {
+        "name": "Livermore",
+        "elementType": "3",
+        "destinationId": "5944",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LVK",
+        "cityLatitude": "37.68105399050400",
+        "cityLongitude": "121.77138557979000"
+      },
+      {
+        "name": "Lodi",
+        "elementType": "3",
+        "destinationId": "12185",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SCK",
+        "cityLatitude": "38.13254657011470",
+        "cityLongitude": "121.27436637426700"
+      },
+      {
+        "name": "Loma Linda",
+        "elementType": "3",
+        "destinationId": "19116",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "34.05174076746390",
+        "cityLongitude": "117.25820148192100"
+      },
+      {
+        "name": "Lompoc",
+        "elementType": "3",
+        "destinationId": "5976",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LPC",
+        "cityLatitude": "34.64652047057780",
+        "cityLongitude": "120.44779054129000"
+      },
+      {
+        "name": "Lone Pine",
+        "elementType": "3",
+        "destinationId": "24604",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "36.60451889038090",
+        "cityLongitude": "118.06281280517600"
+      },
+      {
+        "name": "Long Beach",
+        "elementType": "3",
+        "destinationId": "5997",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGB",
+        "cityLatitude": "33.77174057753380",
+        "cityLongitude": "118.19339098307900",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "10941",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Heliport",
+          "destinationCode": "JLB",
+          "city": "Long Beach",
+          "cityDestinationId": "5997"
+        }
+      },
+      {
+        "name": "Los Alamitos",
+        "elementType": "3",
+        "destinationId": "25619",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX"
+      },
+      {
+        "name": "Los Altos",
+        "elementType": "3",
+        "destinationId": "12784",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SJC",
+        "cityLatitude": "37.38359583705530",
+        "cityLongitude": "122.11383760439600"
+      },
+      {
+        "name": "Los Angeles",
+        "elementType": "3",
+        "destinationId": "6031",
+        "provider": "2;39",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.05516610733270",
+        "cityLongitude": "118.24184434505100",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "11249",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Beverly Hills",
+            "destinationCode": "LAX",
+            "city": "Los Angeles",
+            "cityDestinationId": "6031"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "11994",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown",
+            "destinationCode": "LAX",
+            "city": "Los Angeles",
+            "cityDestinationId": "6031"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "11995",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Hollywood",
+            "destinationCode": "LAX",
+            "city": "Los Angeles",
+            "cityDestinationId": "6031"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "11997",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Sunset Boulevard",
+            "destinationCode": "LAX",
+            "city": "Los Angeles",
+            "cityDestinationId": "6031"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12094",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Los Angeles International Airport Area",
+            "destinationCode": "LAX",
+            "city": "Los Angeles",
+            "cityDestinationId": "6031"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16505",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown Area",
+            "destinationCode": "LAX",
+            "city": "Los Angeles",
+            "cityDestinationId": "6031"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "19925",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Brentwood  Westwood",
+            "destinationCode": "LAX",
+            "city": "Los Angeles",
+            "cityDestinationId": "6031"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20650",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "San Fernando",
+            "destinationCode": "LAX",
+            "city": "Los Angeles",
+            "cityDestinationId": "6031"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "21493",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Beverly Hills - West Hollywood",
+            "destinationCode": "LAX",
+            "city": "Los Angeles",
+            "cityDestinationId": "6031"
+          }
+        ]
+      },
+      {
+        "name": "Los Banos",
+        "elementType": "3",
+        "destinationId": "6039",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LSN",
+        "cityLatitude": "37.05824660613100",
+        "cityLongitude": "120.84273939985700"
+      },
+      {
+        "name": "Los Gatos",
+        "elementType": "3",
+        "destinationId": "21930",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SJC",
+        "cityLatitude": "37.22122174991660",
+        "cityLongitude": "121.97861351920900"
+      },
+      {
+        "name": "Lost Hills",
+        "elementType": "3",
+        "destinationId": "26770",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BFL",
+        "cityLatitude": "35.61634900000000",
+        "cityLongitude": "119.69429400000000"
+      },
+      {
+        "name": "Lynwood",
+        "elementType": "3",
+        "destinationId": "26402",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "VNY",
+        "cityLatitude": "33.93029300000000",
+        "cityLongitude": "118.21146000000000"
+      },
+      {
+        "name": "Madera",
+        "elementType": "3",
+        "destinationId": "6175",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MAE",
+        "cityLatitude": "36.96451250505630",
+        "cityLongitude": "120.05446726774600"
+      },
+      {
+        "name": "Malibu",
+        "elementType": "3",
+        "destinationId": "25017",
+        "provider": "39",
+        "status": "UpToDate",
+        "destinationCode": "LAX"
+      },
+      {
+        "name": "Mammoth Lakes",
+        "elementType": "3",
+        "destinationId": "6275",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MMH",
+        "cityLatitude": "37.65001761091540",
+        "cityLongitude": "118.98388975686000"
+      },
+      {
+        "name": "Manhattan Beach",
+        "elementType": "3",
+        "destinationId": "12324",
+        "provider": "2;39",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.88670632164350",
+        "cityLongitude": "118.40825507398900"
+      },
+      {
+        "name": "Manteca",
+        "elementType": "3",
+        "destinationId": "12526",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MOD",
+        "cityLatitude": "37.79640905539630",
+        "cityLongitude": "121.21621414367300"
+      },
+      {
+        "name": "Marina",
+        "elementType": "3",
+        "destinationId": "12576",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MRY",
+        "cityLatitude": "36.66319529472660",
+        "cityLongitude": "121.80445735575200"
+      },
+      {
+        "name": "Marina Del Rey",
+        "elementType": "3",
+        "destinationId": "11532",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.97511287516550",
+        "cityLongitude": "118.43703749115200",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "21783",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Beach Cities",
+          "destinationCode": "LAX",
+          "city": "Marina Del Rey",
+          "cityDestinationId": "11532"
+        }
+      },
+      {
+        "name": "Mariposa",
+        "elementType": "3",
+        "destinationId": "11302",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RMY",
+        "cityLatitude": "37.48747618414210",
+        "cityLongitude": "119.96417216691800"
+      },
+      {
+        "name": "Martinez",
+        "elementType": "3",
+        "destinationId": "15860",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OAK",
+        "cityLatitude": "38.01688073161520",
+        "cityLongitude": "122.13514779460700"
+      },
+      {
+        "name": "Marysville",
+        "elementType": "3",
+        "destinationId": "6456",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MYV",
+        "cityLatitude": "39.14407026543700",
+        "cityLongitude": "121.59139643478200"
+      },
+      {
+        "name": "McKinleyville",
+        "elementType": "3",
+        "destinationId": "20490",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ACV",
+        "cityLatitude": "40.94272886637350",
+        "cityLongitude": "124.10095820000700"
+      },
+      {
+        "name": "Menlo Park",
+        "elementType": "3",
+        "destinationId": "24605",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.45468902587890",
+        "cityLongitude": "122.17790222168000"
+      },
+      {
+        "name": "Merced",
+        "elementType": "3",
+        "destinationId": "6598",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCE",
+        "cityLatitude": "37.30214924629750",
+        "cityLongitude": "120.47733793964000",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "10974",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Municipal airport",
+          "destinationCode": "MCE",
+          "city": "Merced",
+          "cityDestinationId": "6598"
+        }
+      },
+      {
+        "name": "Mill Valley",
+        "elementType": "3",
+        "destinationId": "11647",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.90457534618720",
+        "cityLongitude": "122.52751484166700"
+      },
+      {
+        "name": "Millbrae",
+        "elementType": "3",
+        "destinationId": "13608",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.59694362596990",
+        "cityLongitude": "122.40208524774900"
+      },
+      {
+        "name": "Milpitas",
+        "elementType": "3",
+        "destinationId": "12723",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SJC",
+        "cityLatitude": "37.42529072684370",
+        "cityLongitude": "121.90077668342700"
+      },
+      {
+        "name": "Mission Viejo",
+        "elementType": "3",
+        "destinationId": "11663",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.61444132094840",
+        "cityLongitude": "117.66758936039300"
+      },
+      {
+        "name": "Modesto",
+        "elementType": "3",
+        "destinationId": "6770",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MOD",
+        "cityLatitude": "37.64082076119800",
+        "cityLongitude": "120.99386416543300"
+      },
+      {
+        "name": "Mojave",
+        "elementType": "3",
+        "destinationId": "6781",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MHV",
+        "cityLatitude": "35.05619863208970",
+        "cityLongitude": "118.16933505682200"
+      },
+      {
+        "name": "Monrovia",
+        "elementType": "3",
+        "destinationId": "12204",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.15029015190340",
+        "cityLongitude": "117.98925028916600"
+      },
+      {
+        "name": "Montebello",
+        "elementType": "3",
+        "destinationId": "11664",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.01045227393120",
+        "cityLongitude": "118.09939391972100"
+      },
+      {
+        "name": "Monterey",
+        "elementType": "3",
+        "destinationId": "6834",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MRY",
+        "cityLatitude": "36.60951000785030",
+        "cityLongitude": "121.90772981600200"
+      },
+      {
+        "name": "Monterey Park",
+        "elementType": "3",
+        "destinationId": "12709",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUR",
+        "cityLatitude": "34.05965354161740",
+        "cityLongitude": "118.12551256310800"
+      },
+      {
+        "name": "Moreno Valley",
+        "elementType": "3",
+        "destinationId": "12110",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "33.94520006169550",
+        "cityLongitude": "117.23329861220700"
+      },
+      {
+        "name": "Morgan Hill",
+        "elementType": "3",
+        "destinationId": "11665",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCE",
+        "cityLatitude": "37.13015142261830",
+        "cityLongitude": "121.65084640131800"
+      },
+      {
+        "name": "Morro Bay",
+        "elementType": "3",
+        "destinationId": "11327",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBP",
+        "cityLatitude": "35.36434261649490",
+        "cityLongitude": "120.84067668272800"
+      },
+      {
+        "name": "Mount Shasta",
+        "elementType": "3",
+        "destinationId": "6958",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RDD",
+        "cityLatitude": "41.32294500690060",
+        "cityLongitude": "122.30500093888700"
+      },
+      {
+        "name": "Mountain View",
+        "elementType": "3",
+        "destinationId": "6967",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "NUQ",
+        "cityLatitude": "37.40018295145470",
+        "cityLongitude": "122.08110733789400"
+      },
+      {
+        "name": "Murrieta",
+        "elementType": "3",
+        "destinationId": "13650",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JIO",
+        "cityLatitude": "33.55061661824920",
+        "cityLongitude": "117.19815045873800"
+      },
+      {
+        "name": "Napa",
+        "elementType": "3",
+        "destinationId": "7143",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "38.29886509149910",
+        "cityLongitude": "122.28515240915900"
+      },
+      {
+        "name": "National City",
+        "elementType": "3",
+        "destinationId": "12692",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAN",
+        "cityLatitude": "32.67910497072310",
+        "cityLongitude": "117.10184479144100"
+      },
+      {
+        "name": "Needles",
+        "elementType": "3",
+        "destinationId": "7199",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EED",
+        "cityLatitude": "34.83837706926890",
+        "cityLongitude": "114.60121691365100"
+      },
+      {
+        "name": "Newark",
+        "elementType": "3",
+        "destinationId": "27056",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SJC"
+      },
+      {
+        "name": "Newport Beach",
+        "elementType": "3",
+        "destinationId": "7284",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.61658941544240",
+        "cityLongitude": "117.93040137927700"
+      },
+      {
+        "name": "Norco",
+        "elementType": "3",
+        "destinationId": "13678",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "33.92965113604990",
+        "cityLongitude": "117.54498746479200"
+      },
+      {
+        "name": "North Hollywood",
+        "elementType": "3",
+        "destinationId": "23351",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.16550781337420",
+        "cityLongitude": "118.37896722282800"
+      },
+      {
+        "name": "Norwalk",
+        "elementType": "3",
+        "destinationId": "12146",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGB",
+        "cityLatitude": "33.89710528465480",
+        "cityLongitude": "118.08565157911100"
+      },
+      {
+        "name": "Novato",
+        "elementType": "3",
+        "destinationId": "7426",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "NOT",
+        "cityLatitude": "38.09410968056050",
+        "cityLongitude": "122.56566827837100"
+      },
+      {
+        "name": "Oakdale",
+        "elementType": "3",
+        "destinationId": "11666",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ODC",
+        "cityLatitude": "37.76507214748430",
+        "cityLongitude": "120.84737026811400"
+      },
+      {
+        "name": "Oakhurst",
+        "elementType": "3",
+        "destinationId": "11885",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCE",
+        "cityLatitude": "37.32562119138030",
+        "cityLongitude": "119.64147304939200"
+      },
+      {
+        "name": "Oakland",
+        "elementType": "3",
+        "destinationId": "7484",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OAK",
+        "cityLatitude": "37.81539698128900",
+        "cityLongitude": "122.25989436960800",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "7485",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Metropolitan Oak International",
+          "destinationCode": "OAK",
+          "city": "Oakland",
+          "cityDestinationId": "7484"
+        }
+      },
+      {
+        "name": "Oceanside",
+        "elementType": "3",
+        "destinationId": "7511",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OCN",
+        "cityLatitude": "33.19123255469070",
+        "cityLongitude": "117.35744413056100",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "21438",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Carlsbad",
+          "destinationCode": "OCN",
+          "city": "Oceanside",
+          "cityDestinationId": "7511"
+        }
+      },
+      {
+        "name": "Ojai",
+        "elementType": "3",
+        "destinationId": "21995",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.44345553145870",
+        "cityLongitude": "119.24661981347300"
+      },
+      {
+        "name": "Ontario",
+        "elementType": "3",
+        "destinationId": "7607",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "34.07125803301720",
+        "cityLongitude": "117.64267283030100"
+      },
+      {
+        "name": "Orange",
+        "elementType": "3",
+        "destinationId": "7623",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.80311163639170",
+        "cityLongitude": "117.84535186373200"
+      },
+      {
+        "name": "Oroville",
+        "elementType": "3",
+        "destinationId": "7654",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OVE",
+        "cityLatitude": "39.51050308421900",
+        "cityLongitude": "121.55264194143200"
+      },
+      {
+        "name": "Oxnard",
+        "elementType": "3",
+        "destinationId": "7736",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OXR",
+        "cityLatitude": "34.18821136217530",
+        "cityLongitude": "119.18208818619500"
+      },
+      {
+        "name": "Pacific Grove",
+        "elementType": "3",
+        "destinationId": "12323",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MRY",
+        "cityLatitude": "36.61810921601530",
+        "cityLongitude": "121.91710083554300"
+      },
+      {
+        "name": "Pacifica",
+        "elementType": "3",
+        "destinationId": "11255",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.63085210010440",
+        "cityLongitude": "122.49177929193000"
+      },
+      {
+        "name": "Palm Desert",
+        "elementType": "3",
+        "destinationId": "11256",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PSP",
+        "cityLatitude": "33.71995408324680",
+        "cityLongitude": "116.37930639990200"
+      },
+      {
+        "name": "Palm Springs",
+        "elementType": "3",
+        "destinationId": "7783",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PSP",
+        "cityLatitude": "33.82735880794520",
+        "cityLongitude": "116.53043116547800",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "20822",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Palm Springs",
+            "destinationCode": "PSP",
+            "city": "Palm Springs",
+            "cityDestinationId": "7783"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20823",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Desert Hot Springs",
+            "destinationCode": "PSP",
+            "city": "Palm Springs",
+            "cityDestinationId": "7783"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20824",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Rancho Mirage",
+            "destinationCode": "PSP",
+            "city": "Palm Springs",
+            "cityDestinationId": "7783"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20825",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Indian Wells",
+            "destinationCode": "PSP",
+            "city": "Palm Springs",
+            "cityDestinationId": "7783"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20826",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "La Quinta",
+            "destinationCode": "PSP",
+            "city": "Palm Springs",
+            "cityDestinationId": "7783"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "21765",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Cathedral City",
+            "destinationCode": "PSP",
+            "city": "Palm Springs",
+            "cityDestinationId": "7783"
+          }
+        ]
+      },
+      {
+        "name": "Palmdale",
+        "elementType": "3",
+        "destinationId": "7791",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PMD",
+        "cityLatitude": "34.55940482280890",
+        "cityLongitude": "118.11786275123700"
+      },
+      {
+        "name": "Palo Alto",
+        "elementType": "3",
+        "destinationId": "7797",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PAO",
+        "cityLatitude": "37.44450063388430",
+        "cityLongitude": "122.13214251137200"
+      },
+      {
+        "name": "Pasadena",
+        "elementType": "3",
+        "destinationId": "7873",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JPD",
+        "cityLatitude": "34.14642426483320",
+        "cityLongitude": "118.13514312983700"
+      },
+      {
+        "name": "Paso Robles",
+        "elementType": "3",
+        "destinationId": "7883",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PRB",
+        "cityLatitude": "35.63239680556660",
+        "cityLongitude": "120.69349976649200"
+      },
+      {
+        "name": "Patterson",
+        "elementType": "3",
+        "destinationId": "18462",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OAK",
+        "cityLatitude": "37.46830384314180",
+        "cityLongitude": "121.12530432582100"
+      },
+      {
+        "name": "Petaluma",
+        "elementType": "3",
+        "destinationId": "11533",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STS",
+        "cityLatitude": "38.23775197390050",
+        "cityLongitude": "122.64436571798800"
+      },
+      {
+        "name": "Phelan",
+        "elementType": "3",
+        "destinationId": "13743",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "34.42608636039940",
+        "cityLongitude": "117.57566867454300"
+      },
+      {
+        "name": "Pico Rivera",
+        "elementType": "3",
+        "destinationId": "12448",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.99746466922440",
+        "cityLongitude": "118.08925791899300"
+      },
+      {
+        "name": "Pinole",
+        "elementType": "3",
+        "destinationId": "13753",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OAK",
+        "cityLatitude": "38.00561774967380",
+        "cityLongitude": "122.29039799444100"
+      },
+      {
+        "name": "Pismo Beach",
+        "elementType": "3",
+        "destinationId": "11328",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBP",
+        "cityLatitude": "35.14150769482320",
+        "cityLongitude": "120.64230066847400"
+      },
+      {
+        "name": "Pittsburg",
+        "elementType": "3",
+        "destinationId": "22850",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "38.01902882610910",
+        "cityLongitude": "121.88865992783900"
+      },
+      {
+        "name": "Placentia",
+        "elementType": "3",
+        "destinationId": "11648",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.87690841527910",
+        "cityLongitude": "117.86193556303700"
+      },
+      {
+        "name": "Placerville",
+        "elementType": "3",
+        "destinationId": "8075",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "38.72783170722720",
+        "cityLongitude": "120.80356143477800"
+      },
+      {
+        "name": "Pleasanton",
+        "elementType": "3",
+        "destinationId": "8089",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JBS",
+        "cityLatitude": "37.65912566817370",
+        "cityLongitude": "121.88419298412200"
+      },
+      {
+        "name": "Pollock Pines",
+        "elementType": "3",
+        "destinationId": "24606",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAC",
+        "cityLatitude": "38.76261138916020",
+        "cityLongitude": "120.58277130127000"
+      },
+      {
+        "name": "Pomona",
+        "elementType": "3",
+        "destinationId": "12259",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "34.05131388064080",
+        "cityLongitude": "117.76776091476100"
+      },
+      {
+        "name": "Port Hueneme",
+        "elementType": "3",
+        "destinationId": "8191",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OXR",
+        "cityLatitude": "34.14968909525650",
+        "cityLongitude": "119.19558463999500"
+      },
+      {
+        "name": "Porterville",
+        "elementType": "3",
+        "destinationId": "8224",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BFL",
+        "cityLatitude": "36.07322745988300",
+        "cityLongitude": "119.03079949607900"
+      },
+      {
+        "name": "Poway",
+        "elementType": "3",
+        "destinationId": "11258",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAN",
+        "cityLatitude": "32.96138985893060",
+        "cityLongitude": "117.02296976690600"
+      },
+      {
+        "name": "Rancho Cordova",
+        "elementType": "3",
+        "destinationId": "11375",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "38.59653156571750",
+        "cityLongitude": "121.30555301801700"
+      },
+      {
+        "name": "Rancho Cucamonga",
+        "elementType": "3",
+        "destinationId": "19410",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "34.10639900000000",
+        "cityLongitude": "117.59310800000000"
+      },
+      {
+        "name": "Rancho Mirage",
+        "elementType": "3",
+        "destinationId": "11376",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PSP",
+        "cityLatitude": "33.75266727427660",
+        "cityLongitude": "116.42097055383900"
+      },
+      {
+        "name": "Rancho Palos Verdes",
+        "elementType": "3",
+        "destinationId": "11329",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGB",
+        "cityLatitude": "33.75326491582890",
+        "cityLongitude": "118.38952669528500"
+      },
+      {
+        "name": "Rancho Santa Fe",
+        "elementType": "3",
+        "destinationId": "27076",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAN",
+        "cityLatitude": "33.02052400000000",
+        "cityLongitude": "117.20244800000000"
+      },
+      {
+        "name": "Red Bluff",
+        "elementType": "3",
+        "destinationId": "8546",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RBL",
+        "cityLatitude": "40.19016496324320",
+        "cityLongitude": "122.23988191534000"
+      },
+      {
+        "name": "Redding",
+        "elementType": "3",
+        "destinationId": "8555",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RDD",
+        "cityLatitude": "40.59004521839070",
+        "cityLongitude": "122.38309732185700"
+      },
+      {
+        "name": "Redlands",
+        "elementType": "3",
+        "destinationId": "11330",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBT",
+        "cityLatitude": "34.04968146542910",
+        "cityLongitude": "117.16928607930600"
+      },
+      {
+        "name": "Redondo Beach",
+        "elementType": "3",
+        "destinationId": "11331",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.84442062049190",
+        "cityLongitude": "118.38798307253300"
+      },
+      {
+        "name": "Redwood City",
+        "elementType": "3",
+        "destinationId": "12279",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.48644141048280",
+        "cityLongitude": "122.22570244262300"
+      },
+      {
+        "name": "Reseda",
+        "elementType": "3",
+        "destinationId": "11332",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUR",
+        "cityLatitude": "34.19684472128620",
+        "cityLongitude": "118.52999636575600"
+      },
+      {
+        "name": "Rialto",
+        "elementType": "3",
+        "destinationId": "12215",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "34.10439811087010",
+        "cityLongitude": "117.36095484779500"
+      },
+      {
+        "name": "Richmond",
+        "elementType": "3",
+        "destinationId": "12659",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OAK",
+        "cityLatitude": "37.94343229237540",
+        "cityLongitude": "122.35912335787000"
+      },
+      {
+        "name": "Ridgecrest",
+        "elementType": "3",
+        "destinationId": "13804",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IYK",
+        "cityLatitude": "35.62397518232000",
+        "cityLongitude": "117.67239781356900"
+      },
+      {
+        "name": "Riverside",
+        "elementType": "3",
+        "destinationId": "8660",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "33.98328178141290",
+        "cityLongitude": "117.36285364038400"
+      },
+      {
+        "name": "Rocklin",
+        "elementType": "3",
+        "destinationId": "13818",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "38.80695261857260",
+        "cityLongitude": "121.20091451993300"
+      },
+      {
+        "name": "Rohnert Park",
+        "elementType": "3",
+        "destinationId": "12446",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "38.34394434002120",
+        "cityLongitude": "122.69754557086600"
+      },
+      {
+        "name": "Rosemead",
+        "elementType": "3",
+        "destinationId": "12188",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUR",
+        "cityLatitude": "34.08424222262940",
+        "cityLongitude": "118.06537957765500"
+      },
+      {
+        "name": "Roseville",
+        "elementType": "3",
+        "destinationId": "11333",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "38.74846570870980",
+        "cityLongitude": "121.28450237499500"
+      },
+      {
+        "name": "Rowland Heights",
+        "elementType": "3",
+        "destinationId": "21791",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "33.98843857423620",
+        "cityLongitude": "117.90480183026800"
+      },
+      {
+        "name": "Sacramento",
+        "elementType": "3",
+        "destinationId": "8833",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "38.57371873388960",
+        "cityLongitude": "121.49619725813100",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "20889",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Sacramento and vicinity",
+          "destinationCode": "SMF",
+          "city": "Sacramento",
+          "cityDestinationId": "8833"
+        }
+      },
+      {
+        "name": "Salida",
+        "elementType": "3",
+        "destinationId": "19411",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SJC"
+      },
+      {
+        "name": "Salinas",
+        "elementType": "3",
+        "destinationId": "8887",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNS",
+        "cityLatitude": "36.67600189942040",
+        "cityLongitude": "121.64303266490700"
+      },
+      {
+        "name": "San Bernardino",
+        "elementType": "3",
+        "destinationId": "8929",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBT",
+        "cityLatitude": "34.12545216898670",
+        "cityLongitude": "117.27212140745000"
+      },
+      {
+        "name": "San Bruno",
+        "elementType": "3",
+        "destinationId": "15873",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.61830845769370",
+        "cityLongitude": "122.41556804117100"
+      },
+      {
+        "name": "San Carlos",
+        "elementType": "3",
+        "destinationId": "8934",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SQL",
+        "cityLatitude": "37.49589780738870",
+        "cityLongitude": "122.25989436960800"
+      },
+      {
+        "name": "San Clemente",
+        "elementType": "3",
+        "destinationId": "12378",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.41725375961020",
+        "cityLongitude": "117.60934150715100"
+      },
+      {
+        "name": "San Diego",
+        "elementType": "3",
+        "destinationId": "8939",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAN",
+        "cityLatitude": "32.71215284102220",
+        "cityLongitude": "117.13663777507300",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "12018",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown Area",
+            "destinationCode": "SAN",
+            "city": "San Diego",
+            "cityDestinationId": "8939"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12019",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Airport Area",
+            "destinationCode": "SAN",
+            "city": "San Diego",
+            "cityDestinationId": "8939"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12020",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Mission Valley area",
+            "destinationCode": "SAN",
+            "city": "San Diego",
+            "cityDestinationId": "8939"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12021",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Sea World area",
+            "destinationCode": "SAN",
+            "city": "San Diego",
+            "cityDestinationId": "8939"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12022",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Bay area",
+            "destinationCode": "SAN",
+            "city": "San Diego",
+            "cityDestinationId": "8939"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16142",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Beach Cities",
+            "destinationCode": "SAN",
+            "city": "San Diego",
+            "cityDestinationId": "8939"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20245",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown - San Diego Intl Airport",
+            "destinationCode": "SAN",
+            "city": "San Diego",
+            "cityDestinationId": "8939"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20246",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Del Mar",
+            "destinationCode": "SAN",
+            "city": "San Diego",
+            "cityDestinationId": "8939"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20247",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Mission Valley - Old Town",
+            "destinationCode": "SAN",
+            "city": "San Diego",
+            "cityDestinationId": "8939"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20248",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Central",
+            "destinationCode": "SAN",
+            "city": "San Diego",
+            "cityDestinationId": "8939"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20249",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "South Bay",
+            "destinationCode": "SAN",
+            "city": "San Diego",
+            "cityDestinationId": "8939"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20661",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Rancho Bernardo",
+            "destinationCode": "SAN",
+            "city": "San Diego",
+            "cityDestinationId": "8939"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "21504",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "La Jolla",
+            "destinationCode": "SAN",
+            "city": "San Diego",
+            "cityDestinationId": "8939"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "22262",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Poway",
+            "destinationCode": "SAN",
+            "city": "San Diego",
+            "cityDestinationId": "8939"
+          }
+        ]
+      },
+      {
+        "name": "San Dimas",
+        "elementType": "3",
+        "destinationId": "13836",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JIO",
+        "cityLatitude": "34.11789114957550",
+        "cityLongitude": "117.81029933291100"
+      },
+      {
+        "name": "San Francisco",
+        "elementType": "3",
+        "destinationId": "8953",
+        "provider": "2;39",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.78317556387940",
+        "cityLongitude": "122.41660622992500",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "11985",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Union Square",
+            "destinationCode": "SFO",
+            "city": "San Francisco",
+            "cityDestinationId": "8953"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "11986",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Fisherman's Wharf/Russian Hill",
+            "destinationCode": "SFO",
+            "city": "San Francisco",
+            "cityDestinationId": "8953"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "11987",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Civic Center",
+            "destinationCode": "SFO",
+            "city": "San Francisco",
+            "cityDestinationId": "8953"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "11989",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Downtown/Union Square/Nob Hill",
+            "destinationCode": "SFO",
+            "city": "San Francisco",
+            "cityDestinationId": "8953"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12091",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Airport Area",
+            "destinationCode": "SFO",
+            "city": "San Francisco",
+            "cityDestinationId": "8953"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16138",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Nob Hill",
+            "destinationCode": "SFO",
+            "city": "San Francisco",
+            "cityDestinationId": "8953"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16139",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "South of Market",
+            "destinationCode": "SFO",
+            "city": "San Francisco",
+            "cityDestinationId": "8953"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "19918",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Cultural District/Japantown",
+            "destinationCode": "SFO",
+            "city": "San Francisco",
+            "cityDestinationId": "8953"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "19920",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Fishermans Wharf",
+            "destinationCode": "SFO",
+            "city": "San Francisco",
+            "cityDestinationId": "8953"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "28488",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Financial District",
+            "destinationCode": "SFO",
+            "city": "San Francisco",
+            "cityDestinationId": "8953"
+          }
+        ]
+      },
+      {
+        "name": "San Gabriel",
+        "elementType": "3",
+        "destinationId": "13837",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUR",
+        "cityLatitude": "34.10058003512410",
+        "cityLongitude": "118.10085558020400"
+      },
+      {
+        "name": "San Jose",
+        "elementType": "3",
+        "destinationId": "8962",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SJC",
+        "cityLatitude": "37.34608785322820",
+        "cityLongitude": "121.88771736173400",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "20603",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Santa Clara",
+          "destinationCode": "SJC",
+          "city": "San Jose",
+          "cityDestinationId": "8962"
+        }
+      },
+      {
+        "name": "San Juan Capistrano",
+        "elementType": "3",
+        "destinationId": "11334",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JNP",
+        "cityLatitude": "33.50128216187420",
+        "cityLongitude": "117.65805441631200"
+      },
+      {
+        "name": "San Leandro",
+        "elementType": "3",
+        "destinationId": "19412",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OAK",
+        "cityLatitude": "37.72493000000000",
+        "cityLongitude": "122.15607700000000"
+      },
+      {
+        "name": "San Luis Obispo",
+        "elementType": "3",
+        "destinationId": "8982",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CSL",
+        "cityLatitude": "35.29286810192530",
+        "cityLongitude": "120.66214919820200"
+      },
+      {
+        "name": "San Marcos",
+        "elementType": "3",
+        "destinationId": "12750",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAN",
+        "cityLatitude": "33.13940849436320",
+        "cityLongitude": "117.13706124680200"
+      },
+      {
+        "name": "San Mateo",
+        "elementType": "3",
+        "destinationId": "11335",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.55989326481710",
+        "cityLongitude": "122.31307422248600"
+      },
+      {
+        "name": "San Pablo",
+        "elementType": "3",
+        "destinationId": "24243",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SJC"
+      },
+      {
+        "name": "San Pedro",
+        "elementType": "3",
+        "destinationId": "8995",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.72941048015270",
+        "cityLongitude": "118.28969665037600"
+      },
+      {
+        "name": "San Rafael",
+        "elementType": "3",
+        "destinationId": "9003",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SRF",
+        "cityLatitude": "37.97485116255750",
+        "cityLongitude": "122.52752850204600"
+      },
+      {
+        "name": "San Ramon",
+        "elementType": "3",
+        "destinationId": "12823",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OAK",
+        "cityLatitude": "37.77513643122630",
+        "cityLongitude": "121.98385910449100"
+      },
+      {
+        "name": "San Simeon",
+        "elementType": "3",
+        "destinationId": "11336",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBP",
+        "cityLatitude": "35.64925029734360",
+        "cityLongitude": "121.18296478279400"
+      },
+      {
+        "name": "San Ysidro",
+        "elementType": "3",
+        "destinationId": "13839",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAN",
+        "cityLatitude": "33.25857480481240",
+        "cityLongitude": "116.57536014983800"
+      },
+      {
+        "name": "Santa Ana",
+        "elementType": "3",
+        "destinationId": "9045",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.73860732987010",
+        "cityLongitude": "117.87129292220000",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "15646",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Airport Area",
+          "destinationCode": "SNA",
+          "city": "Santa Ana",
+          "cityDestinationId": "9045"
+        }
+      },
+      {
+        "name": "Santa Barbara",
+        "elementType": "3",
+        "destinationId": "9048",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBA",
+        "cityLatitude": "34.43012641729340",
+        "cityLongitude": "119.71175569595100"
+      },
+      {
+        "name": "Santa Clara",
+        "elementType": "3",
+        "destinationId": "9056",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SJC",
+        "cityLatitude": "37.36236419402040",
+        "cityLongitude": "121.94785034718700"
+      },
+      {
+        "name": "Santa Clarita",
+        "elementType": "3",
+        "destinationId": "12775",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.38826418787040",
+        "cityLongitude": "118.55044595213100"
+      },
+      {
+        "name": "Santa Cruz",
+        "elementType": "3",
+        "destinationId": "9061",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SRU",
+        "cityLatitude": "36.97285216603290",
+        "cityLongitude": "122.01220438954700"
+      },
+      {
+        "name": "Santa Maria",
+        "elementType": "3",
+        "destinationId": "9077",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBP",
+        "cityLatitude": "34.95489326632010",
+        "cityLongitude": "120.43765454056200"
+      },
+      {
+        "name": "Santa Monica",
+        "elementType": "3",
+        "destinationId": "9083",
+        "provider": "2;39",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.01728246310120",
+        "cityLongitude": "118.49047689121800"
+      },
+      {
+        "name": "Santa Nella",
+        "elementType": "3",
+        "destinationId": "12366",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MOD",
+        "cityLatitude": "38.49721378499630",
+        "cityLongitude": "122.96602664676100"
+      },
+      {
+        "name": "Santa Rosa",
+        "elementType": "3",
+        "destinationId": "9086",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "STS",
+        "cityLatitude": "38.44137698853150",
+        "cityLongitude": "122.69762753313600"
+      },
+      {
+        "name": "Santee",
+        "elementType": "3",
+        "destinationId": "23214",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAN",
+        "cityLatitude": "32.87053468259110",
+        "cityLongitude": "116.97099202732200"
+      },
+      {
+        "name": "Sausalito",
+        "elementType": "3",
+        "destinationId": "9191",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JMC",
+        "cityLatitude": "37.85872428628890",
+        "cityLongitude": "122.48783144259000"
+      },
+      {
+        "name": "Scotts Valley",
+        "elementType": "3",
+        "destinationId": "12742",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SJC",
+        "cityLatitude": "37.03761943483750",
+        "cityLongitude": "122.02225842800500"
+      },
+      {
+        "name": "Seal Beach",
+        "elementType": "3",
+        "destinationId": "19413",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.74140600000000",
+        "cityLongitude": "118.10478700000000"
+      },
+      {
+        "name": "Seaside",
+        "elementType": "3",
+        "destinationId": "13852",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MRY",
+        "cityLatitude": "36.60822251719170",
+        "cityLongitude": "121.84389486801900"
+      },
+      {
+        "name": "Selma",
+        "elementType": "3",
+        "destinationId": "11563",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FAT",
+        "cityLatitude": "36.56722772179330",
+        "cityLongitude": "119.60531402792600"
+      },
+      {
+        "name": "Sequoia National Park",
+        "elementType": "3",
+        "destinationId": "11564",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCE",
+        "cityLatitude": "36.42754352307740",
+        "cityLongitude": "119.11602659654300"
+      },
+      {
+        "name": "Sherman Oaks",
+        "elementType": "3",
+        "destinationId": "12607",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.15037894436260",
+        "cityLongitude": "118.44889469955100"
+      },
+      {
+        "name": "Signal Hill",
+        "elementType": "3",
+        "destinationId": "23211",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.79674931517980",
+        "cityLongitude": "118.16769581142200"
+      },
+      {
+        "name": "Simi Valley",
+        "elementType": "3",
+        "destinationId": "12497",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.27119816059100",
+        "cityLongitude": "118.75312498556200"
+      },
+      {
+        "name": "Solana Beach",
+        "elementType": "3",
+        "destinationId": "20043",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAN",
+        "cityLatitude": "32.98459542663570",
+        "cityLongitude": "117.27005869032000"
+      },
+      {
+        "name": "Solvang",
+        "elementType": "3",
+        "destinationId": "11567",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SBA",
+        "cityLatitude": "34.59627759904320",
+        "cityLongitude": "120.14107406642200"
+      },
+      {
+        "name": "Sonoma",
+        "elementType": "3",
+        "destinationId": "12501",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OAK",
+        "cityLatitude": "38.29534071388740",
+        "cityLongitude": "122.45594811954400"
+      },
+      {
+        "name": "Sonora",
+        "elementType": "3",
+        "destinationId": "11568",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAC",
+        "cityLatitude": "37.98361771035720",
+        "cityLongitude": "120.38722042373100"
+      },
+      {
+        "name": "South El Monte",
+        "elementType": "3",
+        "destinationId": "18942",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.04409095559350",
+        "cityLongitude": "118.04621406684400"
+      },
+      {
+        "name": "South Lake Tahoe",
+        "elementType": "3",
+        "destinationId": "9589",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TVL",
+        "cityLatitude": "38.94594696818240",
+        "cityLongitude": "119.95695948715500"
+      },
+      {
+        "name": "South San Francisco",
+        "elementType": "3",
+        "destinationId": "12424",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.66033119656220",
+        "cityLongitude": "122.41634668273600"
+      },
+      {
+        "name": "Stanton",
+        "elementType": "3",
+        "destinationId": "13923",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGB",
+        "cityLatitude": "33.80285891939240",
+        "cityLongitude": "117.99603949720100"
+      },
+      {
+        "name": "Stevenson Ranch",
+        "elementType": "3",
+        "destinationId": "13927",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "37.32785466323890",
+        "cityLongitude": "120.85099026837400"
+      },
+      {
+        "name": "Stockton",
+        "elementType": "3",
+        "destinationId": "11569",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SCK",
+        "cityLatitude": "37.95865678403540",
+        "cityLongitude": "121.28115558230200"
+      },
+      {
+        "name": "Suisun City",
+        "elementType": "3",
+        "destinationId": "22912",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SUU",
+        "cityLatitude": "38.23834961545280",
+        "cityLongitude": "122.03660182526200"
+      },
+      {
+        "name": "Sunnyvale",
+        "elementType": "3",
+        "destinationId": "11570",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SJC",
+        "cityLatitude": "37.37164642110240",
+        "cityLongitude": "122.03824107066300"
+      },
+      {
+        "name": "Sunset Beach",
+        "elementType": "3",
+        "destinationId": "13945",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.71522417724650",
+        "cityLongitude": "118.06770184197300"
+      },
+      {
+        "name": "Susanville",
+        "elementType": "3",
+        "destinationId": "9858",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SVE",
+        "cityLatitude": "40.42002814957080",
+        "cityLongitude": "120.64779214056700"
+      },
+      {
+        "name": "Sutter Creek",
+        "elementType": "3",
+        "destinationId": "26592",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SAC",
+        "cityLatitude": "38.39296800000000",
+        "cityLongitude": "120.80243600000000"
+      },
+      {
+        "name": "Sylmar",
+        "elementType": "3",
+        "destinationId": "13948",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUR",
+        "cityLatitude": "34.31464157880690",
+        "cityLongitude": "118.46273266280900"
+      },
+      {
+        "name": "Taft",
+        "elementType": "3",
+        "destinationId": "28082",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BFL"
+      },
+      {
+        "name": "Tehachapi",
+        "elementType": "3",
+        "destinationId": "10078",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TSP",
+        "cityLatitude": "35.13376909049360",
+        "cityLongitude": "118.44142247259900"
+      },
+      {
+        "name": "Temecula",
+        "elementType": "3",
+        "destinationId": "11571",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.49483446329770",
+        "cityLongitude": "117.14428758694400"
+      },
+      {
+        "name": "Thousand Oaks",
+        "elementType": "3",
+        "destinationId": "10182",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.18502849402210",
+        "cityLongitude": "118.89427767494900"
+      },
+      {
+        "name": "Thousand Palms",
+        "elementType": "3",
+        "destinationId": "12352",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PSP",
+        "cityLatitude": "33.82091110936870",
+        "cityLongitude": "116.38677862685400"
+      },
+      {
+        "name": "Tiburon",
+        "elementType": "3",
+        "destinationId": "22150",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.88120243884740",
+        "cityLongitude": "122.46583823346200"
+      },
+      {
+        "name": "Torrance",
+        "elementType": "3",
+        "destinationId": "10303",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.83664786521640",
+        "cityLongitude": "118.34141484277200"
+      },
+      {
+        "name": "Tracy",
+        "elementType": "3",
+        "destinationId": "11572",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MOD",
+        "cityLatitude": "37.74409663654320",
+        "cityLongitude": "121.42738993243200"
+      },
+      {
+        "name": "Truckee",
+        "elementType": "3",
+        "destinationId": "10374",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TKF",
+        "cityLatitude": "39.33377876963410",
+        "cityLongitude": "120.17458297449000"
+      },
+      {
+        "name": "Tulare",
+        "elementType": "3",
+        "destinationId": "10409",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TLR",
+        "cityLatitude": "36.20841056393590",
+        "cityLongitude": "119.34430517898300"
+      },
+      {
+        "name": "Turlock",
+        "elementType": "3",
+        "destinationId": "13983",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MOD",
+        "cityLatitude": "37.49555288283560",
+        "cityLongitude": "120.84909147578500"
+      },
+      {
+        "name": "Twentynine Palms",
+        "elementType": "3",
+        "destinationId": "10460",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "TNP",
+        "cityLatitude": "34.13301318839790",
+        "cityLongitude": "116.03203226174200"
+      },
+      {
+        "name": "Ukiah",
+        "elementType": "3",
+        "destinationId": "10493",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "UKI",
+        "cityLatitude": "39.14682283167250",
+        "cityLongitude": "123.21002832467000"
+      },
+      {
+        "name": "Union City",
+        "elementType": "3",
+        "destinationId": "12327",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "37.60554283413490",
+        "cityLongitude": "122.02285948465200"
+      },
+      {
+        "name": "Universal City",
+        "elementType": "3",
+        "destinationId": "19801",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.13976900000000",
+        "cityLongitude": "118.35057800000000"
+      },
+      {
+        "name": "Upland",
+        "elementType": "3",
+        "destinationId": "10535",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CCB",
+        "cityLatitude": "34.09670731786470",
+        "cityLongitude": "117.63494105616100"
+      },
+      {
+        "name": "Vacaville",
+        "elementType": "3",
+        "destinationId": "13989",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "38.35726662399730",
+        "cityLongitude": "121.98616770843100"
+      },
+      {
+        "name": "Valencia",
+        "elementType": "3",
+        "destinationId": "20476",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.40236169831730",
+        "cityLongitude": "118.55156610315500"
+      },
+      {
+        "name": "Vallejo",
+        "elementType": "3",
+        "destinationId": "10615",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "VLO",
+        "cityLatitude": "38.09986753003080",
+        "cityLongitude": "122.24494991570400"
+      },
+      {
+        "name": "Van Nuys",
+        "elementType": "3",
+        "destinationId": "12746",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.18760689043380",
+        "cityLongitude": "118.45276058662100"
+      },
+      {
+        "name": "Venice",
+        "elementType": "3",
+        "destinationId": "12645",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.98878349878930",
+        "cityLongitude": "118.46960383311400"
+      },
+      {
+        "name": "Ventura",
+        "elementType": "3",
+        "destinationId": "748",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OXR",
+        "cityLatitude": "34.27743070820860",
+        "cityLongitude": "119.27238328702300",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "20871",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Ventura and vicinity",
+          "destinationCode": "OXR",
+          "city": "Ventura",
+          "cityDestinationId": "748"
+        }
+      },
+      {
+        "name": "Victorville",
+        "elementType": "3",
+        "destinationId": "784",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "VCV",
+        "cityLatitude": "34.53882887793420",
+        "cityLongitude": "117.29815808856600"
+      },
+      {
+        "name": "Visalia",
+        "elementType": "3",
+        "destinationId": "836",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "VIS",
+        "cityLatitude": "36.32916489336710",
+        "cityLongitude": "119.29970404370300"
+      },
+      {
+        "name": "Vista",
+        "elementType": "3",
+        "destinationId": "11573",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OCN",
+        "cityLatitude": "33.19948342320810",
+        "cityLongitude": "117.23432314058300"
+      },
+      {
+        "name": "Walnut",
+        "elementType": "3",
+        "destinationId": "12333",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "34.02604559580630",
+        "cityLongitude": "117.84182748612000"
+      },
+      {
+        "name": "Walnut Creek",
+        "elementType": "3",
+        "destinationId": "12361",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OAK",
+        "cityLatitude": "37.90517981792880",
+        "cityLongitude": "122.05895020422600"
+      },
+      {
+        "name": "Wasco",
+        "elementType": "3",
+        "destinationId": "24607",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BFL",
+        "cityLatitude": "35.59357070922850",
+        "cityLongitude": "119.33374023437500"
+      },
+      {
+        "name": "Watsonville",
+        "elementType": "3",
+        "destinationId": "972",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WVI",
+        "cityLatitude": "36.91093308611210",
+        "cityLongitude": "121.75197418216900"
+      },
+      {
+        "name": "Weed",
+        "elementType": "3",
+        "destinationId": "14029",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RDD",
+        "cityLatitude": "41.44409890239830",
+        "cityLongitude": "122.38077505753900"
+      },
+      {
+        "name": "West Covina",
+        "elementType": "3",
+        "destinationId": "14041",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONT",
+        "cityLatitude": "34.05002297488760",
+        "cityLongitude": "117.91133149111400"
+      },
+      {
+        "name": "West Hollywood",
+        "elementType": "3",
+        "destinationId": "12740",
+        "provider": "2;39",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.09068992120590",
+        "cityLongitude": "118.37053876939300"
+      },
+      {
+        "name": "West Sacramento",
+        "elementType": "3",
+        "destinationId": "11574",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "38.57337722443110",
+        "cityLongitude": "121.52437861864600"
+      },
+      {
+        "name": "Westlake Village",
+        "elementType": "3",
+        "destinationId": "26857",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX"
+      },
+      {
+        "name": "Westley",
+        "elementType": "3",
+        "destinationId": "12790",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MOD",
+        "cityLatitude": "37.55078179246430",
+        "cityLongitude": "121.20073693501400"
+      },
+      {
+        "name": "Westminster",
+        "elementType": "3",
+        "destinationId": "12505",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SNA",
+        "cityLatitude": "33.76203146362860",
+        "cityLongitude": "117.99844372378900"
+      },
+      {
+        "name": "Wheeler Ridge",
+        "elementType": "3",
+        "destinationId": "26558",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.98907200000000",
+        "cityLongitude": "118.94462300000001"
+      },
+      {
+        "name": "Whittier",
+        "elementType": "3",
+        "destinationId": "11960",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.95319479811900",
+        "cityLongitude": "118.02602402765700"
+      },
+      {
+        "name": "Williams",
+        "elementType": "3",
+        "destinationId": "14061",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "39.14905630353110",
+        "cityLongitude": "122.14949119186400"
+      },
+      {
+        "name": "Willits",
+        "elementType": "3",
+        "destinationId": "16878",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CCR",
+        "cityLatitude": "39.40387700108590",
+        "cityLongitude": "123.34895437238800"
+      },
+      {
+        "name": "Willows",
+        "elementType": "3",
+        "destinationId": "1092",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "WLW",
+        "cityLatitude": "39.51858661310170",
+        "cityLongitude": "122.19657851600200"
+      },
+      {
+        "name": "Wilmington",
+        "elementType": "3",
+        "destinationId": "14065",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.78093742725120",
+        "cityLongitude": "118.26289498807300"
+      },
+      {
+        "name": "Windsor",
+        "elementType": "3",
+        "destinationId": "20044",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SFO",
+        "cityLatitude": "38.54713300000000",
+        "cityLongitude": "122.81638000000000"
+      },
+      {
+        "name": "Woodland",
+        "elementType": "3",
+        "destinationId": "11575",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "38.67291015611110",
+        "cityLongitude": "121.77206859870700"
+      },
+      {
+        "name": "Woodland Hills",
+        "elementType": "3",
+        "destinationId": "12133",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "34.16679871912740",
+        "cityLongitude": "118.60518308813900"
+      },
+      {
+        "name": "Yorba Linda",
+        "elementType": "3",
+        "destinationId": "22010",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LAX",
+        "cityLatitude": "33.89117668045520",
+        "cityLongitude": "117.82430122071000"
+      },
+      {
+        "name": "Yosemite National Park",
+        "elementType": "3",
+        "destinationId": "11576",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MCE",
+        "cityLatitude": "37.74873775008420",
+        "cityLongitude": "119.60221312204300"
+      },
+      {
+        "name": "Yreka",
+        "elementType": "3",
+        "destinationId": "1295",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RKC",
+        "cityLatitude": "41.73882156508440",
+        "cityLongitude": "122.62812352814200"
+      },
+      {
+        "name": "Yuba City",
+        "elementType": "3",
+        "destinationId": "14088",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SMF",
+        "cityLatitude": "39.13418698170790",
+        "cityLongitude": "121.60505681312200"
+      },
+      {
+        "name": "Yucca Valley",
+        "elementType": "3",
+        "destinationId": "12641",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PSP",
+        "cityLatitude": "34.12820473522220",
+        "cityLongitude": "116.42767779960400"
+      }
+    ]
+  }
+}

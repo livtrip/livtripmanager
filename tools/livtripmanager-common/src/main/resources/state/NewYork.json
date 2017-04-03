@@ -1,0 +1,2008 @@
+{
+  "State": {
+    "name": "New York",
+    "elementType": "6",
+    "destinationId": "4000015",
+    "provider": "2;39",
+    "status": "UpToDate",
+    "StateShort": "NY",
+    "City": [
+      {
+        "name": "Albany",
+        "elementType": "3",
+        "destinationId": "166",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "42.65247889488400",
+        "cityLongitude": "73.76085209236850"
+      },
+      {
+        "name": "Amherst",
+        "elementType": "3",
+        "destinationId": "12639",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF",
+        "cityLatitude": "42.96025746416860",
+        "cityLongitude": "78.78900513290010"
+      },
+      {
+        "name": "Amsterdam",
+        "elementType": "3",
+        "destinationId": "26515",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "42.93774530000000",
+        "cityLongitude": "74.19035599999999"
+      },
+      {
+        "name": "Apalachin",
+        "elementType": "3",
+        "destinationId": "18960",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BGM",
+        "cityLatitude": "42.06939247562920",
+        "cityLongitude": "76.15503830213310"
+      },
+      {
+        "name": "Astoria",
+        "elementType": "3",
+        "destinationId": "19241",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGA",
+        "cityLatitude": "40.76686174052950",
+        "cityLongitude": "73.91360927315580"
+      },
+      {
+        "name": "Auburn",
+        "elementType": "3",
+        "destinationId": "16893",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR",
+        "cityLatitude": "42.93179265080250",
+        "cityLongitude": "76.56871553940410"
+      },
+      {
+        "name": "Baldwinsville",
+        "elementType": "3",
+        "destinationId": "11831",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR",
+        "cityLatitude": "43.15859591238200",
+        "cityLongitude": "76.33304669228190"
+      },
+      {
+        "name": "Batavia",
+        "elementType": "3",
+        "destinationId": "12817",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ROC",
+        "cityLatitude": "42.99613303278410",
+        "cityLongitude": "78.17780565502150"
+      },
+      {
+        "name": "Bath",
+        "elementType": "3",
+        "destinationId": "19020",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ELM",
+        "cityLatitude": "42.33358419272530",
+        "cityLongitude": "77.30594566784770"
+      },
+      {
+        "name": "Bay Shore",
+        "elementType": "3",
+        "destinationId": "11832",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "NYC",
+        "cityLatitude": "40.72163564294020",
+        "cityLongitude": "73.24158696071830"
+      },
+      {
+        "name": "Bayside",
+        "elementType": "3",
+        "destinationId": "22178",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGA",
+        "cityLatitude": "40.77709677900070",
+        "cityLongitude": "73.78156122593200"
+      },
+      {
+        "name": "Binghamton",
+        "elementType": "3",
+        "destinationId": "1767",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BGM",
+        "cityLatitude": "42.09978340234120",
+        "cityLongitude": "75.92598790831670"
+      },
+      {
+        "name": "Brewerton",
+        "elementType": "3",
+        "destinationId": "26535",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR",
+        "cityLatitude": "43.23812400000000",
+        "cityLongitude": "76.14075800000001"
+      },
+      {
+        "name": "Brockport",
+        "elementType": "3",
+        "destinationId": "13063",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ROC",
+        "cityLatitude": "43.21060097272250",
+        "cityLongitude": "77.92676888226690"
+      },
+      {
+        "name": "Bronx",
+        "elementType": "3",
+        "destinationId": "13065",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGA",
+        "cityLatitude": "40.83729465125060",
+        "cityLongitude": "73.88602896928730"
+      },
+      {
+        "name": "Brooklyn",
+        "elementType": "3",
+        "destinationId": "12139",
+        "provider": "2;39",
+        "status": "UpToDate",
+        "destinationCode": "LGA",
+        "cityLatitude": "40.63271341013580",
+        "cityLongitude": "73.96695988076280"
+      },
+      {
+        "name": "Buffalo",
+        "elementType": "3",
+        "destinationId": "2083",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF",
+        "cityLatitude": "42.88088383582390",
+        "cityLongitude": "78.86246381742360",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "20855",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "Airport Area",
+          "destinationCode": "BUF",
+          "city": "Buffalo",
+          "cityDestinationId": "2083"
+        }
+      },
+      {
+        "name": "Canandaigua",
+        "elementType": "3",
+        "destinationId": "12191",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ROC",
+        "cityLatitude": "42.88113996791770",
+        "cityLongitude": "77.27622068457980"
+      },
+      {
+        "name": "Canton",
+        "elementType": "3",
+        "destinationId": "24809",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "AXB",
+        "cityLatitude": "40.79780960083010",
+        "cityLongitude": "81.37156677246090"
+      },
+      {
+        "name": "Carle Place",
+        "elementType": "3",
+        "destinationId": "24022",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JFK",
+        "cityLatitude": "40.75260100000000",
+        "cityLongitude": "73.61040600000000"
+      },
+      {
+        "name": "Castleton On Hudson",
+        "elementType": "3",
+        "destinationId": "13109",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "42.52011665895840",
+        "cityLongitude": "73.75775801667450"
+      },
+      {
+        "name": "Cazenovia",
+        "elementType": "3",
+        "destinationId": "13114",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR",
+        "cityLatitude": "42.93617763224970",
+        "cityLongitude": "75.85425043146410"
+      },
+      {
+        "name": "Centereach",
+        "elementType": "3",
+        "destinationId": "11834",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "NYC",
+        "cityLatitude": "40.86782559684060",
+        "cityLongitude": "73.12164883889290"
+      },
+      {
+        "name": "Central Valley",
+        "elementType": "3",
+        "destinationId": "12529",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JFK",
+        "cityLatitude": "41.33110708295880",
+        "cityLongitude": "74.12994185473770"
+      },
+      {
+        "name": "Cheektowaga",
+        "elementType": "3",
+        "destinationId": "13127",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF",
+        "cityLatitude": "42.89294594989810",
+        "cityLongitude": "78.76546147083110"
+      },
+      {
+        "name": "Chester",
+        "elementType": "3",
+        "destinationId": "16342",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SWF",
+        "cityLatitude": "41.36205808518270",
+        "cityLongitude": "74.27316409144360"
+      },
+      {
+        "name": "Cicero",
+        "elementType": "3",
+        "destinationId": "13131",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR",
+        "cityLatitude": "43.17560649850990",
+        "cityLongitude": "76.12943192293470"
+      },
+      {
+        "name": "Clarence",
+        "elementType": "3",
+        "destinationId": "24035",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF"
+      },
+      {
+        "name": "Clifton Park",
+        "elementType": "3",
+        "destinationId": "13143",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "42.85791732473970",
+        "cityLongitude": "73.82099190801050"
+      },
+      {
+        "name": "Cobleskill",
+        "elementType": "3",
+        "destinationId": "12651",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "42.67697878343690",
+        "cityLongitude": "74.48253671026120"
+      },
+      {
+        "name": "Cohoes",
+        "elementType": "3",
+        "destinationId": "19336",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "42.64960000000000",
+        "cityLongitude": "73.75320000000000"
+      },
+      {
+        "name": "Commack",
+        "elementType": "3",
+        "destinationId": "12288",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ISP",
+        "cityLatitude": "40.84847225582730",
+        "cityLongitude": "73.29467802113680"
+      },
+      {
+        "name": "Cooperstown",
+        "elementType": "3",
+        "destinationId": "2766",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "COP",
+        "cityLatitude": "42.70105861535580",
+        "cityLongitude": "74.92920376122340"
+      },
+      {
+        "name": "Copiague",
+        "elementType": "3",
+        "destinationId": "26785",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JFK",
+        "cityLatitude": "40.68148900000000",
+        "cityLongitude": "73.39984400000000"
+      },
+      {
+        "name": "Corfu",
+        "elementType": "3",
+        "destinationId": "21541",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF",
+        "cityLatitude": "42.96429752106260",
+        "cityLongitude": "78.40591348273240"
+      },
+      {
+        "name": "Corning",
+        "elementType": "3",
+        "destinationId": "2791",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ELM",
+        "cityLatitude": "42.15299057597560",
+        "cityLongitude": "77.07311817942030"
+      },
+      {
+        "name": "Corona",
+        "elementType": "3",
+        "destinationId": "24042",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JFK"
+      },
+      {
+        "name": "Cortland",
+        "elementType": "3",
+        "destinationId": "2811",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CTX",
+        "cityLatitude": "42.61058592960980",
+        "cityLongitude": "76.18313087018930"
+      },
+      {
+        "name": "DeWitt",
+        "elementType": "3",
+        "destinationId": "13205",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "CMX",
+        "cityLatitude": "43.03094992207820",
+        "cityLongitude": "76.08192112706810"
+      },
+      {
+        "name": "Dunkirk",
+        "elementType": "3",
+        "destinationId": "3236",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "DKK",
+        "cityLatitude": "42.48623550558050",
+        "cityLongitude": "79.32408215247890"
+      },
+      {
+        "name": "East Aurora",
+        "elementType": "3",
+        "destinationId": "19335",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF",
+        "cityLatitude": "42.88420000000000",
+        "cityLongitude": "78.88410000000000"
+      },
+      {
+        "name": "East Elmhurst",
+        "elementType": "3",
+        "destinationId": "12265",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGA",
+        "cityLatitude": "40.76101168350530",
+        "cityLongitude": "73.86575696783070",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "22968",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "LaGuardia Airport",
+          "destinationCode": "LGA",
+          "city": "East Elmhurst",
+          "cityDestinationId": "12265"
+        }
+      },
+      {
+        "name": "East Greenbush",
+        "elementType": "3",
+        "destinationId": "13232",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "42.59166630560880",
+        "cityLongitude": "73.69985167289110"
+      },
+      {
+        "name": "East Syracuse",
+        "elementType": "3",
+        "destinationId": "19334",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR",
+        "cityLatitude": "43.05110000000000",
+        "cityLongitude": "76.14410000000000"
+      },
+      {
+        "name": "Ellicottville",
+        "elementType": "3",
+        "destinationId": "20027",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF",
+        "cityLatitude": "42.88420000000000",
+        "cityLongitude": "78.88410000000000"
+      },
+      {
+        "name": "Elmira",
+        "elementType": "3",
+        "destinationId": "3418",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ELM",
+        "cityLatitude": "42.09536768504280",
+        "cityLongitude": "76.81408325514760"
+      },
+      {
+        "name": "Elmsford",
+        "elementType": "3",
+        "destinationId": "19333",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGA",
+        "cityLatitude": "41.05509700000000",
+        "cityLongitude": "73.82013400000000"
+      },
+      {
+        "name": "Endwell",
+        "elementType": "3",
+        "destinationId": "16887",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BGM",
+        "cityLatitude": "42.11602217709290",
+        "cityLongitude": "76.02607750041410"
+      },
+      {
+        "name": "Evans Mills",
+        "elementType": "3",
+        "destinationId": "24065",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ART",
+        "cityLatitude": "44.08811600000000",
+        "cityLongitude": "75.80715300000000"
+      },
+      {
+        "name": "Farmington",
+        "elementType": "3",
+        "destinationId": "13276",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ROC",
+        "cityLatitude": "43.03189248818370",
+        "cityLongitude": "77.33249461315160"
+      },
+      {
+        "name": "Farmingville",
+        "elementType": "3",
+        "destinationId": "19332",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ISP",
+        "cityLatitude": "40.73260000000000",
+        "cityLongitude": "73.20970000000000"
+      },
+      {
+        "name": "Findley Lake",
+        "elementType": "3",
+        "destinationId": "24071",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ERI",
+        "cityLatitude": "42.11922300000000",
+        "cityLongitude": "79.73254799999999"
+      },
+      {
+        "name": "Fishkill",
+        "elementType": "3",
+        "destinationId": "11835",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SWF",
+        "cityLatitude": "41.53448279568510",
+        "cityLongitude": "73.90158131002740"
+      },
+      {
+        "name": "Floral Park",
+        "elementType": "3",
+        "destinationId": "12314",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JFK",
+        "cityLatitude": "40.72309730342260",
+        "cityLongitude": "73.70655208846690"
+      },
+      {
+        "name": "Flushing",
+        "elementType": "3",
+        "destinationId": "12552",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGA",
+        "cityLatitude": "40.75817032481060",
+        "cityLongitude": "73.82193447411590"
+      },
+      {
+        "name": "Fredonia",
+        "elementType": "3",
+        "destinationId": "26371",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF",
+        "cityLatitude": "42.44005800000000",
+        "cityLongitude": "79.33171000000000"
+      },
+      {
+        "name": "Garden City",
+        "elementType": "3",
+        "destinationId": "3881",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JHC",
+        "cityLatitude": "40.73083249265760",
+        "cityLongitude": "73.63266993221490"
+      },
+      {
+        "name": "Geneseo",
+        "elementType": "3",
+        "destinationId": "25031",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ROC",
+        "cityLatitude": "42.79589600000000",
+        "cityLongitude": "77.81694700000000"
+      },
+      {
+        "name": "Geneva",
+        "elementType": "3",
+        "destinationId": "19331",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ITH",
+        "cityLatitude": "42.43980000000000",
+        "cityLongitude": "76.49930000000000"
+      },
+      {
+        "name": "Glenmont",
+        "elementType": "3",
+        "destinationId": "13333",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "42.60465049522100",
+        "cityLongitude": "73.77236779130910"
+      },
+      {
+        "name": "Glens Falls",
+        "elementType": "3",
+        "destinationId": "4008",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GFL",
+        "cityLatitude": "43.31294111215140",
+        "cityLongitude": "73.64495061234260"
+      },
+      {
+        "name": "Goshen",
+        "elementType": "3",
+        "destinationId": "13343",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HPN",
+        "cityLatitude": "41.40705878652930",
+        "cityLongitude": "74.33046937858000"
+      },
+      {
+        "name": "Hamburg",
+        "elementType": "3",
+        "destinationId": "13371",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF",
+        "cityLatitude": "42.72111888094810",
+        "cityLongitude": "78.82336781461440"
+      },
+      {
+        "name": "Hauppauge",
+        "elementType": "3",
+        "destinationId": "20371",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ISP",
+        "cityLatitude": "40.82517106547390",
+        "cityLongitude": "73.20352231647380"
+      },
+      {
+        "name": "Hawthorne",
+        "elementType": "3",
+        "destinationId": "13386",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HPN",
+        "cityLatitude": "41.10706663289860",
+        "cityLongitude": "73.79693598175370"
+      },
+      {
+        "name": "Henrietta",
+        "elementType": "3",
+        "destinationId": "26377",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ROC",
+        "cityLatitude": "43.05924500000000",
+        "cityLongitude": "77.61280400000000"
+      },
+      {
+        "name": "Hicksville",
+        "elementType": "3",
+        "destinationId": "11837",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "NYC",
+        "cityLatitude": "40.76539324985790",
+        "cityLongitude": "73.52562037735330"
+      },
+      {
+        "name": "Highland",
+        "elementType": "3",
+        "destinationId": "26453",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SWE",
+        "cityLatitude": "41.72092700000000",
+        "cityLongitude": "73.96013800000000"
+      },
+      {
+        "name": "Holtsville",
+        "elementType": "3",
+        "destinationId": "21543",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ISP",
+        "cityLatitude": "40.81468331000330",
+        "cityLongitude": "73.04183124825210"
+      },
+      {
+        "name": "Hornell",
+        "elementType": "3",
+        "destinationId": "13418",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF",
+        "cityLatitude": "42.32911383391350",
+        "cityLongitude": "77.65390282492490"
+      },
+      {
+        "name": "Horseheads",
+        "elementType": "3",
+        "destinationId": "19330",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ELM",
+        "cityLatitude": "42.08970000000000",
+        "cityLongitude": "76.80870000000000"
+      },
+      {
+        "name": "Islandia",
+        "elementType": "3",
+        "destinationId": "12494",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ISP",
+        "cityLatitude": "40.80591676220360",
+        "cityLongitude": "73.17740367308770"
+      },
+      {
+        "name": "Ithaca",
+        "elementType": "3",
+        "destinationId": "4776",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ITH",
+        "cityLatitude": "42.45315006924100",
+        "cityLongitude": "76.49465579823360"
+      },
+      {
+        "name": "Jamaica",
+        "elementType": "3",
+        "destinationId": "12155",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JFK",
+        "cityLatitude": "40.70960084962260",
+        "cityLongitude": "73.81205802057610",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "24357",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "JFK International Airport Area",
+          "destinationCode": "JFK",
+          "city": "Jamaica",
+          "cityDestinationId": "12155"
+        }
+      },
+      {
+        "name": "Jamestown",
+        "elementType": "3",
+        "destinationId": "4834",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JHW",
+        "cityLatitude": "42.09580140205510",
+        "cityLongitude": "79.23833595763860"
+      },
+      {
+        "name": "Jericho",
+        "elementType": "3",
+        "destinationId": "13445",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "FRG",
+        "cityLatitude": "40.79250910086290",
+        "cityLongitude": "73.54684177510450"
+      },
+      {
+        "name": "Johnson City",
+        "elementType": "3",
+        "destinationId": "4906",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BGM",
+        "cityLatitude": "42.12229912094010",
+        "cityLongitude": "75.96086968440800"
+      },
+      {
+        "name": "Johnstown",
+        "elementType": "3",
+        "destinationId": "24124",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR",
+        "cityLatitude": "43.00674000000000",
+        "cityLongitude": "74.36763600000000"
+      },
+      {
+        "name": "Kenmore",
+        "elementType": "3",
+        "destinationId": "26644",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IAG",
+        "cityLatitude": "42.96589100000000",
+        "cityLongitude": "78.87003600000000"
+      },
+      {
+        "name": "Kingston",
+        "elementType": "3",
+        "destinationId": "11840",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "41.93268282429680",
+        "cityLongitude": "74.00218999650170"
+      },
+      {
+        "name": "Lackawanna",
+        "elementType": "3",
+        "destinationId": "24731",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF",
+        "cityLatitude": "42.82580184936520",
+        "cityLongitude": "78.82472991943360"
+      },
+      {
+        "name": "Lake George",
+        "elementType": "3",
+        "destinationId": "11841",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "GFL",
+        "cityLatitude": "43.42741849773530",
+        "cityLongitude": "73.71746673076060"
+      },
+      {
+        "name": "Lake Placid",
+        "elementType": "3",
+        "destinationId": "5670",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LKP",
+        "cityLatitude": "44.27517816242270",
+        "cityLongitude": "73.98663765576160"
+      },
+      {
+        "name": "Lakeville",
+        "elementType": "3",
+        "destinationId": "27830",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ROC"
+      },
+      {
+        "name": "Latham",
+        "elementType": "3",
+        "destinationId": "13501",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "42.74509626002940",
+        "cityLongitude": "73.76068133763930"
+      },
+      {
+        "name": "LEWISTON",
+        "elementType": "3",
+        "destinationId": "20455",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF",
+        "cityLatitude": "43.17406287575750",
+        "cityLongitude": "79.04442688710190"
+      },
+      {
+        "name": "Liberty",
+        "elementType": "3",
+        "destinationId": "11842",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "41.80030692799280",
+        "cityLongitude": "74.73881906829840"
+      },
+      {
+        "name": "Liverpool",
+        "elementType": "3",
+        "destinationId": "12708",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR",
+        "cityLatitude": "43.10645766335270",
+        "cityLongitude": "76.21672174052750"
+      },
+      {
+        "name": "Lockport",
+        "elementType": "3",
+        "destinationId": "13532",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF",
+        "cityLatitude": "43.16736246018170",
+        "cityLongitude": "78.68831448415580"
+      },
+      {
+        "name": "Long Beach",
+        "elementType": "3",
+        "destinationId": "22705",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JFK",
+        "cityLatitude": "40.58944074664920",
+        "cityLongitude": "73.66634276482300"
+      },
+      {
+        "name": "Long Island City",
+        "elementType": "3",
+        "destinationId": "17786",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JFK",
+        "cityLatitude": "40.76195424961080",
+        "cityLongitude": "73.92890206670750"
+      },
+      {
+        "name": "Lynbrook",
+        "elementType": "3",
+        "destinationId": "24155",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JFK"
+      },
+      {
+        "name": "Malone",
+        "elementType": "3",
+        "destinationId": "13553",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSS",
+        "cityLatitude": "44.85163588308810",
+        "cityLongitude": "74.29377760235870"
+      },
+      {
+        "name": "Maspeth",
+        "elementType": "3",
+        "destinationId": "18962",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGA",
+        "cityLatitude": "40.72266358641030",
+        "cityLongitude": "73.90982534835570"
+      },
+      {
+        "name": "Massapequa Park",
+        "elementType": "3",
+        "destinationId": "24734",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "40.67810821533200",
+        "cityLongitude": "73.45377349853520"
+      },
+      {
+        "name": "Massena",
+        "elementType": "3",
+        "destinationId": "6474",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSS",
+        "cityLatitude": "44.93884032331620",
+        "cityLongitude": "74.89758681555540"
+      },
+      {
+        "name": "Medford",
+        "elementType": "3",
+        "destinationId": "12717",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ISP",
+        "cityLatitude": "40.81760321587350",
+        "cityLongitude": "73.00884143456090"
+      },
+      {
+        "name": "Melville",
+        "elementType": "3",
+        "destinationId": "6578",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ZMV",
+        "cityLatitude": "40.78967115726270",
+        "cityLongitude": "73.42097504907950"
+      },
+      {
+        "name": "Middletown",
+        "elementType": "3",
+        "destinationId": "12571",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HPN",
+        "cityLatitude": "41.45407439368110",
+        "cityLongitude": "74.41861296981910"
+      },
+      {
+        "name": "Montgomery",
+        "elementType": "3",
+        "destinationId": "6843",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MGJ",
+        "cityLatitude": "41.52631730453230",
+        "cityLongitude": "74.23862382481090"
+      },
+      {
+        "name": "Monticello",
+        "elementType": "3",
+        "destinationId": "6845",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "MSV",
+        "cityLatitude": "41.65823899325660",
+        "cityLongitude": "74.69431355566660"
+      },
+      {
+        "name": "Mount Kisco",
+        "elementType": "3",
+        "destinationId": "24177",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JFK"
+      },
+      {
+        "name": "Nanuet",
+        "elementType": "3",
+        "destinationId": "12169",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HPN",
+        "cityLatitude": "41.10139416079290",
+        "cityLongitude": "74.01670414848800"
+      },
+      {
+        "name": "New Hampton",
+        "elementType": "3",
+        "destinationId": "26372",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HPN",
+        "cityLatitude": "41.41092700000000",
+        "cityLongitude": "74.40710000000000"
+      },
+      {
+        "name": "New Hartford",
+        "elementType": "3",
+        "destinationId": "24189",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR",
+        "cityLatitude": "43.07340300000000",
+        "cityLongitude": "75.28766600000000"
+      },
+      {
+        "name": "New Paltz",
+        "elementType": "3",
+        "destinationId": "12512",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SWF",
+        "cityLatitude": "41.75483494359350",
+        "cityLongitude": "74.08475332318880"
+      },
+      {
+        "name": "New Windsor",
+        "elementType": "3",
+        "destinationId": "13667",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SWF",
+        "cityLatitude": "41.49760660435620",
+        "cityLongitude": "74.02212048849980"
+      },
+      {
+        "name": "New York",
+        "elementType": "3",
+        "destinationId": "7263",
+        "provider": "2;39",
+        "status": "UpToDate",
+        "destinationCode": "NYC",
+        "cityLatitude": "40.70976818925730",
+        "cityLongitude": "74.00613784584200",
+        "CityLocation": [
+          {
+            "elementType": "2",
+            "destinationId": "7264",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Manhattan - Penn Station",
+            "destinationCode": "ZYP",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "11027",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Manhattan - Upper West Side",
+            "destinationCode": "NYC",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "11029",
+            "provider": "2;39",
+            "status": "UpToDate",
+            "location": "Manhattan - Midtown",
+            "destinationCode": "NYC",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "11030",
+            "provider": "2;39",
+            "status": "UpToDate",
+            "location": "Manhattan - Union Square/Murray Hill",
+            "destinationCode": "NYC",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "11034",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Manhattan - Lower East Side",
+            "destinationCode": "NYC",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "11845",
+            "provider": "2;39",
+            "status": "UpToDate",
+            "location": "Manhattan - Lower",
+            "destinationCode": "NYC",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "11846",
+            "provider": "39",
+            "status": "UpToDate",
+            "location": "Manhattan",
+            "destinationCode": "NYC",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12031",
+            "provider": "2;39",
+            "status": "UpToDate",
+            "location": "Manhattan - Central Park",
+            "destinationCode": "NYC",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12032",
+            "provider": "2;39",
+            "status": "UpToDate",
+            "location": "Manhattan - Upper East Side",
+            "destinationCode": "NYC",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12033",
+            "provider": "2;39",
+            "status": "UpToDate",
+            "location": "Manhattan - Times Square/Broadway",
+            "destinationCode": "NYC",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12037",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Manhattan - Grand Central Station",
+            "destinationCode": "NYC",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "12038",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Manhattan - Greenwich Village/Soho/Tribeca",
+            "destinationCode": "NYC",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16498",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Queens/Midtown Tunnel",
+            "destinationCode": "NYC",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "16499",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Brooklyn",
+            "destinationCode": "NYC",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "17077",
+            "provider": "39",
+            "status": "UpToDate",
+            "location": "Manhattan-Downtown/Soho",
+            "destinationCode": "NYC",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "19930",
+            "provider": "2",
+            "status": "UpToDate",
+            "location": "Manhattan - Wall Street / Finanical District",
+            "destinationCode": "NYC",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20585",
+            "provider": "2;39",
+            "status": "UpToDate",
+            "location": "Manhattan - Chelsea / West End Villages",
+            "destinationCode": "NYC",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          },
+          {
+            "elementType": "2",
+            "destinationId": "20636",
+            "provider": "2;39",
+            "status": "UpToDate",
+            "location": "Harlem",
+            "destinationCode": "NYC",
+            "city": "New York",
+            "cityDestinationId": "7263"
+          }
+        ]
+      },
+      {
+        "name": "Newark",
+        "elementType": "3",
+        "destinationId": "13668",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ROC",
+        "cityLatitude": "43.04341843240810",
+        "cityLongitude": "77.09133429393680"
+      },
+      {
+        "name": "Newburgh",
+        "elementType": "3",
+        "destinationId": "7271",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SWF",
+        "cityLatitude": "41.51548462450870",
+        "cityLongitude": "74.02143063939370"
+      },
+      {
+        "name": "Niagara Falls",
+        "elementType": "3",
+        "destinationId": "7299",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "IAG",
+        "cityLatitude": "43.09553960596440",
+        "cityLongitude": "79.05585379358330",
+        "CityLocation": {
+          "elementType": "2",
+          "destinationId": "11847",
+          "provider": "2",
+          "status": "UpToDate",
+          "location": "US",
+          "destinationCode": "BUF",
+          "city": "Niagara Falls",
+          "cityDestinationId": "7299"
+        }
+      },
+      {
+        "name": "North Syracuse",
+        "elementType": "3",
+        "destinationId": "24739",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR",
+        "cityLatitude": "43.13251876831050",
+        "cityLongitude": "76.12789916992190"
+      },
+      {
+        "name": "Norwich",
+        "elementType": "3",
+        "destinationId": "7407",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OIC",
+        "cityLatitude": "42.53663205637150",
+        "cityLongitude": "75.52519240782030"
+      },
+      {
+        "name": "Ogdensburg",
+        "elementType": "3",
+        "destinationId": "7530",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OGS",
+        "cityLatitude": "44.69726336256200",
+        "cityLongitude": "75.49160153748220"
+      },
+      {
+        "name": "Olean",
+        "elementType": "3",
+        "destinationId": "7571",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "OLE",
+        "cityLatitude": "42.07653343840650",
+        "cityLongitude": "78.42550246527200"
+      },
+      {
+        "name": "Oneida",
+        "elementType": "3",
+        "destinationId": "12143",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ROC",
+        "cityLatitude": "43.09236015290580",
+        "cityLongitude": "75.66205573840910"
+      },
+      {
+        "name": "Oneonta",
+        "elementType": "3",
+        "destinationId": "7597",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ONH",
+        "cityLatitude": "42.45796193751130",
+        "cityLongitude": "75.05842411013080"
+      },
+      {
+        "name": "Orangeburg",
+        "elementType": "3",
+        "destinationId": "24206",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "41.04648600000000",
+        "cityLongitude": "73.94958200000001"
+      },
+      {
+        "name": "Oswego",
+        "elementType": "3",
+        "destinationId": "13718",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR",
+        "cityLatitude": "43.45612919791150",
+        "cityLongitude": "76.51321342220850"
+      },
+      {
+        "name": "Owego",
+        "elementType": "3",
+        "destinationId": "13721",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ITH",
+        "cityLatitude": "42.11034970498720",
+        "cityLongitude": "76.26440329112330"
+      },
+      {
+        "name": "Ozone Park",
+        "elementType": "3",
+        "destinationId": "13723",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JFK",
+        "cityLatitude": "40.68017639467820",
+        "cityLongitude": "73.84737009858500"
+      },
+      {
+        "name": "Painted Post",
+        "elementType": "3",
+        "destinationId": "13725",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ELM",
+        "cityLatitude": "42.17001140738730",
+        "cityLongitude": "77.07930633080840"
+      },
+      {
+        "name": "Pearl River",
+        "elementType": "3",
+        "destinationId": "22728",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "41.05953193136990",
+        "cityLongitude": "74.02435396035840"
+      },
+      {
+        "name": "Peekskill",
+        "elementType": "3",
+        "destinationId": "26184",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGA"
+      },
+      {
+        "name": "Penn Yan",
+        "elementType": "3",
+        "destinationId": "22437",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ITH",
+        "cityLatitude": "42.66365308436620",
+        "cityLongitude": "77.05533236682160"
+      },
+      {
+        "name": "Pittsford",
+        "elementType": "3",
+        "destinationId": "28288",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ROC"
+      },
+      {
+        "name": "Plainview",
+        "elementType": "3",
+        "destinationId": "13757",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ISP",
+        "cityLatitude": "40.77640692989450",
+        "cityLongitude": "73.46625237308750"
+      },
+      {
+        "name": "Plattsburgh",
+        "elementType": "3",
+        "destinationId": "8081",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "PLB",
+        "cityLatitude": "44.69502306051430",
+        "cityLongitude": "73.45164259845290"
+      },
+      {
+        "name": "Port Jervis",
+        "elementType": "3",
+        "destinationId": "13766",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "41.37684885983040",
+        "cityLongitude": "74.68684132871460"
+      },
+      {
+        "name": "potsdam",
+        "elementType": "3",
+        "destinationId": "28356",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR"
+      },
+      {
+        "name": "Poughkeepsie",
+        "elementType": "3",
+        "destinationId": "8257",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "POU",
+        "cityLatitude": "41.70364267576420",
+        "cityLongitude": "73.91265987686120"
+      },
+      {
+        "name": "Pulaski",
+        "elementType": "3",
+        "destinationId": "26642",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR",
+        "cityLatitude": "43.56701400000000",
+        "cityLongitude": "76.12770300000000"
+      },
+      {
+        "name": "Queens Village",
+        "elementType": "3",
+        "destinationId": "26756",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JFK",
+        "cityLatitude": "40.72822400000000",
+        "cityLongitude": "73.79485200000001"
+      },
+      {
+        "name": "Queensbury",
+        "elementType": "3",
+        "destinationId": "13787",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "43.37623306009530",
+        "cityLongitude": "73.61496608188620"
+      },
+      {
+        "name": "Rensselaer",
+        "elementType": "3",
+        "destinationId": "13797",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "42.64697717750760",
+        "cityLongitude": "73.74049129845270"
+      },
+      {
+        "name": "Riverhead",
+        "elementType": "3",
+        "destinationId": "12475",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ISP",
+        "cityLatitude": "40.91830410990160",
+        "cityLongitude": "72.66286503234310"
+      },
+      {
+        "name": "Rochester",
+        "elementType": "3",
+        "destinationId": "8688",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ROC",
+        "cityLatitude": "43.16168657298140",
+        "cityLongitude": "77.62056467158600"
+      },
+      {
+        "name": "Rockville Centre",
+        "elementType": "3",
+        "destinationId": "17107",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGA",
+        "cityLatitude": "40.65196771340610",
+        "cityLongitude": "73.64160381964920"
+      },
+      {
+        "name": "Rome",
+        "elementType": "3",
+        "destinationId": "8725",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "RME",
+        "cityLatitude": "43.21937093561680",
+        "cityLongitude": "75.45749157276720"
+      },
+      {
+        "name": "Ronkonkoma",
+        "elementType": "3",
+        "destinationId": "13820",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ISP",
+        "cityLatitude": "40.83161534895580",
+        "cityLongitude": "73.14028842513780"
+      },
+      {
+        "name": "Rye",
+        "elementType": "3",
+        "destinationId": "12410",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HPN",
+        "cityLatitude": "40.98048956719990",
+        "cityLongitude": "73.68378706796330"
+      },
+      {
+        "name": "Rye Brook",
+        "elementType": "3",
+        "destinationId": "12718",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HPN",
+        "cityLatitude": "41.03672592973120",
+        "cityLongitude": "73.67588453909350"
+      },
+      {
+        "name": "Sag Harbor",
+        "elementType": "3",
+        "destinationId": "26847",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ISP"
+      },
+      {
+        "name": "Salamanca",
+        "elementType": "3",
+        "destinationId": "24240",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF"
+      },
+      {
+        "name": "Saranac Lake",
+        "elementType": "3",
+        "destinationId": "9153",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SLK",
+        "cityLatitude": "44.32712858124990",
+        "cityLongitude": "74.13191577940780"
+      },
+      {
+        "name": "Saratoga Springs",
+        "elementType": "3",
+        "destinationId": "12294",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "43.08462496367070",
+        "cityLongitude": "73.78396545251980"
+      },
+      {
+        "name": "Saugerties",
+        "elementType": "3",
+        "destinationId": "12549",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SWF",
+        "cityLatitude": "42.07799851398340",
+        "cityLongitude": "73.95390055906970"
+      },
+      {
+        "name": "Schenectady",
+        "elementType": "3",
+        "destinationId": "9211",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "42.81743137843440",
+        "cityLongitude": "73.91653259412060"
+      },
+      {
+        "name": "Seneca Falls",
+        "elementType": "3",
+        "destinationId": "26610",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR",
+        "cityLatitude": "42.91062200000000",
+        "cityLongitude": "76.79662200000000"
+      },
+      {
+        "name": "Sidney",
+        "elementType": "3",
+        "destinationId": "9406",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SXY",
+        "cityLatitude": "42.31217496477190",
+        "cityLongitude": "75.38901892633780"
+      },
+      {
+        "name": "Springville",
+        "elementType": "3",
+        "destinationId": "26532",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF",
+        "cityLatitude": "42.50839500000000",
+        "cityLongitude": "78.66724800000000"
+      },
+      {
+        "name": "Staten Island",
+        "elementType": "3",
+        "destinationId": "19446",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "EWR",
+        "cityLatitude": "42.64960000000000",
+        "cityLongitude": "73.75320000000000"
+      },
+      {
+        "name": "Stony Brook",
+        "elementType": "3",
+        "destinationId": "28357",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JFK"
+      },
+      {
+        "name": "Suffern",
+        "elementType": "3",
+        "destinationId": "12310",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HPN",
+        "cityLatitude": "41.11644789772360",
+        "cityLongitude": "74.13535819474950"
+      },
+      {
+        "name": "Syosset",
+        "elementType": "3",
+        "destinationId": "12601",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGA",
+        "cityLatitude": "40.82594287685010",
+        "cityLongitude": "73.50224747001350"
+      },
+      {
+        "name": "Syracuse",
+        "elementType": "3",
+        "destinationId": "9887",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR",
+        "cityLatitude": "43.05915860335040",
+        "cityLongitude": "76.15065332068590"
+      },
+      {
+        "name": "Tarrytown",
+        "elementType": "3",
+        "destinationId": "12691",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HPN",
+        "cityLatitude": "41.07603366840470",
+        "cityLongitude": "73.86016987308970"
+      },
+      {
+        "name": "Ticonderoga",
+        "elementType": "3",
+        "destinationId": "24747",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HPN",
+        "cityLatitude": "43.86008834838870",
+        "cityLongitude": "73.45033264160160"
+      },
+      {
+        "name": "Tonawanda",
+        "elementType": "3",
+        "destinationId": "13970",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF",
+        "cityLatitude": "43.00859471292470",
+        "cityLongitude": "78.87173921431650"
+      },
+      {
+        "name": "Troy",
+        "elementType": "3",
+        "destinationId": "24810",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ZYQ",
+        "cityLatitude": "42.73448944091800",
+        "cityLongitude": "73.68808746337890"
+      },
+      {
+        "name": "Tully",
+        "elementType": "3",
+        "destinationId": "24751",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR",
+        "cityLatitude": "39.45000076293950",
+        "cityLongitude": "98.90799713134770"
+      },
+      {
+        "name": "Uniondale",
+        "elementType": "3",
+        "destinationId": "12402",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JFK",
+        "cityLatitude": "40.72214790712800",
+        "cityLongitude": "73.59503558988810"
+      },
+      {
+        "name": "Utica",
+        "elementType": "3",
+        "destinationId": "10566",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "UCA",
+        "cityLatitude": "43.10138624789400",
+        "cityLongitude": "75.24811895394960"
+      },
+      {
+        "name": "Verona",
+        "elementType": "3",
+        "destinationId": "26737",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR"
+      },
+      {
+        "name": "Vestal",
+        "elementType": "3",
+        "destinationId": "13998",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BGM",
+        "cityLatitude": "42.08874581664250",
+        "cityLongitude": "76.05563172895270"
+      },
+      {
+        "name": "Victor",
+        "elementType": "3",
+        "destinationId": "19329",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ROC",
+        "cityLatitude": "43.15640000000000",
+        "cityLongitude": "77.61120000000000"
+      },
+      {
+        "name": "Warners",
+        "elementType": "3",
+        "destinationId": "24304",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR"
+      },
+      {
+        "name": "Waterloo",
+        "elementType": "3",
+        "destinationId": "12303",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR",
+        "cityLatitude": "42.91099472477990",
+        "cityLongitude": "76.86975612707240"
+      },
+      {
+        "name": "Watertown",
+        "elementType": "3",
+        "destinationId": "967",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ART",
+        "cityLatitude": "43.97839961279650",
+        "cityLongitude": "75.91112541668280"
+      },
+      {
+        "name": "Webster",
+        "elementType": "3",
+        "destinationId": "22861",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ROC",
+        "cityLatitude": "43.21730480339280",
+        "cityLongitude": "77.43017997866110"
+      },
+      {
+        "name": "Weedsport",
+        "elementType": "3",
+        "destinationId": "12616",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SYR",
+        "cityLatitude": "43.04840447050220",
+        "cityLongitude": "76.56751342611010"
+      },
+      {
+        "name": "Wellsville",
+        "elementType": "3",
+        "destinationId": "1007",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ELZ",
+        "cityLatitude": "42.11911625278690",
+        "cityLongitude": "77.93810699628910"
+      },
+      {
+        "name": "West Coxsackie",
+        "elementType": "3",
+        "destinationId": "24309",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "ALB",
+        "cityLatitude": "42.36064000000000",
+        "cityLongitude": "73.81679200000001"
+      },
+      {
+        "name": "West Seneca",
+        "elementType": "3",
+        "destinationId": "19328",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF",
+        "cityLatitude": "42.88420000000000",
+        "cityLongitude": "78.88410000000000"
+      },
+      {
+        "name": "Westbury",
+        "elementType": "3",
+        "destinationId": "12297",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JFK",
+        "cityLatitude": "40.75671207942280",
+        "cityLongitude": "73.58721502328840"
+      },
+      {
+        "name": "White Plains",
+        "elementType": "3",
+        "destinationId": "11850",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "HPN",
+        "cityLatitude": "41.03380260876650",
+        "cityLongitude": "73.76351586614480"
+      },
+      {
+        "name": "Williamsville",
+        "elementType": "3",
+        "destinationId": "12504",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "BUF",
+        "cityLatitude": "42.96799948359280",
+        "cityLongitude": "78.74303795978590"
+      },
+      {
+        "name": "Woodbury",
+        "elementType": "3",
+        "destinationId": "12597",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "JFK",
+        "cityLatitude": "40.82662931086160",
+        "cityLongitude": "73.46882735440460"
+      },
+      {
+        "name": "Wurtsboro",
+        "elementType": "3",
+        "destinationId": "26366",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "SWF",
+        "cityLatitude": "41.57676000000000",
+        "cityLongitude": "74.48710300000000"
+      },
+      {
+        "name": "Yonkers",
+        "elementType": "3",
+        "destinationId": "16519",
+        "provider": "2",
+        "status": "UpToDate",
+        "destinationCode": "LGA",
+        "cityLatitude": "40.94229514936120",
+        "cityLongitude": "73.88697836558200"
+      }
+    ]
+  }
+}
