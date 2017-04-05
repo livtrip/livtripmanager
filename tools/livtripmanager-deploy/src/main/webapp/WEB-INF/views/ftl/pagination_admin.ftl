@@ -2,17 +2,18 @@
 <input type="hidden" id="pageSize" name="pageSize" value="${page.pageSize}" />
 <div class="pagination pagination-small pagination-right">
     <ul>
-        [#if isFirst]
+        [#if page.isFirstPage]
             <li class="prev disabled"><a href="#">«第一页</a></li>
         [#else]
-            <li class="prev"><a  class="prev" href="javascript: $.pageSkip(${firstPageNumber});">«第一页</a></li>
+            <li class="prev"><a  class="prev" href="javascript: $.pageSkip(${page.firstPage});">«第一页</a></li>
         [/#if]
-        [#if hasPrevious]
-            <li class="prev"><a  class="prev" href="javascript: $.pageSkip(${previousPageNumber});">«上一页</a></li>
+        [#if page.hasPreviousPage]
+            <li class="prev"><a  class="prev" href="javascript: $.pageSkip(${page.nextPage});">«上一页</a></li>
         [#else]
             <li class="prev disabled"><a href="#">«上一页</a></li>
         [/#if]
-        [#list segment as segmentPageNumber]
+
+        [#list page.navigatepageNums as segmentPageNumber]
             [#if segmentPageNumber_index == 0 && segmentPageNumber > firstPageNumber + 1]
                 <li class="dotted"><span>...</span></li>
             [/#if]
@@ -25,20 +26,21 @@
                 <li class="dotted"><span>...</span></li>
             [/#if]
         [/#list]
-        [#if hasNext]
-            <li class="next"><a href="javascript: $.pageSkip(${nextPageNumber});">下一页»</a></li>
+
+        [#if page.hasNextPage]
+            <li class="next"><a href="javascript: $.pageSkip(${page.nextPage});">下一页»</a></li>
         [#else]
             <li class="next disabled"><a href="#">下一页»</a></li>
         [/#if]
-        [#if isLast]
+        [#if page.isLastPage]
             <li class="next disabled"><a href="#">最后一页»</a></li>
         [#else]
-            <li class="next"><a href="javascript: $.pageSkip(${lastPageNumber});">最后一页»</a></li>
+            <li class="next"><a href="javascript: $.pageSkip(${page.lastPage});">最后一页»</a></li>
         [/#if]
     </ul>
-    <div><span>共${page.totalPages}页&nbsp;</span><span>
+    <div><span>共${page.navigatePages}页&nbsp;</span><span>
       到
-      <input type="text" class="page-num" id="pageNumber" name="pageNumber" value="${pageNumber}"><button class="page-confirm" type="submit">确定</button>
+      <input type="text" class="page-num" id="pageNumber" name="pageNumber" value="${page.pageNum}"><button class="page-confirm" type="submit">确定</button>
       页</span></div>
 </div>
 [/#escape]

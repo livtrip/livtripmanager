@@ -11,12 +11,21 @@ public class State extends BaseDO{
     private Integer id;
     /**州名*/
     private String name;
+    private String stateName;
     private Integer type;
     private String status;
     private Integer destinationId;
     private String provider;
     /**州名简称*/
     private String stateShort;
+
+    public String getStateName() {
+        return stateName;
+    }
+
+    public void setStateName(String stateName) {
+        this.stateName = stateName;
+    }
 
     public Integer getId() {
         return id;

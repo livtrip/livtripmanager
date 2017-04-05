@@ -1,4 +1,4 @@
-package com.qccr.livtrip.model.destination;
+package com.qccr.livtrip.dal.destination;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;

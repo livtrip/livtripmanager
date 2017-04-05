@@ -25,10 +25,32 @@ public class DestinationProcessor {
 
     public static void main(String[] args) {
        // System.out.println(inputStream2String(DestinationProcessor.class.getResourceAsStream("/destination.text")));
-        String  json = inputStream2String(DestinationProcessor.class.getResourceAsStream("/alabama.text"));
+
+        String  json = inputStream2String(DestinationProcessor.class.getResourceAsStream("/state/NewYork.json"));
         StateJSON stateDTO = JSON.parseObject(json,StateJSON.class);
         System.out.println(JSON.toJSONString(stateDTO));
+
+        //getAllFiles();
     }
+
+    public static  StateJSON getStateModelByFileName(String name){
+        String  json = inputStream2String(DestinationProcessor.class.getResourceAsStream("/state/"+name+""));
+        StateJSON stateDTO = JSON.parseObject(json,StateJSON.class);
+        return stateDTO;
+    }
+
+
+    public static List<String> getAllFiles(){
+        List<String> fileNames = Lists.newArrayList();
+        String path = DestinationProcessor.class.getResource("/state/").getPath();
+        File file = new File(path);
+        File[] listFile = file.listFiles();
+        for(File file1 : listFile){
+            System.out.println(file1.getName());
+        }
+        return  null;
+    }
+
 
     public static  String inputStream2String(InputStream is){
         BufferedReader in = new BufferedReader(new InputStreamReader(is));

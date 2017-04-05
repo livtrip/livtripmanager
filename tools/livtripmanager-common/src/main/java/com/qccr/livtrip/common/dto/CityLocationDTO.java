@@ -1,7 +1,7 @@
 package com.qccr.livtrip.common.dto;
 
 /**
- * 城市地点
+ * 城市区域(eg：杭州:西湖区，余杭区)
  * @author xierongli
  * @version : livtripmanager-parent, v 0.1 2017/4/2 20:38 Exp $$
  */

@@ -18,23 +18,15 @@ public class CityDTO {
     private String status;
     /**destinationCode*/
     private String destinationCode;
-    private String city;
     private String cityDestinationId;
     private String location;
     /**经度*/
     private String cityLatitude;
     /**纬度*/
     private String cityLongitude;
-    /**城市地理位置*/
-    private List<CityLocationDTO> CityLocation;
+//    /**城市地理位置*/
+//    private List<CityLocationDTO> CityLocation;
 
-    public List<CityLocationDTO> getCityLocation() {
-        return CityLocation;
-    }
-
-    public void setCityLocation(List<CityLocationDTO> cityLocation) {
-        CityLocation = cityLocation;
-    }
 
     public String getCityLatitude() {
         return cityLatitude;
@@ -52,13 +44,6 @@ public class CityDTO {
         this.cityLongitude = cityLongitude;
     }
 
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
 
     public String getCityDestinationId() {
         return cityDestinationId;
