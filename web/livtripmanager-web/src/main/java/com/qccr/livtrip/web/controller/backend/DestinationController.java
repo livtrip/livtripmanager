@@ -82,6 +82,27 @@ public class DestinationController {
         modelMap.put("cityQuery",cityQuery);
         return "/backend/destination/list";
     }
+    @RequestMapping("test")
+    public String test(ModelMap modelMap){
+        List<Integer> nums = Lists.newArrayList();
+        nums.add(1);
+        nums.add(2);
+        nums.add(3);
+        nums.add(4);
+        nums.add(5);
+        nums.add(6);
+        nums.add(7);
+        nums.add(8);
+        nums.add(9);
+        nums.add(10);
+
+        Integer sum =nums.stream().filter(num -> num != null).
+                distinct().mapToInt(num -> num * 2).
+                peek(System.out::println).skip(2).limit(4).sum();
+        System.out.println("sum is:"+sum);
+        modelMap.put("test", sum);
+        return "backend/destination/test";
+    }
 
 
 }
