@@ -11,7 +11,7 @@
     <script type="text/javascript" src="http://g.alicdn.com/sj/lib/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="http://g.alicdn.com/sui/sui3/0.0.18/js/sui.min.js"></script>
     <script src='http://maps.google.cn/maps/api/js?key=AIzaSyAjNbgkCbR5VzzBw2VsJagYKBASIJoa2iw' type="text/javascript"></script>
-    <link rel="stylesheet" href="${base}/resources/js/page.js"/>
+	<script type="text/javascript" src="${base}/resources/js/page.js"></script>
 </head>
 
 <body>
