@@ -186,7 +186,6 @@ $().ready( function() {
 
     // 页码跳转
     $.pageSkip = function(pageNumber) {
-        alert(pageNumber);
         $pageNumber.val(pageNumber);
         $listForm.submit();
         return false;

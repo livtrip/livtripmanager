@@ -14,15 +14,15 @@
         [/#if]
 
         [#list page.navigatepageNums as segmentPageNumber]
-            [#if segmentPageNumber_index == 0 && segmentPageNumber > firstPageNumber + 1]
+            [#if segmentPageNumber_index == 0 && segmentPageNumber > page.firstPage + 1]
                 <li class="dotted"><span>...</span></li>
             [/#if]
-            [#if segmentPageNumber != pageNumber]
+            [#if segmentPageNumber != page.pageNum]
                 <li><a href="javascript: $.pageSkip(${segmentPageNumber});">${segmentPageNumber}</a></li>
             [#else]
                 <li class="active"><a href="#">${segmentPageNumber}</a></li>
             [/#if]
-            [#if !segmentPageNumber_has_next && segmentPageNumber < lastPageNumber - 1]
+            [#if !page.hasNextPage && segmentPageNumber < page.lastPage - 1]
                 <li class="dotted"><span>...</span></li>
             [/#if]
         [/#list]
@@ -38,7 +38,7 @@
             <li class="next"><a href="javascript: $.pageSkip(${page.lastPage});">最后一页»</a></li>
         [/#if]
     </ul>
-    <div><span>共${page.navigatePages}页&nbsp;</span><span>
+    <div><span>共${page.navigatePages}页&nbsp; ${pag.total}条记录</span><span>
       到
       <input type="text" class="page-num" id="pageNumber" name="pageNumber" value="${page.pageNum}"><button class="page-confirm" type="submit">确定</button>
       页</span></div>

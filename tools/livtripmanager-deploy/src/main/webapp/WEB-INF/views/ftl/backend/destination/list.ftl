@@ -63,9 +63,10 @@
                 <td>${destination.stateName}</td>
                 <td>${destination.stateShort}</td>
                 <td align="right">
-                    <div class="btn-group">
-                        <button class="btn btn-bordered btn-primary" onclick="location='edit.html?productId=${product.id}'">详情</button>
-                        <button class="btn btn-bordered btn-danger" onclick="javascript:if(confirm('确实要删除该内容吗?'))location='delete.html?productId=${product.id}'">删除</button>
+                    <div class="btn-group btn-group-sm">
+                        <button class="btn btn-bordered btn-success btn-sm" onclick="location='edit.html?productId=${product.id}'">采集</button>
+                        <button class="btn btn-bordered btn-primary btn-sm" onclick="location='edit.html?productId=${product.id}'">详情</button>
+                        <button class="btn btn-bordered btn-danger btn-sm" onclick="javascript:if(confirm('确实要删除该内容吗?'))location='delete.html?productId=${product.id}'">删除</button>
                     </div>
                 </td>
             </tr>
