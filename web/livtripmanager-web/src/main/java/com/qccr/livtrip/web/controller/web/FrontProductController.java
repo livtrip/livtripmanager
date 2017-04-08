@@ -35,6 +35,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.math.BigDecimal;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
@@ -55,6 +57,7 @@ public class FrontProductController {
     private DescriptionService descriptionService;
 
     private final static Integer NEW_YORK = 7263;
+    private final static  Integer DC = 949;
 
     @RequestMapping("/list")
     public String list(ProductQuery productQuery, ModelMap modelMap){
@@ -75,7 +78,9 @@ public class FrontProductController {
             List<Hotel> hotelList = HotelProcessor.SearchHotelsByDestinationIds(destinationIds,checkIn,checkOut, getArrayOfRoomInfoByNum(Integer.parseInt(productQuery.getPeopleNum())));
 
             List<Integer> hotelIdList = Lists.newArrayList();
+            Map<Integer, List<RoomType>> roomTypeMap = Maps.newHashMap();
             if(CollectionUtils.isNotEmpty(hotelList)){
+                roomTypeMap = getRoomTypeMap(hotelList);
                 for(Hotel hotel : hotelList){
                     hotelIdList.add(hotel.getHotelId());
                 }
@@ -88,6 +93,11 @@ public class FrontProductController {
             if(pageInfo.getTotal() == 0){
                 return "/front/product/no_product";
             }
+            for(HotelProductRo  hotelProductRo : pageInfo.getList()){
+                Collections.sort(roomTypeMap.get(hotelProductRo.getHotelId()),(m1,m2)->m1.getOccupancies().getOccupancy().get(0).getAvrNightPrice().compareTo(m2.getOccupancies().getOccupancy().get(0).getAvrNightPrice()));
+                hotelProductRo.setMinAvgNightPrice(hotelProductRo.getRoomTypeList().get(0).getOccupancies().getOccupancy().get(0).getAvrNightPrice());
+            }
+
             modelMap.put("page", pageInfo);
             modelMap.put("destination", NEW_YORK);
             modelMap.put("destinationName", productQuery.getDestination());
@@ -130,10 +140,12 @@ public class FrontProductController {
         List<Hotel> hotelList = HotelProcessor.SearchHotelsByDestinationIds(destinationIds,productQuery.getCheckIn(),productQuery.getCheckOut(),
                 getArrayOfRoomInfoByNum(Integer.parseInt(productQuery.getPeopleNum())));
         List<RoomType> roomTypeList = null;
+
         if(CollectionUtils.isNotEmpty(hotelList)){
             Map<Integer, List<RoomType>> roomTypeMap = getRoomTypeMap(hotelList);
             roomTypeList = roomTypeMap.get(hotelProductRo.getHotelId());
         }
+        Collections.sort(roomTypeList,(m1,m2)->m1.getOccupancies().getOccupancy().get(0).getAvrNightPrice().compareTo(m2.getOccupancies().getOccupancy().get(0).getAvrNightPrice()));
 
         HotelDetailVO hotelDetailVO = ObjectConvert.convertObject(hotelProductRo, HotelDetailVO.class);
         List<HotelImages> hotelImagesList = hotelImagesService.queryForList(productQuery.getProductId());
@@ -142,6 +154,7 @@ public class FrontProductController {
         List<Description> descriptions = descriptionService.queryForList(productQuery.getProductId());
         hotelDetailVO.setHotelDescriptionVOList(ObjectConvert.convertList(descriptions, HotelDescriptionVO.class));
         hotelDetailVO.setRoomTypeList(roomTypeList);
+        hotelDetailVO.setMinAvgNightPrice(roomTypeList.get(0).getOccupancies().getOccupancy().get(0).getAvrNightPrice());
 
         modelMap.put("hotelDetail", hotelDetailVO);
         return "/front/product/detail";

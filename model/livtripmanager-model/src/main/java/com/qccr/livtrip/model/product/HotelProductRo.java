@@ -3,6 +3,7 @@ package com.qccr.livtrip.model.product;
 import com.qccr.livtrip.common.webservice.hotel.RoomType;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 import java.util.List;
 
 /**
@@ -61,6 +62,16 @@ public class HotelProductRo implements Serializable{
     private String latitude;
 
     List<RoomType> roomTypeList;
+
+    private BigDecimal minAvgNightPrice;
+
+    public BigDecimal getMinAvgNightPrice() {
+        return minAvgNightPrice;
+    }
+
+    public void setMinAvgNightPrice(BigDecimal minAvgNightPrice) {
+        this.minAvgNightPrice = minAvgNightPrice;
+    }
 
     public String getCurrency() {
         return currency;

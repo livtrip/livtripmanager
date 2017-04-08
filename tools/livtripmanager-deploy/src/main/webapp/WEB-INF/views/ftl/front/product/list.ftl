@@ -43,8 +43,10 @@
                     <img src="${product.thumb}" />
                 </div>
                 <div class="product_item_right">
-                    <h3><img src="https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_red${product_index + 1}.png"/>&nbsp;
-                        ${product.name} &nbsp;${product.id}</h3>
+                    <h3 style="font-size: 14px">
+                        <img src="https://raw.githubusercontent.com/Concept211/Google-Maps-Markers/master/images/marker_red${product_index + 1}.png"/>
+                        &nbsp;${product.name}
+                    </h3>
                     <p style="color:#FB7F49;" >
                         <i class="fa  fa-star"></i>
                         <i class="fa  fa-star"></i>
@@ -58,7 +60,7 @@
                     <div class="hotel_price_area">
                         <p class="lowest_price">
                             每晚低至 <span><i class="fa fa-dollar"></i>
-                             ${product.salePrice}</span>
+                             ${product.minAvgNightPrice}</span>
                         </p>
                         <p class="booking_policy">免费取消,即刻确认</p>
                         <p class="user_room_area">

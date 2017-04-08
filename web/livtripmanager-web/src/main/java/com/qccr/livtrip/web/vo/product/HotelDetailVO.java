@@ -2,7 +2,9 @@ package com.qccr.livtrip.web.vo.product;
 
 import com.qccr.livtrip.common.webservice.hotel.RoomType;
 
+import java.math.BigDecimal;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author xierongli
@@ -67,6 +69,16 @@ public class HotelDetailVO {
     private List<HotelDescriptionVO> hotelDescriptionVOList;
     /**酒店房型*/
     private List<RoomType> roomTypeList;
+    /**最低每晚均价*/
+    private BigDecimal minAvgNightPrice;
+
+    public BigDecimal getMinAvgNightPrice() {
+        return minAvgNightPrice;
+    }
+
+    public void setMinAvgNightPrice(BigDecimal minAvgNightPrice) {
+        this.minAvgNightPrice = minAvgNightPrice;
+    }
 
     public String getCurrency() {
         return currency;

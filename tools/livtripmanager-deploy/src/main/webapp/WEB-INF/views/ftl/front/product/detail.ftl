@@ -31,7 +31,7 @@
                 <img src="${hotelDetail.thumb}" width="280px" height="100%;" class="border-radius-3"/>
             </li>
             <li style="width:47%;">
-                <h3 style="color:#82B5CD; margin:0px;">${hotelDetail.name}&nbsp;
+                <h3 style="color:#82B5CD; margin:0px; font-size: 14px">${hotelDetail.name}&nbsp;
                     [#if hotelDetail.isBest == 1]
                         <i class="fa fa-thumbs-o-up" style="color:#FB7F49"></i>
                     [/#if]
@@ -58,7 +58,7 @@
                 </div>
             </li>
             <li style="width:25%;">
-                <p class="text-right" style="font-size:22px; color:#FF0000; font-weight:bold; height:50px;">$ ${hotelDetail.salePrice} 起</p>
+                <p class="text-right" style="font-size:22px; color:#FF0000; font-weight:bold; height:50px;">$ ${hotelDetail.minAvgNightPrice} 起</p>
                 <div class="small_map" id="small_map"></div>
             </li>
         </ul>
@@ -81,7 +81,9 @@
                         [#if roomType.isAvailable == true]
                         <tr>
                             <td style="max-width:300px;">${roomType.name}</td>
-                            <td  style=" text-align:center; vertical-align:middle;">${roomType.occupancies[0].avrNightPrice}</td>
+                            <td  style=" text-align:center; vertical-align:middle;">
+                              $ ${roomType.occupancies.occupancy[0].avrNightPrice}
+                            </td>
                             <td  style="text-align:center; vertical-align:middle;">policy</td>
                             <td style="min-width:60px; text-align:center; vertical-align:middle;"><button type="button" class="btn btn-primary">预订</button></td>
                         </tr>
