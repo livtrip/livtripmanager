@@ -40,10 +40,10 @@ public class ProductController {
     private DescriptionService descriptionService;
 
     @RequestMapping("/add")
-    public String fetchProducts(@RequestParam  Integer productId){
-        System.out.println("add product..." + productId);
+    public String fetchProducts(@RequestParam  Integer destinationId){
+        System.out.println("add product..." + destinationId);
         List<Integer> destinationIds = Lists.newArrayList();
-        destinationIds.add(productId);//7263 new york 7693
+        destinationIds.add(destinationId);//7263 new york 7693
         hotelHandler.fetchProductDateByDestinationId(destinationIds);
         hotelHandler.fetchHotelExtData();
         return "/member/success";

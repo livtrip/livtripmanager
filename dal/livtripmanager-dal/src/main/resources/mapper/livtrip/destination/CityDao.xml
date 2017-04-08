@@ -167,6 +167,9 @@
         <if test="destinationId != null"> and t1.destination_id =#{destinationId} </if>
         <if test="destinationCode != null and destinationCode != ''"> and t1.destination_code =#{destinationCode} </if>
     </select>
+    <select id="queryByDestinationId" resultMap="AllColumnMap">
+        select <include refid="all_column"/> from liv_city where destination_id =#{destinationId}
+    </select>
 
 </mapper>
 

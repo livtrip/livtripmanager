@@ -16,5 +16,7 @@ public interface CityService {
     int insert(City city);
     int insertList(List<City> cities);
     PageInfo<CityQueryDTO> pageQueryCity(CityQuery cityQuery);
+    City queryByDestinationId(Integer destinationId);
+
 
 }

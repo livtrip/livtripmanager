@@ -2,6 +2,7 @@ package com.qccr.livtrip.web.controller.backend;
 
 import com.beust.jcommander.internal.Lists;
 import com.github.pagehelper.PageInfo;
+import com.qccr.livtrip.biz.handler.HotelHandler;
 import com.qccr.livtrip.biz.service.destination.CityService;
 import com.qccr.livtrip.biz.service.destination.StateService;
 import com.qccr.livtrip.common.dto.CityDTO;
@@ -12,12 +13,14 @@ import com.qccr.livtrip.model.destination.City;
 import com.qccr.livtrip.model.destination.State;
 import com.qccr.livtrip.model.dto.CityQueryDTO;
 import com.qccr.livtrip.model.request.CityQuery;
+import com.qccr.livtrip.web.controller.BaseController;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
-
+import org.springframework.web.bind.annotation.ResponseBody;
+import com.qccr.livtrip.common.constant.Constant;
 import java.util.List;
 
 /**
@@ -27,48 +30,54 @@ import java.util.List;
  */
 @Controller
 @RequestMapping("/backend/destination")
-public class DestinationController {
+public class DestinationController extends BaseController{
 
     @Autowired
     private StateService stateService;
     @Autowired
     private CityService cityService;
+    @Autowired
+    private HotelHandler hotelHandler;
 
     @RequestMapping("add")
     public void add(){
-        String name = "NewYork.json";
-
-        StateJSON stateJSON = DestinationProcessor.getStateModelByFileName(name);
-        if(stateJSON != null){
-            StateDTO stateDTO = stateJSON.getState();
-            if(stateDTO != null){
-                State state = new State();
-                state.setName(stateDTO.getName());
-                state.setDestinationId(stateDTO.getDestinationId());
-                state.setProvider(stateDTO.getProvider());
-                state.setStateShort(stateDTO.getStateShort());
-                state.setType(stateDTO.getElementType());
-                state.setStatus(stateDTO.getStatus());
-                int num  = stateService.insert(state);
-                if(num > 0){
-                    List<CityDTO> cityDTOList = stateDTO.getCity();
-                    if(CollectionUtils.isNotEmpty(cityDTOList)){
-                        List<City> cities = Lists.newArrayList();
-                        for(CityDTO cityDTO : cityDTOList){
-                            City city = new City();
-                            city.setType(cityDTO.getElementType());
-                            city.setProvider(cityDTO.getProvider());
-                            city.setName(cityDTO.getName());
-                            city.setDestinationCode(cityDTO.getDestinationCode());
-                            city.setLatitude(cityDTO.getCityLatitude());
-                            city.setLongitude(cityDTO.getCityLongitude());
-                            city.setDestinationId(cityDTO.getDestinationId());
-                            city.setStatus(cityDTO.getStatus());
-                            city.setStateId(state.getId());
-                            cities.add(city);
+        List<String> files =DestinationProcessor.getDestinations();
+        if(CollectionUtils.isNotEmpty(files)){
+            for(String file : files){
+                StateJSON stateJSON = DestinationProcessor.getStateModelByFileName(file);
+                if(stateJSON != null){
+                    StateDTO stateDTO = stateJSON.getState();
+                    if(stateDTO != null){
+                        State state = new State();
+                        state.setName(stateDTO.getName());
+                        state.setStateName(stateDTO.getName());
+                        state.setDestinationId(stateDTO.getDestinationId());
+                        state.setProvider(stateDTO.getProvider());
+                        state.setStateShort(stateDTO.getStateShort());
+                        state.setType(stateDTO.getElementType());
+                        state.setStatus(stateDTO.getStatus());
+                        int num  = stateService.insert(state);
+                        if(num > 0){
+                            List<CityDTO> cityDTOList = stateDTO.getCity();
+                            if(CollectionUtils.isNotEmpty(cityDTOList)){
+                                List<City> cities = Lists.newArrayList();
+                                for(CityDTO cityDTO : cityDTOList){
+                                    City city = new City();
+                                    city.setType(cityDTO.getElementType());
+                                    city.setProvider(cityDTO.getProvider());
+                                    city.setName(cityDTO.getName());
+                                    city.setDestinationCode(cityDTO.getDestinationCode());
+                                    city.setLatitude(cityDTO.getCityLatitude());
+                                    city.setLongitude(cityDTO.getCityLongitude());
+                                    city.setDestinationId(cityDTO.getDestinationId());
+                                    city.setStatus(cityDTO.getStatus());
+                                    city.setStateId(state.getId());
+                                    cities.add(city);
+                                }
+                                cityService.insertList(cities);
+                                System.out.println("城市数据落地成功");
+                            }
                         }
-                        cityService.insertList(cities);
-                        System.out.println("城市数据落地成功");
                     }
                 }
             }
@@ -82,27 +91,52 @@ public class DestinationController {
         modelMap.put("cityQuery",cityQuery);
         return "/backend/destination/list";
     }
-    
- @RequestMapping("test")
-    public String test(ModelMap modelMap){
-        List<Integer> nums = Lists.newArrayList();
-        nums.add(1);
-        nums.add(2);
-        nums.add(3);
-        nums.add(4);
-        nums.add(5);
-        nums.add(6);
-        nums.add(7);
-        nums.add(8);
-        nums.add(9);
-        nums.add(10);
 
-        Integer sum =nums.stream().filter(num -> num != null).
-                distinct().mapToInt(num -> num * 2).
-                peek(System.out::println).skip(2).limit(4).sum();
-        System.out.println("sum is:"+sum);
-        modelMap.put("test", sum);
-        return "backend/destination/test";
+    @RequestMapping("edit")
+    public String list1(String destinationId, ModelMap modelMap){
+        City city = cityService.queryByDestinationId(Integer.parseInt(destinationId));
+        modelMap.put("city", city);
+        return "/backend/destination/edit";
     }
+
+    @RequestMapping("fetch")
+    @ResponseBody
+    public String fetch(String destinationId){
+        System.out.println(destinationId);
+        List<Integer> destinationIds = com.google.common.collect.Lists.newArrayList();
+        destinationIds.add(Integer.parseInt(destinationId));
+        hotelHandler.fetchProductDateByDestinationId(destinationIds);
+        hotelHandler.fetchHotelExtData();
+        return getSuccessJsonResult(Constant.SUCCESS);
+    }
+
+
+
+
+
+//    @RequestMapping("test")
+//    public String test(ModelMap modelMap){
+//        List<Integer> nums = Lists.newArrayList();
+//        nums.add(1);
+//        nums.add(2);
+//        nums.add(3);
+//        nums.add(4);
+//        nums.add(5);
+//        nums.add(6);
+//        nums.add(7);
+//        nums.add(8);
+//        nums.add(9);
+//        nums.add(10);
+//        nums.add(18);
+//        nums.add(91);
+//        nums.add(110);
+//
+//        Integer sum =nums.stream().filter(num -> num != null).
+//                distinct().mapToInt(num -> num * 2).
+//                peek(System.out::println).skip(2).limit(4).sum();
+//        System.out.println("sum is:"+sum);
+//        modelMap.put("test", sum);
+//        return "backend/destination/test";
+//    }
 
 }

@@ -38,7 +38,7 @@
             <li class="next"><a href="javascript: $.pageSkip(${page.lastPage});">最后一页»</a></li>
         [/#if]
     </ul>
-    <div><span>共${page.navigatePages}页&nbsp; ${pag.total}条记录</span><span>
+    <div><span>共${page.pages}页&nbsp; ${page.total}条记录</span><span>
       到
       <input type="text" class="page-num" id="pageNumber" name="pageNumber" value="${page.pageNum}"><button class="page-confirm" type="submit">确定</button>
       页</span></div>

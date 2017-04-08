@@ -19,4 +19,6 @@ public interface CityDao {
     int update(@Param("pojo") City pojo);
 
     List<CityQueryDTO> queryCityList(CityQuery cityQuery);
+
+    City queryByDestinationId(@Param("destinationId") Integer destinationId);
 }

@@ -9,4 +9,5 @@ public class Constant {
 
     public final static String  SESSION_USER_NAME = "session_user_name";
 
+    public final static String  SUCCESS = "success";
 }

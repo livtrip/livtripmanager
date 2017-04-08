@@ -5,7 +5,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
     <title>产品管理</title>
     <link rel="stylesheet" href="${base}/resources/style/admin.css"/>
-    <link rel="stylesheet" href="http://g.alicdn.com/sui/sui3/0.0.2/old/css/icons.min.css"/>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="http://g.alicdn.com/sui/sui3/0.0.18/css/sui.min.css">
     <script type="text/javascript" src="http://g.alicdn.com/sj/lib/jquery/dist/jquery.min.js"></script>
@@ -13,6 +12,23 @@
     <script src='http://maps.google.cn/maps/api/js?key=AIzaSyAjNbgkCbR5VzzBw2VsJagYKBASIJoa2iw' type="text/javascript"></script>
 	<script type="text/javascript" src="${base}/resources/js/page.js"></script>
 </head>
+<script type="text/javascript">
+    function  fetch(destinationId) {
+        alert(destinationId);
+        $.ajax({
+            url: "fetch.json?destinationId="+destinationId,
+            dataType: "json",
+            cache: true,
+            type: "GET",
+            success: function (data) {
+               if(data.success == true){
+                   alert(data.data);
+               }
+            }
+        });
+    }
+    
+</script>
 
 <body>
 <div class="container">
@@ -64,9 +80,9 @@
                 <td>${destination.stateShort}</td>
                 <td align="right">
                     <div class="btn-group btn-group-sm">
-                        <button class="btn btn-bordered btn-success btn-sm" onclick="location='edit.html?productId=${product.id}'">采集</button>
-                        <button class="btn btn-bordered btn-primary btn-sm" onclick="location='edit.html?productId=${product.id}'">详情</button>
-                        <button class="btn btn-bordered btn-danger btn-sm" onclick="javascript:if(confirm('确实要删除该内容吗?'))location='delete.html?productId=${product.id}'">删除</button>
+                        <button type="button" class="btn btn-bordered btn-success btn-sm" onclick="fetch(${destination.destinationId});">采集</button>
+                        <button type="button" class="btn btn-bordered btn-primary btn-sm" onclick="location='edit.html?destinationId=${destination.destinationId}'">详情</button>
+                        <button  type="button" class="btn btn-bordered btn-danger btn-sm" onclick="javascript:if(confirm('确实要删除该内容吗?'))location='delete.html?productId=${product.id}'">删除</button>
                     </div>
                 </td>
             </tr>

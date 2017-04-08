@@ -38,4 +38,9 @@ public class CityServiceImpl implements CityService {
         List<CityQueryDTO> cities = cityDao.queryCityList(cityQuery);
         return new PageInfo<>(cities);
     }
+
+    @Override
+    public City queryByDestinationId(Integer destinationId) {
+        return cityDao.queryByDestinationId(destinationId);
+    }
 }
