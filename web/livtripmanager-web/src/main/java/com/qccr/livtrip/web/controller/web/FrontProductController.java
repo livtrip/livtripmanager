@@ -94,7 +94,8 @@ public class FrontProductController {
                 return "/front/product/no_product";
             }
             for(HotelProductRo  hotelProductRo : pageInfo.getList()){
-                Collections.sort(roomTypeMap.get(hotelProductRo.getHotelId()),(m1,m2)->m1.getOccupancies().getOccupancy().get(0).getAvrNightPrice().compareTo(m2.getOccupancies().getOccupancy().get(0).getAvrNightPrice()));
+                hotelProductRo.setRoomTypeList(roomTypeMap.get(hotelProductRo.getHotelId()));
+                Collections.sort(hotelProductRo.getRoomTypeList(),(m1,m2)->m1.getOccupancies().getOccupancy().get(0).getAvrNightPrice().compareTo(m2.getOccupancies().getOccupancy().get(0).getAvrNightPrice()));
                 hotelProductRo.setMinAvgNightPrice(hotelProductRo.getRoomTypeList().get(0).getOccupancies().getOccupancy().get(0).getAvrNightPrice());
             }
 
