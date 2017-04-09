@@ -18,6 +18,8 @@ public class HotelDetailVO {
     private Integer id;
     /**hotelId*/
     private Integer hotelId;
+    /**城市名称*/
+    private String cityName;
     /**产品名称*/
     private String name;
     /**酒店关键字描述*/
@@ -71,6 +73,15 @@ public class HotelDetailVO {
     private List<RoomType> roomTypeList;
     /**最低每晚均价*/
     private BigDecimal minAvgNightPrice;
+
+
+    public String getCityName() {
+        return cityName;
+    }
+
+    public void setCityName(String cityName) {
+        this.cityName = cityName;
+    }
 
     public BigDecimal getMinAvgNightPrice() {
         return minAvgNightPrice;

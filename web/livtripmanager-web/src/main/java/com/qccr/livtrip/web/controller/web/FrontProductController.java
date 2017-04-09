@@ -56,8 +56,17 @@ public class FrontProductController {
     @Autowired
     private DescriptionService descriptionService;
 
-    private final static Integer NEW_YORK = 7263;
-    private final static  Integer DC = 949;
+    private static Map<String, Integer> cityNameIdMap = null;
+    private static Map<Integer, String> cityIdNameMap = null;
+    static {
+        cityNameIdMap = Maps.newHashMap();
+        cityNameIdMap.put("New York,NY", 7263);
+        cityNameIdMap.put("Washington,DC", 949);
+
+        cityIdNameMap = Maps.newHashMap();
+        cityIdNameMap.put(7263,"New York,NY");
+        cityIdNameMap.put(949,"Washington,DC");
+    }
 
     @RequestMapping("/list")
     public String list(ProductQuery productQuery, ModelMap modelMap){
@@ -68,7 +77,8 @@ public class FrontProductController {
             String checkOut = StringUtils.isBlank(productQuery.getCheckOut())? defaultCheckOut() : productQuery.getCheckOut();
             //TODO 城市名称转ID
             List<Integer> destinationIds = Lists.newArrayList();
-            destinationIds.add(NEW_YORK);
+            Integer destinationId =cityNameIdMap.get(productQuery.getDestination()) == null?7263:cityNameIdMap.get(productQuery.getDestination());
+            destinationIds.add(destinationId);
 
             //赋值productQuery
             productQuery.setCheckIn(checkIn);
@@ -100,7 +110,7 @@ public class FrontProductController {
             }
 
             modelMap.put("page", pageInfo);
-            modelMap.put("destination", NEW_YORK);
+            modelMap.put("destination", destinationId);
             modelMap.put("destinationName", productQuery.getDestination());
             modelMap.put("checkIn", productQuery.getCheckIn());
             modelMap.put("checkOut", productQuery.getCheckOut());
@@ -136,8 +146,8 @@ public class FrontProductController {
         }
         //实时查询房型数据
         List<Integer> destinationIds = Lists.newArrayList();
-        Integer destination = Integer.valueOf(productQuery.getDestination());
-        destinationIds.add(NEW_YORK);
+        Integer destination = Integer.valueOf(productQuery.getDestination()==null?"7263":productQuery.getDestination());
+        destinationIds.add(destination);
         List<Hotel> hotelList = HotelProcessor.SearchHotelsByDestinationIds(destinationIds,productQuery.getCheckIn(),productQuery.getCheckOut(),
                 getArrayOfRoomInfoByNum(Integer.parseInt(productQuery.getPeopleNum())));
         List<RoomType> roomTypeList = null;
@@ -156,7 +166,7 @@ public class FrontProductController {
         hotelDetailVO.setHotelDescriptionVOList(ObjectConvert.convertList(descriptions, HotelDescriptionVO.class));
         hotelDetailVO.setRoomTypeList(roomTypeList);
         hotelDetailVO.setMinAvgNightPrice(roomTypeList.get(0).getOccupancies().getOccupancy().get(0).getAvrNightPrice());
-
+        hotelDetailVO.setCityName(cityIdNameMap.get(destination));
         modelMap.put("hotelDetail", hotelDetailVO);
         return "/front/product/detail";
     }
@@ -165,16 +175,10 @@ public class FrontProductController {
     @ResponseBody
     public String getCity(){
         List<String> cityList = Lists.newArrayList();
-        cityList.add("New Yory");
-        cityList.add("Boston");
-        cityList.add("Orland");
-        cityList.add("Washington");
-        cityList.add("Miami");
-        cityList.add("Baltimore");
-        cityList.add("Atlanta");
+        cityList.add("New York,NY");
+        cityList.add("Washington,DC");
         Map map = Maps.newHashMap();
         map.put("suggestions", cityList);
-
         return JSON.toJSONString(map);
     }
 

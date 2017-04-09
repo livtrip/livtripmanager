@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">LivTrip</a>
+            <a class="navbar-brand" href="http://www.livtrip.com">LivTrip</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

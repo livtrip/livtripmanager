@@ -1,5 +1,6 @@
 package com.qccr.livtrip.biz.handler;
 
+import com.alibaba.fastjson.JSON;
 import com.google.common.collect.Lists;
 import com.google.common.eventbus.EventBus;
 import com.qccr.livtrip.biz.event.DataEvent;
@@ -34,7 +35,7 @@ public class HotelHandler {
     protected static final Logger logger	= LoggerFactory.getLogger(HotelHandler.class);
 
 
-    public  EventBus eventBus = new EventBus();
+    public  EventBus  eventBus = new EventBus();
     @Autowired
     private ProductService productService;
     @Autowired
@@ -66,7 +67,7 @@ public class HotelHandler {
             String current = defaultCheckIn();
             String tomorrow = defaultCheckOut();
             List<Hotel> hotelList = HotelProcessor.SearchHotelsByDestinationIds(destinationIds, current,tomorrow, null);
-            logger.info("采集实时获取的酒店数据, Hotels[{}]", hotelList);
+            logger.info("采集实时获取的酒店数据, Hotels[{}]", JSON.toJSONString(hotelList));
             if(!CollectionUtils.isEmpty(hotelList)){
                 for(final Hotel hotel : hotelList){
                     //product

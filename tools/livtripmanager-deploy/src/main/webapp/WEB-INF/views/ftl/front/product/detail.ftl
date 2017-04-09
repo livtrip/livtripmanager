@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>${hotelDetail.name}-${hotelDetail.keywords}酒店详情页</title>
+    <title>${hotelDetail.name}-${hotelDetail.keywords}</title>
     <link rel="stylesheet" href="${base}/resources/style/public.css"/>
     <link rel="stylesheet" href="http://g.alicdn.com/sui/sui3/0.0.2/old/css/icons.min.css"/>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
