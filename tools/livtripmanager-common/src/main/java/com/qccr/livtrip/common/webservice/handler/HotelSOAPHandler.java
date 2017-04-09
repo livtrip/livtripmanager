@@ -45,11 +45,11 @@ public class HotelSOAPHandler implements SOAPHandler<SOAPMessageContext> {
 					"http://schemas.tourico.com/webservices/authentication"));
 			SOAPElement elem = headerElem.addChildElement(
 					envelope.createName("LoginName", "aut", "http://schemas.tourico.com/webservices/authentication"));
-			elem.addTextNode("Tu0906");
+			elem.addTextNode("TUT106");
 
 			elem = headerElem.addChildElement(
 					envelope.createName("Password", "aut", "http://schemas.tourico.com/webservices/authentication"));
-			elem.addTextNode("111111");
+			elem.addTextNode("Hc3D@XDm");
 
 			String version = "7";
 			elem = headerElem.addChildElement(
