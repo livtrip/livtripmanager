@@ -10,6 +10,7 @@ import com.qccr.livtrip.biz.service.product.ProductService;
 import com.qccr.livtrip.common.converters.ObjectConvert;
 import com.qccr.livtrip.model.product.*;
 import com.qccr.livtrip.model.request.HotelProductQuery;
+import com.qccr.livtrip.web.controller.BaseController;
 import com.qccr.livtrip.web.vo.product.HotelDescriptionVO;
 import com.qccr.livtrip.web.vo.product.HotelDetailVO;
 import com.qccr.livtrip.web.vo.product.HotelImageVO;
@@ -27,7 +28,7 @@ import java.util.List;
  */
 @Controller
 @RequestMapping("/backend/product")
-public class ProductController {
+public class ProductController extends BaseController{
 
     @Autowired
     private ProductService productService;
@@ -46,7 +47,8 @@ public class ProductController {
         destinationIds.add(destinationId);//7263 new york 7693
         hotelHandler.fetchProductDateByDestinationId(destinationIds);
         hotelHandler.fetchHotelExtData();
-        return "/member/success";
+        logger.info("酒店数据采集完成, 参数destinationId:[{}]", destinationId);
+        return "/success";
     }
 
     @RequestMapping("/list")

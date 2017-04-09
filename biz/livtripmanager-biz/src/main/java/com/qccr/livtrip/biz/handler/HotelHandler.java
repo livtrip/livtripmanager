@@ -13,6 +13,8 @@ import com.qccr.livtrip.common.webservice.hotel.TWSHotelDetailsV3;
 import com.qccr.livtrip.model.product.HotelProduct;
 import com.qccr.livtrip.model.product.Product;
 import com.qccr.livtrip.model.product.RefPoint;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
@@ -29,6 +31,8 @@ import java.util.concurrent.TimeUnit;
  */
 @Component
 public class HotelHandler {
+    protected static final Logger logger	= LoggerFactory.getLogger(HotelHandler.class);
+
 
     public  EventBus eventBus = new EventBus();
     @Autowired
@@ -62,6 +66,7 @@ public class HotelHandler {
             String current = defaultCheckIn();
             String tomorrow = defaultCheckOut();
             List<Hotel> hotelList = HotelProcessor.SearchHotelsByDestinationIds(destinationIds, current,tomorrow, null);
+            logger.info("采集实时获取的酒店数据, Hotels[{}]", hotelList);
             if(!CollectionUtils.isEmpty(hotelList)){
                 for(final Hotel hotel : hotelList){
                     //product
