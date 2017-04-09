@@ -28,6 +28,7 @@ public class CityDTO {
 //    private List<CityLocationDTO> CityLocation;
 
 
+
     public String getCityLatitude() {
         return cityLatitude;
     }

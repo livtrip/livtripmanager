@@ -26,11 +26,11 @@ public class DestinationProcessor {
     public static void main(String[] args) {
        // System.out.println(inputStream2String(DestinationProcessor.class.getResourceAsStream("/destination.text")));
 
-//        String  json = inputStream2String(DestinationProcessor.class.getResourceAsStream("/state/NewYork.json"));
-//        StateJSON stateDTO = JSON.parseObject(json,StateJSON.class);
-//        System.out.println(JSON.toJSONString(stateDTO));
+        String  json = inputStream2String(DestinationProcessor.class.getResourceAsStream("/state/NewYork.json"));
+        StateJSON stateDTO = JSON.parseObject(json,StateJSON.class);
+        System.out.println(JSON.toJSONString(stateDTO));
 
-        getAllFiles();
+       // getAllFiles();
     }
 
     public static List<String> getDestinations(){

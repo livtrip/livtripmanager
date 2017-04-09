@@ -44,7 +44,7 @@ public class DestinationController extends BaseController{
         List<String> files =DestinationProcessor.getDestinations();
         if(CollectionUtils.isNotEmpty(files)){
             for(String file : files){
-                StateJSON stateJSON = DestinationProcessor.getStateModelByFileName(file);
+                StateJSON stateJSON = DestinationProcessor.getStateModelByFileName("NewYork.json");
                 if(stateJSON != null){
                     StateDTO stateDTO = stateJSON.getState();
                     if(stateDTO != null){

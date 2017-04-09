@@ -70,6 +70,7 @@ public class HotelProcessor {
             request.setMaxPrice(new BigDecimal(0));
             request.setPropertyType(PropertyType.HOTEL);
             request.setStarLevel(new BigDecimal(0));
+            request.setExactDestination(false);
 
             SearchResult result = port.searchHotelsByDestinationIds(request, null);
             return result.getHotelList().getHotel();
