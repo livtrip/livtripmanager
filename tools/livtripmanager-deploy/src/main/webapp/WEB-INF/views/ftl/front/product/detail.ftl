@@ -22,7 +22,7 @@
 <div class="container">
     <ol class="breadcrumb" style="margin:0px;">
         <li><a href="#">首页</a></li>
-        <li><a href="#">香港酒店</a></li>
+        <li><a href="#">${hotelDetailVO.cityName}</a></li>
         <li class="active">${hotelDetail.name}</li>
     </ol>
     <div class="base_info">

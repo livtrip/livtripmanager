@@ -74,7 +74,7 @@
         </ul>
 
         <form id="listForm" action="list.jhtml" method="post" class="sui-form form-horizontal">
-            <input type="hidden" name="destination" value="${destination}"/>
+            <input type="hidden" name="destinationName" value="${destinationName}"/>
             <input type="hidden" name="checkIn" value="${checkIn}"/>
             <input type="hidden" name="checkOut" value="${checkOut}"/>
             <input type="hidden" name="peopleNum" value="${peopleNum}"/>
