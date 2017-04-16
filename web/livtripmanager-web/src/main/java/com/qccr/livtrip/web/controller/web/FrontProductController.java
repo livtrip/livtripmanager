@@ -110,8 +110,8 @@ public class FrontProductController {
             }
 
             modelMap.put("page", pageInfo);
-            modelMap.put("destination", destinationId);
-            modelMap.put("destinationName", productQuery.getDestination());
+            modelMap.put("destination", destinationId==null?7263:destinationId);
+            modelMap.put("destinationName", StringUtils.isBlank(productQuery.getDestination())?"New York,NY":productQuery.getDestination());
             modelMap.put("checkIn", productQuery.getCheckIn());
             modelMap.put("checkOut", productQuery.getCheckOut());
             modelMap.put("peopleNum", productQuery.getPeopleNum());

@@ -1,58 +1,32 @@
-﻿<!DOCTYPE HTML>
+﻿<!DOCTYPE html>
 <html>
 <head>
-  <title>Sign In</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="keywords" content="" />
-  <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-  <!-- Bootstrap Core CSS -->
-  <link href="resources/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
-  <!-- Custom CSS -->
-  <link href="resources/css/style.css" rel='stylesheet' type='text/css' />
-  <link rel="stylesheet" href="resources/css/morris.css" type="text/css"/>
-  <!-- Graph CSS -->
-  <link href="resources/css/font-awesome.css" rel="stylesheet">
-  <link rel="stylesheet" href="resources/css/jquery-ui.css">
-  <!-- jQuery -->
-  <script src="resources/js/jquery-2.1.4.min.js"></script>
-  <!-- //jQuery -->
-  <link href='http://fonts.googleapis.com/css?family=Roboto:700,500,300,100italic,100,400' rel='stylesheet' type='text/css'/>
-  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <!-- lined-icons -->
-  <link rel="stylesheet" href="resources/css/icon-font.min.css" type='text/css' />
-  <!-- //lined-icons -->
+  <meta charset="UTF-8">
+  <title>LivTrip后台登录系统</title>
+  <link rel="stylesheet" href="resources/style/normalize.css">
+  <link rel="stylesheet" href="resources/style/login.css" media="screen" type="text/css" />
 </head>
-<body>
-<div class="main-wthree">
-  <div class="container">
-    <div class="sin-w3-agile">
-      <h2>Sign In</h2>
-      <form action="/backend/admin/loginProcess" method="post">
-        <div class="username">
-          <span class="username">Username:</span>
-          <input type="text" name="userName" class="name" placeholder="" required="">
-          <div class="clearfix"></div>
-        </div>
-        <div class="password-agileits">
-          <span class="username">Password:</span>
-          <input type="password" name="password" class="password" placeholder="" required="">
-          <div class="clearfix"></div>
-        </div>
 
-        <div class="login-w3">
-          <input type="submit" class="login" value="Sign In">
-        </div>
-        <div class="clearfix"></div>
-      </form>
-      <div class="back">
-        <a href="index.html">Back to home</a>
-      </div>
-      <div class="footer">
-        <p>&copy; 2016 Pooled . All Rights Reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
-      </div>
-    </div>
-  </div>
+<body>
+<section class="login-form-wrap">
+  <h1>LivTrip</h1>
+  <form class="login-form" method="post" action="/backend/admin/loginProcess.do">
+    <label>
+      <input type="email" name="userName" required placeholder="Email">
+    </label>
+    <label>
+      <input type="password" name="password" required placeholder="Password">
+    </label>
+    <input type="submit" value="Login">
+  </form>
+  <h5><a href="#">Forgot password</a></h5>
+</section>
+<div style="text-align:center;clear:both">
+
 </div>
 </body>
+</html>
+
+</body>
+
 </html>

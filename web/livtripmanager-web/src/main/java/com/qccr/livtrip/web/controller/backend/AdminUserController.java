@@ -51,7 +51,7 @@ public class AdminUserController {
         boolean result = adminUserService.isAdminUserExist(userName,MD5.GetMD5Code(password));
         if(result){
             request.getSession().setAttribute(Constant.SESSION_USER_NAME, userName);
-            return "/index";
+            return "/main";
         }else{
             modelMap.addAttribute("error", "无效的用户或密码");
           return "/login";
