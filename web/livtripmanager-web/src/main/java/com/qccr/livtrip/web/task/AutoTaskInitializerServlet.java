@@ -37,14 +37,14 @@ public class AutoTaskInitializerServlet {
         List<JobTask> jobTaskList = jobTaskService.queryJobTask(JobStateEnum.USE.getState());
         if(CollectionUtils.isNotEmpty(jobTaskList)){
             for(JobTask jobTask : jobTaskList){
-                sched.deleteJob(jobTask.getTaskCode(), Scheduler.DEFAULT_GROUP);
+                sched.deleteJob(jobTask.getTaskCode(), jobTask.getTaskType().toString());
                 map = new JobDataMap();
                 map.put(TASK_ID_KEY, jobTask.getId());
-                job = new JobDetail(jobTask.getTaskCode(),Scheduler.DEFAULT_GROUP, Class.forName(jobTask.getTaskImplClass()));
+                job = new JobDetail(jobTask.getTaskCode(),jobTask.getTaskType().toString(), Class.forName(jobTask.getTaskImplClass()));
                 job.setJobDataMap(map);
                 trigger = new CronTrigger(
                         jobTask.getTaskCode(),
-                        Scheduler.DEFAULT_GROUP,
+                        jobTask.getTaskType().toString(),
                         jobTask.getTaskExpress());
 
                 sched.scheduleJob(job,trigger);
