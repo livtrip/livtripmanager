@@ -42,6 +42,11 @@ public class HotelProductServiceImpl implements HotelProductService {
         return hotelProductDao.queryFiftyHotelProductList();
     }
 
+    @Override
+    public HotelProduct queryByHoteId(Integer hotelId) {
+        return hotelProductDao.queryByHoteId(hotelId);
+    }
+
     /**
      * 
      * @name  采集酒店产品数据

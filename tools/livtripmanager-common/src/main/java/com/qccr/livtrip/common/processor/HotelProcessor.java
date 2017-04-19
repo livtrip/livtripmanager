@@ -8,6 +8,8 @@ import javax.xml.ws.handler.Handler;
 import javax.xml.ws.handler.HandlerResolver;
 import javax.xml.ws.handler.PortInfo;
 
+import com.qccr.livtrip.common.util.date.DateStyle;
+import com.qccr.livtrip.common.util.date.DateUtil;
 import org.apache.commons.collections.CollectionUtils;
 
 import com.alibaba.fastjson.JSON;
@@ -38,6 +40,17 @@ public class HotelProcessor {
             }
         });
          port = ss.getBasicHttpBindingIHotelFlow();
+    }
+    public static  List<Hotel> SearchHotelsByDestinationIds(List<Integer> destinationIds){
+        return SearchHotelsByDestinationIds(destinationIds, defaultCheckIn(), defaultCheckOut(),defaultArrayOfRoomInfo());
+    }
+
+    public static  String defaultCheckIn(){
+        return DateUtil.DateToString(DateUtil.addDay(DateUtil.getCurrentDate(),30), DateStyle.YYYY_MM_DD);
+    }
+
+    public static String defaultCheckOut(){
+        return  DateUtil.DateToString(DateUtil.addDay(DateUtil.getCurrentDate(),31), DateStyle.YYYY_MM_DD);
     }
 
     /**

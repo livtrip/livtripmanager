@@ -20,7 +20,7 @@ import java.util.List;
  * @author xierongli
  * @version $Id:ProductServiceImpl.java v 0.1 2016年12月16日 17:37 xierongli
  */
-@Service("productServcie")
+@Service("productService")
 public class ProductServiceImpl implements ProductService {
 
     @Autowired

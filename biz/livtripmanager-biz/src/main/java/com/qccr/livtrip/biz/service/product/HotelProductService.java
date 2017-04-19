@@ -1,6 +1,7 @@
 package com.qccr.livtrip.biz.service.product;
 
 import com.qccr.livtrip.model.product.HotelProduct;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -22,5 +23,7 @@ public interface HotelProductService {
      * @date 2016/12/27 18:41
      */
     List<HotelProduct> queryFiftyHotelProductList();
+
+    HotelProduct queryByHoteId(Integer hotelId);
 
 }

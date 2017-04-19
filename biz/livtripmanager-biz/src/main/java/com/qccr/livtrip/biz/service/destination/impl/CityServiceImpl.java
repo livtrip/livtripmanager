@@ -16,7 +16,7 @@ import java.util.List;
  * @author xierongli
  * @version : livtripmanager-parent, v 0.1 2017/4/4 12:36 Exp $$
  */
-@Service
+@Service("cityService")
 public class CityServiceImpl implements CityService {
 
     @Autowired

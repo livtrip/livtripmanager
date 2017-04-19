@@ -101,7 +101,7 @@
         </tbody>
     </table>
         [@pagination pageNumber = page.pageNumber totalPages = page.totalPages]
-            [#include "pagination_admin.ftl"]
+            [#include "pagination_admin.ftl"/]
         [/@pagination]
     </form>
 </div>
