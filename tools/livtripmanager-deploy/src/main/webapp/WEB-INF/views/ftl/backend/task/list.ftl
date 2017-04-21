@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-    <title>产品管理</title>
+    <title>定时任务定义管理</title>
     <link rel="stylesheet" href="${base}/resources/style/admin.css"/>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="http://g.alicdn.com/sui/sui3/0.0.18/css/sui.min.css">
@@ -17,7 +17,7 @@
 <div class="container">
     <ol class="breadcrumb">
         <li><a href="#">后台管理</a></li>
-        <li class="active">产品列表</li>
+        <li class="active">定时任务</li>
     </ol>
     <div style="margin-top:5px; padding:0px; border:1px solid #d1d1d1; height:80px; border-radius:5px; text-align:center">
         <form class="form-inline" id="listForm" action="list.html" method="post" style="margin:25px auto; padding:0px;">
@@ -64,45 +64,35 @@
     <table class="table table-primary" style="margin:10px 0px;">
         <thead>
         <tr>
-            <th>产品名称</th>
-            <th>酒店ID</th>
-            <th>州</th>
-            <th>城市</th>
-            <th>精品</th>
-            <th>星级</th>
-            <th>房间数</th>
+            <th>任务名称</th>
+            <th>任务类型</th>
+            <th>状态</th>
+            <th>实现类</th>
+            <th>表达式</th>
             <th width="15%">操作</th>
         </tr>
         </thead>
         <tbody>
-        [#list page.list as product]
-        <tr>
-            <td>${product.name}</td>
-            <td>${product.hotelId}</td>
-            <td>${product.state}</td>
-            <td>${product.city}</td>
-            <td>
-            [#if product.isBest == 1]
-                是
-            [#else]
-                否
-            [/#if]
-            </td>
-            <td>${product.startLevel}</td>
-            <td>${product.rooms}</td>
-            <td align="right">
-                <div class="btn-group">
-                    <button type="button" class="btn btn-bordered btn-primary" onclick="location.href='edit.html?productId=${product.id}'">详情</button>
-                    <button type="button" class="btn btn-bordered btn-danger" onclick="javascript:if(confirm('确实要删除该内容吗?'))location='delete.html?productId=${product.id}'">删除</button>
-                </div>
-            </td>
-        </tr>
-        [/#list]
+            [#list page.list as task]
+            <tr>
+                <td>${task.taskCode}</td>
+                <td>${task.taskType}</td>
+                <td>${task.state}</td>
+                <td>${task.taskImplClass}</td>
+                <td>${task.taskExpress}</td>
+                <td align="right">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-bordered btn-primary" onclick="location.href='edit.html?productId=${product.id}'">详情</button>
+                        <button type="button" class="btn btn-bordered btn-danger" onclick="javascript:if(confirm('确实要删除该内容吗?'))location='delete.html?productId=${product.id}'">删除</button>
+                    </div>
+                </td>
+            </tr>
+            [/#list]
         </tbody>
     </table>
-        [@pagination pageNumber = page.pageNumber totalPages = page.totalPages]
-            [#include "pagination_admin.ftl"/]
-        [/@pagination]
+    [@pagination pageNumber = page.pageNumber totalPages = page.totalPages]
+        [#include "pagination_admin.ftl"/]
+    [/@pagination]
     </form>
 </div>
 

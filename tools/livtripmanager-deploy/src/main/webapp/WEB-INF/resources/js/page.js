@@ -193,9 +193,9 @@ $().ready( function() {
 
     // 列表查询
     if (location.search != "") {
-        addCookie("listQuery", location.search, {expires: 10 * 60, path: ""});
+        //addCookie("listQuery", location.search, {expires: 10 * 60, path: ""});
     } else {
-        removeCookie("listQuery", {path: ""});
+       // removeCookie("listQuery", {path: ""});
     }
 
 });

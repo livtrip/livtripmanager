@@ -18,4 +18,6 @@ public interface JobTaskDao {
 
     List<JobTask> queryJobTask(@Param("state") String state);
 
+    List<JobTask> queryJobTaskByParam(@Param("taskCode") String taskCode, @Param("state") String state);
+
 }

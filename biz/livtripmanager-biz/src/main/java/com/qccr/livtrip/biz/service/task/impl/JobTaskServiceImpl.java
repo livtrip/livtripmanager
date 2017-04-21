@@ -1,5 +1,7 @@
 package com.qccr.livtrip.biz.service.task.impl;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.qccr.livtrip.biz.service.task.JobTaskService;
 import com.qccr.livtrip.dal.task.JobTaskDao;
 import com.qccr.livtrip.model.task.JobTask;
@@ -12,7 +14,7 @@ import java.util.List;
  * @author xierongli
  * @version : livtripmanager-parent, v 0.1 2017/4/15 16:36 Exp $$
  */
-@Service
+@Service("jobTaskService")
 public class JobTaskServiceImpl implements JobTaskService {
 
     @Resource
@@ -37,5 +39,12 @@ public class JobTaskServiceImpl implements JobTaskService {
     @Override
     public List<JobTask> queryJobTask(String state) {
         return jobTaskDao.queryJobTask(state);
+    }
+
+    @Override
+    public PageInfo<JobTask> pageQueryJobTask(String taskCode, String state, Integer pageNum, Integer pageSize) {
+        PageHelper.startPage(pageNum,pageSize,true,false);
+        List<JobTask> jobTasks = jobTaskDao.queryJobTaskByParam(taskCode,state);
+        return new PageInfo<>(jobTasks);
     }
 }

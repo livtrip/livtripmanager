@@ -1,5 +1,6 @@
 package com.qccr.livtrip.biz.service.task;
 
+import com.github.pagehelper.PageInfo;
 import com.qccr.livtrip.model.task.JobTask;
 
 import java.util.List;
@@ -16,4 +17,5 @@ public interface JobTaskService {
      int insertList(List<JobTask> pojos);
      int update(JobTask pojo);
      List<JobTask> queryJobTask(String state);
+     PageInfo<JobTask> pageQueryJobTask(String taskCode, String state, Integer pageNum, Integer pageSize);
 }
