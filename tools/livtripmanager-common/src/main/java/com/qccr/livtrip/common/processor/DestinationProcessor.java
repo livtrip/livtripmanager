@@ -11,6 +11,7 @@ import javax.xml.ws.handler.PortInfo;
 
 import com.alibaba.fastjson.JSON;
 import com.google.common.collect.Lists;
+import com.qccr.livtrip.common.dto.DestinationDTO;
 import com.qccr.livtrip.common.dto.StateDTO;
 import com.qccr.livtrip.common.dto.StateJSON;
 
@@ -25,13 +26,18 @@ public class DestinationProcessor {
 
     public static void main(String[] args) {
        // System.out.println(inputStream2String(DestinationProcessor.class.getResourceAsStream("/destination.text")));
-
-        String  json = inputStream2String(DestinationProcessor.class.getResourceAsStream("/state/NewYork.json"));
-        StateJSON stateDTO = JSON.parseObject(json,StateJSON.class);
-        System.out.println(JSON.toJSONString(stateDTO));
+//
+//        String  json = inputStream2String(DestinationProcessor.class.getResourceAsStream("/state/NewYork.json"));
+//        StateJSON stateDTO = JSON.parseObject(json,StateJSON.class);
+//        System.out.println(JSON.toJSONString(stateDTO));
 
        // getAllFiles();
+
+        DestinationDTO destinationDTO = getDestintionDTO("destination.json");
+        System.out.println(JSON.toJSONString(destinationDTO));
     }
+
+
 
     public static List<String> getDestinations(){
         String str ="alabama.json;Alaska.json;Arizona.json;Arkansas.json;California.json;Carolina.json;Colorado.json;Columbia.json;Dakota.json;Delaware.json;Florida.text;Hampshire.json;Indiana.json;Iowa.json;Jersey.json;Kansas.json;Kentucky.json;Louisiana.json;Maine.json;Maryland.json;Massachusetts.json;Mexico.json;Michigan.json;Minnesota.json;Mississippi.json;Missouri.json;Montana.json;Nebraska.json;Nevada.json;NewYork.json;NorthCarolina.json;NorthDakota.json;Ohio.json;Oklahoma.json;Oregon.json;Pennsylvania.json;RhodeIsland.json;Tennessee.json;Texas.json;Utah.json;Vermont.json;Virginia.json;Washington.json;WestVirginia.json;Wisconsin.json;Wyoming.json;";
@@ -41,6 +47,12 @@ public class DestinationProcessor {
             destinations.add(strArray[i]);
         }
         return destinations;
+    }
+
+    public static DestinationDTO getDestintionDTO(String fileName){
+        String  json = inputStream2String(DestinationProcessor.class.getResourceAsStream("/"+fileName+""));
+        DestinationDTO destinationDTO = JSON.parseObject(json, DestinationDTO.class);
+        return destinationDTO;
     }
 
     public static  StateJSON getStateModelByFileName(String name){

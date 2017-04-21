@@ -9,7 +9,7 @@ import com.qccr.livtrip.model.common.BaseDO;
 public class Destination extends BaseDO {
 
     private Integer id;
-    private Integer destiantioId;
+    private Integer destinationId;
     private String cityName;
     private String state;
 
@@ -21,12 +21,12 @@ public class Destination extends BaseDO {
         this.id = id;
     }
 
-    public Integer getDestiantioId() {
-        return destiantioId;
+    public Integer getDestinationId() {
+        return destinationId;
     }
 
-    public void setDestiantioId(Integer destiantioId) {
-        this.destiantioId = destiantioId;
+    public void setDestinationId(Integer destinationId) {
+        this.destinationId = destinationId;
     }
 
     public String getCityName() {

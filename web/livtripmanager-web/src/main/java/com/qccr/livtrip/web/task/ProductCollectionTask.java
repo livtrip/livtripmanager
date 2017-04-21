@@ -71,7 +71,7 @@ public class ProductCollectionTask extends Task{
             //根据destinationId, checkIn, checkOut 查询最新的酒店数据
             for(Destination destination : destinationPageInfo.getList()){
                 List<Integer> destinationIds = Lists.newArrayList();
-                destinationIds.add(destination.getDestiantioId());
+                destinationIds.add(destination.getDestinationId());
                 List<Hotel> hotels = HotelProcessor.SearchHotelsByDestinationIds(destinationIds);
                 if(CollectionUtils.isNotEmpty(hotels)) {
                     for(Hotel hotel : hotels){

@@ -4,12 +4,12 @@ import com.beust.jcommander.internal.Lists;
 import com.github.pagehelper.PageInfo;
 import com.qccr.livtrip.biz.handler.HotelHandler;
 import com.qccr.livtrip.biz.service.destination.CityService;
+import com.qccr.livtrip.biz.service.destination.DestinationService;
 import com.qccr.livtrip.biz.service.destination.StateService;
-import com.qccr.livtrip.common.dto.CityDTO;
-import com.qccr.livtrip.common.dto.StateDTO;
-import com.qccr.livtrip.common.dto.StateJSON;
+import com.qccr.livtrip.common.dto.*;
 import com.qccr.livtrip.common.processor.DestinationProcessor;
 import com.qccr.livtrip.model.destination.City;
+import com.qccr.livtrip.model.destination.Destination;
 import com.qccr.livtrip.model.destination.State;
 import com.qccr.livtrip.model.dto.CityQueryDTO;
 import com.qccr.livtrip.model.request.CityQuery;
@@ -38,6 +38,8 @@ public class DestinationController extends BaseController{
     private CityService cityService;
     @Autowired
     private HotelHandler hotelHandler;
+    @Autowired
+    private DestinationService destinationService;
 
     @RequestMapping("add")
     public void add(){
@@ -110,33 +112,20 @@ public class DestinationController extends BaseController{
         return getSuccessJsonResult(Constant.SUCCESS);
     }
 
+    @RequestMapping("addDestination")
+    public void addDestination(){
+        System.out.println("addDestination");
 
+        DestinationDTO destinationDTO = DestinationProcessor.getDestintionDTO("destination.json");
+        List<DestinationStateDTO> stateDTOs =destinationDTO.getRoot();
+        if(CollectionUtils.isNotEmpty(stateDTOs)){
+            List<Destination> destinations = Lists.newArrayList();
+            for(DestinationStateDTO destinationStateDTO : stateDTOs){
+                Destination destination = new Destination();
 
+            }
+        }
 
-
-//    @RequestMapping("test")
-//    public String test(ModelMap modelMap){
-//        List<Integer> nums = Lists.newArrayList();
-//        nums.add(1);
-//        nums.add(2);
-//        nums.add(3);
-//        nums.add(4);
-//        nums.add(5);
-//        nums.add(6);
-//        nums.add(7);
-//        nums.add(8);
-//        nums.add(9);
-//        nums.add(10);
-//        nums.add(18);
-//        nums.add(91);
-//        nums.add(110);
-//
-//        Integer sum =nums.stream().filter(num -> num != null).
-//                distinct().mapToInt(num -> num * 2).
-//                peek(System.out::println).skip(2).limit(4).sum();
-//        System.out.println("sum is:"+sum);
-//        modelMap.put("test", sum);
-//        return "backend/destination/test";
-//    }
+    }
 
 }
