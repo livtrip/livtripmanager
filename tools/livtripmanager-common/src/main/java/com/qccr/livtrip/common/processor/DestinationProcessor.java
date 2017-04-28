@@ -33,7 +33,7 @@ public class DestinationProcessor {
 
        // getAllFiles();
 
-        DestinationDTO destinationDTO = getDestintionDTO("destination.json");
+        DestinationDTO destinationDTO = getDestinationDTO("destination.json");
         System.out.println(JSON.toJSONString(destinationDTO));
     }
 
@@ -49,8 +49,8 @@ public class DestinationProcessor {
         return destinations;
     }
 
-    public static DestinationDTO getDestintionDTO(String fileName){
-        String  json = inputStream2String(DestinationProcessor.class.getResourceAsStream("/"+fileName+""));
+    public static DestinationDTO getDestinationDTO(String fileName){
+        String  json = inputStream2String(DestinationProcessor.class.getResourceAsStream("/destination/"+fileName+""));
         DestinationDTO destinationDTO = JSON.parseObject(json, DestinationDTO.class);
         return destinationDTO;
     }

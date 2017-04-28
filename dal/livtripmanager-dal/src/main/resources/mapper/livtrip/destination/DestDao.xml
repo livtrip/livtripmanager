@@ -27,7 +27,7 @@
 
     <!--auto generated Code-->
     <insert id="insert" useGeneratedKeys="true" keyProperty="pojo.id">
-        INSERT INTO dest (
+        INSERT INTO liv_dest (
             `id`,
             `destination_id`,
             `city_name`,
@@ -85,10 +85,10 @@
             #{pojo.destinationId},
             #{pojo.cityName},
             #{pojo.state},
-            #{pojo.createPerson},
-            #{pojo.createTime},
-            #{pojo.updatePerson},
-            #{pojo.updateTime}
+            'syste',
+            now(),
+            'system',
+            now()
             )
         </foreach>
     </insert>

@@ -1,13 +1,16 @@
 package com.qccr.livtrip.web.controller.backend;
 
+import com.alibaba.fastjson.JSON;
 import com.beust.jcommander.internal.Lists;
 import com.github.pagehelper.PageInfo;
 import com.qccr.livtrip.biz.handler.HotelHandler;
 import com.qccr.livtrip.biz.service.destination.CityService;
+import com.qccr.livtrip.biz.service.destination.DestService;
 import com.qccr.livtrip.biz.service.destination.StateService;
 import com.qccr.livtrip.common.dto.*;
 import com.qccr.livtrip.common.processor.DestinationProcessor;
 import com.qccr.livtrip.model.destination.City;
+import com.qccr.livtrip.model.destination.Dest;
 import com.qccr.livtrip.model.destination.State;
 import com.qccr.livtrip.model.dto.CityQueryDTO;
 import com.qccr.livtrip.model.request.CityQuery;
@@ -36,6 +39,8 @@ public class DestinationController extends BaseController{
     private CityService cityService;
     @Autowired
     private HotelHandler hotelHandler;
+    @Autowired
+    private DestService destService;
 
 
     @RequestMapping("add")
@@ -112,13 +117,32 @@ public class DestinationController extends BaseController{
     @RequestMapping("addDestination")
     public void addDestination(){
         System.out.println("addDestination");
-
-        DestinationDTO destinationDTO = DestinationProcessor.getDestintionDTO("destination.json");
+        DestinationDTO destinationDTO = DestinationProcessor.getDestinationDTO("destination.json");
         List<DestinationStateDTO> stateDTOs =destinationDTO.getRoot();
         if(CollectionUtils.isNotEmpty(stateDTOs)){
+            for(DestinationStateDTO destinationStateDTO : stateDTOs) {
+                List<DestinationCityDTO> cityDTOs = destinationStateDTO.getState();
+                if (CollectionUtils.isNotEmpty(cityDTOs)) {
 
+                    for(DestinationCityDTO destinationCityDTO :cityDTOs){
+                        List<CityNewDTO> cityNewDTOs = destinationCityDTO.getCity();
+                        String stateName = destinationCityDTO.getS_name();
+
+                        if(CollectionUtils.isNotEmpty(cityNewDTOs)){
+                            List<Dest> dests = Lists.newArrayList();
+                            for(CityNewDTO cityNewDTO : cityNewDTOs){
+                                Dest dest = new Dest();
+                                dest.setCityName(cityNewDTO.getName());
+                                dest.setDestinationId(cityNewDTO.getId());
+                                dest.setState(stateName);
+                            }
+                            destService.insertList(dests);
+                        }
+
+                    }
+                }
+            }
         }
-
     }
 
 }
