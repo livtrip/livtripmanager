@@ -4,12 +4,10 @@ import com.beust.jcommander.internal.Lists;
 import com.github.pagehelper.PageInfo;
 import com.qccr.livtrip.biz.handler.HotelHandler;
 import com.qccr.livtrip.biz.service.destination.CityService;
-import com.qccr.livtrip.biz.service.destination.DestinationService;
 import com.qccr.livtrip.biz.service.destination.StateService;
 import com.qccr.livtrip.common.dto.*;
 import com.qccr.livtrip.common.processor.DestinationProcessor;
 import com.qccr.livtrip.model.destination.City;
-import com.qccr.livtrip.model.destination.Destination;
 import com.qccr.livtrip.model.destination.State;
 import com.qccr.livtrip.model.dto.CityQueryDTO;
 import com.qccr.livtrip.model.request.CityQuery;
@@ -38,8 +36,7 @@ public class DestinationController extends BaseController{
     private CityService cityService;
     @Autowired
     private HotelHandler hotelHandler;
-    @Autowired
-    private DestinationService destinationService;
+
 
     @RequestMapping("add")
     public void add(){
@@ -119,11 +116,7 @@ public class DestinationController extends BaseController{
         DestinationDTO destinationDTO = DestinationProcessor.getDestintionDTO("destination.json");
         List<DestinationStateDTO> stateDTOs =destinationDTO.getRoot();
         if(CollectionUtils.isNotEmpty(stateDTOs)){
-            List<Destination> destinations = Lists.newArrayList();
-            for(DestinationStateDTO destinationStateDTO : stateDTOs){
-                Destination destination = new Destination();
 
-            }
         }
 
     }
