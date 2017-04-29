@@ -1,20 +1,18 @@
-package com.qccr.livtrip.biz.service.task.enums;
+package com.qccr.livtrip.biz.enums.task;
 
 /**
- * 任务日志状态
+ * 定时任务枚举
  * @author xierongli
- * @version : livtripmanager-parent, v 0.1 2017/4/16 19:14 Exp $$
+ * @version : livtripmanager-parent, v 0.1 2017/4/16 14:12 Exp $$
  */
-public enum JobTaskLogStateEnum {
-
-    OVER("O", "已结束"),
-    RUN("R", "运行中"),
-    EXCEPTION("E", "异常");
+public enum JobStateEnum {
+    USE("U", "使用中"),
+    OVER("O", "已结束");
 
     private String state;
     private String descripton;
 
-    JobTaskLogStateEnum(String state, String descripton) {
+    JobStateEnum(String state, String descripton) {
         this.state = state;
         this.descripton = descripton;
     }

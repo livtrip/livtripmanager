@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/biz/livtripmanager-biz/livtripmanager-biz.iml" filepath="$PROJECT_DIR$/biz/livtripmanager-biz/livtripmanager-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/livtripmanager-common/livtripmanager-common.iml" filepath="$PROJECT_DIR$/tools/livtripmanager-common/livtripmanager-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dal/livtripmanager-dal/livtripmanager-dal.iml" filepath="$PROJECT_DIR$/dal/livtripmanager-dal/livtripmanager-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/livtripmanager-deploy/livtripmanager-deploy.iml" filepath="$PROJECT_DIR$/tools/livtripmanager-deploy/livtripmanager-deploy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model/livtripmanager-model/livtripmanager-model.iml" filepath="$PROJECT_DIR$/model/livtripmanager-model/livtripmanager-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livtripmanager-parent.iml" filepath="$PROJECT_DIR$/livtripmanager-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/livtripmanager-web/livtripmanager-web.iml" filepath="$PROJECT_DIR$/web/livtripmanager-web/livtripmanager-web.iml" />
+    </modules>
+  </component>
+</project>

@@ -2,7 +2,7 @@ package com.qccr.livtrip.web.task;
 
 import com.beust.jcommander.internal.Maps;
 import com.qccr.livtrip.biz.service.task.JobTaskLogService;
-import com.qccr.livtrip.biz.service.task.enums.JobTaskLogStateEnum;
+import com.qccr.livtrip.biz.enums.task.JobTaskLogStateEnum;
 import com.qccr.livtrip.common.util.ApplicationUtil;
 import com.qccr.livtrip.model.task.JobTaskLog;
 import org.quartz.Job;

@@ -144,12 +144,12 @@
         select <include refid="all_column"/> from job_task where state=#{state}
     </select>
     <select id="queryJobTaskByParam" resultMap="AllColumnMap">
-        select <include refid="all_column"/> from job_task where
-        <if test ="taskCode ！= null and taskCode !=''">
-            task_code = #{taskCode}
+        select <include refid="all_column"/> from job_task where 1=1
+        <if test ="taskCode != null and taskCode !=''">
+            and task_code = #{taskCode}
         </if>
         <if test="state != null and state !=''">
-            state = #{state}
+           and  state = #{state}
         </if>
     </select>
 

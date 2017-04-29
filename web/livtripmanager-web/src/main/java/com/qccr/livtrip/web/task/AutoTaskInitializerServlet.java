@@ -1,7 +1,7 @@
 package com.qccr.livtrip.web.task;
 
 import com.qccr.livtrip.biz.service.task.JobTaskService;
-import com.qccr.livtrip.biz.service.task.enums.JobStateEnum;
+import com.qccr.livtrip.biz.enums.task.JobStateEnum;
 import com.qccr.livtrip.model.task.JobTask;
 import org.apache.commons.collections.CollectionUtils;
 import org.quartz.*;

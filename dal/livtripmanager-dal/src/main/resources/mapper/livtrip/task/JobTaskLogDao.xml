@@ -13,6 +13,16 @@
         <result column="update_time" property="updateTime"/>
     </resultMap>
 
+    <resultMap id="JobTaskLogMap" type="com.qccr.livtrip.model.dto.task.JobTaskLogDTO">
+        <result column="task_id" property="taskId"/>
+        <result column="state" property="state"/>
+        <result column="create_person" property="createPerson"/>
+        <result column="create_time" property="createTime"/>
+        <result column="task_code" property="taskCode"/>
+    </resultMap>
+
+
+
     <!--auto generated Code-->
     <sql id="all_column">
         `id`,
@@ -108,5 +118,20 @@
         </set>
         WHERE id = #{pojo.id}
     </update>
+
+    <select id="queryForList" resultMap="AllColumnMap">
+        select <include refid="all_column"/> from job_task_log
+    </select>
+    <select id="queryForJobTaskLogDTOList" resultMap="JobTaskLogMap">
+        select t1.task_code, t2.state,t2.task_id, t2.create_person,t2.create_time from job_task t1, job_task_log t2
+        where t1.id = t2.task_id
+        <if test="taskId != null ">
+            and t1.id =#{taskId}
+        </if>
+        <if test="state != null and state != ''">
+            and t2.state = #{state};
+        </if>
+
+    </select>
 </mapper>
 

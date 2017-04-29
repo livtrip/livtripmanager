@@ -50,7 +50,7 @@
 
     <!--auto generated Code-->
     <insert id="insertSelective" useGeneratedKeys="true" keyProperty="pojo.id">
-        INSERT INTO dest
+        INSERT INTO liv_dest
         <trim prefix="(" suffix=")" suffixOverrides=",">
             <if test="pojo.id!=null"> `id`,</if>
             <if test="pojo.destinationId!=null"> `destination_id`,</if>
@@ -76,7 +76,7 @@
 
     <!--auto generated Code-->
     <insert id="insertList">
-        INSERT INTO dest (
+        INSERT INTO liv_dest (
         <include refid="all_column"/>
         )VALUES
         <foreach collection="pojos" item="pojo" index="index" separator=",">
@@ -95,7 +95,7 @@
 
     <!--auto generated Code-->
     <update id="update">
-        UPDATE dest
+        UPDATE liv_dest
         <set>
             <if test="pojo.id != null"> `id` = #{pojo.id}, </if>
             <if test="pojo.destinationId != null"> `destination_id` = #{pojo.destinationId}, </if>

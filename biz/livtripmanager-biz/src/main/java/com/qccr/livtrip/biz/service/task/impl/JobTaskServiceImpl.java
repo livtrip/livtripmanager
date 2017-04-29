@@ -20,6 +20,7 @@ public class JobTaskServiceImpl implements JobTaskService {
     @Resource
     private JobTaskDao jobTaskDao;
 
+
     public int insert(JobTask pojo){
         return jobTaskDao.insert(pojo);
     }
@@ -43,6 +44,7 @@ public class JobTaskServiceImpl implements JobTaskService {
 
     @Override
     public PageInfo<JobTask> pageQueryJobTask(String taskCode, String state, Integer pageNum, Integer pageSize) {
+        if(pageNum == null || pageSize == null){pageNum = 1; pageSize=20;}
         PageHelper.startPage(pageNum,pageSize,true,false);
         List<JobTask> jobTasks = jobTaskDao.queryJobTaskByParam(taskCode,state);
         return new PageInfo<>(jobTasks);

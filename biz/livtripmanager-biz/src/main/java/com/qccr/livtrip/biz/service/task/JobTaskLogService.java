@@ -1,5 +1,9 @@
 package com.qccr.livtrip.biz.service.task;
 
+import com.github.pagehelper.PageInfo;
+import com.qccr.livtrip.biz.enums.task.JobStateEnum;
+import com.qccr.livtrip.biz.enums.task.JobTaskLogStateEnum;
+import com.qccr.livtrip.model.dto.task.JobTaskLogDTO;
 import com.qccr.livtrip.dal.task.JobTaskLogDao;
 import com.qccr.livtrip.model.task.JobTaskLog;
 import org.springframework.stereotype.Service;
@@ -27,5 +31,21 @@ public class JobTaskLogService{
 
     public int update(JobTaskLog pojo){
         return jobTaskLogDao.update(pojo);
+    }
+
+    public PageInfo<JobTaskLog> pageQuery(Integer pageNum, Integer pageSize){
+        if(pageNum == null || pageSize == null){pageNum = 1; pageSize= 20;}
+        List<JobTaskLog> jobTaskLogs = jobTaskLogDao.queryForList();
+        return new PageInfo<>(jobTaskLogs);
+    }
+
+    public PageInfo<JobTaskLogDTO> pageQueryJobTaskLogDTO(Integer taskId, String state,Integer pageNum, Integer pageSize){
+        if(pageNum == null || pageSize == null){pageNum = 1; pageSize= 20;}
+        List<JobTaskLogDTO> jobTaskLogDTOS = jobTaskLogDao.queryForJobTaskLogDTOList(taskId, state);
+        for(JobTaskLogDTO jobTaskLogDTO : jobTaskLogDTOS){
+            jobTaskLogDTO.setState(JobTaskLogStateEnum.getNameByCode(jobTaskLogDTO.getState()));
+        }
+        return new PageInfo<>(jobTaskLogDTOS);
+
     }
 }
