@@ -125,10 +125,10 @@
     <select id="queryForJobTaskLogDTOList" resultMap="JobTaskLogMap">
         select t1.task_code, t2.state,t2.task_id, t2.create_person,t2.create_time from job_task t1, job_task_log t2
         where t1.id = t2.task_id
-        <if test="taskId != null ">
+        <if test="taskId != null and taskId != -1">
             and t1.id =#{taskId}
         </if>
-        <if test="state != null and state != ''">
+        <if test="state != null and state != -1">
             and t2.state = #{state};
         </if>
 

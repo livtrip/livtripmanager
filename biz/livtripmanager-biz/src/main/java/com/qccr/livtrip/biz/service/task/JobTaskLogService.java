@@ -1,5 +1,6 @@
 package com.qccr.livtrip.biz.service.task;
 
+import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.qccr.livtrip.biz.enums.task.JobStateEnum;
 import com.qccr.livtrip.biz.enums.task.JobTaskLogStateEnum;
@@ -35,12 +36,14 @@ public class JobTaskLogService{
 
     public PageInfo<JobTaskLog> pageQuery(Integer pageNum, Integer pageSize){
         if(pageNum == null || pageSize == null){pageNum = 1; pageSize= 20;}
+        PageHelper.startPage(pageNum,pageSize,true,false);
         List<JobTaskLog> jobTaskLogs = jobTaskLogDao.queryForList();
         return new PageInfo<>(jobTaskLogs);
     }
 
     public PageInfo<JobTaskLogDTO> pageQueryJobTaskLogDTO(Integer taskId, String state,Integer pageNum, Integer pageSize){
         if(pageNum == null || pageSize == null){pageNum = 1; pageSize= 20;}
+        PageHelper.startPage(pageNum,pageSize,true,false);
         List<JobTaskLogDTO> jobTaskLogDTOS = jobTaskLogDao.queryForJobTaskLogDTOList(taskId, state);
         for(JobTaskLogDTO jobTaskLogDTO : jobTaskLogDTOS){
             jobTaskLogDTO.setState(JobTaskLogStateEnum.getNameByCode(jobTaskLogDTO.getState()));
