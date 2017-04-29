@@ -2,7 +2,6 @@ package com.qccr.livtrip.biz.service.task;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.qccr.livtrip.biz.enums.task.JobStateEnum;
 import com.qccr.livtrip.biz.enums.task.JobTaskLogStateEnum;
 import com.qccr.livtrip.model.dto.task.JobTaskLogDTO;
 import com.qccr.livtrip.dal.task.JobTaskLogDao;

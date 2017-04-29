@@ -53,7 +53,8 @@ public class ProductController extends BaseController{
 
     @RequestMapping("/list")
     public String list(HotelProductQuery hotelProductQuery, ModelMap modelMap){
-        PageInfo<HotelProductRo> pageInfo = productService.pageQueryHotelProductForAdmin(1,20,hotelProductQuery);
+        System.out.println("params:" + JSON.toJSONString(hotelProductQuery));
+        PageInfo<HotelProductRo> pageInfo = productService.pageQueryHotelProductForAdmin(hotelProductQuery.getPageNumber(),hotelProductQuery.getPageSize(),hotelProductQuery);
         modelMap.put("page", pageInfo);
         modelMap.put("name",hotelProductQuery.getName());
         modelMap.put("city",hotelProductQuery.getCity());
