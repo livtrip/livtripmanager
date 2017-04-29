@@ -15,4 +15,6 @@ public interface DestDao {
     int insertList(@Param("pojos") List<Dest> pojo);
 
     int update(@Param("pojo") Dest pojo);
+
+    List<Dest> queryForList();
 }

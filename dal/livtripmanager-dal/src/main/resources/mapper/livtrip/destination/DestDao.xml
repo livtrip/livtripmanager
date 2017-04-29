@@ -85,10 +85,10 @@
             #{pojo.destinationId},
             #{pojo.cityName},
             #{pojo.state},
-            'syste',
-            now(),
-            'system',
-            now()
+            #{pojo.createPerson},
+            #{pojo.createTime},
+            #{pojo.updatePerson},
+            #{pojo.updateTime}
             )
         </foreach>
     </insert>
@@ -108,5 +108,9 @@
         </set>
         WHERE id = #{pojo.id}
     </update>
+    <select id="queryForList" resultMap="AllColumnMap">
+        select <include refid="all_column"></include> from liv_dest;
+    </select>
+
 </mapper>
 

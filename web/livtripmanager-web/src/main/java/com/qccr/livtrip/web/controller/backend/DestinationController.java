@@ -1,6 +1,7 @@
 package com.qccr.livtrip.web.controller.backend;
 
 
+import com.alibaba.fastjson.JSON;
 import com.beust.jcommander.internal.Lists;
 import com.github.pagehelper.PageInfo;
 import com.qccr.livtrip.biz.handler.HotelHandler;
@@ -22,6 +23,9 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import com.qccr.livtrip.common.constant.Constant;
+
+import java.io.InputStream;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -117,7 +121,9 @@ public class DestinationController extends BaseController{
     @RequestMapping("addDestination")
     public void addDestination(){
         System.out.println("addDestination");
-        DestinationDTO destinationDTO = DestinationProcessor.getDestinationDTO("destination.json");
+        InputStream in = DestinationController.class.getResourceAsStream("destination.json");
+        String json = DestinationProcessor.inputStream2String(in);
+        DestinationDTO destinationDTO = JSON.parseObject(json, DestinationDTO.class);
         List<DestinationStateDTO> stateDTOs =destinationDTO.getRoot();
         if(CollectionUtils.isNotEmpty(stateDTOs)){
             for(DestinationStateDTO destinationStateDTO : stateDTOs) {
@@ -135,8 +141,17 @@ public class DestinationController extends BaseController{
                                 dest.setCityName(cityNewDTO.getName());
                                 dest.setDestinationId(cityNewDTO.getId());
                                 dest.setState(stateName);
+                                dest.setCreatePerson("system");
+                                dest.setCreateTime(new Date());
+                                dest.setUpdatePerson("system");
+                                dest.setUpdateTime(new Date());
+                                dests.add(dest);
                             }
-                            destService.insertList(dests);
+                            if(CollectionUtils.isNotEmpty(dests)){
+                                System.out.println("come here...");
+                                destService.insertList(dests);
+                            }
+
                         }
 
                     }
@@ -144,5 +159,6 @@ public class DestinationController extends BaseController{
             }
         }
     }
+
 
 }
