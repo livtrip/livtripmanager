@@ -107,8 +107,10 @@ public class ProductServiceImpl implements ProductService {
     public HotelProductRo getHotelProductById(Integer productId) {
         if(productId != null){
             HotelProductRo hotelProduct = productDao.getHotelProductById(productId);
-            hotelProduct.setThumb(hotelProduct.getThumb().replace("100x100", "200x200"));
-            return hotelProduct;
+            if(StringUtils.isNoneBlank(hotelProduct.getThumb())){
+                hotelProduct.setThumb(hotelProduct.getThumb().replace("100x100", "200x200"));
+            }
+             return hotelProduct;
         }
         return null;
     }

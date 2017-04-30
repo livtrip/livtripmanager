@@ -56,7 +56,8 @@
                     <option [#if starLevel==5]selected="selected"[/#if] value="5">5星级</option>
                 </select>
             </div>
-            <button type="submit" class="btn btn-primary" style="width:120px">查询</button>
+            <button type="submit" class="btn btn-primary" style="width:80px">查询</button>
+            <button type="reset" class="btn btn-primary" style="width:80px">重置</button>
     </div>
 </div>
 
@@ -66,8 +67,8 @@
         <tr>
             <th>产品名称</th>
             <th>酒店ID</th>
-            <th>州</th>
             <th>城市</th>
+            <th>州</th>
             <th>精品</th>
             <th>星级</th>
             <th>房间数</th>
@@ -79,8 +80,8 @@
         <tr>
             <td>${product.name}</td>
             <td>${product.hotelId}</td>
-            <td>${product.state}</td>
             <td>${product.city}</td>
+            <td>${product.state}</td>
             <td>
             [#if product.isBest == 1]
                 是

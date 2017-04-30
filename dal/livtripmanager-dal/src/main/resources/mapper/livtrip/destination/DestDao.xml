@@ -109,7 +109,7 @@
         WHERE id = #{pojo.id}
     </update>
     <select id="queryForList" resultMap="AllColumnMap">
-        select <include refid="all_column"></include> from liv_dest;
+        select <include refid="all_column"></include> from liv_dest
     </select>
 
 </mapper>

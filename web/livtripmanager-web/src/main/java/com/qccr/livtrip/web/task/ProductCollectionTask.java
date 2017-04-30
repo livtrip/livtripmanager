@@ -83,7 +83,8 @@ public class ProductCollectionTask extends Task{
                             hotelIds.add(hotel.getHotelId());
                             List<TWSHotelDetailsV3.Hotel> hotelList = HotelProcessor.getHotelDetailsV3(hotelIds);
                             final TWSHotelDetailsV3.Hotel hotelDetail =hotelList.get(0);
-                            if(!CollectionUtils.isEmpty(hotels) && primaryKey != null){
+                            if(hotelDetail!= null && primaryKey != null){
+                                System.out.println("hotel date begin....");
                                 eventBus.register(hotelProductService);
                                 eventBus.register(locationService);
                                 eventBus.post(new DataEvent(primaryKey,hotelDetail,hotel));
