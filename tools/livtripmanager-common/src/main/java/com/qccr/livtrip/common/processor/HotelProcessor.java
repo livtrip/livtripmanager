@@ -93,6 +93,9 @@ public class HotelProcessor {
         return null;
     }
 
+    public static  List<Hotel> searchHotelsById(List<Integer> hotelIds){
+        return searchHotelsById(hotelIds, defaultCheckIn(),defaultCheckOut(),defaultArrayOfRoomInfo());
+    }
     
     public static List<Hotel> searchHotelsById(List<Integer> hotelIds, String checkIn, String checkOut, ArrayOfRoomInfo arrayOfRoomInfo){
         long start = System.currentTimeMillis();

@@ -73,7 +73,17 @@ public class HotelDetailVO {
     private List<RoomType> roomTypeList;
     /**最低每晚均价*/
     private BigDecimal minAvgNightPrice;
+    /**构建房型结构*/
+    private List<HotelRoomTypeVO> hotelRoomTypeVOS;
 
+
+    public List<HotelRoomTypeVO> getHotelRoomTypeVOS() {
+        return hotelRoomTypeVOS;
+    }
+
+    public void setHotelRoomTypeVOS(List<HotelRoomTypeVO> hotelRoomTypeVOS) {
+        this.hotelRoomTypeVOS = hotelRoomTypeVOS;
+    }
 
     public String getCityName() {
         return cityName;

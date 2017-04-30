@@ -110,6 +110,7 @@ public class ProductCollectionTask extends Task{
                 eventBus.post(new DataEvent(productId, hotelDetail, hotel));
             }
         });
+        executorService.shutdown();
     }
 
     public Product buildProduct(Hotel hotel){

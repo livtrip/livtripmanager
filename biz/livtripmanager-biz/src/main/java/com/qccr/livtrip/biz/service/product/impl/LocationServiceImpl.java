@@ -2,12 +2,17 @@ package com.qccr.livtrip.biz.service.product.impl;
 
 import com.google.common.eventbus.Subscribe;
 import com.qccr.livtrip.biz.event.DataEvent;
+import com.qccr.livtrip.biz.service.product.HotelProductService;
 import com.qccr.livtrip.biz.service.product.LocationService;
 import com.qccr.livtrip.common.webservice.hotel.TWSHotelDetailsV3;
 import com.qccr.livtrip.dal.product.LocationDao;
+import com.qccr.livtrip.model.product.HotelProduct;
 import com.qccr.livtrip.model.product.Localtion;
+import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * @author xierongli
@@ -18,6 +23,7 @@ public class LocationServiceImpl implements LocationService {
 
     @Autowired
     private LocationDao locationDao;
+
 
     @Override
     public int insert(Localtion localtion) {
@@ -53,6 +59,12 @@ public class LocationServiceImpl implements LocationService {
     @Subscribe
     public void fetchLocation(DataEvent dataEvent){
         System.out.println("==========location==========");
+        //去重
+        List<Localtion> localtionList = locationDao.queryByProductId(dataEvent.getProductId());
+        if(CollectionUtils.isNotEmpty(localtionList)){
+            return ;
+        }
+
         TWSHotelDetailsV3.Hotel hotelDetail = dataEvent.getHotelDetail();
         Integer productId = dataEvent.getProductId();
         Localtion localtion = new Localtion();

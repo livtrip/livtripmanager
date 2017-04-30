@@ -1,23 +1,23 @@
-    function loadMap(){
-        var map = null;
-        var lat = $("#lat").html();
-        var lng = $("#lng").html();
+function loadMap(){
+    var map = null;
+    var lat = $("#lat").html();
+    var lng = $("#lng").html();
 
-        var myLatlng = new google.maps.LatLng(lat,lng);
-        var myOptions = {
-            zoom: 10,
-            center: myLatlng,
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-            scaleControl : false,
-            mapTypeControl : false,
-            zoomControlOptions: {
-                style: google.maps.ZoomControlStyle.BIG,
-                position: google.maps.ControlPosition.LEFT_TOP
-            }
+    var myLatlng = new google.maps.LatLng(lat,lng);
+    var myOptions = {
+        zoom: 10,
+        center: myLatlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        scaleControl : false,
+        mapTypeControl : false,
+        zoomControlOptions: {
+            style: google.maps.ZoomControlStyle.BIG,
+            position: google.maps.ControlPosition.LEFT_TOP
         }
-        map = new google.maps.Map(document.getElementById("map"), myOptions);
-        setMarkers(map, lat, lng);
     }
+    map = new google.maps.Map(document.getElementById("map"), myOptions);
+    setMarkers(map, lat, lng);
+}
 
 function setMarkers(map, lat,lng) {
     var myLatLng = new google.maps.LatLng(lat, lng);
@@ -43,6 +43,6 @@ function showinfomessage(marker, map)
         prev_infowindow = infowindow;
         infowindow.open(map,marker);
     });
-
 }
+
 

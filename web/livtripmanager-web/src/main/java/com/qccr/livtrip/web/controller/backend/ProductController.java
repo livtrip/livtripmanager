@@ -7,18 +7,25 @@ import com.qccr.livtrip.biz.handler.HotelHandler;
 import com.qccr.livtrip.biz.service.product.DescriptionService;
 import com.qccr.livtrip.biz.service.product.HotelImagesService;
 import com.qccr.livtrip.biz.service.product.ProductService;
+import com.qccr.livtrip.common.constant.Constant;
 import com.qccr.livtrip.common.converters.ObjectConvert;
+import com.qccr.livtrip.common.processor.HotelProcessor;
+import com.qccr.livtrip.common.webservice.hotel.Hotel;
+import com.qccr.livtrip.common.webservice.hotel.RoomType;
 import com.qccr.livtrip.model.product.*;
 import com.qccr.livtrip.model.request.HotelProductQuery;
 import com.qccr.livtrip.web.controller.BaseController;
 import com.qccr.livtrip.web.vo.product.HotelDescriptionVO;
 import com.qccr.livtrip.web.vo.product.HotelDetailVO;
 import com.qccr.livtrip.web.vo.product.HotelImageVO;
+import com.qccr.livtrip.web.vo.product.HotelRoomTypeVO;
+import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -83,10 +90,36 @@ public class ProductController extends BaseController{
         //酒店描述
         List<Description> descriptions = descriptionService.queryForList(Integer.parseInt(productId.trim()));
         hotelDetailVO.setHotelDescriptionVOList(ObjectConvert.convertList(descriptions, HotelDescriptionVO.class));
+
+        //酒店房型数据
+        List<Integer> hotelIds = Lists.newArrayList();
+        hotelIds.add(hotelProductRo.getHotelId());
+
+        List<Hotel> hotels = HotelProcessor.searchHotelsById(hotelIds);
+        if(CollectionUtils.isNotEmpty(hotels)){
+            System.out.println("------roomTypeList-----");
+            List<RoomType> roomTypeList = hotels.get(0).getRoomTypes().getRoomType();
+            //房型价格排序
+            Collections.sort(roomTypeList,(m1, m2)->m1.getOccupancies().getOccupancy().get(0).getAvrNightPrice().compareTo(m2.getOccupancies().getOccupancy().get(0).getAvrNightPrice()));
+
+            List<HotelRoomTypeVO> hotelRoomTypeVOS =Lists.newArrayList();
+            HotelRoomTypeVO hotelRoomTypeVO = new HotelRoomTypeVO();
+            for(RoomType roomType : roomTypeList){
+                hotelRoomTypeVO.setName(roomType.getName());
+                hotelRoomTypeVO.setCommission(Constant.COMMISSION);
+                hotelRoomTypeVO.setNights(roomType.getNights());
+                hotelRoomTypeVO.setOriginalPrice(roomType.getOccupancies().getOccupancy().get(0).getAvrNightPrice().doubleValue());
+                hotelRoomTypeVOS.add(hotelRoomTypeVO);
+
+            }
+            hotelDetailVO.setHotelRoomTypeVOS(hotelRoomTypeVOS);
+        }
         System.out.println(JSON.toJSONString(hotelDetailVO));
         modelMap.put("product", hotelDetailVO);
         return "/backend/product/edit";
     }
+
+
 
 
 

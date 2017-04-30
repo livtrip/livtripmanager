@@ -168,7 +168,38 @@
                     <button type="submit" class="btn btn-primary" style=" margin-left:150px;">提 交</button>
                 </form>
             </div>
-            <div role="tabpanel" class="tab-pane" id="settings">44</div>
+            <div role="tabpanel" class="tab-pane" id="settings">
+                <table class="table table-bordered" style="margin-top: 10px;">
+                    <tr>
+                        <th style="width: 20%">房型</th>
+                        <th style="width: 10%;text-align: center">每晚均价(原价)</th>
+                        <th style="width: 10%;text-align: center">每晚均价(销售价)</th>
+                        <th style="width: 10%;text-align: center">入住时长</th>
+                        <th style="width: 10%;text-align: center">手续费</th>
+                        <th style="width: 10%;text-align: center">利润</th>
+                        <th style="width: 10%;text-align: center">总价</th>
+                        <th style="width: 30%;text-align: center">所属日期</th>
+                    </tr>
+
+                    [#list product.hotelRoomTypeVOS as roomType]
+                            <tr>
+                                <td style="max-width:300px;">${roomType.name}</td>
+                                <td  style=" text-align:center; vertical-align:middle;">
+                                    $ ${roomType.originalPrice}
+                                </td>
+                                <td style="min-width:60px; text-align:center; vertical-align:middle;">$900</td>
+                                <td  style="text-align:center; vertical-align:middle;">${roomType.nights}</td>
+                                <td style="min-width:60px; text-align:center; vertical-align:middle;">${roomType.commission} %</td>
+
+                                <td style="min-width:60px; text-align:center; vertical-align:middle;">$900</td>
+                                <td style="min-width:60px; text-align:center; vertical-align:middle;">$900</td>
+                                <td style="min-width:60px; text-align:center; vertical-align:middle;">2017-19-10~2018-10-19</td>
+                            </tr>
+                    [/#list]
+
+                </table>
+
+            </div>
         </div>
 
     </div>

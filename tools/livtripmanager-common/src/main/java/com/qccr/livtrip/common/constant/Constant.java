@@ -10,4 +10,6 @@ public class Constant {
     public final static String  SESSION_USER_NAME = "session_user_name";
 
     public final static String  SUCCESS = "success";
+    //手续费(点数)
+    public final static Integer  COMMISSION  = 5;
 }

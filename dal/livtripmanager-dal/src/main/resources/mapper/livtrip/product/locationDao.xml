@@ -86,6 +86,10 @@
     <delete id="deleteByPid">
         delete from liv_location where product_id = #{productId}
     </delete>
+    <select id="queryByProductId" resultMap="BaseMap">
+        select <include refid="all_column"/> from liv_location where product_id = #{productId}
+    </select>
+
 
 
 </mapper>

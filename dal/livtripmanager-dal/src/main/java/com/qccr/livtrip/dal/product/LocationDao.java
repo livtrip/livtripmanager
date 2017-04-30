@@ -1,5 +1,6 @@
 package com.qccr.livtrip.dal.product;
 
+
 import com.qccr.livtrip.model.product.Localtion;
 import org.apache.ibatis.annotations.Param;
 
@@ -21,4 +22,6 @@ public interface LocationDao {
     Localtion queryForObject(@Param("productId") Integer productId);
 
     Integer deleteByPid(@Param("productId") String productId);
+
+    List<Localtion> queryByProductId(@Param("productId") Integer productId);
 }
