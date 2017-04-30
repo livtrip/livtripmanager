@@ -32,6 +32,8 @@ public class JobTaskController extends BaseController{
     public String list(String taskCode,String state, Integer pageNumber, Integer pageSize, ModelMap modelMap){
         PageInfo<JobTask> jobTaskPageInfo =jobTaskService.pageQueryJobTask(taskCode,state,pageNumber,pageSize);
         modelMap.put("page", jobTaskPageInfo);
+        modelMap.put("taskCode", taskCode);
+        modelMap.put("state", state);
         return "/backend/task/list";
     }
     @RequestMapping("logs")

@@ -104,7 +104,6 @@ public class ProductCollectionTask extends Task{
             @Override
             public void run() {
                 eventBus.register(hotelImagesService);
-                eventBus.register(locationService);
                 eventBus.register(amenityService);
                 eventBus.register(refPointService);
                 eventBus.register(descriptionService);

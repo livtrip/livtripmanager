@@ -22,41 +22,24 @@
     <div style="margin-top:5px; padding:0px; border:1px solid #d1d1d1; height:80px; border-radius:5px; text-align:center">
         <form class="form-inline" id="listForm" action="list.html" method="post" style="margin:25px auto; padding:0px;">
             <div class="form-group">
-                <label  class="control-label" for="inputSuccess1">产品名称</label>
-                <input type="text"  name="name" value="${name}"  class="form-control" id="inputSuccess1"/>
+                <label  class="control-label" for="inputSuccess1">任务名称</label>
+                <input type="text"  name="taskCode" value="${taskCode}"  class="form-control" id="inputSuccess1"/>
             </div>
             <div class="form-group">
-                <label  class="control-label" for="inputSuccess1">城市</label>
-                <input type="text"  name="city" value="${city}" class="form-control" id="inputSuccess1"/>
-            </div>
-            <div class="form-group">
-                <label  class="control-label" for="inputSuccess1">酒店ID</label>
-                <input type="text"  name="hotelId" value="${hotelId}"  class="form-control" id="inputSuccess1"/>
+                <label  class="control-label" for="inputSuccess1">状态</label>
+                <input type="text"  name="state" value="${state}"  class="form-control" id="inputSuccess1"/>
             </div>
             <div class="form-group">
                 <label class="control-label" for="inputSuccess2">精品</label>
-                <select name="isBest" class="form-control" id="inputSuccess2">
-                    <option [#if isBest==null]selected="selected"[/#if] value="-1">请选择</option>
-                    <option [#if isBest==0]selected="selected"[/#if] value="0">否</option>
-                    <option [#if isBest==1]selected="selected"[/#if] value="1">是</option>
+                <select name="state" class="form-control" id="inputSuccess2">
+                    <option [#if state==null]selected="selected"[/#if] value="-1">请选择</option>
+                    <option [#if state=='U']selected="selected"[/#if] value="0">否</option>
+                    <option [#if state=='O']selected="selected"[/#if] value="1">是</option>
                 </select>
             </div>
-            <div class="form-group">
-                <label class="control-label" for="inputSuccess2">星级</label>
-                <select name="starLevel" class="form-control" id="inputSuccess2">
-                    <option [#if starLevel==null]selected="selected"[/#if] value="-1">请选择</option>
-                    <option [#if starLevel==1]selected="selected"[/#if] value="1">1星级</option>
-                    <option [#if starLevel==1.5]selected="selected"[/#if] value="1.5">1.5星级</option>
-                    <option [#if starLevel==2]selected="selected"[/#if] value="2">2星级</option>
-                    <option [#if starLevel==2.5]selected="selected"[/#if] value="2.5">2.5星级</option>
-                    <option [#if starLevel==3]selected="selected"[/#if] value="3">3星级</option>
-                    <option [#if starLevel==3.5]selected="selected"[/#if] value="3.5">3.5星级</option>
-                    <option [#if starLevel==4]selected="selected"[/#if] value="4">4星级</option>
-                    <option [#if starLevel==4.5]selected="selected"[/#if] value="4.5">4.5星级</option>
-                    <option [#if starLevel==5]selected="selected"[/#if] value="5">5星级</option>
-                </select>
-            </div>
-            <button type="submit" class="btn btn-primary" style="width:120px">查询</button>
+
+            <button type="submit" class="btn btn-primary" style="width:100px">查询</button>
+            <button type="reset" class="btn btn-primary" style="width:100px">重置</button>
     </div>
 </div>
 
