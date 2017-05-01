@@ -179,7 +179,7 @@
                         <th style="width: 10%;text-align: center">原总价</th>
                         <th style="width: 10%;text-align: center">销售总价</th>
                         <th style="width: 10%;text-align: center">利润</th>
-                        <th style="width: 43%;text-align: center">所属日期</th>
+                        <th style="width: 45%;text-align: center">所属日期</th>
                     </tr>
 
                     [#list product.hotelRoomTypeVOS as roomType]
