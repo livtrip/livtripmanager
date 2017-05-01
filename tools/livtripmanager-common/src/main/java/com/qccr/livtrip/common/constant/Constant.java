@@ -11,5 +11,7 @@ public class Constant {
 
     public final static String  SUCCESS = "success";
     //手续费(点数)
-    public final static Integer  COMMISSION  = 5;
+    public final static double  COMMISSION  = 0.05;
+
+
 }

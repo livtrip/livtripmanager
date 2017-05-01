@@ -10,18 +10,57 @@ public class HotelRoomTypeVO {
     private String name;
     /**每晚均价(原价)*/
     private Double originalPrice;
+
     /**每晚均价(销售价)*/
-    private Double salePrice;
+    private Double saleAvgPrice;
     /**几晚*/
     private Integer nights;
     /**手续费*/
-    private Integer commission;
+    private double commission;
     /**总原价*/
-    private Double totalOrginalPrice;
+    private Double totalOriginalPrice;
     /**销售总价*/
     private Double totalSalePrice;
     /**利润*/
     private Double profit;
+    /**入住日期*/
+    private String checkIn;
+    /**退房日期*/
+    private String checkOut;
+
+
+    public Double getSaleAvgPrice() {
+        return saleAvgPrice;
+    }
+
+    public void setSaleAvgPrice(Double saleAvgPrice) {
+        this.saleAvgPrice = saleAvgPrice;
+    }
+
+    public Double getTotalOriginalPrice() {
+        return totalOriginalPrice;
+    }
+
+    public void setTotalOriginalPrice(Double totalOriginalPrice) {
+        this.totalOriginalPrice = totalOriginalPrice;
+    }
+
+    public String getCheckIn() {
+        return checkIn;
+    }
+
+    public void setCheckIn(String checkIn) {
+        this.checkIn = checkIn;
+    }
+
+    public String getCheckOut() {
+        return checkOut;
+    }
+
+    public void setCheckOut(String checkOut) {
+        this.checkOut = checkOut;
+    }
+
 
     public String getName() {
         return name;
@@ -39,13 +78,7 @@ public class HotelRoomTypeVO {
         this.originalPrice = originalPrice;
     }
 
-    public Double getSalePrice() {
-        return salePrice;
-    }
 
-    public void setSalePrice(Double salePrice) {
-        this.salePrice = salePrice;
-    }
 
     public Integer getNights() {
         return nights;
@@ -55,20 +88,12 @@ public class HotelRoomTypeVO {
         this.nights = nights;
     }
 
-    public Integer getCommission() {
+    public double getCommission() {
         return commission;
     }
 
-    public void setCommission(Integer commission) {
+    public void setCommission(double commission) {
         this.commission = commission;
-    }
-
-    public Double getTotalOrginalPrice() {
-        return totalOrginalPrice;
-    }
-
-    public void setTotalOrginalPrice(Double totalOrginalPrice) {
-        this.totalOrginalPrice = totalOrginalPrice;
     }
 
     public Double getTotalSalePrice() {

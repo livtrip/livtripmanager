@@ -10,6 +10,7 @@ import com.qccr.livtrip.biz.service.product.ProductService;
 import com.qccr.livtrip.common.constant.Constant;
 import com.qccr.livtrip.common.converters.ObjectConvert;
 import com.qccr.livtrip.common.processor.HotelProcessor;
+import com.qccr.livtrip.common.util.Money;
 import com.qccr.livtrip.common.webservice.hotel.Hotel;
 import com.qccr.livtrip.common.webservice.hotel.RoomType;
 import com.qccr.livtrip.model.product.*;
@@ -25,6 +26,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 
+import java.math.BigDecimal;
 import java.util.Collections;
 import java.util.List;
 
@@ -97,7 +99,7 @@ public class ProductController extends BaseController{
 
         List<Hotel> hotels = HotelProcessor.searchHotelsById(hotelIds);
         if(CollectionUtils.isNotEmpty(hotels)){
-            System.out.println("------roomTypeList-----");
+
             List<RoomType> roomTypeList = hotels.get(0).getRoomTypes().getRoomType();
             //房型价格排序
             Collections.sort(roomTypeList,(m1, m2)->m1.getOccupancies().getOccupancy().get(0).getAvrNightPrice().compareTo(m2.getOccupancies().getOccupancy().get(0).getAvrNightPrice()));
@@ -108,7 +110,23 @@ public class ProductController extends BaseController{
                 hotelRoomTypeVO.setName(roomType.getName());
                 hotelRoomTypeVO.setCommission(Constant.COMMISSION);
                 hotelRoomTypeVO.setNights(roomType.getNights());
-                hotelRoomTypeVO.setOriginalPrice(roomType.getOccupancies().getOccupancy().get(0).getAvrNightPrice().doubleValue());
+                hotelRoomTypeVO.setCheckIn(HotelProcessor.defaultCheckIn());
+                hotelRoomTypeVO.setCheckOut(HotelProcessor.defaultCheckOut());
+                //每晚均价，总价（总价）
+                Double avgNightPrice = roomType.getOccupancies().getOccupancy().get(0).getAvrNightPrice().doubleValue();
+                hotelRoomTypeVO.setOriginalPrice(avgNightPrice);
+                Money originalMoney = Money.ofYuan(avgNightPrice);
+                Money totalPrice = originalMoney.multipliedBy(new Double(roomType.getNights()));
+                hotelRoomTypeVO.setTotalOriginalPrice(totalPrice.getYuan());
+
+                //每晚均价,总价（销售价）
+                Money saleAvgNightPrice = originalMoney.multipliedBy(1+Constant.COMMISSION);
+                Money totalSalePrice = saleAvgNightPrice.multipliedBy(new Double(roomType.getNights()));
+                hotelRoomTypeVO.setSaleAvgPrice(saleAvgNightPrice.getYuan());
+                hotelRoomTypeVO.setTotalSalePrice(totalSalePrice.getYuan());
+
+                double profit = new BigDecimal(hotelRoomTypeVO.getTotalSalePrice()).subtract(new BigDecimal(hotelRoomTypeVO.getTotalOriginalPrice())).doubleValue();
+                hotelRoomTypeVO.setProfit(profit);
                 hotelRoomTypeVOS.add(hotelRoomTypeVO);
 
             }
