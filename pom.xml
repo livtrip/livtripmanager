@@ -11,7 +11,6 @@
 	<dependencyManagement>
 		<dependencies>
 
-
 			<dependency>
 				<groupId>org.apache.axis</groupId>
 				<artifactId>axis-jaxrpc</artifactId>
@@ -483,7 +482,6 @@
 
 		</plugins>
 	</build>
-
 	<modules>
 		<module>biz/livtripmanager-biz</module>
 		<module>dal/livtripmanager-dal</module>

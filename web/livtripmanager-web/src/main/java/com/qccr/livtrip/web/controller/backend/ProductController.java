@@ -105,8 +105,8 @@ public class ProductController extends BaseController{
             Collections.sort(roomTypeList,(m1, m2)->m1.getOccupancies().getOccupancy().get(0).getAvrNightPrice().compareTo(m2.getOccupancies().getOccupancy().get(0).getAvrNightPrice()));
 
             List<HotelRoomTypeVO> hotelRoomTypeVOS =Lists.newArrayList();
-            HotelRoomTypeVO hotelRoomTypeVO = new HotelRoomTypeVO();
             for(RoomType roomType : roomTypeList){
+                HotelRoomTypeVO hotelRoomTypeVO = new HotelRoomTypeVO();
                 hotelRoomTypeVO.setName(roomType.getName());
                 hotelRoomTypeVO.setCommission(Constant.COMMISSION);
                 hotelRoomTypeVO.setNights(roomType.getNights());
@@ -128,6 +128,7 @@ public class ProductController extends BaseController{
                 double profit = new BigDecimal(hotelRoomTypeVO.getTotalSalePrice()).subtract(new BigDecimal(hotelRoomTypeVO.getTotalOriginalPrice())).doubleValue();
                 hotelRoomTypeVO.setProfit(profit);
                 hotelRoomTypeVOS.add(hotelRoomTypeVO);
+                hotelRoomTypeVO = null;
 
             }
             hotelDetailVO.setHotelRoomTypeVOS(hotelRoomTypeVOS);

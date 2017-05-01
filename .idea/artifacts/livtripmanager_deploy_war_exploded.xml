@@ -179,8 +179,6 @@
           <element id="archive" name="livtripmanager-biz-1.0.0.jar">
             <element id="module-output" name="livtripmanager-biz" />
           </element>
-          <element id="library" level="project" name="Maven: com.google.zxing:core:2.2" />
-          <element id="library" level="project" name="Maven: com.google.zxing:javase:2.2" />
           <element id="archive" name="livtripmanager-dal-1.0.0.jar">
             <element id="module-output" name="livtripmanager-dal" />
           </element>
@@ -190,7 +188,9 @@
           <element id="archive" name="livtripmanager-common-1.0.0.jar">
             <element id="module-output" name="livtripmanager-common" />
           </element>
+          <element id="library" level="project" name="Maven: com.google.zxing:core:2.2" />
           <element id="library" level="project" name="Maven: org.apache.axis:axis-jaxrpc:1.4" />
+          <element id="library" level="project" name="Maven: com.google.zxing:javase:2.2" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.3.1" />
           <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml:3.11" />
           <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml-schemas:3.11" />

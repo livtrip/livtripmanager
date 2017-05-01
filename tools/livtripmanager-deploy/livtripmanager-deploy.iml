@@ -211,12 +211,12 @@
     <orderEntry type="library" name="Maven: javax.mail:mail:1.4.7" level="project" />
     <orderEntry type="module" module-name="livtripmanager-web" />
     <orderEntry type="module" module-name="livtripmanager-biz" />
-    <orderEntry type="library" name="Maven: com.google.zxing:core:2.2" level="project" />
-    <orderEntry type="library" name="Maven: com.google.zxing:javase:2.2" level="project" />
     <orderEntry type="module" module-name="livtripmanager-dal" />
     <orderEntry type="module" module-name="livtripmanager-model" />
     <orderEntry type="module" module-name="livtripmanager-common" />
+    <orderEntry type="library" name="Maven: com.google.zxing:core:2.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.axis:axis-jaxrpc:1.4" level="project" />
+    <orderEntry type="library" name="Maven: com.google.zxing:javase:2.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpmime:4.3.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml:3.11" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml-schemas:3.11" level="project" />
