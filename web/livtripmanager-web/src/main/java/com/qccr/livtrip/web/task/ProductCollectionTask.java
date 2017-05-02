@@ -17,6 +17,8 @@ import com.qccr.livtrip.model.product.HotelProduct;
 import com.qccr.livtrip.model.product.Product;
 import com.qccr.livtrip.model.request.CityQuery;
 import org.apache.commons.collections.CollectionUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.List;
 import java.util.Map;
@@ -29,6 +31,9 @@ import java.util.concurrent.Executors;
  * @version : livtripmanager-parent, v 0.1 2017/4/16 15:07 Exp $$
  */
 public class ProductCollectionTask extends Task{
+
+    private final static Logger logger = LoggerFactory.getLogger(ProductCollectionTask.class);
+
 
     public EventBus eventBus = new EventBus();
     private CityService cityService;
@@ -56,7 +61,7 @@ public class ProductCollectionTask extends Task{
 
     @Override
     public void execute(Map map) {
-        System.out.println("产品采集任务开始");
+        logger.info("产品采集任务开始");
         init();
        //分页获取destinationIds
         CityQuery cityQuery = new CityQuery();
@@ -84,6 +89,7 @@ public class ProductCollectionTask extends Task{
                             List<TWSHotelDetailsV3.Hotel> hotelList = HotelProcessor.getHotelDetailsV3(hotelIds);
                             final TWSHotelDetailsV3.Hotel hotelDetail =hotelList.get(0);
                             if(hotelDetail!= null && primaryKey != null){
+                                logger.info("hotel pick up begin,productId[{}]", primaryKey);
                                 System.out.println("hotel date begin....");
                                 eventBus.register(hotelProductService);
                                 eventBus.register(locationService);
