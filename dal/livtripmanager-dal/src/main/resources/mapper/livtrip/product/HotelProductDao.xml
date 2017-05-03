@@ -53,7 +53,7 @@
         delete from liv_hotel where product_id = #{productId}
     </delete>
     <select id="queryByHoteId" resultMap="BaseMap">
-        select <include refid="all_column"/> from liv_hotel where hotel_id = #{hotelId}
+        select <include refid="all_column"/> from liv_hotel where hotel_id = #{hotelId} limit 1
     </select>
 
 </mapper>
