@@ -19,4 +19,5 @@ public interface JobTaskService {
      List<JobTask> queryJobTask(String state);
      PageInfo<JobTask> pageQueryJobTask(String taskCode, String state, Integer pageNum, Integer pageSize);
 
+     public  JobTask getById(Integer taskId);
 }

@@ -49,4 +49,8 @@ public class JobTaskServiceImpl implements JobTaskService {
         List<JobTask> jobTasks = jobTaskDao.queryJobTaskByParam(taskCode,state);
         return new PageInfo<>(jobTasks);
     }
+
+    public  JobTask getById(Integer taskId){
+        return jobTaskDao.getById(taskId);
+    }
 }

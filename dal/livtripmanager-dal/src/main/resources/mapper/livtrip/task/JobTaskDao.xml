@@ -152,6 +152,9 @@
            and  state = #{state}
         </if>
     </select>
+    <select id="getById" resultMap="AllColumnMap">
+        select <include refid="all_column"/> from job_task where id = #{taskId}
+    </select>
 
 
 </mapper>

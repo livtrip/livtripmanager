@@ -20,4 +20,6 @@ public interface JobTaskLogDao {
     List<JobTaskLog> queryForList();
 
     List<JobTaskLogDTO> queryForJobTaskLogDTOList(@Param("taskId") Integer taskId, @Param("state") String state);
+
+
 }

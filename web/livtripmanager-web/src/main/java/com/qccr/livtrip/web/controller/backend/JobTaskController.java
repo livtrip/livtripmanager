@@ -46,4 +46,17 @@ public class JobTaskController extends BaseController{
         modelMap.put("page", jobTaskLogPageInfo);
         return "/backend/task/logs";
     }
+
+    @RequestMapping("edit")
+    public String edit(Integer taskId, ModelMap modelMap){
+        logger.info("enter job task detail, taskId[{}]", taskId);
+        JobTask jobTask = jobTaskService.getById(taskId);
+        if(jobTask != null){
+            modelMap.put("task", jobTask);
+        }
+        return "/backend/task/job_task_edit";
+    }
+
+
 }
+

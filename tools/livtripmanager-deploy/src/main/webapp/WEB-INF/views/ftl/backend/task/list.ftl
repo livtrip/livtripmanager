@@ -30,11 +30,11 @@
                 <input type="text"  name="state" value="${state}"  class="form-control" id="inputSuccess1"/>
             </div>
             <div class="form-group">
-                <label class="control-label" for="inputSuccess2">精品</label>
+                <label class="control-label" for="inputSuccess2">状态</label>
                 <select name="state" class="form-control" id="inputSuccess2">
                     <option [#if state==null]selected="selected"[/#if] value="-1">请选择</option>
-                    <option [#if state=='U']selected="selected"[/#if] value="0">否</option>
-                    <option [#if state=='O']selected="selected"[/#if] value="1">是</option>
+                    <option [#if state=='U']selected="selected"[/#if] value="U">启动</option>
+                    <option [#if state=='O']selected="selected"[/#if] value="O">停用</option>
                 </select>
             </div>
 
@@ -60,12 +60,18 @@
             <tr>
                 <td>${task.taskCode}</td>
                 <td>${task.taskType}</td>
-                <td>${task.state}</td>
+                <td>
+                    [#if task.state == 'U']
+                        启用
+                    [#else]
+                        停用
+                    [/#if]
+                </td>
                 <td>${task.taskImplClass}</td>
                 <td>${task.taskExpress}</td>
                 <td align="right">
                     <div class="btn-group">
-                        <button type="button" class="btn btn-bordered btn-primary" onclick="location.href='edit.html?productId=${product.id}'">详情</button>
+                        <button type="button" class="btn btn-bordered btn-primary" onclick="location.href='edit.html?taskId=${task.id}'">详情</button>
                         <button type="button" class="btn btn-bordered btn-danger" onclick="javascript:if(confirm('确实要删除该内容吗?'))location='delete.html?productId=${product.id}'">删除</button>
                     </div>
                 </td>

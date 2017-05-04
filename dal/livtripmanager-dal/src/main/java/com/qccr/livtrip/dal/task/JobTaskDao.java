@@ -20,4 +20,5 @@ public interface JobTaskDao {
 
     List<JobTask> queryJobTaskByParam(@Param("taskCode") String taskCode, @Param("state") String state);
 
+    JobTask getById(@Param("taskId") Integer taskId);
 }
