@@ -66,6 +66,7 @@ public class HotelHandler {
         try{
             String current = defaultCheckIn();
             String tomorrow = defaultCheckOut();
+            logger.info("采集酒店入参,destinationId[{}],checkIn[{}]",destinationIds,defaultCheckIn());
             List<Hotel> hotelList = HotelProcessor.SearchHotelsByDestinationIds(destinationIds, current,tomorrow, null);
             logger.info("采集实时获取的酒店数据, Hotels[{}]", JSON.toJSONString(hotelList));
             if(!CollectionUtils.isEmpty(hotelList)){
@@ -104,7 +105,7 @@ public class HotelHandler {
             }
 
         }catch (Exception e){
-            logger.error("tourico reuquest error" + e.getMessage());
+            logger.error("采集hotel酒店数据异常 error" + e.getMessage());
         }
     }
 

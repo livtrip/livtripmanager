@@ -10,6 +10,7 @@ import com.qccr.livtrip.biz.service.destination.DestService;
 import com.qccr.livtrip.biz.service.destination.StateService;
 import com.qccr.livtrip.common.dto.*;
 import com.qccr.livtrip.common.processor.DestinationProcessor;
+import com.qccr.livtrip.common.util.ApplicationUtil;
 import com.qccr.livtrip.model.destination.City;
 import com.qccr.livtrip.model.destination.Dest;
 import com.qccr.livtrip.model.destination.State;
@@ -124,6 +125,7 @@ public class DestinationController extends BaseController{
         InputStream in = DestinationController.class.getResourceAsStream("destination.json");
         String json = DestinationProcessor.inputStream2String(in);
         DestinationDTO destinationDTO = JSON.parseObject(json, DestinationDTO.class);
+
         List<DestinationStateDTO> stateDTOs =destinationDTO.getRoot();
         if(CollectionUtils.isNotEmpty(stateDTOs)){
             for(DestinationStateDTO destinationStateDTO : stateDTOs) {
@@ -141,16 +143,18 @@ public class DestinationController extends BaseController{
                                 dest.setCityName(cityNewDTO.getName());
                                 dest.setDestinationId(cityNewDTO.getId());
                                 dest.setState(stateName);
+                                dest.setSort(1);
                                 dest.setCreatePerson("system");
                                 dest.setCreateTime(new Date());
                                 dest.setUpdatePerson("system");
                                 dest.setUpdateTime(new Date());
-                                dests.add(dest);
+                                destService.insert(dest);
+                                //dests.add(dest);
                             }
-                            if(CollectionUtils.isNotEmpty(dests)){
-                                System.out.println("come here...");
-                                destService.insertList(dests);
-                            }
+//                            if(CollectionUtils.isNotEmpty(dests)){
+//                                System.out.println("come here...");
+//                                destService.insertList(dests);
+//                            }
 
                         }
 
@@ -159,6 +163,14 @@ public class DestinationController extends BaseController{
             }
         }
     }
+
+    public static void main(String[] args) {
+        //DestService destService = (DestService) ApplicationUtil.getBean("destService");
+        DestinationDTO destinationDTO = DestinationProcessor.getDestinationDTO("destination.json");
+        System.out.println(JSON.toJSONString(destinationDTO));
+
+    }
+
 
 
 }

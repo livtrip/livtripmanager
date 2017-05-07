@@ -96,6 +96,7 @@ public class HotelProcessor {
             logger.info("tourico response, SearchResult[{}]", result);
             return result.getHotelList().getHotel();
         }catch (Exception e) {
+            logger.error("tourico request error", e.getMessage());
             e.printStackTrace();
         }
         return null;

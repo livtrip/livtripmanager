@@ -12,6 +12,15 @@ public class Dest extends BaseDO {
     private Integer destinationId;
     private String cityName;
     private String state;
+    private  Integer sort;
+
+    public Integer getSort() {
+        return sort;
+    }
+
+    public void setSort(Integer sort) {
+        this.sort = sort;
+    }
 
     public Integer getId() {
         return id;
