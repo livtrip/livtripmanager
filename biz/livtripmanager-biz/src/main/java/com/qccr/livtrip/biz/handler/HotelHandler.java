@@ -104,7 +104,7 @@ public class HotelHandler {
             }
 
         }catch (Exception e){
-
+            logger.error("tourico reuquest error" + e.getMessage());
         }
     }
 
