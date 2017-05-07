@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.PageInfo;
 import com.google.common.collect.Lists;
 import com.qccr.livtrip.biz.handler.HotelHandler;
+import com.qccr.livtrip.biz.service.destination.DestService;
 import com.qccr.livtrip.biz.service.product.DescriptionService;
 import com.qccr.livtrip.biz.service.product.HotelImagesService;
 import com.qccr.livtrip.biz.service.product.ProductService;
@@ -48,6 +49,8 @@ public class ProductController extends BaseController{
     private HotelImagesService hotelImagesService;
     @Autowired
     private DescriptionService descriptionService;
+    @Autowired
+    private DestService destService;
 
     @RequestMapping("/add")
     public String fetchProducts(@RequestParam  Integer destinationId){

@@ -89,4 +89,6 @@ public interface ProductService {
      * @date 2017/3/26 15:12 
      */
     void deleteProduct(String productId);
+
+    Product queryByHotelId(Integer hotelId);
 }

@@ -34,8 +34,11 @@ public class DestService{
     public PageInfo<Dest> pageQueryList(Integer pageNum, Integer pageSize){
         PageHelper.startPage(pageNum,pageSize,true,false);
         List<Dest> dests = destDao.queryForList();
-
         return new PageInfo<>(dests);
+    }
+
+    public List<Dest> queryForList(){
+        return  destDao.queryForList();
     }
 
 }

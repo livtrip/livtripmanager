@@ -83,4 +83,6 @@ public interface ProductDao {
     List<HotelProductRo> queryHotelProductByReq(HotelProductQuery hotelProductQuery);
 
     int deleteProduct(@Param("productId") String productId);
+
+    Product queryByHotelId(@Param("hotelId") Integer hotelId);
 }

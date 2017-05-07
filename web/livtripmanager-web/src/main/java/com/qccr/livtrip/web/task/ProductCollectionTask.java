@@ -73,6 +73,7 @@ public class ProductCollectionTask extends Task{
             PageInfo<Dest> destinationPageInfo = destService.pageQueryList(i,20);
             //根据destinationId, checkIn, checkOut 查询最新的酒店数据
             for(Dest destination : destinationPageInfo.getList()){
+                logger.info("开始采集［{}］的酒店",destination.getCityName());
                 List<Integer> destinationIds = Lists.newArrayList();
                 destinationIds.add(destination.getDestinationId());
                 List<Hotel> hotels = HotelProcessor.SearchHotelsByDestinationIds(destinationIds);
@@ -82,20 +83,25 @@ public class ProductCollectionTask extends Task{
                         HotelProduct  hotelProduct = hotelProductService.queryByHoteId(hotel.getHotelId());
                         if(hotelProduct == null){
                             //产品product 数据落地
-                            Integer primaryKey = productService.insertAndGetId(buildProduct(hotel));
-                            //hotel,location数据落地
-                            List<Integer> hotelIds = com.google.common.collect.Lists.newArrayList();
-                            hotelIds.add(hotel.getHotelId());
-                            List<TWSHotelDetailsV3.Hotel> hotelList = HotelProcessor.getHotelDetailsV3(hotelIds);
-                            final TWSHotelDetailsV3.Hotel hotelDetail =hotelList.get(0);
-                            if(hotelDetail!= null && primaryKey != null){
-                                logger.info("hotel pick up begin,productId[{}]", primaryKey);
-                                System.out.println("hotel date begin....");
-                                eventBus.register(hotelProductService);
-                                eventBus.register(locationService);
-                                eventBus.post(new DataEvent(primaryKey,hotelDetail,hotel));
-                                fetchProductExt(primaryKey, hotelDetail,hotel);
+                            Product product = productService.queryByHotelId(hotel.getHotelId());
+                            if(product == null){
+                                logger.info("产品去重，HotelId[{}]",hotel.getHotelId());
+                                Integer primaryKey = productService.insertAndGetId(buildProduct(hotel));
+                                //hotel,location数据落地
+                                List<Integer> hotelIds = com.google.common.collect.Lists.newArrayList();
+                                hotelIds.add(hotel.getHotelId());
+                                List<TWSHotelDetailsV3.Hotel> hotelList = HotelProcessor.getHotelDetailsV3(hotelIds);
+                                final TWSHotelDetailsV3.Hotel hotelDetail =hotelList.get(0);
+                                if(hotelDetail!= null && primaryKey != null){
+                                    logger.info("hotel pick up begin,productId[{}]", primaryKey);
+                                    System.out.println("hotel date begin....");
+                                    eventBus.register(hotelProductService);
+                                    eventBus.register(locationService);
+                                    eventBus.post(new DataEvent(primaryKey,hotelDetail,hotel));
+                                    fetchProductExt(primaryKey, hotelDetail,hotel);
+                                }
                             }
+
                         }
                     }
                 }
@@ -125,6 +131,8 @@ public class ProductCollectionTask extends Task{
         product.setCurrency(hotel.getCurrency());
         product.setBrandName(hotel.getBrandName());
         product.setType(1);
+        product.setHotelId(hotel.getHotelId());
+        product.setIsBest(hotel.isBestValue()?1:0);
 
         product.setClearPrice(Money.convertYuanToCent(hotel.getMinAverPrice().doubleValue()).intValue());
         product.setIsBest(hotel.isBestValue()? 1:0);

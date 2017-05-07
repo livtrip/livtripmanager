@@ -144,4 +144,9 @@ public class ProductServiceImpl implements ProductService {
         refPointDao.deleteByPid(productId);
     }
 
+    @Override
+    public Product queryByHotelId(Integer hotelId) {
+        return productDao.queryByHotelId(hotelId);
+    }
+
 }

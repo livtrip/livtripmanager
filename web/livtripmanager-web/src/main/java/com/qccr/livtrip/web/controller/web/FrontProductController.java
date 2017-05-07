@@ -7,6 +7,7 @@ import com.google.common.base.Joiner;
 import com.google.common.cache.Cache;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
+import com.qccr.livtrip.biz.service.destination.DestService;
 import com.qccr.livtrip.biz.service.product.DescriptionService;
 import com.qccr.livtrip.biz.service.product.HotelImagesService;
 import com.qccr.livtrip.biz.service.product.ProductService;
@@ -17,6 +18,7 @@ import com.qccr.livtrip.common.processor.HotelProcessor;
 import com.qccr.livtrip.common.util.date.DateStyle;
 import com.qccr.livtrip.common.util.date.DateUtil;
 import com.qccr.livtrip.common.webservice.hotel.*;
+import com.qccr.livtrip.model.destination.Dest;
 import com.qccr.livtrip.model.product.Description;
 import com.qccr.livtrip.model.product.HotelImages;
 import com.qccr.livtrip.model.product.HotelProduct;
@@ -54,6 +56,8 @@ public class FrontProductController {
     private HotelImagesService hotelImagesService;
     @Autowired
     private DescriptionService descriptionService;
+    @Autowired
+    private DestService destService;
 
     private static Map<String, Integer> cityNameIdMap = null;
     private static Map<Integer, String> cityIdNameMap = null;
@@ -173,9 +177,12 @@ public class FrontProductController {
     @RequestMapping("getCity")
     @ResponseBody
     public String getCity(){
+        List<Dest> dests =  destService.queryForList();
         List<String> cityList = Lists.newArrayList();
-        cityList.add("New York,NY");
-        cityList.add("Washington,DC");
+        for(Dest dest:dests){
+            cityList.add(dest.getCityName());
+        }
+        cityList = cityList.subList(0,20);
         Map map = Maps.newHashMap();
         map.put("suggestions", cityList);
         return JSON.toJSONString(map);

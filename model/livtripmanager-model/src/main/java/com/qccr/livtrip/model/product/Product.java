@@ -33,7 +33,7 @@ public class Product extends BaseDO{
     /**供应商*/
     private String vendor;
     /**是否删除 0 否 1 是*/
-    private Integer isDelete;
+    private Integer hotelId;
     /**是否最好 0 否 1 是*/
     private Integer isBest;
     /**产品标签: eg:海景房*/
@@ -136,12 +136,12 @@ public class Product extends BaseDO{
         this.vendor = vendor;
     }
 
-    public Integer getIsDelete() {
-        return isDelete;
+    public Integer getHotelId() {
+        return hotelId;
     }
 
-    public void setIsDelete(Integer isDelete) {
-        this.isDelete = isDelete;
+    public void setHotelId(Integer hotelId) {
+        this.hotelId = hotelId;
     }
 
     public Integer getIsBest() {

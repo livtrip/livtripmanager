@@ -45,6 +45,7 @@ public class Mail {
         hosts.put("189", "smtp.189.cn");
         hosts.put("sohu", "smtp.sohu.com");
         hosts.put("21cn", "smtp.21cn.com");
+        hosts.put("tourongjia", "smtp.tourongjia.com");
 
     }
 
@@ -206,9 +207,12 @@ public class Mail {
 //		mail.setMailInfo(Mode.TEXT_MAIL, "验证码", "验证码是: 111111");
 //		mail.send();
 
-        Mail mail = new Mail("xierongli@qccr.com", "qccr20160328");
+        //Mail mail = new Mail("xierongli@tourongjia.com", "Tourongjia2017");
+        Mail mail = new Mail("livtrip@163.com", "livtrip2017");
+        //mail.addToAddress(Mail.ReceiveType.TO, "livtrip@163.com");
         mail.addToAddress(Mail.ReceiveType.TO, "545739504@qq.com");
-        mail.setMailInfo(Mail.Mode.TEXT_MAIL, "退款回调", "命中黑名单》退款通知修改订单状态异常,订单编号:"+122+" 请尽快协助处理！！！");
+        mail.setMailInfo(Mail.Mode.TEXT_MAIL, "退款回调测试信息", "命中黑名单》退款通知修改订单状态异常,订单编号:"+122+" 请尽快协助处理！！！");
         mail.send();
+        System.out.println("success");
     }
 }
