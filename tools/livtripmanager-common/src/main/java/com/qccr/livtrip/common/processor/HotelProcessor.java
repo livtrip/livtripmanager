@@ -68,9 +68,11 @@ public class HotelProcessor {
      * @date 2016/12/13 16:58
      */
     public static List<Hotel> SearchHotelsByDestinationIds(List<Integer> destinationIds, String checkIn, String checkOut, ArrayOfRoomInfo arrayOfRoomInfo){
+        logger.info("tourico request destinationIds[{}],checkIn[{}]",destinationIds,checkIn);
+        System.out.println("tourico request beigin");
         if(CollectionUtils.isEmpty(destinationIds)){ return null;}
         try{
-            logger.info("tourico request begin");
+
             SearchHotelsByDestinationIdsRequest request = new SearchHotelsByDestinationIdsRequest();
             ArrayOfDestinationIdInfo destinationIdsInfo = new ArrayOfDestinationIdInfo();
             for(Integer destinationId : destinationIds){
