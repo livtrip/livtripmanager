@@ -17,6 +17,8 @@ import com.google.common.collect.Lists;
 import com.qccr.livtrip.common.webservice.handler.HotelSOAPHandler;
 import com.qccr.livtrip.common.webservice.hotel.*;
 import com.sun.org.apache.xerces.internal.jaxp.datatype.XMLGregorianCalendarImpl;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  *Hotel 处理器
@@ -25,6 +27,7 @@ import com.sun.org.apache.xerces.internal.jaxp.datatype.XMLGregorianCalendarImpl
  */
 public class HotelProcessor {
 
+    protected static final Logger logger	= LoggerFactory.getLogger(HotelProcessor.class);
 
 
     private static IHotelFlow port = null;
@@ -85,7 +88,9 @@ public class HotelProcessor {
             request.setStarLevel(new BigDecimal(0));
             request.setExactDestination(false);
 
+
             SearchResult result = port.searchHotelsByDestinationIds(request, null);
+            logger.info("tourico response, SearchResult[{}]", result);
             return result.getHotelList().getHotel();
         }catch (Exception e) {
             e.printStackTrace();
