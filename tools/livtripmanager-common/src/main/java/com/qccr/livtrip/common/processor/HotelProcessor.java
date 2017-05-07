@@ -70,6 +70,7 @@ public class HotelProcessor {
     public static List<Hotel> SearchHotelsByDestinationIds(List<Integer> destinationIds, String checkIn, String checkOut, ArrayOfRoomInfo arrayOfRoomInfo){
         if(CollectionUtils.isEmpty(destinationIds)){ return null;}
         try{
+            logger.info("tourico request begin");
             SearchHotelsByDestinationIdsRequest request = new SearchHotelsByDestinationIdsRequest();
             ArrayOfDestinationIdInfo destinationIdsInfo = new ArrayOfDestinationIdInfo();
             for(Integer destinationId : destinationIds){
@@ -87,7 +88,7 @@ public class HotelProcessor {
             request.setPropertyType(PropertyType.HOTEL);
             request.setStarLevel(new BigDecimal(0));
             request.setExactDestination(false);
-
+            logger.info("tourico request[{}]", JSON.toJSONString(request));
 
             SearchResult result = port.searchHotelsByDestinationIds(request, null);
             logger.info("tourico response, SearchResult[{}]", result);
