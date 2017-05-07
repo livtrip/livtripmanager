@@ -181,8 +181,8 @@ public class FrontProductController {
 
     @RequestMapping("getCity")
     @ResponseBody
-    public String getCity(){
-        List<Dest> dests =  destService.queryForList();
+    public String getCity(String query){
+        List<Dest> dests =  destService.queryForList(query);
         List<String> cityList = Lists.newArrayList();
         for(Dest dest:dests){
             cityList.add(dest.getCityName());

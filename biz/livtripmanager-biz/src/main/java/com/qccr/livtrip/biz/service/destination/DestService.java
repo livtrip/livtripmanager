@@ -34,12 +34,13 @@ public class DestService{
 
     public PageInfo<Dest> pageQueryList(Integer pageNum, Integer pageSize){
         PageHelper.startPage(pageNum,pageSize,true,false);
-        List<Dest> dests = destDao.queryForList();
-        return new PageInfo<>(dests);
+        //List<Dest> dests = destDao.queryForList();
+        //return new PageInfo<>(dests);
+        return  null;
     }
 
-    public List<Dest> queryForList(){
-        return  destDao.queryForList();
+    public List<Dest> queryForList(String query){
+        return  destDao.queryForList(query);
     }
 
     public int increaseSort(Integer destinationId){
