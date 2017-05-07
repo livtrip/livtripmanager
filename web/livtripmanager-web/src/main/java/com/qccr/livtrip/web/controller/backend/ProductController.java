@@ -142,12 +142,4 @@ public class ProductController extends BaseController{
     }
 
 
-
-
-
-
-
-
-     
-
 }
