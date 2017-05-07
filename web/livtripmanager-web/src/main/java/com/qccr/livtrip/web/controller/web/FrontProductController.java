@@ -80,7 +80,10 @@ public class FrontProductController {
             String checkOut = StringUtils.isBlank(productQuery.getCheckOut())? defaultCheckOut() : productQuery.getCheckOut();
             //TODO 城市名称转ID
             List<Integer> destinationIds = Lists.newArrayList();
-            Integer destinationId =cityNameIdMap.get(productQuery.getDestination()) == null?7263:cityNameIdMap.get(productQuery.getDestination());
+           // Integer destinationId =cityNameIdMap.get(productQuery.getDestination()) == null?7263:cityNameIdMap.get(productQuery.getDestination());
+            Integer destinationId = destService.getDestinationIdByCityName(productQuery.getDestination());
+            //增加sort
+            destService.increaseSort(destinationId);
             destinationIds.add(destinationId);
 
             //赋值productQuery
@@ -113,7 +116,7 @@ public class FrontProductController {
             }
 
             modelMap.put("page", pageInfo);
-            modelMap.put("destination", destinationId==null?7263:destinationId);
+            modelMap.put("destination", productQuery.getDestination());
             modelMap.put("destinationName", StringUtils.isBlank(productQuery.getDestination())?"New York,NY":productQuery.getDestination());
             modelMap.put("checkIn", productQuery.getCheckIn());
             modelMap.put("checkOut", productQuery.getCheckOut());
@@ -182,7 +185,7 @@ public class FrontProductController {
         for(Dest dest:dests){
             cityList.add(dest.getCityName());
         }
-        cityList = cityList.subList(0,20);
+        cityList = cityList.subList(0,12);
         Map map = Maps.newHashMap();
         map.put("suggestions", cityList);
         return JSON.toJSONString(map);

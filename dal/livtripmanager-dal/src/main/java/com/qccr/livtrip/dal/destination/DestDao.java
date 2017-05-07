@@ -17,4 +17,8 @@ public interface DestDao {
     int update(@Param("pojo") Dest pojo);
 
     List<Dest> queryForList();
+
+    int increaseSort(@Param("destinationId") Integer destinationId);
+
+    Integer getDestinationIdByCityName(@Param("cityName") String cityName);
 }

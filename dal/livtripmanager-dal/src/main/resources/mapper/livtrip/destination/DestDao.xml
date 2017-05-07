@@ -116,7 +116,13 @@
         WHERE id = #{pojo.id}
     </update>
     <select id="queryForList" resultMap="AllColumnMap">
-        select <include refid="all_column"></include> from liv_dest
+        select <include refid="all_column"></include> from liv_dest order by sort desc
+    </select>
+    <update id="increaseSort" >
+        update liv_dest set sort = sort+1, update_time = now() where destination_id =#{destinationId}
+    </update>
+    <select id="getDestinationIdByCityName" resultType="Integer">
+        select destination_id from liv_dest where city_name =#{cityName} limit 1
     </select>
 
 </mapper>

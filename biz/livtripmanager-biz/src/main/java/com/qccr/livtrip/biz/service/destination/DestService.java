@@ -4,6 +4,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.qccr.livtrip.dal.destination.DestDao;
 import com.qccr.livtrip.model.destination.Dest;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.List;
@@ -40,5 +41,13 @@ public class DestService{
     public List<Dest> queryForList(){
         return  destDao.queryForList();
     }
+
+    public int increaseSort(Integer destinationId){
+        return  destDao.increaseSort(destinationId);
+    }
+    public Integer getDestinationIdByCityName(String cityName){
+        return destDao.getDestinationIdByCityName(cityName);
+    }
+
 
 }
