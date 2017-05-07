@@ -152,7 +152,9 @@ public class FrontProductController {
         }
         //实时查询房型数据
         List<Integer> destinationIds = Lists.newArrayList();
-        Integer destination = Integer.valueOf(productQuery.getDestination()==null?"7263":productQuery.getDestination());
+        Integer destination = destService.getDestinationIdByCityName(productQuery.getDestination());
+        //增加sort
+        destService.increaseSort(destination);
         destinationIds.add(destination);
         List<Hotel> hotelList = HotelProcessor.SearchHotelsByDestinationIds(destinationIds,productQuery.getCheckIn(),productQuery.getCheckOut(),
                 getArrayOfRoomInfoByNum(Integer.parseInt(productQuery.getPeopleNum())));
