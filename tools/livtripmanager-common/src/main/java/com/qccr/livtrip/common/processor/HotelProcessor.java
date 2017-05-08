@@ -92,9 +92,9 @@ public class HotelProcessor {
             request.setExactDestination(false);
             logger.info("tourico request[{}]", JSON.toJSONString(request));
 
-            SearchResult result = port.searchHotelsByDestinationIds(request, null);
-            logger.info("tourico response, SearchResult[{}]", result);
-            return result.getHotelList().getHotel();
+           // SearchResult result = port.searchHotelsByDestinationIds(request, null);
+            logger.info("tourico response, SearchResult[{}]");
+            return null;
         }catch (Exception e) {
             logger.error("tourico request error", e);
             e.printStackTrace();
