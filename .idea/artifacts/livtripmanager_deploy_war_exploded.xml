@@ -188,6 +188,8 @@
           <element id="archive" name="livtripmanager-common-1.0.0.jar">
             <element id="module-output" name="livtripmanager-common" />
           </element>
+          <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
+          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
           <element id="library" level="project" name="Maven: com.google.zxing:core:2.2" />
           <element id="library" level="project" name="Maven: org.apache.axis:axis-jaxrpc:1.4" />
           <element id="library" level="project" name="Maven: com.google.zxing:javase:2.2" />
