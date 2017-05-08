@@ -8,6 +8,7 @@ import javax.xml.ws.handler.Handler;
 import javax.xml.ws.handler.HandlerResolver;
 import javax.xml.ws.handler.PortInfo;
 
+import com.qccr.livtrip.common.util.XMLConverUtil;
 import com.qccr.livtrip.common.util.date.DateStyle;
 import com.qccr.livtrip.common.util.date.DateUtil;
 import org.apache.commons.collections.CollectionUtils;
@@ -69,7 +70,6 @@ public class HotelProcessor {
      */
     public static List<Hotel> SearchHotelsByDestinationIds(List<Integer> destinationIds, String checkIn, String checkOut, ArrayOfRoomInfo arrayOfRoomInfo){
         logger.info("tourico request destinationIds[{}],checkIn[{}]",destinationIds,checkIn);
-
         if(CollectionUtils.isEmpty(destinationIds)){ return null;}
         try{
 
@@ -84,17 +84,16 @@ public class HotelProcessor {
             request.setCheckIn(transToTouricoFormate(checkIn));
             request.setCheckOut(transToTouricoFormate(checkOut));
             request.setRoomsInformation(arrayOfRoomInfo == null? defaultArrayOfRoomInfo() : arrayOfRoomInfo);
-
             request.setAvailableOnly(true);
             request.setMaxPrice(new BigDecimal(0));
             request.setPropertyType(PropertyType.HOTEL);
             request.setStarLevel(new BigDecimal(0));
             request.setExactDestination(false);
-            logger.info("tourico request[{}]", JSON.toJSONString(request));
 
-           // SearchResult result = port.searchHotelsByDestinationIds(request, null);
-            logger.info("tourico response, SearchResult[{}]");
-            return null;
+            logger.info("tourico request[{}]", XMLConverUtil.convertToXML(request));
+            SearchResult result = port.searchHotelsByDestinationIds(request, null);
+            logger.info("tourico response, SearchResult[{}]", XMLConverUtil.convertToXML(request));
+            return result.getHotelList().getHotel();
         }catch (Exception e) {
             logger.error("tourico request error", e);
             e.printStackTrace();
