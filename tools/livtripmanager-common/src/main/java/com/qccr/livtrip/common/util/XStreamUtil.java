@@ -28,10 +28,11 @@ public class XStreamUtil {
             } catch (IllegalAccessException e) {
                 e.printStackTrace();
             }
+            return writer.toString();
 
-            System.out.println(writer.toString());
         } catch (JAXBException e) {
             e.printStackTrace();
         }
+        return "";
     }
 }
