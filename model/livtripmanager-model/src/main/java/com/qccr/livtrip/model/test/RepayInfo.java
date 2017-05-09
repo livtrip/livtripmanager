@@ -10,7 +10,10 @@ public class RepayInfo {
     private Integer id;
     private Integer uid;
     private Integer currentPeriod;
+    /**0 未开始 1 正常还款 2 还款结束 3 还款异常*/
     private Integer status;
+    /**期限*/
+    private Integer term;
 
     /**应还金额*/
     private BigDecimal amount;//本＋息＋罚＋手续费
@@ -18,15 +21,17 @@ public class RepayInfo {
     private BigDecimal repayedAmount; //已本＋已息＋已罚＋已手续费
     /**剩余金额*/
     private BigDecimal restAmount;//剩本＋剩息＋剩罚＋剩手续费
+    /**还款日*/
+    private Integer repayDay;
 
     /**本*/
     private BigDecimal principal;
     /**利息*/
     private BigDecimal interest;
     /**手续费*/
-    private BigDecimal commission;
+    private BigDecimal commissionCharge;
     /**罚金*/
-    private BigDecimal penaltyInterest;
+    private BigDecimal penaltyInterestAmount;
 
     /**本期应还金额*/
     private BigDecimal thisPeriodAmount;
@@ -36,6 +41,22 @@ public class RepayInfo {
     private Integer overduePeriods;
     /**年化利率*/
     private BigDecimal yearRate;
+
+    public Integer getTerm() {
+        return term;
+    }
+
+    public void setTerm(Integer term) {
+        this.term = term;
+    }
+
+    public Integer getRepayDay() {
+        return repayDay;
+    }
+
+    public void setRepayDay(Integer repayDay) {
+        this.repayDay = repayDay;
+    }
 
     public Integer getId() {
         return id;
@@ -109,20 +130,20 @@ public class RepayInfo {
         this.interest = interest;
     }
 
-    public BigDecimal getCommission() {
-        return commission;
+    public BigDecimal getCommissionCharge() {
+        return commissionCharge;
     }
 
-    public void setCommission(BigDecimal commission) {
-        this.commission = commission;
+    public void setCommissionCharge(BigDecimal commissionCharge) {
+        this.commissionCharge = commissionCharge;
     }
 
-    public BigDecimal getPenaltyInterest() {
-        return penaltyInterest;
+    public BigDecimal getPenaltyInterestAmount() {
+        return penaltyInterestAmount;
     }
 
-    public void setPenaltyInterest(BigDecimal penaltyInterest) {
-        this.penaltyInterest = penaltyInterest;
+    public void setPenaltyInterestAmount(BigDecimal penaltyInterestAmount) {
+        this.penaltyInterestAmount = penaltyInterestAmount;
     }
 
     public BigDecimal getThisPeriodAmount() {

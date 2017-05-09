@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qccr.livtrip.dal.test.RepayInfoDao">
+    <!--auto generated Code-->
+    <resultMap id="AllColumnMap" type="com.qccr.livtrip.model.test.RepayInfo">
+        <result column="id" property="id"/>
+        <result column="uid" property="uid"/>
+        <result column="term" property="term"/>
+        <result column="current_period" property="currentPeriod"/>
+        <result column="status" property="status"/>
+        <result column="amount" property="amount"/>
+        <result column="repayed_amount" property="repayedAmount"/>
+        <result column="rest_amount" property="restAmount"/>
+        <result column="repay_day" property="repayDay"/>
+        <result column="principal" property="principal"/>
+        <result column="interest" property="interest"/>
+        <result column="commission_charge" property="commissionCharge"/>
+        <result column="penalty_interest_amount" property="penaltyInterestAmount"/>
+        <result column="this_period_amount" property="thisPeriodAmount"/>
+        <result column="overdue_amount" property="overdueAmount"/>
+        <result column="overdue_periods" property="overduePeriods"/>
+        <result column="year_rate" property="yearRate"/>
+    </resultMap>
+
+    <!--auto generated Code-->
+    <sql id="all_column">
+        `id`,
+        `uid`,
+        `term`,
+        `current_period`,
+        `status`,
+        `amount`,
+        `repayed_amount`,
+        `rest_amount`,
+        `repay_day`,
+        `principal`,
+        `interest`,
+        `commission_charge`,
+        `penalty_interest_amount`,
+        `this_period_amount`,
+        `overdue_amount`,
+        `overdue_periods`,
+        `year_rate`
+    </sql>
+
+    <!--auto generated Code-->
+    <insert id="insert" useGeneratedKeys="true" keyProperty="pojo.id">
+        INSERT INTO repay_info (
+            `id`,
+            `uid`,
+            `term`,
+            `current_period`,
+            `status`,
+            `amount`,
+            `repayed_amount`,
+            `rest_amount`,
+            `repay_day`,
+            `principal`,
+            `interest`,
+            `commission_charge`,
+            `penalty_interest_amount`,
+            `this_period_amount`,
+            `overdue_amount`,
+            `overdue_periods`,
+            `year_rate`
+        ) VALUES (
+            #{pojo.id},
+            #{pojo.uid},
+            #{pojo.term},
+            #{pojo.currentPeriod},
+            #{pojo.status},
+            #{pojo.amount},
+            #{pojo.repayedAmount},
+            #{pojo.restAmount},
+            #{pojo.repayDay},
+            #{pojo.principal},
+            #{pojo.interest},
+            #{pojo.commissionCharge},
+            #{pojo.penaltyInterestAmount},
+            #{pojo.thisPeriodAmount},
+            #{pojo.overdueAmount},
+            #{pojo.overduePeriods},
+            #{pojo.yearRate}
+        )
+    </insert>
+
+    <!--auto generated Code-->
+    <insert id="insertSelective" useGeneratedKeys="true" keyProperty="pojo.id">
+        INSERT INTO repay_info
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="pojo.id!=null"> `id`,</if>
+            <if test="pojo.uid!=null"> `uid`,</if>
+            <if test="pojo.currentPeriod!=null"> `current_period`,</if>
+            <if test="pojo.status!=null"> `status`,</if>
+            <if test="pojo.amount!=null"> `amount`,</if>
+            <if test="pojo.repayedAmount!=null"> `repayed_amount`,</if>
+            <if test="pojo.restAmount!=null"> `rest_amount`,</if>
+            <if test="pojo.repayDay!=null"> `repay_day`,</if>
+            <if test="pojo.principal!=null"> `principal`,</if>
+            <if test="pojo.interest!=null"> `interest`,</if>
+            <if test="pojo.commissionCharge!=null"> `commission_charge`,</if>
+            <if test="pojo.penaltyInterestAmount!=null"> `penalty_interest_amount`,</if>
+            <if test="pojo.thisPeriodAmount!=null"> `this_period_amount`,</if>
+            <if test="pojo.overdueAmount!=null"> `overdue_amount`,</if>
+            <if test="pojo.overduePeriods!=null"> `overdue_periods`,</if>
+            <if test="pojo.yearRate!=null"> `year_rate`,</if>
+        </trim>
+        VALUES
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="pojo.id!=null">#{pojo.id},</if>
+            <if test="pojo.uid!=null">#{pojo.uid},</if>
+            <if test="pojo.currentPeriod!=null">#{pojo.currentPeriod},</if>
+            <if test="pojo.status!=null">#{pojo.status},</if>
+            <if test="pojo.amount!=null">#{pojo.amount},</if>
+            <if test="pojo.repayedAmount!=null">#{pojo.repayedAmount},</if>
+            <if test="pojo.restAmount!=null">#{pojo.restAmount},</if>
+            <if test="pojo.repayDay!=null">#{pojo.repayDay},</if>
+            <if test="pojo.principal!=null">#{pojo.principal},</if>
+            <if test="pojo.interest!=null">#{pojo.interest},</if>
+            <if test="pojo.commissionCharge!=null">#{pojo.commissionCharge},</if>
+            <if test="pojo.penaltyInterestAmount!=null">#{pojo.penaltyInterestAmount},</if>
+            <if test="pojo.thisPeriodAmount!=null">#{pojo.thisPeriodAmount},</if>
+            <if test="pojo.overdueAmount!=null">#{pojo.overdueAmount},</if>
+            <if test="pojo.overduePeriods!=null">#{pojo.overduePeriods},</if>
+            <if test="pojo.yearRate!=null">#{pojo.yearRate},</if>
+        </trim>
+    </insert>
+
+    <!--auto generated Code-->
+    <insert id="insertList">
+        INSERT INTO repay_info (
+        <include refid="all_column"/>
+        )VALUES
+        <foreach collection="pojos" item="pojo" index="index" separator=",">
+            (
+            #{pojo.id},
+            #{pojo.uid},
+            #{pojo.term},
+            #{pojo.currentPeriod},
+            #{pojo.status},
+            #{pojo.amount},
+            #{pojo.repayedAmount},
+            #{pojo.restAmount},
+            #{pojo.repayDay},
+            #{pojo.principal},
+            #{pojo.interest},
+            #{pojo.commissionCharge},
+            #{pojo.penaltyInterestAmount},
+            #{pojo.thisPeriodAmount},
+            #{pojo.overdueAmount},
+            #{pojo.overduePeriods},
+            #{pojo.yearRate}
+            )
+        </foreach>
+    </insert>
+
+    <!--auto generated Code-->
+    <update id="update">
+        UPDATE repay_info
+        <set>
+            <if test="pojo.id != null"> `id` = #{pojo.id}, </if>
+            <if test="pojo.uid != null"> `uid` = #{pojo.uid}, </if>
+            <if test="pojo.currentPeriod != null"> `current_period` = #{pojo.currentPeriod}, </if>
+            <if test="pojo.status != null"> `status` = #{pojo.status}, </if>
+            <if test="pojo.amount != null"> `amount` = #{pojo.amount}, </if>
+            <if test="pojo.repayedAmount != null"> `repayed_amount` = #{pojo.repayedAmount}, </if>
+            <if test="pojo.restAmount != null"> `rest_amount` = #{pojo.restAmount}, </if>
+            <if test="pojo.repayDay != null"> `repay_day` = #{pojo.repayDay}, </if>
+            <if test="pojo.principal != null"> `principal` = #{pojo.principal}, </if>
+            <if test="pojo.interest != null"> `interest` = #{pojo.interest}, </if>
+            <if test="pojo.commissionCharge != null"> `commission_charge` = #{pojo.commissionCharge}, </if>
+            <if test="pojo.penaltyInterestAmount != null"> `penalty_interest_amount` = #{pojo.penaltyInterestAmount}, </if>
+            <if test="pojo.thisPeriodAmount != null"> `this_period_amount` = #{pojo.thisPeriodAmount}, </if>
+            <if test="pojo.overdueAmount != null"> `overdue_amount` = #{pojo.overdueAmount}, </if>
+            <if test="pojo.overduePeriods != null"> `overdue_periods` = #{pojo.overduePeriods}, </if>
+            <if test="pojo.yearRate != null"> `year_rate` = #{pojo.yearRate} </if>
+        </set>
+        WHERE id = #{pojo.id}
+    </update>
+    <select id="queryForList" resultMap="AllColumnMap">
+        select <include refid="all_column"></include> from repay_info
+    </select>
+    <select id="getById" resultMap="AllColumnMap">
+        select <include refid="all_column"></include> from repay_info where id =#{id}
+    </select>
+</mapper>
+

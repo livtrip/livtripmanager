@@ -1,8 +1,9 @@
 package com.qccr.livtrip.biz.test.pipe;
 
 import com.qccr.livtrip.biz.test.RepayContext;
-import com.qccr.livtrip.biz.test.model.RepayInfo;
-import com.qccr.livtrip.biz.test.model.RepayPlan;
+import com.qccr.livtrip.model.test.RepayInfo;
+import com.qccr.livtrip.model.test.RepayPlan;
+
 
 import java.math.BigDecimal;
 
@@ -22,11 +23,11 @@ public class InterestPipe implements StrikeBlancePipe{
             if(reduceInterest.doubleValue() >=0){
              //利息冲满,还款计划
              repayPlan.setRestInterest(new BigDecimal(0));
-             repayPlan.setRepayInterest(repayPlan.getCommission());
+             repayPlan.setRepayedInterest(repayPlan.getInterest());
              //还款详情
              repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(repayPlan.getInterest()));
              repayInfo.setRestAmount(repayInfo.getRestAmount().subtract(repayPlan.getInterest()));
-             repayInfo.setRepayedAmount(repayInfo.getRepayedAmount().add(repayPlan.getInterest()));
+             repayInfo.setRepayedAmount(repayInfo.getRepayedAmount()==null?repayPlan.getInterest():repayInfo.getRepayedAmount().add(repayPlan.getInterest()));
 
              //剩余冲账金额
              amount = amount.subtract(repayPlan.getInterest());
@@ -34,8 +35,8 @@ public class InterestPipe implements StrikeBlancePipe{
             if(reduceInterest.doubleValue() < 0){
              //利息冲不满
             //1.还款计划：剩余利息，已还利息增加
-            repayPlan.setRestCommission(repayPlan.getInterest().subtract(amount));
-            repayPlan.setRepayCommission(repayPlan.getRepayInterest() == null?amount:repayPlan.getRepayInterest().add(amount));
+            repayPlan.setRestInterest(repayPlan.getInterest().subtract(amount));
+            repayPlan.setRepayedInterest(repayPlan.getRepayedInterest() == null?amount:repayPlan.getRepayedInterest().add(amount));
 
             //2.还款详情
             repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(amount));

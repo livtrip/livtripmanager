@@ -1,9 +1,10 @@
 package com.qccr.livtrip.biz.test.pipe;
 
 import com.qccr.livtrip.biz.test.RepayContext;
-import com.qccr.livtrip.biz.test.model.RepayInfo;
-import com.qccr.livtrip.biz.test.model.RepayPlan;
+
 import com.qccr.livtrip.common.util.date.DateUtil;
+import com.qccr.livtrip.model.test.RepayInfo;
+import com.qccr.livtrip.model.test.RepayPlan;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -35,12 +36,12 @@ public class PenaltyPipe implements StrikeBlancePipe{
             if(reducePenaltyInterest.doubleValue() >= 0){
                 //罚息可以冲满
                 //1. 还款计划：剩余罚息置0，已还罚息增加，更新罚息
-                repayPlan.setRestPenalty(new BigDecimal("0.00"));
-                repayPlan.setRepayPenalty(penaltyInterest);
-                repayPlan.setPenalty(penaltyInterest);
+                repayPlan.setRestPenaltyInterestAmount(new BigDecimal("0.00"));
+                repayPlan.setRepayedPenaltyInterestAmount(penaltyInterest);
+                repayPlan.setPenaltyInterestAmount(penaltyInterest);
                 //2. 还款详情：restAmount 减少，repayAmount 增加， 当前应还(this_period_amount)减少
                 repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(reducePenaltyInterest));
-                repayInfo.setRepayedAmount(repayInfo.getRepayedAmount().add(reducePenaltyInterest));
+                repayInfo.setRepayedAmount(repayInfo.getRepayedAmount()==null?reducePenaltyInterest:repayInfo.getRepayedAmount().add(reducePenaltyInterest));
                 repayInfo.setRestAmount(repayInfo.getRestAmount().subtract(reducePenaltyInterest));
                  //剩余冲账金额
                 amount = amount.subtract(penaltyInterest);
@@ -49,9 +50,9 @@ public class PenaltyPipe implements StrikeBlancePipe{
             if(reducePenaltyInterest.doubleValue() < 0){
                 //罚息没有冲满
                 //1. 还款计划：剩余罚息置0，已还罚息增加，更新罚息
-                repayPlan.setRestPenalty(penaltyInterest.subtract(amount));
-                repayPlan.setRepayPenalty(repayPlan.getPenalty()==null?amount:repayPlan.getPenalty().add(amount));
-                repayInfo.setPenaltyInterest(penaltyInterest);
+                repayPlan.setRestPenaltyInterestAmount(penaltyInterest.subtract(amount));
+                repayPlan.setRepayedPenaltyInterestAmount(repayPlan.getPenaltyInterestAmount()==null?amount:repayPlan.getPenaltyInterestAmount().add(amount));
+                repayInfo.setPenaltyInterestAmount(penaltyInterest);
 
                 //2. 还款详情：restAmount 减少，repayAmount 增加， 当前应还(this_period_amount)减少
                 repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(amount));

@@ -1,7 +1,9 @@
 package com.qccr.livtrip.biz.test;
 
-import com.qccr.livtrip.biz.test.model.RepayInfo;
-import com.qccr.livtrip.biz.test.model.RepayPlan;
+
+
+import com.qccr.livtrip.model.test.RepayInfo;
+import com.qccr.livtrip.model.test.RepayPlan;
 
 import java.math.BigDecimal;
 import java.util.Date;

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qccr.livtrip.dal.test.RepayPlanDao">
+    <!--auto generated Code-->
+    <resultMap id="AllColumnMap" type="com.qccr.livtrip.model.test.RepayPlan">
+        <result column="id" property="id"/>
+        <result column="uid" property="uid"/>
+        <result column="repay_info_id" property="repayInfoId"/>
+        <result column="period_number" property="periodNumber"/>
+        <result column="amount" property="amount"/>
+        <result column="repayed_amount" property="repayedAmount"/>
+        <result column="rest_amount" property="restAmount"/>
+        <result column="repay_date" property="repayDate"/>
+        <result column="actual_repay_date" property="actualRepayDate"/>
+        <result column="status" property="status"/>
+        <result column="delay_days" property="delayDays"/>
+        <result column="principal" property="principal"/>
+        <result column="interest" property="interest"/>
+        <result column="penalty_interest_amount" property="penaltyInterestAmount"/>
+        <result column="commission_charge" property="commissionCharge"/>
+        <result column="repayed_principal" property="repayedPrincipal"/>
+        <result column="repayed_interest" property="repayedInterest"/>
+        <result column="repayed_penalty_interest_amount" property="penaltyInterestAmount"/>
+        <result column="repayed_commission_charge" property="repayedCommissionCharge"/>
+        <result column="rest_principal" property="restPrincipal"/>
+        <result column="rest_interest" property="restInterest"/>
+        <result column="rest_commission_charge" property="restCommissionCharge"/>
+        <result column="rest_penalty_interest_amount" property="restPenaltyInterestAmount"/>
+    </resultMap>
+
+    <!--auto generated Code-->
+    <sql id="all_column">
+        `id`,
+        `uid`,
+        `repay_info_id`,
+        `period_number`,
+        `amount`,
+        `repayed_amount`,
+        `rest_amount`,
+        `repay_date`,
+        `actual_repay_date`,
+        `status`,
+        `delay_days`,
+        `principal`,
+        `interest`,
+        `penalty_interest_amount`,
+        `commission_charge`,
+        `repayed_principal`,
+        `repayed_interest`,
+        `repayed_penalty_interest_amount`,
+        `repayed_commission_charge`,
+        `rest_principal`,
+        `rest_interest`,
+        `rest_commission_charge`,
+        `rest_penalty_interest_amount`
+    </sql>
+
+    <!--auto generated Code-->
+    <insert id="insert" useGeneratedKeys="true" keyProperty="pojo.id">
+        INSERT INTO repay_plan (
+            `id`,
+            `uid`,
+            `repay_info_id`,
+            `period_number`,
+            `amount`,
+            `repayed_amount`,
+            `rest_amount`,
+            `repay_date`,
+            `actual_repay_date`,
+            `status`,
+            `delay_days`,
+            `principal`,
+            `interest`,
+            `penalty_interest_amount`,
+            `commission_charge`,
+            `repayed_principal`,
+            `repayed_interest`,
+            `repayed_penalty_interest_amount`,
+            `repayed_commission_charge`,
+            `rest_principal`,
+            `rest_interest`,
+            `rest_commission_charge`,
+            `rest_penalty_interest_amount`
+        ) VALUES (
+            #{pojo.id},
+            #{pojo.uid},
+            #{pojo.repayInfoId},
+            #{pojo.periodNumber},
+            #{pojo.amount},
+            #{pojo.repayedAmount},
+            #{pojo.restAmount},
+            #{pojo.repayDate},
+            #{pojo.actualRepayDate},
+            #{pojo.status},
+            #{pojo.delayDays},
+            #{pojo.principal},
+            #{pojo.interest},
+            #{pojo.penaltyInterestAmount},
+            #{pojo.commissionCharge},
+            #{pojo.repayedPrincipal},
+            #{pojo.repayedInterest},
+            #{pojo.penaltyInterestAmount},
+            #{pojo.repayedCommissionCharge},
+            #{pojo.restPrincipal},
+            #{pojo.restInterest},
+            #{pojo.restCommissionCharge},
+            #{pojo.restPenaltyInterestAmount}
+        )
+    </insert>
+
+    <!--auto generated Code-->
+    <insert id="insertSelective" useGeneratedKeys="true" keyProperty="pojo.id">
+        INSERT INTO repay_plan
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="pojo.id!=null"> `id`,</if>
+            <if test="pojo.uid!=null"> `uid`,</if>
+            <if test="pojo.repayInfoId!=null"> `repay_info_id`,</if>
+            <if test="pojo.periodNumber!=null"> `period_number`,</if>
+            <if test="pojo.amount!=null"> `amount`,</if>
+            <if test="pojo.repayedAmount!=null"> `repayed_amount`,</if>
+            <if test="pojo.restAmount!=null"> `rest_amount`,</if>
+            <if test="pojo.repayDate!=null"> `repay_date`,</if>
+            <if test="pojo.actualRepayDate!=null"> `actual_repay_date`,</if>
+            <if test="pojo.status!=null"> `status`,</if>
+            <if test="pojo.delayDays!=null"> `delay_days`,</if>
+            <if test="pojo.principal!=null"> `principal`,</if>
+            <if test="pojo.interest!=null"> `interest`,</if>
+            <if test="pojo.penaltyInterestAmount!=null"> `penalty_interest_amount`,</if>
+            <if test="pojo.commissionCharge!=null"> `commission_charge`,</if>
+            <if test="pojo.repayedPrincipal!=null"> `repayed_principal`,</if>
+            <if test="pojo.repayedInterest!=null"> `repayed_interest`,</if>
+            <if test="pojo.penaltyInterestAmount!=null"> `repayed_penalty_interest_amount`,</if>
+            <if test="pojo.repayedCommissionCharge!=null"> `repayed_commission_charge`,</if>
+            <if test="pojo.restPrincipal!=null"> `rest_principal`,</if>
+            <if test="pojo.restInterest!=null"> `rest_interest`,</if>
+            <if test="pojo.restCommissionCharge!=null"> `rest_commission_charge`,</if>
+            <if test="pojo.restPenaltyInterestAmount!=null"> `rest_penalty_interest_amount`,</if>
+        </trim>
+        VALUES
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="pojo.id!=null">#{pojo.id},</if>
+            <if test="pojo.uid!=null">#{pojo.uid},</if>
+            <if test="pojo.repayInfoId!=null">#{pojo.repayInfoId},</if>
+            <if test="pojo.periodNumber!=null">#{pojo.periodNumber},</if>
+            <if test="pojo.amount!=null">#{pojo.amount},</if>
+            <if test="pojo.repayedAmount!=null">#{pojo.repayedAmount},</if>
+            <if test="pojo.restAmount!=null">#{pojo.restAmount},</if>
+            <if test="pojo.repayDate!=null">#{pojo.repayDate},</if>
+            <if test="pojo.actualRepayDate!=null">#{pojo.actualRepayDate},</if>
+            <if test="pojo.status!=null">#{pojo.status},</if>
+            <if test="pojo.delayDays!=null">#{pojo.delayDays},</if>
+            <if test="pojo.principal!=null">#{pojo.principal},</if>
+            <if test="pojo.interest!=null">#{pojo.interest},</if>
+            <if test="pojo.penaltyInterestAmount!=null">#{pojo.penaltyInterestAmount},</if>
+            <if test="pojo.commissionCharge!=null">#{pojo.commissionCharge},</if>
+            <if test="pojo.repayedPrincipal!=null">#{pojo.repayedPrincipal},</if>
+            <if test="pojo.repayedInterest!=null">#{pojo.repayedInterest},</if>
+            <if test="pojo.penaltyInterestAmount!=null">#{pojo.penaltyInterestAmount},</if>
+            <if test="pojo.repayedCommissionCharge!=null">#{pojo.repayedCommissionCharge},</if>
+            <if test="pojo.restPrincipal!=null">#{pojo.restPrincipal},</if>
+            <if test="pojo.restInterest!=null">#{pojo.restInterest},</if>
+            <if test="pojo.restCommissionCharge!=null">#{pojo.restCommissionCharge},</if>
+            <if test="pojo.restPenaltyInterestAmount!=null">#{pojo.restPenaltyInterestAmount},</if>
+        </trim>
+    </insert>
+
+    <!--auto generated Code-->
+    <insert id="insertList">
+        INSERT INTO repay_plan (
+        <include refid="all_column"/>
+        )VALUES
+        <foreach collection="pojos" item="pojo" index="index" separator=",">
+            (
+            #{pojo.id},
+            #{pojo.uid},
+            #{pojo.repayInfoId},
+            #{pojo.periodNumber},
+            #{pojo.amount},
+            #{pojo.repayedAmount},
+            #{pojo.restAmount},
+            #{pojo.repayDate},
+            #{pojo.actualRepayDate},
+            #{pojo.status},
+            #{pojo.delayDays},
+            #{pojo.principal},
+            #{pojo.interest},
+            #{pojo.penaltyInterestAmount},
+            #{pojo.commissionCharge},
+            #{pojo.repayedPrincipal},
+            #{pojo.repayedInterest},
+            #{pojo.penaltyInterestAmount},
+            #{pojo.repayedCommissionCharge},
+            #{pojo.restPrincipal},
+            #{pojo.restInterest},
+            #{pojo.restCommissionCharge},
+            #{pojo.restPenaltyInterestAmount}
+            )
+        </foreach>
+    </insert>
+
+    <!--auto generated Code-->
+    <update id="update">
+        UPDATE repay_plan
+        <set>
+            <if test="pojo.id != null"> `id` = #{pojo.id}, </if>
+            <if test="pojo.uid != null"> `uid` = #{pojo.uid}, </if>
+            <if test="pojo.repayInfoId != null"> `repay_info_id` = #{pojo.repayInfoId}, </if>
+            <if test="pojo.periodNumber != null"> `period_number` = #{pojo.periodNumber}, </if>
+            <if test="pojo.amount != null"> `amount` = #{pojo.amount}, </if>
+            <if test="pojo.repayedAmount != null"> `repayed_amount` = #{pojo.repayedAmount}, </if>
+            <if test="pojo.restAmount != null"> `rest_amount` = #{pojo.restAmount}, </if>
+            <if test="pojo.repayDate != null"> `repay_date` = #{pojo.repayDate}, </if>
+            <if test="pojo.actualRepayDate != null"> `actual_repay_date` = #{pojo.actualRepayDate}, </if>
+            <if test="pojo.status != null"> `status` = #{pojo.status}, </if>
+            <if test="pojo.delayDays != null"> `delay_days` = #{pojo.delayDays}, </if>
+            <if test="pojo.principal != null"> `principal` = #{pojo.principal}, </if>
+            <if test="pojo.interest != null"> `interest` = #{pojo.interest}, </if>
+            <if test="pojo.penaltyInterestAmount != null"> `penalty_interest_amount` = #{pojo.penaltyInterestAmount}, </if>
+            <if test="pojo.commissionCharge != null"> `commission_charge` = #{pojo.commissionCharge}, </if>
+            <if test="pojo.repayedPrincipal != null"> `repayed_principal` = #{pojo.repayedPrincipal}, </if>
+            <if test="pojo.repayedInterest != null"> `repayed_interest` = #{pojo.repayedInterest}, </if>
+            <if test="pojo.penaltyInterestAmount != null"> `repayed_penalty_interest_amount` = #{pojo.penaltyInterestAmount}, </if>
+            <if test="pojo.repayedCommissionCharge != null"> `repayed_commission_charge` = #{pojo.repayedCommissionCharge}, </if>
+            <if test="pojo.restPrincipal != null"> `rest_principal` = #{pojo.restPrincipal}, </if>
+            <if test="pojo.restInterest != null"> `rest_interest` = #{pojo.restInterest}, </if>
+            <if test="pojo.restCommissionCharge != null"> `rest_commission_charge` = #{pojo.restCommissionCharge}, </if>
+            <if test="pojo.restPenaltyInterestAmount != null"> `rest_penalty_interest_amount` = #{pojo.restPenaltyInterestAmount} </if>
+        </set>
+        WHERE id = #{pojo.id}
+    </update>
+
+    <select id="queryForList" resultMap="AllColumnMap">
+        select <include refid="all_column"/> from repay_plan where repay_info_id=#{repayInfoId}
+    </select>
+    <select id="getByRepayInfoIdAndPeriodNum" resultMap="AllColumnMap">
+        select <include refid="all_column"/> from repay_plan where repay_info_id=#{repayInfoId} and period_number=#{periodNumber}
+    </select>
+</mapper>
+

@@ -1,8 +1,9 @@
 package com.qccr.livtrip.biz.test.pipe;
 
 import com.qccr.livtrip.biz.test.RepayContext;
-import com.qccr.livtrip.biz.test.model.RepayInfo;
-import com.qccr.livtrip.biz.test.model.RepayPlan;
+import com.qccr.livtrip.model.test.RepayInfo;
+import com.qccr.livtrip.model.test.RepayPlan;
+
 
 import java.math.BigDecimal;
 
@@ -21,12 +22,12 @@ public class PrincipalPipe implements StrikeBlancePipe{
             BigDecimal reducePrincipal = amount.subtract(repayPlan.getPrincipal());
             if(reducePrincipal.doubleValue() >= 0){
                 //本金冲满
-                repayPlan.setRestInterest(new BigDecimal(0));
-                repayPlan.setRepayInterest(repayPlan.getPrincipal());
+                repayPlan.setRestPrincipal(new BigDecimal(0));
+                repayPlan.setRepayedPrincipal(repayPlan.getPrincipal());
                 //还款详情
                 repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(repayPlan.getPrincipal()));
                 repayInfo.setRestAmount(repayInfo.getRestAmount().subtract(repayPlan.getPrincipal()));
-                repayInfo.setRepayedAmount(repayInfo.getRepayedAmount().add(repayPlan.getPrincipal()));
+                repayInfo.setRepayedAmount(repayInfo.getRepayedAmount()==null?repayPlan.getPrincipal():repayInfo.getRepayedAmount().add(repayPlan.getPrincipal()));
 
                 //剩余冲账金额
                 amount = amount.subtract(repayPlan.getPrincipal());
@@ -34,8 +35,8 @@ public class PrincipalPipe implements StrikeBlancePipe{
             if(reducePrincipal.doubleValue() < 0){
                 //本金冲不满
                 //1.还款计划：剩余本金，已还本金增加
-                repayPlan.setRestCommission(repayPlan.getPrincipal().subtract(amount));
-                repayPlan.setRepayCommission(repayPlan.getPrincipal() == null?amount:repayPlan.getPrincipal().add(amount));
+                repayPlan.setRestPrincipal(repayPlan.getPrincipal().subtract(amount));
+                repayPlan.setRepayedPrincipal(repayPlan.getPrincipal() == null?amount:repayPlan.getPrincipal().add(amount));
 
                 //2.还款详情
                 repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(amount));

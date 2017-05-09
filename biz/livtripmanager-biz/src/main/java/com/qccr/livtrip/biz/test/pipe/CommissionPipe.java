@@ -1,8 +1,9 @@
 package com.qccr.livtrip.biz.test.pipe;
 
 import com.qccr.livtrip.biz.test.RepayContext;
-import com.qccr.livtrip.biz.test.model.RepayInfo;
-import com.qccr.livtrip.biz.test.model.RepayPlan;
+import com.qccr.livtrip.model.test.RepayInfo;
+import com.qccr.livtrip.model.test.RepayPlan;
+
 import java.math.BigDecimal;
 
 /**
@@ -18,26 +19,26 @@ public class CommissionPipe implements StrikeBlancePipe{
         BigDecimal amount = repayContext.getAmount();
 
         if(amount.doubleValue() > 0){
-            BigDecimal reduceCommission = amount.subtract(repayPlan.getCommission());
+            BigDecimal reduceCommission = amount.subtract(repayPlan.getCommissionCharge());
             if(reduceCommission.doubleValue() >= 0){
               //手续费冲满
               //1.还款计划：剩余手续费置0，已还手续费增加
-              repayPlan.setRestCommission(new BigDecimal(0));
-              repayPlan.setRepayCommission(repayPlan.getCommission());
+              repayPlan.setRestCommissionCharge(new BigDecimal(0));
+              repayPlan.setRepayedCommissionCharge(repayPlan.getCommissionCharge());
               //2.还款详情
-              repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(repayPlan.getCommission()));
-              repayInfo.setRestAmount(repayInfo.getRestAmount().subtract(repayPlan.getCommission()));
-              repayInfo.setRepayedAmount(repayInfo.getRepayedAmount().add(repayPlan.getCommission()));
+              repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(repayPlan.getCommissionCharge()));
+              repayInfo.setRestAmount(repayInfo.getRestAmount().subtract(repayPlan.getCommissionCharge()));
+              repayInfo.setRepayedAmount(repayInfo.getRepayedAmount()==null?repayPlan.getCommissionCharge():repayInfo.getRepayedAmount().add(repayPlan.getCommissionCharge()));
 
               //剩余冲账金额
-              amount = amount.subtract(repayPlan.getCommission());
+              amount = amount.subtract(repayPlan.getCommissionCharge());
 
             }
             if(reduceCommission.doubleValue() < 0){
               //手续费未充满
               //1.还款计划：剩余手续费置0，已还手续费增加
-              repayPlan.setRestCommission(repayPlan.getCommission().subtract(amount));
-              repayPlan.setRepayCommission(repayPlan.getRepayCommission() == null?amount:repayPlan.getRepayCommission().add(amount));
+              repayPlan.setRestCommissionCharge(repayPlan.getCommissionCharge().subtract(amount));
+              repayPlan.setRepayedCommissionCharge(repayPlan.getRepayedCommissionCharge() == null?amount:repayPlan.getRepayedCommissionCharge().add(amount));
 
               //2.还款详情
               repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(amount));

@@ -1,9 +1,10 @@
 package com.qccr.livtrip.biz.test;
 
 import com.alibaba.fastjson.JSON;
-import com.qccr.livtrip.biz.test.model.RepayInfo;
-import com.qccr.livtrip.biz.test.model.RepayPlan;
+
 import com.qccr.livtrip.common.util.date.DateUtil;
+import com.qccr.livtrip.model.test.RepayInfo;
+import com.qccr.livtrip.model.test.RepayPlan;
 import org.testng.collections.Lists;
 
 import java.math.BigDecimal;
@@ -25,42 +26,42 @@ public class Test2 {
         repayInfo.setRestAmount(new BigDecimal("30801.40"));
         repayInfo.setPrincipal(new BigDecimal("30000.00"));
         repayInfo.setInterest(new BigDecimal("501.40"));
-        repayInfo.setCommission(new BigDecimal("300.00"));
-        repayInfo.setPenaltyInterest(new BigDecimal("10.32"));
+        repayInfo.setCommissionCharge(new BigDecimal("300.00"));
+        repayInfo.setPenaltyInterestAmount(new BigDecimal("10.32"));
         repayInfo.setThisPeriodAmount(new BigDecimal("10276.44"));
 
 
         List<RepayPlan> repayPlans = Lists.newArrayList();
 
-        //第一期(逾期)
-        RepayPlan repayPlan = new RepayPlan();
-        repayPlan.setPeriod(1);
-        repayPlan.setRepayDate(DateUtil.StringToDate("2017-05-15"));
-        repayPlan.setStatus(3);
-        repayPlan.setDelayDays(17);
-
-        repayPlan.setAmount(new BigDecimal("10276.44"));
-        repayPlan.setPrincipal(new BigDecimal("9999.78"));
-        repayPlan.setInterest(new BigDecimal("167.34"));
-        repayPlan.setCommission(new BigDecimal("100.00"));
-        repayPlan.setPenalty(new BigDecimal("9.32"));
-
-        repayPlan.setRestPrincipal(new BigDecimal("9999.78"));
-        repayPlan.setRestInterest(new BigDecimal("167.34"));
-        repayPlan.setRestCommission(new BigDecimal("100.00"));
-        repayPlan.setRestPenalty(new BigDecimal("9.32"));
-        repayPlans.add(repayPlan);
-
-        RepayContext repayPlanContext = new RepayContext();
-        repayPlanContext.setAmount(new BigDecimal(8));
-        repayPlanContext.setRepayDate(DateUtil.StringToDate("2017-05-18"));
-        repayPlanContext.setRepayPlan(repayPlan);
-        repayPlanContext.setRepayInfo(repayInfo);
-
-        RepayPlanPipeManager.doPipe(repayPlanContext);
-        System.out.println(repayPlanContext.getRepayPlan().getRepayPenalty());
-        System.out.println(repayPlanContext.getAmount());
-        System.out.println(JSON.toJSONString(repayPlanContext));
+//        //第一期(逾期)
+//        RepayPlan repayPlan = new RepayPlan();
+//        repayPlan.setPeriod(1);
+//        repayPlan.setRepayedDate(DateUtil.StringToDate("2017-05-15"));
+//        repayPlan.setStatus(3);
+//        repayPlan.setDelayDays(17);
+//
+//        repayPlan.setAmount(new BigDecimal("10276.44"));
+//        repayPlan.setPrincipal(new BigDecimal("9999.78"));
+//        repayPlan.setInterest(new BigDecimal("167.34"));
+//        repayPlan.setCommissionCharge(new BigDecimal("100.00"));
+//        repayPlan.setPenalty(new BigDecimal("9.32"));
+//
+//        repayPlan.setRestPrincipal(new BigDecimal("9999.78"));
+//        repayPlan.setRestInterest(new BigDecimal("167.34"));
+//        repayPlan.setRestCommissionCharge(new BigDecimal("100.00"));
+//        repayPlan.setRestPenalty(new BigDecimal("9.32"));
+//        repayPlans.add(repayPlan);
+//
+//        RepayContext repayPlanContext = new RepayContext();
+//        repayPlanContext.setAmount(new BigDecimal(8));
+//        repayPlanContext.setRepayDate(DateUtil.StringToDate("2017-05-18"));
+//        repayPlanContext.setRepayPlan(repayPlan);
+//        repayPlanContext.setRepayInfo(repayInfo);
+//
+//        RepayPlanPipeManager.doPipe(repayPlanContext);
+//        System.out.println(repayPlanContext.getRepayPlan().getRepayedPenalty());
+//        System.out.println(repayPlanContext.getAmount());
+ //       System.out.println(JSON.toJSONString(repayPlanContext));
 
 
 
