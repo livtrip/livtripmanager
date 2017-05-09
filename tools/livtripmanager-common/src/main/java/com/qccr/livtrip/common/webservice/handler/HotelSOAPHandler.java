@@ -5,6 +5,8 @@
 
 package com.qccr.livtrip.common.webservice.handler;
 
+import com.qccr.livtrip.common.config.HotelPropertyConfigurer;
+
 import javax.xml.namespace.QName;
 import javax.xml.soap.SOAPElement;
 import javax.xml.soap.SOAPEnvelope;
@@ -45,11 +47,11 @@ public class HotelSOAPHandler implements SOAPHandler<SOAPMessageContext> {
 					"http://schemas.tourico.com/webservices/authentication"));
 			SOAPElement elem = headerElem.addChildElement(
 					envelope.createName("LoginName", "aut", "http://schemas.tourico.com/webservices/authentication"));
-			elem.addTextNode("Tu0906");
+			elem.addTextNode(HotelPropertyConfigurer.GETHOTELFLOWUSERNAME);
 
 			elem = headerElem.addChildElement(
 					envelope.createName("Password", "aut", "http://schemas.tourico.com/webservices/authentication"));
-			elem.addTextNode("111111");
+			elem.addTextNode(HotelPropertyConfigurer.GETHOTELFLOWPWD);
 
 			String version = "7";
 			elem = headerElem.addChildElement(
