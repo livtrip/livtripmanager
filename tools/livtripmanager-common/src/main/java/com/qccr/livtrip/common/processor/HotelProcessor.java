@@ -8,10 +8,9 @@ import javax.xml.ws.handler.Handler;
 import javax.xml.ws.handler.HandlerResolver;
 import javax.xml.ws.handler.PortInfo;
 
-import com.qccr.livtrip.common.util.XMLConverUtil;
 import com.qccr.livtrip.common.util.date.DateStyle;
 import com.qccr.livtrip.common.util.date.DateUtil;
-import com.qccr.livtrip.common.util.XStreamUtil;
+
 import org.apache.commons.collections.CollectionUtils;
 
 import com.alibaba.fastjson.JSON;
@@ -70,7 +69,6 @@ public class HotelProcessor {
      * @date 2016/12/13 16:58
      */
     public static List<Hotel> SearchHotelsByDestinationIds(List<Integer> destinationIds, String checkIn, String checkOut, ArrayOfRoomInfo arrayOfRoomInfo){
-        logger.info("tourico request destinationIds[{}],checkIn[{}]",destinationIds,checkIn);
         if(CollectionUtils.isEmpty(destinationIds)){ return null;}
         try{
 
@@ -91,9 +89,9 @@ public class HotelProcessor {
             request.setStarLevel(new BigDecimal(0));
             request.setExactDestination(false);
 
-            logger.info("tourico request[{}]", XStreamUtil.convertObjectToXml(request.getClass()));
+            logger.info("tourico request[{}]", JSON.toJSONString(request));
             SearchResult result = port.searchHotelsByDestinationIds(request, null);
-
+            logger.info("tourico reponse[{}]", JSON.toJSONString(result));
             return result.getHotelList().getHotel();
         }catch (Exception e) {
             logger.error("tourico request error", e);
