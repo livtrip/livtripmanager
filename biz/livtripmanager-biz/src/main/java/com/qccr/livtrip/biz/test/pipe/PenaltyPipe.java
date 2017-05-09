@@ -26,7 +26,7 @@ public class PenaltyPipe implements StrikeBlancePipe{
 
         Date repayDate = repayPlan.getRepayDate();
         //发生逾期，进行罚金冲账
-        if(inputRepayDate.compareTo(repayDate) == 1){
+        if(inputRepayDate.compareTo(repayDate) == 1 && repayPlan.getRestPenaltyInterestAmount().compareTo(ZERO) > 0){
             //1.根据输入还款日期,计算罚息
             int delayDays = DateUtil.getIntervalDays(repayDate,inputRepayDate);
             BigDecimal penaltyInterest = calculatePenaltyInterest(repayInfo.getPrincipal(),repayInfo.getYearRate(),delayDays);
@@ -62,10 +62,10 @@ public class PenaltyPipe implements StrikeBlancePipe{
                 //剩余冲账金额
                 amount = new BigDecimal("0");
             }
+            repayContext.setRepayPlan(repayPlan);
+            repayContext.setRepayInfo(repayInfo);
+            repayContext.setAmount(amount);
         }
-        repayContext.setRepayPlan(repayPlan);
-        repayContext.setRepayInfo(repayInfo);
-        repayContext.setAmount(amount);
 
         return repayContext;
     }

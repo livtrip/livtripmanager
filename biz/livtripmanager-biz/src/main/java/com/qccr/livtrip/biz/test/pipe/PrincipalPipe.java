@@ -18,7 +18,7 @@ public class PrincipalPipe implements StrikeBlancePipe{
         RepayInfo repayInfo = repayContext.getRepayInfo();
         BigDecimal amount = repayContext.getAmount();
 
-        if(amount.doubleValue() > 0){
+        if(amount.compareTo(ZERO) > 0 && repayPlan.getRestPrincipal().compareTo(ZERO)> 0){
             BigDecimal reducePrincipal = amount.subtract(repayPlan.getPrincipal());
             if(reducePrincipal.doubleValue() >= 0){
                 //本金冲满
@@ -47,13 +47,18 @@ public class PrincipalPipe implements StrikeBlancePipe{
                 amount = new BigDecimal(0);
 
             }
-
+            System.out.println("剩余冲账金额："+ amount.doubleValue());
+            repayContext.setAmount(amount);
+            repayContext.setRepayPlan(repayPlan);
+            repayContext.setRepayInfo(repayInfo);
         }
 
-        System.out.println("剩余冲账金额："+ amount.doubleValue());
-        repayContext.setAmount(amount);
-        repayContext.setRepayPlan(repayPlan);
-        repayContext.setRepayInfo(repayInfo);
         return repayContext;
+    }
+
+    public static void main(String[] args) {
+        BigDecimal a = new BigDecimal("0.00");
+        BigDecimal b = new BigDecimal("0");
+        System.out.println(a.compareTo(b));
     }
 }

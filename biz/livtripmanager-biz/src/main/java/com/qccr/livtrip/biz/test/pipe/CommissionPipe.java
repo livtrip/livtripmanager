@@ -18,7 +18,7 @@ public class CommissionPipe implements StrikeBlancePipe{
         RepayInfo repayInfo = repayContext.getRepayInfo();
         BigDecimal amount = repayContext.getAmount();
 
-        if(amount.doubleValue() > 0){
+        if(amount.compareTo(ZERO) > 0 && repayPlan.getRestCommissionCharge().compareTo(ZERO) > 0){
             BigDecimal reduceCommission = amount.subtract(repayPlan.getCommissionCharge());
             if(reduceCommission.doubleValue() >= 0){
               //手续费冲满
@@ -49,10 +49,11 @@ public class CommissionPipe implements StrikeBlancePipe{
               amount = new BigDecimal(0);
             }
 
+            repayContext.setAmount(amount);
+            repayContext.setRepayPlan(repayPlan);
+            repayContext.setRepayInfo(repayInfo);
         }
-        repayContext.setAmount(amount);
-        repayContext.setRepayPlan(repayPlan);
-        repayContext.setRepayInfo(repayInfo);
+
         return repayContext;
     }
 }
