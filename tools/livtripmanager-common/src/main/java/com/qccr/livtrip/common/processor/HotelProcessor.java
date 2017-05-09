@@ -11,6 +11,7 @@ import javax.xml.ws.handler.PortInfo;
 import com.qccr.livtrip.common.util.XMLConverUtil;
 import com.qccr.livtrip.common.util.date.DateStyle;
 import com.qccr.livtrip.common.util.date.DateUtil;
+import com.qccr.livtrip.common.util.XStreamUtil;
 import org.apache.commons.collections.CollectionUtils;
 
 import com.alibaba.fastjson.JSON;
@@ -90,9 +91,9 @@ public class HotelProcessor {
             request.setStarLevel(new BigDecimal(0));
             request.setExactDestination(false);
 
-            logger.info("tourico request[{}]", XMLConverUtil.convertToXML(request));
+            logger.info("tourico request[{}]", XStreamUtil.convertObjectToXml(request.getClass()));
             SearchResult result = port.searchHotelsByDestinationIds(request, null);
-            logger.info("tourico response, SearchResult[{}]", XMLConverUtil.convertToXML(request));
+
             return result.getHotelList().getHotel();
         }catch (Exception e) {
             logger.error("tourico request error", e);
