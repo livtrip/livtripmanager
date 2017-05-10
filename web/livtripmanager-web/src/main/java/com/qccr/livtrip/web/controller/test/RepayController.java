@@ -92,7 +92,7 @@ public class RepayController {
             }
         }
 
-        return "redirect:gotoRepayPlan.html?repayInfoId="+repayInfoId;
+        return "redirect:gotoRepayPlan.do?repayInfoId="+repayInfoId;
     }
 
 
