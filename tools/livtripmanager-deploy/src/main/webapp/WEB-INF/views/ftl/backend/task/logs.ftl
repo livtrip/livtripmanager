@@ -20,7 +20,7 @@
         <li class="active">定时任务日志</li>
     </ol>
     <div style="margin-top:5px; padding:0px; border:1px solid #d1d1d1; height:80px; border-radius:5px; text-align:center">
-        <form class="form-inline" id="listForm" action="logs.html" method="post" style="margin:25px auto; padding:0px;">
+        <form class="form-inline" id="listForm" action="logs.do" method="post" style="margin:25px auto; padding:0px;">
             <div class="form-group">
                 <label class="control-label" for="inputSuccess2">任务名称</label>
                 <select name="taskId" class="form-control" id="inputSuccess2">

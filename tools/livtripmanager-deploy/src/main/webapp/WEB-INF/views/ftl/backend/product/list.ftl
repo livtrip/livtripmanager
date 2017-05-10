@@ -20,7 +20,7 @@
         <li class="active">产品列表</li>
     </ol>
     <div style="margin-top:5px; padding:0px; border:1px solid #d1d1d1; height:80px; border-radius:5px; text-align:center">
-        <form class="form-inline" id="listForm" action="list.html" method="post" style="margin:25px auto; padding:0px;">
+        <form class="form-inline" id="listForm" action="list.do" method="post" style="margin:25px auto; padding:0px;">
             <div class="form-group">
                 <label  class="control-label" for="inputSuccess1">产品名称</label>
                 <input type="text"  name="name" value="${name}"  class="form-control" id="inputSuccess1"/>
@@ -93,8 +93,8 @@
             <td>${product.rooms}</td>
             <td align="right">
                 <div class="btn-group">
-                    <button type="button" class="btn btn-bordered btn-primary" onclick="location.href='edit.html?productId=${product.id}'">详情</button>
-                    <button type="button" class="btn btn-bordered btn-danger" onclick="javascript:if(confirm('确实要删除该内容吗?'))location='delete.html?productId=${product.id}'">删除</button>
+                    <button type="button" class="btn btn-bordered btn-primary" onclick="location.href='edit.do?productId=${product.id}'">详情</button>
+                    <button type="button" class="btn btn-bordered btn-danger" onclick="javascript:if(confirm('确实要删除该内容吗?'))location='delete.do?productId=${product.id}'">删除</button>
                 </div>
             </td>
         </tr>

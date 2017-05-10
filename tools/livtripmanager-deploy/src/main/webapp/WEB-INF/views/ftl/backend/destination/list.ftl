@@ -37,7 +37,7 @@
         <li class="active">城市列表</li>
     </ol>
     <div style="margin-top:5px; padding:0px; border:1px solid #d1d1d1; height:80px; border-radius:5px; text-align:center">
-        <form class="form-inline"  id="listForm" action="list.html" method="post" style="margin:25px auto; padding:0px;">
+        <form class="form-inline"  id="listForm" action="list.do" method="post" style="margin:25px auto; padding:0px;">
             <div class="form-group">
                 <label  class="control-label" for="inputSuccess1">城市名称</label>
                 <input type="text"  name="cityName" value="${cityQuery.cityName}"  class="form-control" id="inputSuccess1"/>
@@ -81,8 +81,8 @@
                 <td align="right">
                     <div class="btn-group btn-group-sm">
                         <button type="button" class="btn btn-bordered btn-success btn-sm" onclick="fetch(${destination.destinationId});">采集</button>
-                        <button type="button" class="btn btn-bordered btn-primary btn-sm" onclick="location='edit.html?destinationId=${destination.destinationId}'">详情</button>
-                        <button  type="button" class="btn btn-bordered btn-danger btn-sm" onclick="javascript:if(confirm('确实要删除该内容吗?'))location='delete.html?productId=${product.id}'">删除</button>
+                        <button type="button" class="btn btn-bordered btn-primary btn-sm" onclick="location='edit.do?destinationId=${destination.destinationId}'">详情</button>
+                        <button  type="button" class="btn btn-bordered btn-danger btn-sm" onclick="javascript:if(confirm('确实要删除该内容吗?'))location='delete.do?productId=${product.id}'">删除</button>
                     </div>
                 </td>
             </tr>

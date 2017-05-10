@@ -20,7 +20,7 @@
 <div class="container">
     <ol class="breadcrumb">
         <li><a href="#">后台管理</a></li>
-        <li><a href="list.html">城市列表</a></li>
+        <li><a href="list.do">城市列表</a></li>
         <li class="active">城市详情页</li>
     </ol>
     <form class="form-horizontal" style="margin:20px 0px;">

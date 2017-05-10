@@ -132,8 +132,8 @@ public class AverageCapitalPlusInterestUtils {
      * @param args
      */
     public static void main(String[] args) {
-        double invest = 10000.00; // 本金
-        int month = 12;
+        double invest = 23700; // 本金
+        int month = 24;
         double yearRate = 0.12; // 年利率
 
         double perMonthPrincipalInterest = getPerMonthPrincipalInterest(invest, yearRate, month);
