@@ -20,7 +20,7 @@
         <result column="commission_charge" property="commissionCharge"/>
         <result column="repayed_principal" property="repayedPrincipal"/>
         <result column="repayed_interest" property="repayedInterest"/>
-        <result column="repayed_penalty_interest_amount" property="penaltyInterestAmount"/>
+        <result column="repayed_penalty_interest_amount" property="repayedPenaltyInterestAmount"/>
         <result column="repayed_commission_charge" property="repayedCommissionCharge"/>
         <result column="rest_principal" property="restPrincipal"/>
         <result column="rest_interest" property="restInterest"/>

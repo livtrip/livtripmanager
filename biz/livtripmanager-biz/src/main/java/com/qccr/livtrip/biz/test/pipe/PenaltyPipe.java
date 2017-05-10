@@ -29,7 +29,13 @@ public class PenaltyPipe implements StrikeBlancePipe{
         if(inputRepayDate.compareTo(repayDate) == 1 && repayPlan.getRestPenaltyInterestAmount().compareTo(ZERO) > 0){
             //1.根据输入还款日期,计算罚息
             int delayDays = DateUtil.getIntervalDays(repayDate,inputRepayDate);
+            if(delayDays == 0){return repayContext;}
+
             BigDecimal realTimePenaltyInterest = calculatePenaltyInterest(repayInfo.getPrincipal(),repayInfo.getYearRate(),delayDays);
+            System.out.println("实时计算的罚息："+realTimePenaltyInterest.doubleValue());
+            //修复真实的罚息
+            repayPlan.setPenaltyInterestAmount(realTimePenaltyInterest);
+            repayPlan.setRestPenaltyInterestAmount(realTimePenaltyInterest);
 
             Boolean isEqualsOrMore = amount.compareTo(realTimePenaltyInterest) >=0;
             BigDecimal operationMoney = null;
