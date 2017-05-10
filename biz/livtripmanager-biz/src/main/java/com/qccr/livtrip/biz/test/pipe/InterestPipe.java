@@ -17,10 +17,10 @@ public class InterestPipe implements StrikeBlancePipe{
         RepayPlan repayPlan = repayContext.getRepayPlan();
         RepayInfo repayInfo = repayContext.getRepayInfo();
         BigDecimal amount = repayContext.getAmount();
-        System.out.println("利息处还剩冲账金额验证结果"+(amount.compareTo(ZERO)>0 && repayPlan.getRestInterest().compareTo(ZERO) > 0));
+        System.out.println("利息处还剩冲账金额验证结果"+(amount.compareTo(BigDecimal.ZERO)>0 && repayPlan.getRestInterest().compareTo(BigDecimal.ZERO) > 0));
         System.out.println(amount.doubleValue() > 0);
 
-        if(amount.compareTo(ZERO)>0 && repayPlan.getRestInterest().compareTo(ZERO) > 0){
+        if(amount.compareTo(BigDecimal.ZERO)>0 && repayPlan.getRestInterest().compareTo(BigDecimal.ZERO) > 0){
             Boolean isEqualsOrMore = amount.compareTo(repayPlan.getRestInterest())>=0;
             BigDecimal operationMoney = null;
             if(isEqualsOrMore){

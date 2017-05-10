@@ -2,6 +2,7 @@ package com.qccr.livtrip.biz.test.pipe;
 
 import com.qccr.livtrip.biz.test.RepayContext;
 
+import com.qccr.livtrip.biz.test.util.RepayUtil;
 import com.qccr.livtrip.common.util.date.DateUtil;
 import com.qccr.livtrip.model.test.RepayInfo;
 import com.qccr.livtrip.model.test.RepayPlan;
@@ -26,12 +27,12 @@ public class PenaltyPipe implements StrikeBlancePipe{
 
         Date repayDate = repayPlan.getRepayDate();
         //发生逾期，进行罚金冲账
-        if(inputRepayDate.compareTo(repayDate) == 1 && repayPlan.getRestPenaltyInterestAmount().compareTo(ZERO) > 0){
+        if(inputRepayDate.compareTo(repayDate) == 1 && repayPlan.getRestPenaltyInterestAmount().compareTo(BigDecimal.ZERO) > 0){
             //1.根据输入还款日期,计算罚息
             int delayDays = DateUtil.getIntervalDays(repayDate,inputRepayDate);
             if(delayDays == 0){return repayContext;}
 
-            BigDecimal realTimePenaltyInterest = calculatePenaltyInterest(repayInfo.getPrincipal(),repayInfo.getYearRate(),delayDays);
+            BigDecimal realTimePenaltyInterest = RepayUtil.calculatePenaltyInterest(repayInfo.getPrincipal(),repayInfo.getYearRate(),delayDays);
             System.out.println("实时计算的罚息："+realTimePenaltyInterest.doubleValue());
             //修复真实的罚息
             repayPlan.setPenaltyInterestAmount(realTimePenaltyInterest);
@@ -64,8 +65,6 @@ public class PenaltyPipe implements StrikeBlancePipe{
         return repayContext;
     }
 
-    public BigDecimal calculatePenaltyInterest(BigDecimal principal, BigDecimal yearRate, int delayDays){
-        return principal.multiply(new BigDecimal(delayDays)).multiply(yearRate).divide(new BigDecimal(1000)).divide(new BigDecimal(365),2, RoundingMode.HALF_UP).multiply(new BigDecimal(2));
-    }
+
 
 }

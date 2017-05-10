@@ -4,6 +4,7 @@ import com.qccr.livtrip.biz.service.test.RepayInfoService;
 import com.qccr.livtrip.biz.service.test.RepayPlanService;
 import com.qccr.livtrip.biz.test.RepayContext;
 import com.qccr.livtrip.biz.test.RepayPlanPipeManager;
+import com.qccr.livtrip.biz.test.util.RepayUtil;
 import com.qccr.livtrip.common.util.date.DateUtil;
 import com.qccr.livtrip.model.test.RepayInfo;
 import com.qccr.livtrip.model.test.RepayPlan;
@@ -43,13 +44,13 @@ public class RepayController {
     }
 
     @RequestMapping("addRepayPlan")
-    public String  addRepayPlan(String amount, String yearRate,Integer term){
+    public String  addRepayPlan(String amount, String yearRate,Integer term,String commissionCharge){
         System.out.println(amount + yearRate + term);
         if(StringUtils.isNoneBlank(amount) && StringUtils.isNoneBlank(yearRate)){
             Double invest = Double.parseDouble(amount);
             term = term == null?12:term;
             //生成还款计划
-            repayInfoService.buildRepayPlanTest(invest,yearRate,term);
+            repayInfoService.buildRepayPlanTest(invest,yearRate,term,new BigDecimal(commissionCharge));
         }
         return "redirect:gotoRepayInfo";
     }
@@ -82,9 +83,10 @@ public class RepayController {
                 }else{
                     repayContext.getRepayInfo().setStatus(1);
                 }
-                if(repayContext.getRepayPlan().getRestAmount().equals(new BigDecimal(0))){
+                System.out.println("本期剩余金额："+repayContext.getRepayPlan().getRestAmount().doubleValue());
+                if(repayContext.getRepayPlan().getRestAmount().compareTo(BigDecimal.ZERO) == 0){
                     repayContext.getRepayPlan().setStatus(2);
-                }else{
+                }else if(repayContext.getRepayPlan().getRestAmount().compareTo(BigDecimal.ZERO) >0){
                     repayContext.getRepayPlan().setStatus(1);
                 }
                 repayInfoService.updateRepayPlan(repayContext.getRepayInfo(), repayContext.getRepayPlan());
@@ -94,6 +96,28 @@ public class RepayController {
 
         return "redirect:gotoRepayPlan.do?repayInfoId="+repayInfoId;
     }
+
+    @RequestMapping("generatePenalty")
+    public String generateReplayPlanPenaltyInterest(@RequestParam Integer repayInfoId, @RequestParam Integer period, @RequestParam Integer delayDays){
+        RepayInfo repayInfo = repayInfoService.getById(repayInfoId);
+        RepayPlan repayPlan = repayPlanService.getByRepayInfoIdAndPeriodNum(repayInfoId,period);
+        if(repayPlan != null && repayInfo != null){
+            //还款计划表更新
+            BigDecimal penaltyInterest = RepayUtil.calculatePenaltyInterest(repayPlan.getPrincipal(),repayInfo.getYearRate(),delayDays);
+            repayPlan.setAmount(repayPlan.getAmount().add(penaltyInterest));
+            repayPlan.setRestAmount(repayPlan.getRestAmount().add(penaltyInterest));
+            repayPlan.setRestPenaltyInterestAmount(penaltyInterest);
+            //还款详情表更新
+            repayInfo.setOverdueAmount(repayInfo.getOverdueAmount()==null?penaltyInterest:repayInfo.getOverdueAmount().add(penaltyInterest));
+            repayInfo.setOverduePeriods(repayInfo.getOverduePeriods()==null?period.toString():repayInfo.getOverduePeriods()+","+period);
+            repayInfoService.updateRepayPlan(repayInfo,repayPlan);
+        }
+
+        return "redirect:gotoRepayPlan.do?repayInfoId="+repayInfoId;
+    }
+
+
+
 
 
 }

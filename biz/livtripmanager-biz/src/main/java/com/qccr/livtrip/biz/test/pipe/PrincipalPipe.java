@@ -17,10 +17,10 @@ public class PrincipalPipe implements StrikeBlancePipe{
         RepayPlan repayPlan = repayContext.getRepayPlan();
         RepayInfo repayInfo = repayContext.getRepayInfo();
         BigDecimal amount = repayContext.getAmount();
-        System.out.println("本金处还剩冲账金额验证结果"+(amount.compareTo(ZERO) > 0 && repayPlan.getRestPrincipal().compareTo(ZERO)> 0));
+        System.out.println("本金处还剩冲账金额验证结果"+(amount.compareTo(BigDecimal.ZERO) > 0 && repayPlan.getRestPrincipal().compareTo(BigDecimal.ZERO)> 0));
         System.out.println(amount.doubleValue() > 0);
 
-        if(amount.compareTo(ZERO) > 0 && repayPlan.getRestPrincipal().compareTo(ZERO)> 0){
+        if(amount.compareTo(BigDecimal.ZERO) > 0 && repayPlan.getRestPrincipal().compareTo(BigDecimal.ZERO)> 0){
             Boolean isEqualsOrMore = amount.compareTo(repayPlan.getRestPrincipal())>=0;
             BigDecimal operationMoney = null;
             if(isEqualsOrMore){

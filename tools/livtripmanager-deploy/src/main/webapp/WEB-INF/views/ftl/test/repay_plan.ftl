@@ -36,8 +36,24 @@
 
             <button type="submit" class="btn btn-primary" style="width:120px;">人工冲帐</button>
         </form>
+    </div>
+    <div style="margin-top:5px; padding:10px; border:1px solid #d1d1d1; text-align: center;height:80px;  border-radius:5px; ">
+        <form class="form-inline" id="listForm" action="generatePenalty" method="post" style="margin:25px auto; padding:0px;">
+            <div class="form-group">
+                <label  class="control-label" for="inputSuccess1">选择期数</label>
+                <input type="text"  name="period"  class="form-control" id="inputSuccess1"/>
+                <input type="hidden"  name="repayInfoId" value="${repayInfoId}" />
+            </div>
+            <div class="form-group">
+                <label  class="control-label" for="inputSuccess1">逾期天数</label>
+                <input type="text"  name="delayDays"   class="form-control" id="inputSuccess1"/>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width:120px;">生成罚息</button>
+        </form>
 
     </div>
+
 </div>
 
 <div class="container" >

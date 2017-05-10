@@ -9,7 +9,6 @@ import java.math.BigDecimal;
  * Created by xierongli on 17/5/8.
  */
 public interface StrikeBlancePipe {
-     public static final BigDecimal ZERO = new BigDecimal(0);
-;
+
      RepayContext doWork(RepayContext repayPlanContext);
 }

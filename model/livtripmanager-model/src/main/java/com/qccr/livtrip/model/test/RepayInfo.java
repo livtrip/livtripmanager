@@ -38,7 +38,7 @@ public class RepayInfo {
     /**逾期应还总额*/
     private BigDecimal overdueAmount;
     /**逾期期数*/
-    private Integer overduePeriods;
+    private String overduePeriods;
     /**年化利率*/
     private BigDecimal yearRate;
 
@@ -162,11 +162,11 @@ public class RepayInfo {
         this.overdueAmount = overdueAmount;
     }
 
-    public Integer getOverduePeriods() {
+    public String getOverduePeriods() {
         return overduePeriods;
     }
 
-    public void setOverduePeriods(Integer overduePeriods) {
+    public void setOverduePeriods(String overduePeriods) {
         this.overduePeriods = overduePeriods;
     }
 

@@ -29,6 +29,11 @@
                 <input type="text"  name="yearRate"   class="form-control" id="inputSuccess1"/>
             </div>
             <div class="form-group">
+                <label  class="control-label" for="inputSuccess1">每期手续费</label>
+                <input type="text"  name="commissionCharge"   class="form-control" id="inputSuccess1"/>
+            </div>
+
+            <div class="form-group">
                 <label  class="control-label" for="inputSuccess1">还款方式</label>
                 <input type="text"  name="repayType" value="等额本息" disabled="disabled"  class="form-control" id="inputSuccess1"/>
             </div>

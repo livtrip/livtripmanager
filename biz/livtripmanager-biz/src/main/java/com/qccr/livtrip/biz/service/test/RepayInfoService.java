@@ -22,7 +22,7 @@ import java.util.Map;
 
 @Service("repayInfoService")
 public class RepayInfoService{
-    private final static BigDecimal COMMISSION_CHARGE = new BigDecimal(10);
+
     @Resource
     private RepayInfoDao repayInfoDao;
     @Resource
@@ -55,12 +55,12 @@ public class RepayInfoService{
         return  repayInfoDao.getById(id);
     }
 
-    public void updateRepayPlan(final RepayInfo repayInfo, RepayPlan repayPlan){
+    public void updateRepayPlan(RepayInfo repayInfo, RepayPlan repayPlan){
         transactionTemplate.execute(new TransactionCallback<Void>(){
             @Override
             public Void doInTransaction(TransactionStatus transactionStatus) {
                 try{
-                  update(repayInfo);
+                    update(repayInfo);
                     repayPlanDao.update(repayPlan);
                 }catch (Exception e){
                     System.out.println("insert talbe error" +e);
@@ -71,14 +71,14 @@ public class RepayInfoService{
         });
     }
 
-    public void buildRepayPlanTest(Double invest,String yearRate,Integer term){
+    public void buildRepayPlanTest(Double invest,String yearRate,Integer term,BigDecimal commissionCharge){
         transactionTemplate.execute(new TransactionCallback<Void>(){
             @Override
             public Void doInTransaction(TransactionStatus transactionStatus) {
                 try{
-                    RepayInfo repayInfo = buildeRepayInfo(invest,yearRate,term);
+                    RepayInfo repayInfo = buildeRepayInfo(invest,yearRate,term,commissionCharge);
                     repayInfoDao.insert(repayInfo);
-                    List<RepayPlan> repayPlans = buildRepayPlan(repayInfo.getId(),invest,yearRate,term);
+                    List<RepayPlan> repayPlans = buildRepayPlan(repayInfo.getId(),invest,yearRate,term,commissionCharge);
                     repayPlanDao.insertList(repayPlans);
                 }catch (Exception e){
                     System.out.println("insert talbe error" +e);
@@ -91,14 +91,14 @@ public class RepayInfoService{
     }
 
 
-    public RepayInfo buildeRepayInfo(Double invest,String yearRateStr,Integer term){
+    public RepayInfo buildeRepayInfo(Double invest,String yearRateStr,Integer term,BigDecimal commissionCharge){
 
         RepayInfo repayInfo = new RepayInfo();
         repayInfo.setUid(666);
         repayInfo.setCurrentPeriod(1);
-        repayInfo.setCommissionCharge(COMMISSION_CHARGE.multiply(new BigDecimal(term)));
+        repayInfo.setCommissionCharge(commissionCharge.multiply(new BigDecimal(term)));
         repayInfo.setOverdueAmount(new BigDecimal(0));
-        repayInfo.setOverduePeriods(0);
+        repayInfo.setOverduePeriods("");
         repayInfo.setStatus(0);
         repayInfo.setRepayDay(15);
         repayInfo.setTerm(term);
@@ -111,7 +111,7 @@ public class RepayInfoService{
         BigDecimal totalInterest = new BigDecimal(AverageCapitalPlusInterestUtils.getInterestCount(invest,yearRate,term));
         repayInfo.setInterest(totalInterest);
         // 计算应还金额（本＋息 + 手续费）
-        BigDecimal amount = new BigDecimal(invest).add(totalInterest).add(COMMISSION_CHARGE.multiply(new BigDecimal(term)));
+        BigDecimal amount = new BigDecimal(invest).add(totalInterest).add(commissionCharge.multiply(new BigDecimal(term)));
         repayInfo.setAmount(amount);
         repayInfo.setRestAmount(amount);
 
@@ -120,13 +120,13 @@ public class RepayInfoService{
         Map<Integer, BigDecimal> mapPrincipal = AverageCapitalPlusInterestUtils.getPerMonthPrincipal(invest, yearRate, term);
         //每月应还利息
         Map<Integer, BigDecimal> mapInterest = AverageCapitalPlusInterestUtils.getPerMonthInterest(invest, yearRate, term);
-        BigDecimal thisPeriodAmount = mapPrincipal.get(1).add(mapInterest.get(1)).add(COMMISSION_CHARGE);
+        BigDecimal thisPeriodAmount = mapPrincipal.get(1).add(mapInterest.get(1)).add(commissionCharge);
         repayInfo.setThisPeriodAmount(thisPeriodAmount);
 
         return repayInfo;
     }
 
-    public List<RepayPlan> buildRepayPlan(Integer repayInfoId, Double invest,String yearRateStr,Integer term){
+    public List<RepayPlan> buildRepayPlan(Integer repayInfoId, Double invest,String yearRateStr,Integer term,BigDecimal commissionCharge){
         double yearRate = new BigDecimal(yearRateStr).divide(new BigDecimal(100)).doubleValue();
         System.out.println("年化利率："+ yearRate);
 
@@ -146,17 +146,17 @@ public class RepayInfoService{
 
             repayPlan.setStatus(0);
             //手续费
-            repayPlan.setCommissionCharge(COMMISSION_CHARGE);
+            repayPlan.setCommissionCharge(commissionCharge);
 
             //应还金额
-            BigDecimal amount = mapPrincipal.get(i).add(mapInterest.get(i)).add(COMMISSION_CHARGE);
+            BigDecimal amount = mapPrincipal.get(i).add(mapInterest.get(i)).add(commissionCharge);
             repayPlan.setAmount(amount);
             repayPlan.setRestAmount(amount);
 
             //剩余
             repayPlan.setRestPrincipal(mapPrincipal.get(i));
             repayPlan.setRestInterest(mapInterest.get(i));
-            repayPlan.setRestCommissionCharge(COMMISSION_CHARGE);
+            repayPlan.setRestCommissionCharge(commissionCharge);
             repayPlans.add(repayPlan);
         }
 
