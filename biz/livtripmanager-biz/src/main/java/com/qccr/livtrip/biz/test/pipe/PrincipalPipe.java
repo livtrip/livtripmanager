@@ -21,34 +21,28 @@ public class PrincipalPipe implements StrikeBlancePipe{
         System.out.println(amount.doubleValue() > 0);
 
         if(amount.compareTo(ZERO) > 0 && repayPlan.getRestPrincipal().compareTo(ZERO)> 0){
-            BigDecimal reducePrincipal = amount.subtract(repayPlan.getRestPrincipal());
-            if(reducePrincipal.doubleValue() >= 0){
-                //本金冲满
-                repayPlan.setRestPrincipal(new BigDecimal(0));
-                repayPlan.setRepayedPrincipal(repayPlan.getPrincipal());
-                //还款详情
-                repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(repayPlan.getPrincipal()));
-                repayInfo.setRestAmount(repayInfo.getRestAmount().subtract(repayPlan.getPrincipal()));
-                repayInfo.setRepayedAmount(repayInfo.getRepayedAmount()==null?repayPlan.getPrincipal():repayInfo.getRepayedAmount().add(repayPlan.getPrincipal()));
-
+            Boolean isEqualsOrMore = amount.compareTo(repayPlan.getRestPrincipal())>=0;
+            BigDecimal operationMoney = null;
+            if(isEqualsOrMore){
+                operationMoney = repayPlan.getRestPrincipal();
                 //剩余冲账金额
-                amount = amount.subtract(repayPlan.getPrincipal());
-            }
-            if(reducePrincipal.doubleValue() < 0){
-                //本金冲不满
-                //1.还款计划：剩余本金，已还本金增加
-                repayPlan.setRestPrincipal(repayPlan.getRestPrincipal().subtract(amount));
-                repayPlan.setRepayedPrincipal(repayPlan.getRepayedPrincipal() == null?amount:repayPlan.getRepayedPrincipal().add(amount));
-
-                //2.还款详情
-                repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(amount));
-                repayInfo.setRestAmount(repayInfo.getRestAmount().subtract(amount));
-                repayInfo.setRepayedAmount(repayInfo.getRepayedAmount()==null?amount : repayInfo.getRepayedAmount().add(amount));
-
-                // 剩余冲账金额
+                amount = amount.subtract(repayPlan.getRestPrincipal());
+            }else{
+                operationMoney = amount;
+                //剩余冲账金额
                 amount = new BigDecimal(0);
-
             }
+
+            //1.还款计划
+            repayPlan.setRepayedPrincipal(repayPlan.getRepayedPrincipal()==null?operationMoney:repayPlan.getRepayedPrincipal().add(operationMoney));
+            repayPlan.setRestPrincipal(repayPlan.getRestPrincipal().subtract(operationMoney));
+            repayPlan.setRestAmount(repayPlan.getRestAmount().subtract(operationMoney));
+            repayPlan.setRepayedAmount(repayPlan.getRepayedAmount()==null?operationMoney:repayPlan.getRepayedAmount().add(operationMoney));
+            //2.还款详情
+            repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(operationMoney));
+            repayInfo.setRestAmount(repayInfo.getRestAmount().subtract(operationMoney));
+            repayInfo.setRepayedAmount(repayInfo.getRepayedAmount()==null?operationMoney:repayInfo.getRepayedAmount().add(operationMoney));
+
             System.out.println("本金处剩余冲账金额"+amount.doubleValue());
             repayContext.setAmount(amount);
             repayContext.setRepayPlan(repayPlan);

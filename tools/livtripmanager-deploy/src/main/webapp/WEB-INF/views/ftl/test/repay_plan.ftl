@@ -73,7 +73,7 @@
         [#list repayPlans as repayPlan]
         <tr>
             <td>${repayPlan.id}</td>
-            <td>
+            <td style="color: #FF0000;">
                 [#if repayPlan.status==0]
                     未开始
                 [#elseif repayPlan.status==1]
@@ -88,7 +88,7 @@
             <td>${repayPlan.periodNumber}</td>
 
             <td>${repayPlan.amount}</td>
-            <td>${repayPlan.repayedAmount}</td>
+            <td style="color: #FF0000">${repayPlan.repayedAmount}</td>
             <td>${repayPlan.restAmount}</td>
 
             <td>${repayPlan.principal}</td>

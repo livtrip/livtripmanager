@@ -21,33 +21,28 @@ public class InterestPipe implements StrikeBlancePipe{
         System.out.println(amount.doubleValue() > 0);
 
         if(amount.compareTo(ZERO)>0 && repayPlan.getRestInterest().compareTo(ZERO) > 0){
-            BigDecimal reduceInterest = amount.subtract(repayPlan.getRestInterest());
-            if(reduceInterest.doubleValue() >=0){
-             //利息冲满,还款计划
-             repayPlan.setRestInterest(new BigDecimal(0));
-             repayPlan.setRepayedInterest(repayPlan.getInterest());
-             //还款详情
-             repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(repayPlan.getInterest()));
-             repayInfo.setRestAmount(repayInfo.getRestAmount().subtract(repayPlan.getInterest()));
-             repayInfo.setRepayedAmount(repayInfo.getRepayedAmount()==null?repayPlan.getInterest():repayInfo.getRepayedAmount().add(repayPlan.getInterest()));
-
-             //剩余冲账金额
-             amount = amount.subtract(repayPlan.getInterest());
+            Boolean isEqualsOrMore = amount.compareTo(repayPlan.getRestInterest())>=0;
+            BigDecimal operationMoney = null;
+            if(isEqualsOrMore){
+                operationMoney = repayPlan.getRestInterest();
+                //剩余冲账金额
+                amount = amount.subtract(repayPlan.getRestInterest());
+            }else{
+                operationMoney = amount;
+                //剩余冲账金额
+                amount = new BigDecimal(0);
             }
-            if(reduceInterest.doubleValue() < 0){
-             //利息冲不满
-            //1.还款计划：剩余利息，已还利息增加
-            repayPlan.setRestInterest(repayPlan.getRestInterest().subtract(amount));
-            repayPlan.setRepayedInterest(repayPlan.getRepayedInterest() == null?amount:repayPlan.getRepayedInterest().add(amount));
 
+            //1.还款计划
+            repayPlan.setRepayedInterest(repayPlan.getRepayedInterest()==null?operationMoney:repayPlan.getRepayedInterest().add(operationMoney));
+            repayPlan.setRestInterest(repayPlan.getRestInterest().subtract(operationMoney));
+            repayPlan.setRestAmount(repayPlan.getRestAmount().subtract(operationMoney));
+            repayPlan.setRepayedAmount(repayPlan.getRepayedAmount()==null?operationMoney:repayPlan.getRepayedAmount().add(operationMoney));
             //2.还款详情
-            repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(amount));
-            repayInfo.setRestAmount(repayInfo.getRestAmount().subtract(amount));
-            repayInfo.setRepayedAmount(repayInfo.getRepayedAmount()==null?amount : repayInfo.getRepayedAmount().add(amount));
+            repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(operationMoney));
+            repayInfo.setRestAmount(repayInfo.getRestAmount().subtract(operationMoney));
+            repayInfo.setRepayedAmount(repayInfo.getRepayedAmount()==null?operationMoney:repayInfo.getRepayedAmount().add(operationMoney));
 
-            // 剩余冲账金额
-            amount = new BigDecimal(0);
-            }
             System.out.println("利息处剩余冲账金额"+amount.doubleValue());
             repayContext.setAmount(amount);
             repayContext.setRepayPlan(repayPlan);

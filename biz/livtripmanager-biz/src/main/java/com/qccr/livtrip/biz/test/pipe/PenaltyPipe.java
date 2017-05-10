@@ -29,39 +29,27 @@ public class PenaltyPipe implements StrikeBlancePipe{
         if(inputRepayDate.compareTo(repayDate) == 1 && repayPlan.getRestPenaltyInterestAmount().compareTo(ZERO) > 0){
             //1.根据输入还款日期,计算罚息
             int delayDays = DateUtil.getIntervalDays(repayDate,inputRepayDate);
-            BigDecimal penaltyInterest = calculatePenaltyInterest(repayInfo.getPrincipal(),repayInfo.getYearRate(),delayDays);
-            System.out.println("罚息："+penaltyInterest.doubleValue());
-            //2.计算输入金额与罚息的关系
-            BigDecimal reducePenaltyInterest = amount.subtract(penaltyInterest);
-            if(reducePenaltyInterest.doubleValue() >= 0){
-                //罚息可以冲满
-                //1. 还款计划：剩余罚息置0，已还罚息增加，更新罚息
-                repayPlan.setRestPenaltyInterestAmount(new BigDecimal("0.00"));
-                repayPlan.setRepayedPenaltyInterestAmount(penaltyInterest);
-                repayPlan.setPenaltyInterestAmount(penaltyInterest);
-                //2. 还款详情：restAmount 减少，repayAmount 增加， 当前应还(this_period_amount)减少
-                repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(reducePenaltyInterest));
-                repayInfo.setRepayedAmount(repayInfo.getRepayedAmount()==null?reducePenaltyInterest:repayInfo.getRepayedAmount().add(reducePenaltyInterest));
-                repayInfo.setRestAmount(repayInfo.getRestAmount().subtract(reducePenaltyInterest));
-                 //剩余冲账金额
-                amount = amount.subtract(penaltyInterest);
-                System.out.println("剩余冲账金额："+ amount.doubleValue());
-            }
-            if(reducePenaltyInterest.doubleValue() < 0){
-                //罚息没有冲满
-                //1. 还款计划：剩余罚息置0，已还罚息增加，更新罚息
-                repayPlan.setRestPenaltyInterestAmount(penaltyInterest.subtract(amount));
-                repayPlan.setRepayedPenaltyInterestAmount(repayPlan.getRepayedPenaltyInterestAmount()==null?amount:repayPlan.getPenaltyInterestAmount().add(amount));
-                repayInfo.setPenaltyInterestAmount(penaltyInterest);
+            BigDecimal realTimePenaltyInterest = calculatePenaltyInterest(repayInfo.getPrincipal(),repayInfo.getYearRate(),delayDays);
 
-                //2. 还款详情：restAmount 减少，repayAmount 增加， 当前应还(this_period_amount)减少
-                repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(amount));
-                repayInfo.setRepayedAmount(repayInfo.getRepayedAmount().add(amount));
-                repayInfo.setRestAmount(repayInfo.getRestAmount().subtract(amount));
-
-                //剩余冲账金额
-                amount = new BigDecimal("0");
+            Boolean isEqualsOrMore = amount.compareTo(realTimePenaltyInterest) >=0;
+            BigDecimal operationMoney = null;
+            if(isEqualsOrMore){
+                operationMoney = realTimePenaltyInterest;
+                amount = amount.subtract(realTimePenaltyInterest);
+            }else{
+                operationMoney = amount;
+                amount = new BigDecimal(0);
             }
+            repayPlan.setRepayedPenaltyInterestAmount(repayPlan.getRepayedPenaltyInterestAmount()==null?operationMoney:repayPlan.getRepayedPenaltyInterestAmount().add(operationMoney));
+            repayPlan.setRestPenaltyInterestAmount(repayPlan.getRestPenaltyInterestAmount().subtract(operationMoney));
+
+            repayPlan.setRestAmount(repayPlan.getRestAmount().subtract(operationMoney));
+            repayPlan.setRepayedAmount(repayPlan.getRepayedAmount()==null?operationMoney:repayPlan.getRepayedAmount().add(operationMoney));
+            //2.还款详情
+            repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(operationMoney));
+            repayInfo.setRestAmount(repayInfo.getRestAmount().subtract(operationMoney));
+            repayInfo.setRepayedAmount(repayInfo.getRepayedAmount()==null?operationMoney:repayInfo.getRepayedAmount().add(operationMoney));
+
             repayContext.setRepayPlan(repayPlan);
             repayContext.setRepayInfo(repayInfo);
             repayContext.setAmount(amount);
