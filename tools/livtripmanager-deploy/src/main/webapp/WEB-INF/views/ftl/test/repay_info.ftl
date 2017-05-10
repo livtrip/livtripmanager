@@ -101,7 +101,7 @@
                 <td style="color: #ff0000;">${repayInfo.thisPeriodAmount}</td>
                 <td align="right">
                     <div class="btn-group">
-                        <button type="button" class="btn btn-bordered btn-primary" onclick="location.href='gotoRepayPlan.html?repayInfoId=${repayInfo.id}'">还款计划</button>
+                        <button type="button" class="btn btn-bordered btn-primary" onclick="location.href='gotoRepayPlan?repayInfoId=${repayInfo.id}'">还款计划</button>
                     </div>
                 </td>
             </tr>

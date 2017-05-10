@@ -19,7 +19,7 @@
         <li class="active">还款计划</li>
     </ol>
     <div style="margin-top:5px; padding:10px; border:1px solid #d1d1d1; text-align: center;height:80px;  border-radius:5px; ">
-        <form class="form-inline" id="listForm" action="stripe.html" method="post" style="margin:25px auto; padding:0px;">
+        <form class="form-inline" id="listForm" action="stripe" method="post" style="margin:25px auto; padding:0px;">
             <div class="form-group">
                 <label  class="control-label" for="inputSuccess1">冲帐金额</label>
                 <input type="text"  name="amount"  class="form-control" id="inputSuccess1"/>
