@@ -17,9 +17,11 @@ public class PrincipalPipe implements StrikeBlancePipe{
         RepayPlan repayPlan = repayContext.getRepayPlan();
         RepayInfo repayInfo = repayContext.getRepayInfo();
         BigDecimal amount = repayContext.getAmount();
+        System.out.println("本金处还剩冲账金额验证结果"+(amount.compareTo(ZERO) > 0 && repayPlan.getRestPrincipal().compareTo(ZERO)> 0));
+        System.out.println(amount.doubleValue() > 0);
 
         if(amount.compareTo(ZERO) > 0 && repayPlan.getRestPrincipal().compareTo(ZERO)> 0){
-            BigDecimal reducePrincipal = amount.subtract(repayPlan.getPrincipal());
+            BigDecimal reducePrincipal = amount.subtract(repayPlan.getRestPrincipal());
             if(reducePrincipal.doubleValue() >= 0){
                 //本金冲满
                 repayPlan.setRestPrincipal(new BigDecimal(0));
@@ -35,8 +37,8 @@ public class PrincipalPipe implements StrikeBlancePipe{
             if(reducePrincipal.doubleValue() < 0){
                 //本金冲不满
                 //1.还款计划：剩余本金，已还本金增加
-                repayPlan.setRestPrincipal(repayPlan.getPrincipal().subtract(amount));
-                repayPlan.setRepayedPrincipal(repayPlan.getPrincipal() == null?amount:repayPlan.getPrincipal().add(amount));
+                repayPlan.setRestPrincipal(repayPlan.getRestPrincipal().subtract(amount));
+                repayPlan.setRepayedPrincipal(repayPlan.getRepayedPrincipal() == null?amount:repayPlan.getRepayedPrincipal().add(amount));
 
                 //2.还款详情
                 repayInfo.setThisPeriodAmount(repayInfo.getThisPeriodAmount().subtract(amount));
@@ -47,7 +49,7 @@ public class PrincipalPipe implements StrikeBlancePipe{
                 amount = new BigDecimal(0);
 
             }
-            System.out.println("剩余冲账金额："+ amount.doubleValue());
+            System.out.println("本金处剩余冲账金额"+amount.doubleValue());
             repayContext.setAmount(amount);
             repayContext.setRepayPlan(repayPlan);
             repayContext.setRepayInfo(repayInfo);

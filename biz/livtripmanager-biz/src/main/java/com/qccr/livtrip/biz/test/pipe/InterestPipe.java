@@ -17,9 +17,11 @@ public class InterestPipe implements StrikeBlancePipe{
         RepayPlan repayPlan = repayContext.getRepayPlan();
         RepayInfo repayInfo = repayContext.getRepayInfo();
         BigDecimal amount = repayContext.getAmount();
+        System.out.println("利息处还剩冲账金额验证结果"+(amount.compareTo(ZERO)>0 && repayPlan.getRestInterest().compareTo(ZERO) > 0));
+        System.out.println(amount.doubleValue() > 0);
 
         if(amount.compareTo(ZERO)>0 && repayPlan.getRestInterest().compareTo(ZERO) > 0){
-            BigDecimal reduceInterest = amount.subtract(repayPlan.getInterest());
+            BigDecimal reduceInterest = amount.subtract(repayPlan.getRestInterest());
             if(reduceInterest.doubleValue() >=0){
              //利息冲满,还款计划
              repayPlan.setRestInterest(new BigDecimal(0));
@@ -35,7 +37,7 @@ public class InterestPipe implements StrikeBlancePipe{
             if(reduceInterest.doubleValue() < 0){
              //利息冲不满
             //1.还款计划：剩余利息，已还利息增加
-            repayPlan.setRestInterest(repayPlan.getInterest().subtract(amount));
+            repayPlan.setRestInterest(repayPlan.getRestInterest().subtract(amount));
             repayPlan.setRepayedInterest(repayPlan.getRepayedInterest() == null?amount:repayPlan.getRepayedInterest().add(amount));
 
             //2.还款详情
@@ -46,7 +48,7 @@ public class InterestPipe implements StrikeBlancePipe{
             // 剩余冲账金额
             amount = new BigDecimal(0);
             }
-            System.out.println("剩余冲账金额："+ amount.doubleValue());
+            System.out.println("利息处剩余冲账金额"+amount.doubleValue());
             repayContext.setAmount(amount);
             repayContext.setRepayPlan(repayPlan);
             repayContext.setRepayInfo(repayInfo);

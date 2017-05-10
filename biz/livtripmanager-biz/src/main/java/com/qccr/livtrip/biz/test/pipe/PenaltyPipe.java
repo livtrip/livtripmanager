@@ -51,7 +51,7 @@ public class PenaltyPipe implements StrikeBlancePipe{
                 //罚息没有冲满
                 //1. 还款计划：剩余罚息置0，已还罚息增加，更新罚息
                 repayPlan.setRestPenaltyInterestAmount(penaltyInterest.subtract(amount));
-                repayPlan.setRepayedPenaltyInterestAmount(repayPlan.getPenaltyInterestAmount()==null?amount:repayPlan.getPenaltyInterestAmount().add(amount));
+                repayPlan.setRepayedPenaltyInterestAmount(repayPlan.getRepayedPenaltyInterestAmount()==null?amount:repayPlan.getPenaltyInterestAmount().add(amount));
                 repayInfo.setPenaltyInterestAmount(penaltyInterest);
 
                 //2. 还款详情：restAmount 减少，repayAmount 增加， 当前应还(this_period_amount)减少

@@ -17,9 +17,11 @@ public class CommissionPipe implements StrikeBlancePipe{
         RepayPlan repayPlan = repayContext.getRepayPlan();
         RepayInfo repayInfo = repayContext.getRepayInfo();
         BigDecimal amount = repayContext.getAmount();
+        System.out.println("手续费处还剩冲账金额验证结果"+(amount.compareTo(ZERO) > 0 && repayPlan.getRestCommissionCharge().compareTo(ZERO) > 0));
+        System.out.println(amount.doubleValue() > 0);
 
         if(amount.compareTo(ZERO) > 0 && repayPlan.getRestCommissionCharge().compareTo(ZERO) > 0){
-            BigDecimal reduceCommission = amount.subtract(repayPlan.getCommissionCharge());
+            BigDecimal reduceCommission = amount.subtract(repayPlan.getRestCommissionCharge());
             if(reduceCommission.doubleValue() >= 0){
               //手续费冲满
               //1.还款计划：剩余手续费置0，已还手续费增加
@@ -37,7 +39,7 @@ public class CommissionPipe implements StrikeBlancePipe{
             if(reduceCommission.doubleValue() < 0){
               //手续费未充满
               //1.还款计划：剩余手续费置0，已还手续费增加
-              repayPlan.setRestCommissionCharge(repayPlan.getCommissionCharge().subtract(amount));
+              repayPlan.setRestCommissionCharge(repayPlan.getRestCommissionCharge().subtract(amount));
               repayPlan.setRepayedCommissionCharge(repayPlan.getRepayedCommissionCharge() == null?amount:repayPlan.getRepayedCommissionCharge().add(amount));
 
               //2.还款详情
@@ -48,7 +50,7 @@ public class CommissionPipe implements StrikeBlancePipe{
               // 剩余冲账金额
               amount = new BigDecimal(0);
             }
-
+            System.out.println("手续费处剩余冲账金额"+amount.doubleValue());
             repayContext.setAmount(amount);
             repayContext.setRepayPlan(repayPlan);
             repayContext.setRepayInfo(repayInfo);
