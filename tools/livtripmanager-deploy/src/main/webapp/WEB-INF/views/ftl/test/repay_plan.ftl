@@ -15,7 +15,7 @@
 <body>
 <div class="container">
     <ol class="breadcrumb">
-        <li><a href="gotoRepayInfo.html">借款管理</a></li>
+        <li><a href="gotoRepayInfo">借款管理</a></li>
         <li class="active">还款计划</li>
     </ol>
     <div style="margin-top:5px; padding:10px; border:1px solid #d1d1d1; text-align: center;height:80px;  border-radius:5px; ">
