@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Livtrip管理系统11</title>
+    <title>Livtrip管理系统</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="resources/assets/css/dpl-min.css" rel="stylesheet" type="text/css" />
     <link href="resources/assets/css/bui-min.css" rel="stylesheet" type="text/css" />
@@ -13,7 +13,7 @@
 
     <div class="dl-title">
         <a href="http://sc.chinaz.com" title="文档库地址" target="_blank">
-            <span class="lp-title-port">BUI</span><span class="dl-title-text">前端框架</span>
+            <span class="lp-title-port">Livtrip</span><span class="dl-title-text">后台管理</span>
         </a>
     </div>
 
@@ -45,71 +45,72 @@
             id:'menu',
             homePage : 'code',
             menu:[{
-                text:'首页内容',
+                text:'基础信息',
                 items:[
-                    {id:'code',text:'产品管理',href:'backend/product/list.html',closeable : false},
-                    {id:'main-menu',text:'城市管理',href:'backend/destination/list.html'},
-                    {id:'second-menu',text:'右边菜单',href:'main/second-menu.html'},
-                    {id:'dyna-menu',text:'动态菜单',href:'main/dyna-menu.html'}
+                    {id:'code',text:'产品管理',href:'backend/product/list.do',closeable : false},
+                    {id:'main-menu',text:'城市管理',href:'backend/destination/list.do'},
+                    {id:'second-menu',text:'定时任务定义',href:'backend/task/list.do'},
+                    {id:'dyna-menu',text:'定时任务日志',href:'backend/task/logs.do'}
                 ]
             },{
-                text:'页面操作',
+                text:'会员管理',
                 items:[
-                    {id:'operation',text:'页面常见操作',href:'main/operation.html'},
-                    {id:'quick',text:'页面操作快捷方式',href:'main/quick.html'}
+                    {id:'operation',text:'会员列表',href:'main/operation.do'},
+                    {id:'quick',text:'会员等级',href:'main/quick.do'},
+                    {id:'quick',text:'VIP会员',href:'main/quick.do'}
                 ]
             },{
-                text:'文件结构',
+                text:'订单管理',
                 items:[
-                    {id:'resource',text:'资源文件结构',href:'main/resource.html'},
-                    {id:'loader',text:'引入JS方式',href:'main/loader.html'}
+                    {id:'resource',text:'今日订单',href:'main/resource.do'},
+                    {id:'loader',text:'订单报表',href:'main/loader.do'}
                 ]
             }]
         },{
             id:'form',
             menu:[{
-                text:'表单页面',
+                text:'营销管理',
                 items:[
-                    {id:'code',text:'表单代码',href:'form/code.html'},
-                    {id:'example',text:'表单示例',href:'form/example.html'},
-                    {id:'introduce',text:'表单简介',href:'form/introduce.html'},
-                    {id:'valid',text:'表单基本验证',href:'form/basicValid.html'},
-                    {id:'advalid',text:'表单复杂验证',href:'form/advalid.html'},
-                    {id:'remote',text:'远程调用',href:'form/remote.html'},
-                    {id:'group',text:'表单分组',href:'form/group.html'},
-                    {id:'depends',text:'表单联动',href:'form/depends.html'}
+                    {id:'code',text:'表单代码',href:'form/code.do'},
+                    {id:'example',text:'表单示例',href:'form/example.do'},
+                    {id:'introduce',text:'表单简介',href:'form/introduce.do'},
+                    {id:'valid',text:'表单基本验证',href:'form/basicValid.do'},
+                    {id:'advalid',text:'表单复杂验证',href:'form/advalid.do'},
+                    {id:'remote',text:'远程调用',href:'form/remote.do'},
+                    {id:'group',text:'表单分组',href:'form/group.do'},
+                    {id:'depends',text:'表单联动',href:'form/depends.do'}
                 ]
             },{
                 text:'成功失败页面',
                 items:[
-                    {id:'success',text:'成功页面',href:'form/success.html'},
-                    {id:'fail',text:'失败页面',href:'form/fail.html'}
+                    {id:'success',text:'成功页面',href:'form/success.do'},
+                    {id:'fail',text:'失败页面',href:'form/fail.do'}
 
                 ]
             },{
                 text:'可编辑表格',
                 items:[
-                    {id:'grid',text:'可编辑表格',href:'form/grid.html'},
-                    {id:'form-grid',text:'表单中的可编辑表格',href:'form/form-grid.html'},
-                    {id:'dialog-grid',text:'使用弹出框',href:'form/dialog-grid.html'},
-                    {id:'form-dialog-grid',text:'表单中使用弹出框',href:'form/form-dialog-grid.html'}
+                    {id:'grid',text:'可编辑表格',href:'form/grid.do'},
+                    {id:'form-grid',text:'表单中的可编辑表格',href:'form/form-grid.do'},
+                    {id:'dialog-grid',text:'使用弹出框',href:'form/dialog-grid.do'},
+                    {id:'form-dialog-grid',text:'表单中使用弹出框',href:'form/form-dialog-grid.do'}
                 ]
             }]
         },{
             id:'search',
             menu:[{
-                text:'搜索页面',
+                text:'报表统计',
                 items:[
-                    {id:'code',text:'搜索页面代码',href:'search/code.html'},
-                    {id:'example',text:'搜索页面示例',href:'search/example.html'},
-                    {id:'example-dialog',text:'搜索页面编辑示例',href:'search/example-dialog.html'},
-                    {id:'introduce',text:'搜索页面简介',href:'search/introduce.html'},
-                    {id:'config',text:'搜索配置',href:'search/config.html'}
+                    {id:'code',text:'搜索页面代码',href:'search/code.do'},
+                    {id:'example',text:'搜索页面示例',href:'search/example.do'},
+                    {id:'example-dialog',text:'搜索页面编辑示例',href:'search/example-dialog.do'},
+                    {id:'introduce',text:'搜索页面简介',href:'search/introduce.do'},
+                    {id:'config',text:'搜索配置',href:'search/config.do'}
                 ]
             },{
                 text : '更多示例',
                 items : [
-                    {id : 'tab',text : '使用tab过滤',href : 'search/tab.html'}
+                    {id : 'tab',text : '使用tab过滤',href : 'search/tab.do'}
                 ]
             }]
         },{
@@ -117,9 +118,9 @@
             menu:[{
                 text:'详情页面',
                 items:[
-                    {id:'code',text:'详情页面代码',href:'detail/code.html'},
-                    {id:'example',text:'详情页面示例',href:'detail/example.html'},
-                    {id:'introduce',text:'详情页面简介',href:'detail/introduce.html'}
+                    {id:'code',text:'详情页面代码',href:'detail/code.do'},
+                    {id:'example',text:'详情页面示例',href:'detail/example.do'},
+                    {id:'introduce',text:'详情页面简介',href:'detail/introduce.do'}
                 ]
             }]
         },{
@@ -127,12 +128,12 @@
             menu : [{
                 text : '图表',
                 items:[
-                    {id:'code',text:'引入代码',href:'chart/code.html'},
-                    {id:'line',text:'折线图',href:'chart/line.html'},
-                    {id:'area',text:'区域图',href:'chart/area.html'},
-                    {id:'column',text:'柱状图',href:'chart/column.html'},
-                    {id:'pie',text:'饼图',href:'chart/pie.html'},
-                    {id:'radar',text:'雷达图',href:'chart/radar.html'}
+                    {id:'code',text:'引入代码',href:'chart/code.do'},
+                    {id:'line',text:'折线图',href:'chart/line.do'},
+                    {id:'area',text:'区域图',href:'chart/area.do'},
+                    {id:'column',text:'柱状图',href:'chart/column.do'},
+                    {id:'pie',text:'饼图',href:'chart/pie.do'},
+                    {id:'radar',text:'雷达图',href:'chart/radar.do'}
                 ]
             }]
         }];
