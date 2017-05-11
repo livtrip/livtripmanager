@@ -105,6 +105,7 @@ public class RepayController {
             //还款计划表更新
             BigDecimal penaltyInterest = RepayUtil.calculatePenaltyInterest(repayPlan.getPrincipal(),repayInfo.getYearRate(),delayDays);
             repayPlan.setAmount(repayPlan.getAmount().add(penaltyInterest));
+            repayPlan.setPenaltyInterestAmount(repayPlan.getPenaltyInterestAmount()==null?penaltyInterest:repayPlan.getPenaltyInterestAmount().add(penaltyInterest));
             repayPlan.setRestAmount(repayPlan.getRestAmount().add(penaltyInterest));
             repayPlan.setRestPenaltyInterestAmount(penaltyInterest);
             //还款详情表更新

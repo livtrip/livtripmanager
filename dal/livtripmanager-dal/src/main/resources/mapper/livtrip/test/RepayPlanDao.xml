@@ -219,7 +219,7 @@
             <if test="pojo.commissionCharge != null"> `commission_charge` = #{pojo.commissionCharge}, </if>
             <if test="pojo.repayedPrincipal != null"> `repayed_principal` = #{pojo.repayedPrincipal}, </if>
             <if test="pojo.repayedInterest != null"> `repayed_interest` = #{pojo.repayedInterest}, </if>
-            <if test="pojo.penaltyInterestAmount != null"> `repayed_penalty_interest_amount` = #{pojo.penaltyInterestAmount}, </if>
+            <if test="pojo.repayedPenaltyInterestAmount != null"> `repayed_penalty_interest_amount` = #{pojo.repayedPenaltyInterestAmount}, </if>
             <if test="pojo.repayedCommissionCharge != null"> `repayed_commission_charge` = #{pojo.repayedCommissionCharge}, </if>
             <if test="pojo.restPrincipal != null"> `rest_principal` = #{pojo.restPrincipal}, </if>
             <if test="pojo.restInterest != null"> `rest_interest` = #{pojo.restInterest}, </if>
