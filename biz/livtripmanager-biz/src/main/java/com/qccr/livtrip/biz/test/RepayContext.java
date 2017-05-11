@@ -21,6 +21,20 @@ public class RepayContext {
     private RepayPlan repayPlan;
     /**还款详情总览*/
     private RepayInfo repayInfo;
+    /**0: 不忽略罚息  1:忽略罚息*/
+    private Integer ignorePenalty;
+
+    public Integer getIgnorePenalty() {
+        return ignorePenalty;
+    }
+
+    public void setIgnorePenalty(Integer ignorePenalty) {
+        if (ignorePenalty == null){
+            this.ignorePenalty = 0;
+        }else{
+            this.ignorePenalty = ignorePenalty;
+        }
+    }
 
     public BigDecimal getAmount() {
         return amount;

@@ -33,6 +33,7 @@
                 <label  class="control-label" for="inputSuccess1">还款日期</label>
                 <input type="text"  name="repayDate"   class="form-control" id="inputSuccess1"/>
             </div>
+            <input type="checkbox"  name="ignorePenalty" value="1"  >忽略逾期</input>
 
             <button type="submit" class="btn btn-primary" style="width:120px;">人工冲帐</button>
         </form>

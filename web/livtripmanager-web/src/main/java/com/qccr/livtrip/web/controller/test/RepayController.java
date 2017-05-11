@@ -65,7 +65,8 @@ public class RepayController {
     }
 
     @RequestMapping("stripe")
-    public String stripeBlance(@RequestParam Integer repayInfoId, @RequestParam Double amount,@RequestParam String periodsNum,String repayDate){
+    public String stripeBlance(@RequestParam Integer repayInfoId, @RequestParam Double amount,
+                               @RequestParam String periodsNum,String repayDate,Integer ignorePenalty){
         RepayInfo repayInfo = repayInfoService.getById(repayInfoId);
         if(repayInfo != null && StringUtils.isNoneBlank(periodsNum)){
             String[] periodsNumbers = periodsNum.split(",");
@@ -76,6 +77,7 @@ public class RepayController {
                 repayContext.setRepayDate(DateUtil.StringToDate(repayDate));
                 repayContext.setRepayInfo(repayInfo);
                 repayContext.setRepayPlan(repayPlan);
+                repayContext.setIgnorePenalty(ignorePenalty);
                 RepayPlanPipeManager.doPipe(repayContext);
                 //判断剩余本金
                 if(repayContext.getRepayInfo().getRestAmount().equals(new BigDecimal(0))){
