@@ -1,6 +1,6 @@
 package com.qccr.livtrip.biz.service.admin.impl;
 
-import com.qccr.livtrip.dal.AdminUserDao;
+import com.qccr.livtrip.dal.admin.AdminUserDao;
 import com.qccr.livtrip.model.admin.AdminUser;
 import com.qccr.livtrip.biz.service.admin.AdminUserService;
 import org.apache.commons.lang3.StringUtils;

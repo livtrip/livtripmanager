@@ -16,7 +16,7 @@ import java.io.IOException;
  * @version $$Id: livtripmanager-parent, v 0.1 2016/10/26 11:14 user Exp $$
  */
 @Component
-//@WebFilter(filterName = "sessionCheckFilter", urlPatterns = ("/backend/*"), initParams = {@WebInitParam(name="loginPage",value="login.html"), @WebInitParam(name="loginServlet",value="loginProcess") })
+@WebFilter(filterName = "sessionCheckFilter", urlPatterns = {"/backend/*","/main.html"}, initParams = {@WebInitParam(name="loginPage",value="login.html"), @WebInitParam(name="loginServlet",value="loginProcess.do") })
 public class SessionCheckFilter implements Filter{
 
     private FilterConfig config;
@@ -39,6 +39,7 @@ public class SessionCheckFilter implements Filter{
         HttpServletResponse res = ((HttpServletResponse)response);
         String requestPath = req.getRequestURI();
         requestPath = requestPath.substring(requestPath.lastIndexOf("/"), requestPath.length());
+
 
         if(session.getAttribute(Constant.SESSION_USER_NAME) != null
          || "".equals(requestPath) || requestPath.endsWith(loginPage) || requestPath.endsWith(loginServlet)){

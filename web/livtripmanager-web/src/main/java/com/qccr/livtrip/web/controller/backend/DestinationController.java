@@ -4,6 +4,7 @@ package com.qccr.livtrip.web.controller.backend;
 import com.alibaba.fastjson.JSON;
 import com.beust.jcommander.internal.Lists;
 import com.github.pagehelper.PageInfo;
+import com.qccr.livtrip.biz.event.HotelEventBus;
 import com.qccr.livtrip.biz.handler.HotelHandler;
 import com.qccr.livtrip.biz.service.destination.CityService;
 import com.qccr.livtrip.biz.service.destination.DestService;
@@ -28,6 +29,8 @@ import com.qccr.livtrip.common.constant.Constant;
 import java.io.InputStream;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  * @name 地理位置控制器
@@ -46,6 +49,8 @@ public class DestinationController extends BaseController{
     private HotelHandler hotelHandler;
     @Autowired
     private DestService destService;
+    @Autowired
+    private HotelEventBus hotelEventBus;
 
 
     @RequestMapping("add")
@@ -110,12 +115,15 @@ public class DestinationController extends BaseController{
 
     @RequestMapping("fetch")
     @ResponseBody
-    public String fetch(String destinationId){
+    public String fetch(Integer destinationId){
         System.out.println(destinationId);
-        List<Integer> destinationIds = com.google.common.collect.Lists.newArrayList();
-        destinationIds.add(Integer.parseInt(destinationId));
-        hotelHandler.fetchProductDateByDestinationId(destinationIds);
-        hotelHandler.fetchHotelExtData();
+        ExecutorService executor = Executors.newSingleThreadExecutor();
+        executor.submit(new Runnable() {
+            @Override
+            public void run() {
+                hotelEventBus.productFetchTask(destinationId);
+            }
+        });
         return getSuccessJsonResult(Constant.SUCCESS);
     }
 

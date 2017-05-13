@@ -3,9 +3,9 @@
 <head>
     <title>Livtrip管理系统</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="resources/assets/css/dpl-min.css" rel="stylesheet" type="text/css" />
-    <link href="resources/assets/css/bui-min.css" rel="stylesheet" type="text/css" />
-    <link href="resources/assets/css/main-min.css" rel="stylesheet" type="text/css" />
+    <link href="${base}/resources/assets/css/dpl-min.css" rel="stylesheet" type="text/css" />
+    <link href="${base}/resources/assets/css/bui-min.css" rel="stylesheet" type="text/css" />
+    <link href="${base}/resources/assets/css/main-min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
@@ -35,9 +35,9 @@
 
     </ul>
 </div>
-<script type="text/javascript" src="resources/assets/js/jquery-1.8.1.min.js"></script>
-<script type="text/javascript" src="resources/assets/js/bui.js"></script>
-<script type="text/javascript" src="resources/assets/js/config.js"></script>
+<script type="text/javascript" src="${base}/resources/assets/js/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="${base}/resources/assets/js/bui.js"></script>
+<script type="text/javascript" src="${base}/resources/assets/js/config.js"></script>
 
 <script>
     BUI.use('common/main',function(){
@@ -47,10 +47,10 @@
             menu:[{
                 text:'基础信息',
                 items:[
-                    {id:'code',text:'产品管理',href:'backend/product/list.do',closeable : false},
-                    {id:'main-menu',text:'城市管理',href:'backend/destination/list.do'},
-                    {id:'second-menu',text:'定时任务定义',href:'backend/task/list.do'},
-                    {id:'dyna-menu',text:'定时任务日志',href:'backend/task/logs.do'}
+                    {id:'code',text:'产品管理',href:'${base}/backend/product/list.do',closeable : false},
+                    {id:'main-menu',text:'城市管理',href:'${base}/backend/destination/list.do'},
+                    {id:'second-menu',text:'定时任务定义',href:'${base}/backend/task/list.do'},
+                    {id:'dyna-menu',text:'定时任务日志',href:'${base}/backend/task/logs.do'}
                 ]
             },{
                 text:'会员管理',

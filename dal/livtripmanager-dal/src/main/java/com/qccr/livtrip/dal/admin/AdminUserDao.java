@@ -2,7 +2,7 @@
  * qccr.com Inc.
  * Copyright (c) 2014-2016 All Rights Reserved.
  */
-package com.qccr.livtrip.dal;
+package com.qccr.livtrip.dal.admin;
 
 
 import com.qccr.livtrip.model.admin.AdminUser;
