@@ -48,3 +48,7 @@ function showinfomessage(marker, map)
     });
 
 }
+
+function gotoBookingOne() {
+    window.location.href="/booing_one.html";
+}

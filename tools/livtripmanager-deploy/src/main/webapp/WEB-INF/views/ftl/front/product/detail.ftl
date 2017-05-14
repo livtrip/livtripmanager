@@ -85,7 +85,7 @@
                               $ ${roomType.occupancies.occupancy[0].avrNightPrice}
                             </td>
                             <td  style="text-align:center; vertical-align:middle;">policy</td>
-                            <td style="min-width:60px; text-align:center; vertical-align:middle;"><button type="button" class="btn btn-primary">预订</button></td>
+                            <td style="min-width:60px; text-align:center; vertical-align:middle;"><button type="button" onclick="gotoBookingOne();" class="btn btn-primary">预订</button></td>
                         </tr>
                         [/#if]
                     [/#list]
