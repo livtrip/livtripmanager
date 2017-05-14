@@ -34,10 +34,18 @@ public class DestService{
 
     public PageInfo<Dest> pageQueryList(Integer pageNum, Integer pageSize){
         PageHelper.startPage(pageNum,pageSize,true,false);
-        //List<Dest> dests = destDao.queryForList();
-        //return new PageInfo<>(dests);
-        return  null;
+        List<Dest> dests = destDao.queryForList(null);
+        return new PageInfo<>(dests);
     }
+
+    public PageInfo<Dest> pageQueryListByCondition(String cityName, String state, Integer destinationId,
+                                                   Integer pageNum, Integer pageSize){
+        PageHelper.startPage(pageNum,pageSize,true,false);
+        List<Dest> dests = destDao.queryForListByCondition(cityName,state,destinationId);
+        return new PageInfo<>(dests);
+    }
+
+
 
     public List<Dest> queryForList(String query){
         return  destDao.queryForList(query);
@@ -46,6 +54,7 @@ public class DestService{
     public int increaseSort(Integer destinationId){
         return  destDao.increaseSort(destinationId);
     }
+
     public Integer getDestinationIdByCityName(String cityName){
         return destDao.getDestinationIdByCityName(cityName);
     }

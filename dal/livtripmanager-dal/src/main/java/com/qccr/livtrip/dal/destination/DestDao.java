@@ -21,4 +21,7 @@ public interface DestDao {
     int increaseSort(@Param("destinationId") Integer destinationId);
 
     Integer getDestinationIdByCityName(@Param("cityName") String cityName);
+
+    List<Dest> queryForListByCondition(@Param("cityName") String cityName,@Param("state") String state,@Param("destinationId") Integer destinationId);
+
 }

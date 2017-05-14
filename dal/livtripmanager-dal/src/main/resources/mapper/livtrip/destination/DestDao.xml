@@ -116,7 +116,11 @@
         WHERE id = #{pojo.id}
     </update>
     <select id="queryForList" resultMap="AllColumnMap">
-        select <include refid="all_column"></include> from liv_dest where city_name like "%"#{query}"%" order by sort desc
+        select <include refid="all_column"></include> from liv_dest where 1=1
+        <if test="query != null and query != ''">
+            and city_name like "%"#{query}"%"
+        </if>
+        order by sort desc
     </select>
     <update id="increaseSort" >
         update liv_dest set sort = sort+1, update_time = now() where destination_id =#{destinationId}
@@ -125,5 +129,18 @@
         select destination_id from liv_dest where city_name =#{cityName} limit 1
     </select>
 
+    <select id="queryForListByCondition" resultMap="AllColumnMap">
+        select <include refid="all_column"></include> from liv_dest where 1=1
+        <if test="cityName != null and cityName != ''">
+           and city_name like "%"#{cityName}"%"
+        </if>
+        <if test="state != null and state != ''">
+           and  state like "%"#{state}"%"
+        </if>
+        <if test="destinationId != null">
+           and destination_id = #{destinationId}
+        </if>
+        order by sort desc
+    </select>
 </mapper>
 

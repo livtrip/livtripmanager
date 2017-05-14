@@ -48,7 +48,7 @@
                 text:'基础信息',
                 items:[
                     {id:'code',text:'产品管理',href:'${base}/backend/product/list.do',closeable : false},
-                    {id:'main-menu',text:'城市管理',href:'${base}/backend/destination/list.do'},
+                    {id:'main-menu',text:'城市管理',href:'${base}/backend/dest/list.do'},
                     {id:'second-menu',text:'定时任务定义',href:'${base}/backend/task/list.do'},
                     {id:'dyna-menu',text:'定时任务日志',href:'${base}/backend/task/logs.do'}
                 ]
