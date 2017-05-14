@@ -115,7 +115,7 @@ public class FrontProductController {
                 Collections.sort(hotelProductRo.getRoomTypeList(),(m1,m2)->m1.getOccupancies().getOccupancy().get(0).getAvrNightPrice().compareTo(m2.getOccupancies().getOccupancy().get(0).getAvrNightPrice()));
                 //价格增加5个点
                 BigDecimal avrNightPrice=hotelProductRo.getRoomTypeList().get(0).getOccupancies().getOccupancy().get(0).getAvrNightPrice();
-                hotelProductRo.setMinAvgNightPrice(avrNightPrice.multiply(new BigDecimal(1+ Constant.COMMISSION)));
+                hotelProductRo.setMinAvgNightPrice(avrNightPrice.multiply(new BigDecimal(1+ Constant.COMMISSION)).setScale(2,BigDecimal.ROUND_UP));
             }
 
             modelMap.put("page", pageInfo);
@@ -172,7 +172,7 @@ public class FrontProductController {
         //房型价格增加5个点
         for(RoomType roomType: roomTypeList){
             BigDecimal avrNightPrice = roomType.getOccupancies().getOccupancy().get(0).getAvrNightPrice();
-            roomType.getOccupancies().getOccupancy().get(0).setAvrNightPrice(avrNightPrice.multiply(new BigDecimal(1+Constant.COMMISSION)));
+            roomType.getOccupancies().getOccupancy().get(0).setAvrNightPrice(avrNightPrice.multiply(new BigDecimal(1+Constant.COMMISSION)).setScale(2,BigDecimal.ROUND_HALF_UP));
         }
 
         HotelDetailVO hotelDetailVO = ObjectConvert.convertObject(hotelProductRo, HotelDetailVO.class);
