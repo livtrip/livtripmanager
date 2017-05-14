@@ -13,6 +13,7 @@ import com.qccr.livtrip.biz.service.product.HotelImagesService;
 import com.qccr.livtrip.biz.service.product.ProductService;
 import com.qccr.livtrip.common.cache.Keys;
 import com.qccr.livtrip.common.cache.LoadingCache;
+import com.qccr.livtrip.common.constant.Constant;
 import com.qccr.livtrip.common.converters.ObjectConvert;
 import com.qccr.livtrip.common.processor.HotelProcessor;
 import com.qccr.livtrip.common.util.date.DateStyle;
@@ -112,7 +113,9 @@ public class FrontProductController {
             for(HotelProductRo  hotelProductRo : pageInfo.getList()){
                 hotelProductRo.setRoomTypeList(roomTypeMap.get(hotelProductRo.getHotelId()));
                 Collections.sort(hotelProductRo.getRoomTypeList(),(m1,m2)->m1.getOccupancies().getOccupancy().get(0).getAvrNightPrice().compareTo(m2.getOccupancies().getOccupancy().get(0).getAvrNightPrice()));
-                hotelProductRo.setMinAvgNightPrice(hotelProductRo.getRoomTypeList().get(0).getOccupancies().getOccupancy().get(0).getAvrNightPrice());
+                //价格增加5个点
+                BigDecimal avrNightPrice=hotelProductRo.getRoomTypeList().get(0).getOccupancies().getOccupancy().get(0).getAvrNightPrice();
+                hotelProductRo.setMinAvgNightPrice(avrNightPrice.multiply(new BigDecimal(1+ Constant.COMMISSION)));
             }
 
             modelMap.put("page", pageInfo);
@@ -165,6 +168,12 @@ public class FrontProductController {
             roomTypeList = roomTypeMap.get(hotelProductRo.getHotelId());
         }
         Collections.sort(roomTypeList,(m1,m2)->m1.getOccupancies().getOccupancy().get(0).getAvrNightPrice().compareTo(m2.getOccupancies().getOccupancy().get(0).getAvrNightPrice()));
+
+        //房型价格增加5个点
+        for(RoomType roomType: roomTypeList){
+            BigDecimal avrNightPrice = roomType.getOccupancies().getOccupancy().get(0).getAvrNightPrice();
+            roomType.getOccupancies().getOccupancy().get(0).setAvrNightPrice(avrNightPrice.multiply(new BigDecimal(1+Constant.COMMISSION)));
+        }
 
         HotelDetailVO hotelDetailVO = ObjectConvert.convertObject(hotelProductRo, HotelDetailVO.class);
         List<HotelImages> hotelImagesList = hotelImagesService.queryForList(productQuery.getProductId());
