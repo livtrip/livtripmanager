@@ -215,6 +215,7 @@ public class FrontProductController extends BaseController{
             BigDecimal orderPrice = roomType.getOccupancies().getOccupancy().get(0).getAvrNightPrice().subtract(new BigDecimal(ngihts));
             modelMap.put("orderPrice", orderPrice);
             modelMap.put("tax", roomType.getOccupancies().getOccupancy().get(0).getTax());
+            modelMap.put("roomName", roomType.getName());
         }
 
 
