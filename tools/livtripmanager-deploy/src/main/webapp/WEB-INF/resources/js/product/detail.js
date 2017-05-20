@@ -49,6 +49,10 @@ function showinfomessage(marker, map)
 
 }
 
-function gotoBookingOne() {
-    window.location.href="/booing_one.html";
+function gotoBookingOne(roomId) {
+    var hotelId = $("#hotelId").val();
+    var checkIn =$("#checkIn").val();
+    var checkOut =$("#checkOut").val();
+    var peopelNum =$("#peopleNum").val();
+    window.location.href="toBookingOne.do?hotelId="+hotelId +"&roomId="+roomId+"&checkIn="+checkIn+"&checkOut="+checkOut+"&peopleNum="+peopelNum;
 }

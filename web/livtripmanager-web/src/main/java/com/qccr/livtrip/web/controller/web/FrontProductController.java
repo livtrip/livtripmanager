@@ -24,6 +24,7 @@ import com.qccr.livtrip.model.product.Description;
 import com.qccr.livtrip.model.product.HotelImages;
 import com.qccr.livtrip.model.product.HotelProduct;
 import com.qccr.livtrip.model.product.HotelProductRo;
+import com.qccr.livtrip.web.controller.BaseController;
 import com.qccr.livtrip.web.model.ProductQuery;
 import com.qccr.livtrip.web.vo.product.HotelDescriptionVO;
 import com.qccr.livtrip.web.vo.product.HotelDetailVO;
@@ -49,7 +50,7 @@ import java.util.Map;
  */
 @Controller
 @RequestMapping("/front/product")
-public class FrontProductController {
+public class FrontProductController extends BaseController{
 
     @Autowired
     private ProductService productService;
@@ -185,7 +186,39 @@ public class FrontProductController {
         hotelDetailVO.setMinAvgNightPrice(roomTypeList.get(0).getOccupancies().getOccupancy().get(0).getAvrNightPrice());
         hotelDetailVO.setCityName(cityIdNameMap.get(destination));
         modelMap.put("hotelDetail", hotelDetailVO);
+        modelMap.put("productQuery",productQuery);
         return "/front/product/detail";
+    }
+
+    @RequestMapping("toBookingOne")
+    public String toBookingOne(@RequestParam Integer hotelId, @RequestParam Integer roomId,
+                               @RequestParam  String checkIn,@RequestParam  String checkOut,@RequestParam Integer peopleNum,ModelMap modelMap){
+        logger.info("进入酒店预定页面,hotelId[{}] roomId[{}]",hotelId, roomId);
+        List<Integer> hotelIds = Lists.newArrayList();
+        hotelIds.add(hotelId);
+        List<Hotel> hotels = HotelProcessor.checkAvailabilityAndPrices(hotelIds,checkIn,checkOut,getArrayOfRoomInfoByNum(peopleNum));
+        System.out.println(JSON.toJSONString(hotels));
+        modelMap.put("hotel",hotels.get(0));
+        modelMap.put("checkIn",checkIn);
+        modelMap.put("checkOut",checkOut);
+        Integer ngihts = DateUtil.getIntervalDays(checkIn,checkOut);
+        modelMap.put("nights",ngihts);
+        modelMap.put("peopleNum",peopleNum);
+        List<RoomType> roomTypes = hotels.get(0).getRoomTypes().getRoomType();
+        RoomType roomType = null;
+        for(RoomType roomType1 : roomTypes){
+            if(roomType1.getRoomId() == roomId){
+                roomType = roomType1;
+            }
+        }
+        if(roomType != null){
+            BigDecimal orderPrice = roomType.getOccupancies().getOccupancy().get(0).getAvrNightPrice().subtract(new BigDecimal(ngihts));
+            modelMap.put("orderPrice", orderPrice);
+            modelMap.put("tax", roomType.getOccupancies().getOccupancy().get(0).getTax());
+        }
+
+
+        return "/front/product/bookingOne";
     }
 
     @RequestMapping("getCity")

@@ -126,7 +126,6 @@ public class HotelProcessor {
             if(result != null){
                 return result.getHotelList().getHotel();
             }
-            System.out.print("cost " + (System.currentTimeMillis() - start) + "content :" + JSON.toJSONString(result));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -136,14 +135,7 @@ public class HotelProcessor {
 
     public static List<TWSHotelDetailsV3.Hotel> getHotelDetailsV3(List<Integer> hotelIds){
         try{
-            ArrayOfHotelID arrayOfHotelID = new ArrayOfHotelID();
-            if(CollectionUtils.isNotEmpty(hotelIds)){
-                for(Integer hotelId : hotelIds){
-                    HotelID id = new HotelID();
-                    id.setId(hotelId);
-                    arrayOfHotelID.getHotelID().add(id);
-                }
-            }
+            ArrayOfHotelID arrayOfHotelID = generateArrayOfHotelID(hotelIds);
             GetHotelDetailsV3Response.GetHotelDetailsV3Result result = port.getHotelDetailsV3(arrayOfHotelID, null);
             TWSHotelDetailsV3 tWSHotelDetailsV3 = (TWSHotelDetailsV3) result.getAny();
             List lst = tWSHotelDetailsV3.getStatusCodeOrHotelOrHome();
@@ -161,6 +153,48 @@ public class HotelProcessor {
         }
 
         return null;
+    }
+
+    public static List<Hotel> checkAvailabilityAndPrices(List<Integer> hotelIds, String checkIn,String checkOut,ArrayOfRoomInfo arrayOfRoomInfo)  {
+           try{
+               ArrayOfHotelIdInfo arrayOfHotelID = new ArrayOfHotelIdInfo();
+               if(CollectionUtils.isNotEmpty(hotelIds)){
+                   for(Integer hotelId : hotelIds){
+                       HotelIdInfo hotelIdInfo = new HotelIdInfo();
+                       hotelIdInfo.setId(hotelId);
+                       arrayOfHotelID.getHotelIdInfo().add(hotelIdInfo);
+                   }
+                   SearchHotelsByIdRequest request = new SearchHotelsByIdRequest();
+                   request.setHotelIdsInfo(arrayOfHotelID);
+                   request.setCheckIn(transToTouricoFormate(checkIn));
+                   request.setCheckOut(transToTouricoFormate(checkOut));
+                   request.setMaxPrice(new BigDecimal(0));
+                   request.setStarLevel(new BigDecimal(0));
+                   request.setAvailableOnly(true);
+
+                   request.setRoomsInformation(arrayOfRoomInfo == null? defaultArrayOfRoomInfo() : arrayOfRoomInfo);
+                   SearchResult result = port.checkAvailabilityAndPrices(request, null);
+                   if(result != null){
+                       return result.getHotelList().getHotel();
+                   }
+               }
+           }catch (Exception e){
+               System.out.println(e.getMessage());
+           }
+        return null;
+    }
+
+
+    public static ArrayOfHotelID  generateArrayOfHotelID(List<Integer> hotelIds){
+        ArrayOfHotelID arrayOfHotelID = new ArrayOfHotelID();
+        if(CollectionUtils.isNotEmpty(hotelIds)){
+            for(Integer hotelId : hotelIds){
+                HotelID id = new HotelID();
+                id.setId(hotelId);
+                arrayOfHotelID.getHotelID().add(id);
+            }
+        }
+        return arrayOfHotelID;
     }
 
 
@@ -203,16 +237,16 @@ public class HotelProcessor {
 
     public static void main(String[] args) {
         //根据hotelIds 查询
-//        List<Integer> hotelIds = Lists.newArrayList();
-//        hotelIds.add(2205);
-//        List<Hotel> hotel = searchHotelsById(hotelIds, "2017-03-18","2017-03-19",null);
-//        System.out.println(JSON.toJSONString(hotel));
+        List<Integer> hotelIds = Lists.newArrayList();
+        hotelIds.add(2205);
+        List<Hotel> hotel = searchHotelsById(hotelIds, "2017-06-18","2017-06-19",null);
+        System.out.println(JSON.toJSONString(hotel));
 
         //根据destinationIds 查询
-        List<Integer> destinationIds = Lists.newArrayList();
-        destinationIds.add(7263); //new york
-        List<Hotel> hotel1 = SearchHotelsByDestinationIds(destinationIds, "2017-04-22","2017-04-23",null);
-        System.out.println(JSON.toJSONString(hotel1));
+//        List<Integer> destinationIds = Lists.newArrayList();
+//        destinationIds.add(7263); //new york
+//        List<Hotel> hotel1 = SearchHotelsByDestinationIds(destinationIds, "2017-04-22","2017-04-23",null);
+//        System.out.println(JSON.toJSONString(hotel1));
 
 //           List<Integer> hotelIds = Lists.newArrayList();
 //           hotelIds.add(2205);
@@ -222,6 +256,12 @@ public class HotelProcessor {
 //               hotel.getStarLevel();
 //           }
 //            System.out.println(JSON.toJSONString(hotels));
+
+
+           List<Integer> hotelIds1 = Lists.newArrayList();
+           hotelIds.add(1249960);
+           List<Hotel> hotels =checkAvailabilityAndPrices(hotelIds1,defaultCheckIn(),defaultCheckOut(),defaultArrayOfRoomInfo());
+           System.out.println(JSON.toJSONString(hotels));
     }
 
 

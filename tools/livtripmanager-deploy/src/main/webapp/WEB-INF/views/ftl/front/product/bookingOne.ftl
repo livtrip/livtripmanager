@@ -1,3 +1,4 @@
+[#escape x as x?html]
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -84,7 +85,7 @@
                     <table class="table table-bordered" >
                         <tr>
                             <td style="width:15%;">入住日期</td>
-                            <td>2017-09-10 ~ 2017-09-11</td>
+                            <td>${checkIn} ~ ${checkOut}</td>
                         </tr>
                         <tr>
                             <td>房间数量</td>
@@ -135,21 +136,20 @@
                 <div class="panel-body">
                     <table style="margin-bottom: 15px;">
                         <tr>
-                            <td><img src="images/db.jpg" style="margin:0px;width:100px;height:100px; border-radius:3px;"></td>
+                            <td><img src="${hotel.thumb}" style="margin:0px;width:100px;height:100px; border-radius:3px;"></td>
                             <td style="vertical-align: top; margin:0px;padding: 0px 5px;">
-                                <h6 style="margin: 0px;">Tryp By Wyndham Times Square South</h6>
-                                <p style="margin:0px; font-size:12px;"><i class="fa fa-map-marker" style="color: #ff0000;"></i>&nbsp;1751 Hotel Plaza Boulevard  Orlando 32830  USA</p>
+                                <h6 style="margin: 0px;">${hotel.name}</h6>
+                                <p style="margin:0px; font-size:12px;"><i class="fa fa-map-marker" style="color: #ff0000;"></i>&nbsp;${hotel.location.address}</p>
 
                             </td>
                         </tr>
                     </table>
-                    <p><strong>房型:</strong> 标间</p>
-                    <p><strong>早餐:</strong> 含早餐</p>
-                    <p><strong>含税:</strong> $120</p>
-                    <p><strong>入住:</strong> 2017-10-10</p>
-                    <p><strong>退房:</strong> 2017-10-11</p>
-                    <p><strong>入住详情:</strong> 1晚 2人</p>
-                    <p style="margin-bottom:20px; "><strong>订单总额:</strong>  <strong style="font-size: 18px; color: #ff0000; float: right;">$100</strong></p>
+                    <p><strong>房型:</strong> ${roomType.name}</p>
+                    <p><strong>含税:</strong> 每晚含税 ${tax}</p>
+                    <p><strong>入住:</strong> ${checkIn}</p>
+                    <p><strong>退房:</strong> ${checkOut}</p>
+                    <p><strong>入住详情:</strong> ${nights} 晚 ${peopleNum}人</p>
+                    <p style="margin-bottom:20px; "><strong>订单总额:</strong>  <strong style="font-size: 18px; color: #ff0000; float: right;">$ ${orderPrice}</strong></p>
                     <button type="button" class="btn btn-success  btn-lg btn-block">立即预定</button>
                 </div>
             </div>
@@ -166,3 +166,4 @@
 
 </body>
 </html>
+[/#escape]

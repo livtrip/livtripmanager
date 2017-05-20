@@ -18,7 +18,11 @@
 <div id="address_text" style="display: none">${hotelDetail.address}</div>
 <div id="lat" style="display:none">${hotelDetail.latitude}</div>
 <div id="lng" style="display:none">${hotelDetail.longitude}</div>
-[#include  "nav.ftl"/]
+<input type="hidden" name="hotelId" id="hotelId" value="${hotelDetail.hotelId}"/>
+<input type="hidden" name="checkIn" id="checkIn" value="${productQuery.checkIn}"/>
+<input type="hidden" name="checkOut" id="checkOut" value="${productQuery.checkOut}"/>
+<input type="hidden" name="peopleNum" id="peopleNum" value="${productQuery.peopleNum}"/>
+    [#include  "nav.ftl"/]
 <div class="container">
     <ol class="breadcrumb" style="margin:0px;">
         <li><a href="#">首页</a></li>
@@ -77,15 +81,18 @@
                         <th style="text-align: center">政策</th>
                         <th></th>
                     </tr>
+
                     [#list hotelDetail.roomTypeList as roomType]
                         [#if roomType.isAvailable == true]
                         <tr>
-                            <td style="max-width:300px;">${roomType.name}</td>
+                            <td style="max-width:300px;">
+                            ${roomType.name}
+                           </td>
                             <td  style=" text-align:center; vertical-align:middle;">
                               $ ${roomType.occupancies.occupancy[0].avrNightPrice}
                             </td>
                             <td  style="text-align:center; vertical-align:middle;">policy</td>
-                            <td style="min-width:60px; text-align:center; vertical-align:middle;"><button type="button" onclick="gotoBookingOne();" class="btn btn-primary">预订</button></td>
+                            <td style="min-width:60px; text-align:center; vertical-align:middle;"><button type="button" onclick="gotoBookingOne(${roomType.roomId});" class="btn btn-primary">预订</button></td>
                         </tr>
                         [/#if]
                     [/#list]
