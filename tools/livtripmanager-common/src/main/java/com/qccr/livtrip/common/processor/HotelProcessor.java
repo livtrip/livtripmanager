@@ -8,6 +8,7 @@ import javax.xml.ws.handler.Handler;
 import javax.xml.ws.handler.HandlerResolver;
 import javax.xml.ws.handler.PortInfo;
 
+import com.qccr.livtrip.common.constant.Constant;
 import com.qccr.livtrip.common.util.date.DateStyle;
 import com.qccr.livtrip.common.util.date.DateUtil;
 
@@ -233,6 +234,28 @@ public class HotelProcessor {
         xmlCalendar.setDay(Integer.parseInt(dateArray[2]));
         return xmlCalendar;
     }
+
+    /**
+     * @param  orginPrice
+     * @return  增加手续费之后价格
+     * @author xierongli
+     * @date 17/5/21 上午9:39
+     */
+    public static  BigDecimal plusCommission(BigDecimal orginPrice){
+        return orginPrice.multiply(new BigDecimal(1+ Constant.COMMISSION)).setScale(2,BigDecimal.ROUND_UP);
+    }
+
+    public static ArrayOfRoomInfo getArrayOfRoomInfoByNum(Integer peopleNum){
+        ArrayOfRoomInfo arrayOfRoomInfo = new ArrayOfRoomInfo();
+        RoomInfo roomInfo = new RoomInfo();
+        roomInfo.setAdultNum(peopleNum);
+        roomInfo.setChildNum(0);
+        ArrayOfChildAge age = new ArrayOfChildAge();
+        roomInfo.setChildAges(age);
+        arrayOfRoomInfo.getRoomInfo().add(roomInfo);
+        return  arrayOfRoomInfo;
+    }
+
 
 
     public static void main(String[] args) {

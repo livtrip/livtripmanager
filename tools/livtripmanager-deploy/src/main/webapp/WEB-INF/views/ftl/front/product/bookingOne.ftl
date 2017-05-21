@@ -145,7 +145,7 @@
                         </tr>
                     </table>
                     <p><strong>房型:</strong> ${roomName}</p>
-                    <p><strong>含税:</strong> 每晚含税 ${tax}</p>
+                    <p><strong>含税:</strong> $ ${tax}</p>
                     <p><strong>入住:</strong> ${checkIn}</p>
                     <p><strong>退房:</strong> ${checkOut}</p>
                     <p><strong>入住详情:</strong> ${nights} 晚 ${peopleNum}人</p>

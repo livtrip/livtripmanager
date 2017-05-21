@@ -78,8 +78,8 @@ public class FrontProductController extends BaseController{
         try{
             System.out.println(productQuery.getPageNumber()+ "destinationId:" +
                     productQuery.getDestination() + "num:" + productQuery.getPeopleNum());
-            String checkIn = StringUtils.isBlank(productQuery.getCheckIn())? defaultCheckIn() : productQuery.getCheckIn();
-            String checkOut = StringUtils.isBlank(productQuery.getCheckOut())? defaultCheckOut() : productQuery.getCheckOut();
+            String checkIn = StringUtils.isBlank(productQuery.getCheckIn())? HotelProcessor.defaultCheckIn() : productQuery.getCheckIn();
+            String checkOut = StringUtils.isBlank(productQuery.getCheckOut())? HotelProcessor.defaultCheckOut() : productQuery.getCheckOut();
             //TODO 城市名称转ID
             List<Integer> destinationIds = Lists.newArrayList();
            // Integer destinationId =cityNameIdMap.get(productQuery.getDestination()) == null?7263:cityNameIdMap.get(productQuery.getDestination());
@@ -93,7 +93,7 @@ public class FrontProductController extends BaseController{
             productQuery.setCheckOut(checkOut);
 
             //实时获取酒店数据
-            List<Hotel> hotelList = HotelProcessor.SearchHotelsByDestinationIds(destinationIds,checkIn,checkOut, getArrayOfRoomInfoByNum(Integer.parseInt(productQuery.getPeopleNum())));
+            List<Hotel> hotelList = HotelProcessor.SearchHotelsByDestinationIds(destinationIds,checkIn,checkOut, HotelProcessor.getArrayOfRoomInfoByNum(Integer.parseInt(productQuery.getPeopleNum())));
 
             List<Integer> hotelIdList = Lists.newArrayList();
             Map<Integer, List<RoomType>> roomTypeMap = Maps.newHashMap();
@@ -116,7 +116,7 @@ public class FrontProductController extends BaseController{
                 Collections.sort(hotelProductRo.getRoomTypeList(),(m1,m2)->m1.getOccupancies().getOccupancy().get(0).getAvrNightPrice().compareTo(m2.getOccupancies().getOccupancy().get(0).getAvrNightPrice()));
                 //价格增加5个点
                 BigDecimal avrNightPrice=hotelProductRo.getRoomTypeList().get(0).getOccupancies().getOccupancy().get(0).getAvrNightPrice();
-                hotelProductRo.setMinAvgNightPrice(avrNightPrice.multiply(new BigDecimal(1+ Constant.COMMISSION)).setScale(2,BigDecimal.ROUND_UP));
+                hotelProductRo.setMinAvgNightPrice(HotelProcessor.plusCommission(avrNightPrice));
             }
 
             modelMap.put("page", pageInfo);
@@ -161,7 +161,7 @@ public class FrontProductController extends BaseController{
         destService.increaseSort(destination);
         destinationIds.add(destination);
         List<Hotel> hotelList = HotelProcessor.SearchHotelsByDestinationIds(destinationIds,productQuery.getCheckIn(),productQuery.getCheckOut(),
-                getArrayOfRoomInfoByNum(Integer.parseInt(productQuery.getPeopleNum())));
+                HotelProcessor.getArrayOfRoomInfoByNum(Integer.parseInt(productQuery.getPeopleNum())));
         List<RoomType> roomTypeList = null;
 
         if(CollectionUtils.isNotEmpty(hotelList)){
@@ -173,7 +173,8 @@ public class FrontProductController extends BaseController{
         //房型价格增加5个点
         for(RoomType roomType: roomTypeList){
             BigDecimal avrNightPrice = roomType.getOccupancies().getOccupancy().get(0).getAvrNightPrice();
-            roomType.getOccupancies().getOccupancy().get(0).setAvrNightPrice(avrNightPrice.multiply(new BigDecimal(1+Constant.COMMISSION)).setScale(2,BigDecimal.ROUND_HALF_UP));
+
+            roomType.getOccupancies().getOccupancy().get(0).setAvrNightPrice(HotelProcessor.plusCommission(avrNightPrice));
         }
 
         HotelDetailVO hotelDetailVO = ObjectConvert.convertObject(hotelProductRo, HotelDetailVO.class);
@@ -185,6 +186,7 @@ public class FrontProductController extends BaseController{
         hotelDetailVO.setRoomTypeList(roomTypeList);
         hotelDetailVO.setMinAvgNightPrice(roomTypeList.get(0).getOccupancies().getOccupancy().get(0).getAvrNightPrice());
         hotelDetailVO.setCityName(cityIdNameMap.get(destination));
+        hotelDetailVO.setCityName(productQuery.getDestination());
         modelMap.put("hotelDetail", hotelDetailVO);
         modelMap.put("productQuery",productQuery);
         return "/front/product/detail";
@@ -196,13 +198,13 @@ public class FrontProductController extends BaseController{
         logger.info("进入酒店预定页面,hotelId[{}] roomId[{}]",hotelId, roomId);
         List<Integer> hotelIds = Lists.newArrayList();
         hotelIds.add(hotelId);
-        List<Hotel> hotels = HotelProcessor.checkAvailabilityAndPrices(hotelIds,checkIn,checkOut,getArrayOfRoomInfoByNum(peopleNum));
+        List<Hotel> hotels = HotelProcessor.checkAvailabilityAndPrices(hotelIds,checkIn,checkOut,HotelProcessor.getArrayOfRoomInfoByNum(peopleNum));
         System.out.println(JSON.toJSONString(hotels));
         modelMap.put("hotel",hotels.get(0));
         modelMap.put("checkIn",checkIn);
         modelMap.put("checkOut",checkOut);
-        Integer ngihts = DateUtil.getIntervalDays(checkIn,checkOut);
-        modelMap.put("nights",ngihts);
+        Integer nights = DateUtil.getIntervalDays(checkIn,checkOut);
+        modelMap.put("nights",nights);
         modelMap.put("peopleNum",peopleNum);
         List<RoomType> roomTypes = hotels.get(0).getRoomTypes().getRoomType();
         RoomType roomType = null;
@@ -212,13 +214,12 @@ public class FrontProductController extends BaseController{
             }
         }
         if(roomType != null){
-            BigDecimal orderPrice = roomType.getOccupancies().getOccupancy().get(0).getAvrNightPrice().subtract(new BigDecimal(ngihts));
-            modelMap.put("orderPrice", orderPrice);
-            modelMap.put("tax", roomType.getOccupancies().getOccupancy().get(0).getTax());
+            BigDecimal orderPrice = roomType.getOccupancies().getOccupancy().get(0).getAvrNightPrice().subtract(new BigDecimal(nights));
+            BigDecimal totalTax = roomType.getOccupancies().getOccupancy().get(0).getTax().subtract(new BigDecimal(nights));
+            modelMap.put("orderPrice", HotelProcessor.plusCommission(orderPrice));
+            modelMap.put("tax", HotelProcessor.plusCommission(totalTax));
             modelMap.put("roomName", roomType.getName());
         }
-
-
         return "/front/product/bookingOne";
     }
 
@@ -237,21 +238,5 @@ public class FrontProductController extends BaseController{
     }
 
 
-    public String defaultCheckIn(){
-        return DateUtil.DateToString(DateUtil.addDay(DateUtil.getCurrentDate(),1), DateStyle.YYYY_MM_DD);
-    }
 
-    public String defaultCheckOut(){
-        return  DateUtil.DateToString(DateUtil.addDay(DateUtil.getCurrentDate(),2), DateStyle.YYYY_MM_DD);
-    }
-    public static ArrayOfRoomInfo getArrayOfRoomInfoByNum(Integer peopleNum){
-        ArrayOfRoomInfo arrayOfRoomInfo = new ArrayOfRoomInfo();
-        RoomInfo roomInfo = new RoomInfo();
-        roomInfo.setAdultNum(peopleNum);
-        roomInfo.setChildNum(0);
-        ArrayOfChildAge age = new ArrayOfChildAge();
-        roomInfo.setChildAges(age);
-        arrayOfRoomInfo.getRoomInfo().add(roomInfo);
-        return  arrayOfRoomInfo;
-    }
 }

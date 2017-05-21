@@ -26,7 +26,7 @@
 <div class="container">
     <ol class="breadcrumb" style="margin:0px;">
         <li><a href="#">首页</a></li>
-        <li><a href="#">${hotelDetailVO.cityName}</a></li>
+        <li><a href="#">${hotelDetail.cityName}</a></li>
         <li class="active">${hotelDetail.name}</li>
     </ol>
     <div class="base_info">
@@ -71,7 +71,7 @@
 
 <div class="container">
     <div class="detail_left">
-        <div class="panel panel-default">
+        <div class="panel panel-info">
             <div class="panel-heading">酒店预订</div>
             <div class="panel-body">
                 <table class="table table-bordered">
@@ -100,7 +100,7 @@
                 </table>
             </div>
         </div>
-        <div class="panel panel-default">
+        <div class="panel panel-info">
             <div class="panel-heading">酒店介绍</div>
             <div class="panel-body">
                 ${hotelDetail.description}
@@ -114,7 +114,7 @@
             </div>
         </div>
 
-        <div class="panel panel-default">
+        <div class="panel panel-info">
             <div class="panel-heading">酒店政策</div>
             <div class="panel-body">
                 幼儿0-1岁：在不加床的情况下，可免费入住。请注意，如果使用婴儿床可能需要支付额外费用。
@@ -123,14 +123,53 @@
                 * 加床政策根据您所选定的客房而有所不同。
             </div>
         </div>
-        <div class="panel panel-default">
+        <div class="panel panel-info">
             <div class="panel-heading">地理位置</div>
             <div class="panel-body">
                 <div class="large_map" id="large_map"></div>
             </div>
         </div>
     </div>
-    <div class="detail_right"></div>
+    <div class="detail_right">
+        <div class="panel panel-info" style="height: 90px;">
+            <div class="panel-heading"><i class="fa fa-money" style="color: #FF8247;"></i>&nbsp; Best Price Guaranteed</div>
+            <div class="panel-body">
+                Find cheaper? We'll refund twice the difference.
+            </div>
+        </div>
+        <div class="panel panel-info" style="height: 90px;">
+            <div class="panel-heading"><i class="fa fa-phone" style="color: #FF8247;"></i>&nbsp; Have any questions?</div>
+            <div class="panel-body">
+                Please feel free to contact our support 24x7<br/>
+                +1 347 897 0100
+            </div>
+        </div>
+        <div class="panel panel-info" style="height: 90px;">
+            <div class="panel-heading"><i class="fa fa-hand-o-right" style="color: #FF8247;"></i>&nbsp; Notify me when price drops</div>
+            <div class="panel-body">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="your email?" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">submit</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="panel panel-info" style="height: 380px;">
+            <div class="panel-heading"><i class="fa fa-paper-plane" style="color: #FF8247;"></i>&nbsp; Why Livtrip?</div>
+            <div class="panel-body">
+                <dl>
+                    <dt>We get you the lowest prices</dt>
+                    <dd>Exclusive last-minute prices backed by our Best Price Guarantee policy.</dd>
+                    <dt style="margin-top:10px; ">More experiences than anybody else</dt>
+                    <dd>We work with our partners to get the largest selection of spontaneous experiences in your city.</dd>
+                    <dt style="margin-top:10px; ">24/7 concierge</dt>
+                    <dd>Spontaneity needs convenience and our team of experts available around the clock ensure just that.</dd>
+                    <dt style="margin-top:10px; ">Verified reviews & photos</dt>
+                    <dd>Our guest reviews and photography team ensure you have a great time without any worry.</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
 </div>
 
 
