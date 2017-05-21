@@ -2,11 +2,13 @@ package com.qccr.livtrip.biz.event;
 
 
 import com.google.common.eventbus.EventBus;
+import com.qccr.livtrip.biz.service.destination.DestService;
 import com.qccr.livtrip.biz.service.product.*;
 import com.qccr.livtrip.common.processor.HotelProcessor;
 import com.qccr.livtrip.common.util.Money;
 import com.qccr.livtrip.common.webservice.hotel.Hotel;
 import com.qccr.livtrip.common.webservice.hotel.TWSHotelDetailsV3;
+import com.qccr.livtrip.model.destination.Dest;
 import com.qccr.livtrip.model.product.HotelProduct;
 import com.qccr.livtrip.model.product.Product;
 import org.apache.commons.collections.CollectionUtils;
@@ -47,6 +49,8 @@ public class HotelEventBus {
 
     @Autowired
     private DescriptionService descriptionService;
+
+    private DestService destService;
 
 
    /**

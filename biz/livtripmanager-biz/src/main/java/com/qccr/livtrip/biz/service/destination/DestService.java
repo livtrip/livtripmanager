@@ -59,5 +59,7 @@ public class DestService{
         return destDao.getDestinationIdByCityName(cityName);
     }
 
-
+    public Dest getByDestinationId(Integer destinationId){
+            return destDao.getByDestinationId(destinationId);
+    }
 }

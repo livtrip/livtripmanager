@@ -24,4 +24,5 @@ public interface DestDao {
 
     List<Dest> queryForListByCondition(@Param("cityName") String cityName,@Param("state") String state,@Param("destinationId") Integer destinationId);
 
+    Dest getByDestinationId(@Param("destinationId") Integer destinationId);
 }

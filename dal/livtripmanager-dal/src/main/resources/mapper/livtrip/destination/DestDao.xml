@@ -142,5 +142,9 @@
         </if>
         order by sort desc
     </select>
+
+    <select id="getByDestinationId"  resultMap="AllColumnMap">
+        select <include refid="all_column"/> from liv_dest where destination_id =#{destinationId}
+    </select>
 </mapper>
 
