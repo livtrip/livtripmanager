@@ -85,7 +85,51 @@
         </form>
     </div>
 
-    <div class="product_map" id="list_map"></div>
+    <div class="product_map" >
+        <div class="panel panel-info" >
+            <div class="panel-heading"><i class="fa fa-map-o" style="color: #FF8247;"></i>&nbsp; 地图展示</div>
+            <div class="panel-body" id="list_map" style="height: 490px;" >
+            </div>
+        </div>
+        <div class="panel panel-info" style="height: 90px;">
+            <div class="panel-heading"><i class="fa fa-money" style="color: #FF8247;"></i>&nbsp; Best Price Guaranteed</div>
+            <div class="panel-body">
+                Find cheaper? We'll refund twice the difference.
+            </div>
+        </div>
+        <div class="panel panel-info" style="height: 90px;">
+            <div class="panel-heading"><i class="fa fa-phone" style="color: #FF8247;"></i>&nbsp; Have any questions?</div>
+            <div class="panel-body">
+                Please feel free to contact our support 24x7<br/>
+                +1 347 897 0100
+            </div>
+        </div>
+        <div class="panel panel-info" style="height: 90px;">
+            <div class="panel-heading"><i class="fa fa-hand-o-right" style="color: #FF8247;"></i>&nbsp; Notify me when price drops</div>
+            <div class="panel-body">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="your email?" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">submit</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="panel panel-info" style="height: 350px;">
+            <div class="panel-heading"><i class="fa fa-hand-o-right" style="color: #FF8247;"></i>&nbsp; Why Livtrip?</div>
+            <div class="panel-body">
+                <dl>
+                    <dt>We get you the lowest prices</dt>
+                    <dd>Exclusive last-minute prices backed by our Best Price Guarantee policy.</dd>
+                    <dt style="margin-top:10px; ">More experiences than anybody else</dt>
+                    <dd>We work with our partners to get the largest selection of spontaneous experiences in your city.</dd>
+                    <dt style="margin-top:10px; ">24/7 concierge</dt>
+                    <dd>Spontaneity needs convenience and our team of experts available around the clock ensure just that.</dd>
+                    <dt style="margin-top:10px; ">Verified reviews & photos</dt>
+                    <dd>Our guest reviews and photography team ensure you have a great time without any worry.</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="container-fluid" style=" margin-top:10px;background:#EEEEEE; height:300px; ">

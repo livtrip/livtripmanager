@@ -10,7 +10,7 @@
 .breadcrumb_list{margin-top:15px; padding:0px 10px; border:1px solid #d1d1d1; height:40px;
     line-height:40px; vertical-align:middle; border-radius:5px; text-align:left; font-weight:bold; }
 .product_list{ float:left; margin:15px 0px; padding:0px;  min-height:800px; width:810px;}
-.product_map{ margin:15px 0px 0px 820px; padding:0px; border:1px solid #dcdcdc; height:500px; width:320px;}
+.product_map{ margin:15px 0px 0px 820px; padding:0px; min-height:500px; width:320px;}
 
 .product_list ul{ margin:0px 0px 15px 0px; padding:0px; list-style-type:none;}
 .product_list ul li{ margin:0px 0px 5px 0px; padding:10px; border:1px solid #dcdcdc; width:100%; height:200px;border-radius:3px;}
