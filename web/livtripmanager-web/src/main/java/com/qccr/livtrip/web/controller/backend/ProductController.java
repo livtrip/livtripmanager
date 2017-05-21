@@ -73,7 +73,6 @@ public class ProductController extends BaseController{
         modelMap.put("hotelId",hotelProductQuery.getHotelId());
         modelMap.put("isBest",hotelProductQuery.getIsBest());
         modelMap.put("starLevel",hotelProductQuery.getStarLevel());
-        System.out.println(JSON.toJSONString(pageInfo));
         return "/backend/product/list";
     }
 

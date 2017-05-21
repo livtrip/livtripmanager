@@ -4,6 +4,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.qccr.livtrip.dal.destination.DestDao;
 import com.qccr.livtrip.model.destination.Dest;
+import com.qccr.livtrip.model.request.DestQuery;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
@@ -38,10 +39,9 @@ public class DestService{
         return new PageInfo<>(dests);
     }
 
-    public PageInfo<Dest> pageQueryListByCondition(String cityName, String state, Integer destinationId,
-                                                   Integer pageNum, Integer pageSize){
-        PageHelper.startPage(pageNum,pageSize,true,false);
-        List<Dest> dests = destDao.queryForListByCondition(cityName,state,destinationId);
+    public PageInfo<Dest> pageQueryListByCondition(DestQuery destQuery){
+        PageHelper.startPage(destQuery.getPageNumber(),destQuery.getPageSize(),true,false);
+        List<Dest> dests = destDao.queryForListByCondition(destQuery.getCityName(),destQuery.getState(),destQuery.getDestinationId());
         return new PageInfo<>(dests);
     }
 

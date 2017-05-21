@@ -5,6 +5,7 @@ import com.qccr.livtrip.biz.event.HotelEventBus;
 import com.qccr.livtrip.biz.service.destination.DestService;
 import com.qccr.livtrip.common.constant.Constant;
 import com.qccr.livtrip.model.destination.Dest;
+import com.qccr.livtrip.model.request.DestQuery;
 import com.qccr.livtrip.web.controller.BaseController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -29,15 +30,12 @@ public class DestController extends BaseController{
 
 
     @RequestMapping("list")
-    public String list(String cityName,String state,Integer destinationId,
-                       Integer pageNum, Integer pageSize,ModelMap modelMap){
-        if(pageNum == null){pageNum =1;}
-        if(pageSize == null){pageSize =20;}
-        PageInfo<Dest> destPageInfo = destService.pageQueryListByCondition(cityName,state,destinationId,pageNum,pageSize);
+    public String list(DestQuery destQuery, ModelMap modelMap){
+        PageInfo<Dest> destPageInfo = destService.pageQueryListByCondition(destQuery);
         modelMap.put("page", destPageInfo);
-        modelMap.put("cityName", cityName);
-        modelMap.put("state",state);
-        modelMap.put("destiantionId", destinationId);
+        modelMap.put("cityName", destQuery.getCityName());
+        modelMap.put("state",destQuery.getState());
+        modelMap.put("destinationId", destQuery.getDestinationId());
         return "/backend/dest/list";
     }
 
