@@ -214,7 +214,7 @@ public class FrontProductController extends BaseController{
             }
         }
         if(roomType != null){
-            BigDecimal orderPrice = roomType.getOccupancies().getOccupancy().get(0).getAvrNightPrice().subtract(new BigDecimal(nights));
+            BigDecimal orderPrice = roomType.getOccupancies().getOccupancy().get(0).getAvrNightPrice().multiply(new BigDecimal(nights));
             BigDecimal totalTax = roomType.getOccupancies().getOccupancy().get(0).getTax().multiply(new BigDecimal(nights));
             modelMap.put("orderPrice", HotelProcessor.plusCommission(orderPrice));
             modelMap.put("tax", HotelProcessor.plusCommission(totalTax));
