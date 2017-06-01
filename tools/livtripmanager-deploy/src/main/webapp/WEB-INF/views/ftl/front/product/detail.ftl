@@ -12,6 +12,12 @@
     <script type="text/javascript" src="http://g.alicdn.com/sui/sui3/0.0.18/js/sui.min.js"></script>
     <script src='http://maps.google.cn/maps/api/js?key=AIzaSyAjNbgkCbR5VzzBw2VsJagYKBASIJoa2iw' type="text/javascript"></script>
     <script src="${base}/resources/js/product/detail.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3237101361515251",
+            enable_page_level_ads: true
+        });
+    </script>
 </head>
 
 <body onload="loadMap()">
