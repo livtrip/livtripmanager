@@ -65,10 +65,10 @@ public class ProductController extends BaseController{
 
     @RequestMapping("/list")
     public String list(HotelProductQuery hotelProductQuery, ModelMap modelMap){
-        logger.info("产品搜索, htoelProductQuery[{}]", hotelProductQuery);
         if(hotelProductQuery.getCity() == null){
             hotelProductQuery.setCity("New York");
         }
+        logger.info("产品搜索, htoelProductQuery[{}]", hotelProductQuery);
         PageInfo<HotelProductRo> pageInfo = productService.pageQueryHotelProductForAdmin(hotelProductQuery.getPageNumber(),hotelProductQuery.getPageSize(),hotelProductQuery);
         modelMap.put("page", pageInfo);
         modelMap.put("name",hotelProductQuery.getName());
