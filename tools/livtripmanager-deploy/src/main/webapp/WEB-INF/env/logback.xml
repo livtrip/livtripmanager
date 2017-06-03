@@ -57,7 +57,7 @@
     </appender>
     
     
-        <!-- biz -->
+    <!-- biz -->
     <appender name="biz" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <File>${LOG_PATH}/livtripmanager-biz.log</File>
         <Encoding>${LOG_CHARSET}</Encoding>
@@ -171,14 +171,21 @@
     </logger>
     
     
-          <!-- biz package -->      
+    <!-- biz package -->
     <logger name="com.qccr.livtrip.biz"  additivity="false">
         <level value="DEBUG" />
         <appender-ref ref="STDOUT" />
         <appender-ref ref="biz" />
         <appender-ref ref="error" />
     </logger>
-    
+
+    <!-- biz package -->
+    <logger name="com.qccr.livtrip.web"  additivity="false">
+        <level value="DEBUG" />
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="biz" />
+        <appender-ref ref="error" />
+    </logger>
     
           <!-- integration package -->      
     <logger name="com.qccr.livtrip.integration"  additivity="false">
