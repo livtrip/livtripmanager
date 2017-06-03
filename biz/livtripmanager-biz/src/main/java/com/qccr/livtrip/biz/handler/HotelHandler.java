@@ -9,11 +9,10 @@ import com.qccr.livtrip.common.processor.HotelProcessor;
 import com.qccr.livtrip.common.util.Money;
 import com.qccr.livtrip.common.util.date.DateStyle;
 import com.qccr.livtrip.common.util.date.DateUtil;
-import com.qccr.livtrip.common.webservice.hotel.Hotel;
-import com.qccr.livtrip.common.webservice.hotel.TWSHotelDetailsV3;
+import com.qccr.livtrip.model.webservice.hotel.Hotel;
+import com.qccr.livtrip.model.webservice.hotel.TWSHotelDetailsV3;
 import com.qccr.livtrip.model.product.HotelProduct;
 import com.qccr.livtrip.model.product.Product;
-import com.qccr.livtrip.model.product.RefPoint;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +22,6 @@ import org.springframework.util.CollectionUtils;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 /**
  *酒店处理

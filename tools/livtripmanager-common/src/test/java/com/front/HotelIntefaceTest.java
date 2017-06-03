@@ -1,8 +1,8 @@
 package com.front;
 
 import com.alibaba.fastjson.JSON;
-import com.qccr.livtrip.common.webservice.handler.HotelSOAPHandler;
-import com.qccr.livtrip.common.webservice.hotel.*;
+import com.qccr.livtrip.model.webservice.handler.HotelSOAPHandler;
+import com.qccr.livtrip.model.webservice.hotel.*;
 
 import javax.xml.ws.handler.Handler;
 import javax.xml.ws.handler.HandlerResolver;

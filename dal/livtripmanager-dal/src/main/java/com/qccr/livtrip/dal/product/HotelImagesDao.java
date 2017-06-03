@@ -1,6 +1,5 @@
 package com.qccr.livtrip.dal.product;
 
-import com.qccr.livtrip.common.webservice.hotel.Hotel;
 import com.qccr.livtrip.model.product.HotelImages;
 import org.apache.ibatis.annotations.Param;
 

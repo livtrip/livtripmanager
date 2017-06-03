@@ -9,15 +9,17 @@ import javax.xml.ws.handler.HandlerResolver;
 import javax.xml.ws.handler.PortInfo;
 
 import com.qccr.livtrip.common.constant.Constant;
+import com.qccr.livtrip.common.util.Money;
 import com.qccr.livtrip.common.util.date.DateStyle;
 import com.qccr.livtrip.common.util.date.DateUtil;
 
+import com.qccr.livtrip.model.dto.HotelRoomTypeVO;
 import org.apache.commons.collections.CollectionUtils;
 
 import com.alibaba.fastjson.JSON;
 import com.google.common.collect.Lists;
-import com.qccr.livtrip.common.webservice.handler.HotelSOAPHandler;
-import com.qccr.livtrip.common.webservice.hotel.*;
+import com.qccr.livtrip.model.webservice.handler.HotelSOAPHandler;
+import com.qccr.livtrip.model.webservice.hotel.*;
 import com.sun.org.apache.xerces.internal.jaxp.datatype.XMLGregorianCalendarImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -246,6 +248,7 @@ public class HotelProcessor {
     }
 
     public static ArrayOfRoomInfo getArrayOfRoomInfoByNum(Integer peopleNum){
+        if(peopleNum == null){peopleNum = 1;}
         ArrayOfRoomInfo arrayOfRoomInfo = new ArrayOfRoomInfo();
         RoomInfo roomInfo = new RoomInfo();
         roomInfo.setAdultNum(peopleNum);
@@ -254,6 +257,44 @@ public class HotelProcessor {
         roomInfo.setChildAges(age);
         arrayOfRoomInfo.getRoomInfo().add(roomInfo);
         return  arrayOfRoomInfo;
+    }
+
+    /**
+     *  转换房型数据
+     * @param   roomTypes 房型集合
+     * @return
+     * @author xierongli
+     * @date 17/6/3 下午4:32
+     */
+    public static List<HotelRoomTypeVO> convertRoomTypeList(List<RoomType> roomTypes){
+        if(CollectionUtils.isEmpty(roomTypes)){return new ArrayList<>();}
+        List<HotelRoomTypeVO> hotelRoomTypeVOS = Lists.newArrayList();
+        for(RoomType roomType : roomTypes){
+            HotelRoomTypeVO hotelRoomTypeVO = new HotelRoomTypeVO();
+            hotelRoomTypeVO.setName(roomType.getName());
+            hotelRoomTypeVO.setCommission(Constant.COMMISSION);
+            hotelRoomTypeVO.setNights(roomType.getNights());
+            hotelRoomTypeVO.setCheckIn(HotelProcessor.defaultCheckIn());
+            hotelRoomTypeVO.setCheckOut(HotelProcessor.defaultCheckOut());
+            //每晚均价，总价（总价）
+            Double avgNightPrice = roomType.getOccupancies().getOccupancy().get(0).getAvrNightPrice().doubleValue();
+            hotelRoomTypeVO.setOriginalPrice(avgNightPrice);
+            Money originalMoney = Money.ofYuan(avgNightPrice);
+            Money totalPrice = originalMoney.multipliedBy(new Double(roomType.getNights()));
+            hotelRoomTypeVO.setTotalOriginalPrice(totalPrice.getYuan());
+
+            //每晚均价,总价（销售价）
+            Money saleAvgNightPrice = originalMoney.multipliedBy(1+Constant.COMMISSION);
+            Money totalSalePrice = saleAvgNightPrice.multipliedBy(new Double(roomType.getNights()));
+            hotelRoomTypeVO.setSaleAvgPrice(saleAvgNightPrice.getYuan());
+            hotelRoomTypeVO.setTotalSalePrice(totalSalePrice.getYuan());
+
+            double profit = new BigDecimal(hotelRoomTypeVO.getTotalSalePrice()).subtract(new BigDecimal(hotelRoomTypeVO.getTotalOriginalPrice())).doubleValue();
+            hotelRoomTypeVO.setProfit(profit);
+            hotelRoomTypeVOS.add(hotelRoomTypeVO);
+            hotelRoomTypeVO = null;
+        }
+        return hotelRoomTypeVOS;
     }
 
 

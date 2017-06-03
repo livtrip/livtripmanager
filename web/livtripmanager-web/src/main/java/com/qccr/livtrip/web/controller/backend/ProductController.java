@@ -1,6 +1,5 @@
 package com.qccr.livtrip.web.controller.backend;
 
-import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.PageInfo;
 import com.google.common.collect.Lists;
 import com.qccr.livtrip.biz.handler.HotelHandler;
@@ -12,22 +11,23 @@ import com.qccr.livtrip.common.constant.Constant;
 import com.qccr.livtrip.common.converters.ObjectConvert;
 import com.qccr.livtrip.common.processor.HotelProcessor;
 import com.qccr.livtrip.common.util.Money;
-import com.qccr.livtrip.common.webservice.hotel.Hotel;
-import com.qccr.livtrip.common.webservice.hotel.RoomType;
+import com.qccr.livtrip.model.webservice.hotel.ArrayOfRoomInfo;
+import com.qccr.livtrip.model.webservice.hotel.Hotel;
+import com.qccr.livtrip.model.webservice.hotel.RoomType;
+import com.qccr.livtrip.model.dto.HotelRoomTypeVO;
 import com.qccr.livtrip.model.product.*;
 import com.qccr.livtrip.model.request.HotelProductQuery;
 import com.qccr.livtrip.web.controller.BaseController;
+import com.qccr.livtrip.web.model.RoomTypeQuery;
 import com.qccr.livtrip.web.vo.product.HotelDescriptionVO;
 import com.qccr.livtrip.web.vo.product.HotelDetailVO;
 import com.qccr.livtrip.web.vo.product.HotelImageVO;
-import com.qccr.livtrip.web.vo.product.HotelRoomTypeVO;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 
-import java.math.BigDecimal;
 import java.util.Collections;
 import java.util.List;
 
@@ -65,7 +65,10 @@ public class ProductController extends BaseController{
 
     @RequestMapping("/list")
     public String list(HotelProductQuery hotelProductQuery, ModelMap modelMap){
-        System.out.println("params:" + JSON.toJSONString(hotelProductQuery));
+        logger.info("产品搜索, htoelProductQuery[{}]", hotelProductQuery);
+        if(hotelProductQuery.getCity() == null){
+            hotelProductQuery.setCity("New York");
+        }
         PageInfo<HotelProductRo> pageInfo = productService.pageQueryHotelProductForAdmin(hotelProductQuery.getPageNumber(),hotelProductQuery.getPageSize(),hotelProductQuery);
         modelMap.put("page", pageInfo);
         modelMap.put("name",hotelProductQuery.getName());
@@ -99,45 +102,36 @@ public class ProductController extends BaseController{
         List<Integer> hotelIds = Lists.newArrayList();
         hotelIds.add(hotelProductRo.getHotelId());
 
-        List<Hotel> hotels = HotelProcessor.searchHotelsById(hotelIds);
+        List<Hotel> hotels = HotelProcessor.checkAvailabilityAndPrices(hotelIds, HotelProcessor.defaultCheckIn(), HotelProcessor.defaultCheckOut(), HotelProcessor.defaultArrayOfRoomInfo());
         if(CollectionUtils.isNotEmpty(hotels)){
 
             List<RoomType> roomTypeList = hotels.get(0).getRoomTypes().getRoomType();
             //房型价格排序
             Collections.sort(roomTypeList,(m1, m2)->m1.getOccupancies().getOccupancy().get(0).getAvrNightPrice().compareTo(m2.getOccupancies().getOccupancy().get(0).getAvrNightPrice()));
+            hotelDetailVO.setHotelRoomTypeVOS(HotelProcessor.convertRoomTypeList(roomTypeList));
 
-            List<HotelRoomTypeVO> hotelRoomTypeVOS =Lists.newArrayList();
-            for(RoomType roomType : roomTypeList){
-                HotelRoomTypeVO hotelRoomTypeVO = new HotelRoomTypeVO();
-                hotelRoomTypeVO.setName(roomType.getName());
-                hotelRoomTypeVO.setCommission(Constant.COMMISSION);
-                hotelRoomTypeVO.setNights(roomType.getNights());
-                hotelRoomTypeVO.setCheckIn(HotelProcessor.defaultCheckIn());
-                hotelRoomTypeVO.setCheckOut(HotelProcessor.defaultCheckOut());
-                //每晚均价，总价（总价）
-                Double avgNightPrice = roomType.getOccupancies().getOccupancy().get(0).getAvrNightPrice().doubleValue();
-                hotelRoomTypeVO.setOriginalPrice(avgNightPrice);
-                Money originalMoney = Money.ofYuan(avgNightPrice);
-                Money totalPrice = originalMoney.multipliedBy(new Double(roomType.getNights()));
-                hotelRoomTypeVO.setTotalOriginalPrice(totalPrice.getYuan());
-
-                //每晚均价,总价（销售价）
-                Money saleAvgNightPrice = originalMoney.multipliedBy(1+Constant.COMMISSION);
-                Money totalSalePrice = saleAvgNightPrice.multipliedBy(new Double(roomType.getNights()));
-                hotelRoomTypeVO.setSaleAvgPrice(saleAvgNightPrice.getYuan());
-                hotelRoomTypeVO.setTotalSalePrice(totalSalePrice.getYuan());
-
-                double profit = new BigDecimal(hotelRoomTypeVO.getTotalSalePrice()).subtract(new BigDecimal(hotelRoomTypeVO.getTotalOriginalPrice())).doubleValue();
-                hotelRoomTypeVO.setProfit(profit);
-                hotelRoomTypeVOS.add(hotelRoomTypeVO);
-                hotelRoomTypeVO = null;
-
-            }
-            hotelDetailVO.setHotelRoomTypeVOS(hotelRoomTypeVOS);
         }
-        System.out.println(JSON.toJSONString(hotelDetailVO));
+        hotelDetailVO.setCheckIn(HotelProcessor.defaultCheckIn());
+        hotelDetailVO.setCheckOut(HotelProcessor.defaultCheckOut());
         modelMap.put("product", hotelDetailVO);
         return "/backend/product/edit";
+    }
+
+    @RequestMapping("getRoomTypeList")
+    @ResponseBody
+    public String getRoomTypeList(RoomTypeQuery roomTypeQuery){
+        logger.info("查询房型, roomTypeList[{}]",roomTypeQuery);
+        List<Integer> hotelIds = Lists.newArrayList();
+        hotelIds.add(roomTypeQuery.getHotelId());
+        List<Hotel> hotels = HotelProcessor.checkAvailabilityAndPrices(hotelIds, roomTypeQuery.getCheckIn(), roomTypeQuery.getCheckOut(), HotelProcessor.getArrayOfRoomInfoByNum(roomTypeQuery.getPeopleNum()));
+        if(CollectionUtils.isNotEmpty(hotels)){
+            List<RoomType> roomTypes = hotels.get(0).getRoomTypes().getRoomType();
+            if(CollectionUtils.isNotEmpty(roomTypes)){
+                List<HotelRoomTypeVO> hotelRoomTypeVOS = HotelProcessor.convertRoomTypeList(roomTypes);
+                return getSuccessJsonResult(hotelRoomTypeVOS);
+            }
+        }
+        return getFailedJsonResult(Constant.DATA_EMPTY);
     }
 
 

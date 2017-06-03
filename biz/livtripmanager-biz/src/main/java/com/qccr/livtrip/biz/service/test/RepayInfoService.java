@@ -1,5 +1,6 @@
 package com.qccr.livtrip.biz.service.test;
 
+
 import com.qccr.livtrip.common.test.AverageCapitalPlusInterestUtils;
 import com.qccr.livtrip.common.util.date.DateUtil;
 import com.qccr.livtrip.dal.test.RepayInfoDao;
@@ -8,7 +9,6 @@ import com.qccr.livtrip.model.test.RepayInfo;
 import com.qccr.livtrip.model.test.RepayPlan;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.TransactionStatus;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.support.TransactionCallback;
 import org.springframework.transaction.support.TransactionTemplate;
 import org.testng.collections.Lists;

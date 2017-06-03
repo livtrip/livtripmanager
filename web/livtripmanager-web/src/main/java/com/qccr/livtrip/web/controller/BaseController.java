@@ -20,7 +20,7 @@ public class BaseController {
 
     public String getSuccessJsonResult(Object data){
         Map<String, Object> resultMap = new HashMap<String, Object>();
-        resultMap.put("data", data);
+        resultMap.put("data", JSON.toJSONString(data));
         resultMap.put("success", true);
         resultMap.put("message", Constant.SUCCESS);
         return JSON.toJSONString(resultMap);

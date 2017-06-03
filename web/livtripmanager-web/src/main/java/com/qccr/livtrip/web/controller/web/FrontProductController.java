@@ -1,7 +1,6 @@
 package com.qccr.livtrip.web.controller.web;
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import com.github.pagehelper.PageInfo;
 import com.google.common.base.Joiner;
 import com.google.common.cache.Cache;
@@ -18,11 +17,10 @@ import com.qccr.livtrip.common.converters.ObjectConvert;
 import com.qccr.livtrip.common.processor.HotelProcessor;
 import com.qccr.livtrip.common.util.date.DateStyle;
 import com.qccr.livtrip.common.util.date.DateUtil;
-import com.qccr.livtrip.common.webservice.hotel.*;
+import com.qccr.livtrip.model.webservice.hotel.*;
 import com.qccr.livtrip.model.destination.Dest;
 import com.qccr.livtrip.model.product.Description;
 import com.qccr.livtrip.model.product.HotelImages;
-import com.qccr.livtrip.model.product.HotelProduct;
 import com.qccr.livtrip.model.product.HotelProductRo;
 import com.qccr.livtrip.web.controller.BaseController;
 import com.qccr.livtrip.web.model.ProductQuery;
@@ -35,9 +33,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
-import java.io.*;
 import java.math.BigDecimal;
 import java.util.Collections;
 import java.util.List;

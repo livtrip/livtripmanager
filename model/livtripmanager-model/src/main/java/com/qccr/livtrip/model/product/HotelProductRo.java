@@ -1,6 +1,6 @@
 package com.qccr.livtrip.model.product;
 
-import com.qccr.livtrip.common.webservice.hotel.RoomType;
+import com.qccr.livtrip.model.webservice.hotel.RoomType;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

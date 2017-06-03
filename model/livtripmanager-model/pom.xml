@@ -13,10 +13,6 @@
 	
 	
 	<dependencies>
-		<dependency>
-			<groupId>com.qccr.livtripmanager</groupId>
-			<artifactId>livtripmanager-common</artifactId>
-		</dependency>
 
 		<!-- springframework -->
 		<dependency>

@@ -18,6 +18,10 @@
 			<groupId>com.qccr.livtripmanager</groupId>
 			<artifactId>livtripmanager-dal</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.qccr.livtripmanager</groupId>
+			<artifactId>livtripmanager-common</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>

@@ -1,10 +1,10 @@
 package com.qccr.livtrip.web.vo.product;
 
-import com.qccr.livtrip.common.webservice.hotel.RoomType;
+import com.qccr.livtrip.model.webservice.hotel.RoomType;
+import com.qccr.livtrip.model.dto.HotelRoomTypeVO;
 
 import java.math.BigDecimal;
 import java.util.List;
-import java.util.Map;
 
 /**
  * @author xierongli
@@ -43,6 +43,9 @@ public class HotelDetailVO {
     /**品牌名称*/
     private String brandName;
 
+    private String checkIn;
+    private String checkOut;
+
 
     /**房间数*/
     private Integer rooms;
@@ -76,6 +79,21 @@ public class HotelDetailVO {
     /**构建房型结构*/
     private List<HotelRoomTypeVO> hotelRoomTypeVOS;
 
+    public String getCheckIn() {
+        return checkIn;
+    }
+
+    public void setCheckIn(String checkIn) {
+        this.checkIn = checkIn;
+    }
+
+    public String getCheckOut() {
+        return checkOut;
+    }
+
+    public void setCheckOut(String checkOut) {
+        this.checkOut = checkOut;
+    }
 
     public List<HotelRoomTypeVO> getHotelRoomTypeVOS() {
         return hotelRoomTypeVOS;

@@ -1,7 +1,7 @@
 package com.qccr.livtrip.biz.event;
 
-import com.qccr.livtrip.common.webservice.hotel.Hotel;
-import com.qccr.livtrip.common.webservice.hotel.TWSHotelDetailsV3;
+import com.qccr.livtrip.model.webservice.hotel.Hotel;
+import com.qccr.livtrip.model.webservice.hotel.TWSHotelDetailsV3;
 
 /**
  * 数据事件

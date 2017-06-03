@@ -12,6 +12,37 @@
     <script type="text/javascript" src="http://g.alicdn.com/sui/sui3/0.0.18/js/sui.min.js"></script>
     <script src='http://maps.google.cn/maps/api/js?key=AIzaSyAjNbgkCbR5VzzBw2VsJagYKBASIJoa2iw' type="text/javascript"></script>
     <script src="${base}/resources/js/product/SingleMarkerMap.js"></script>
+    <script type="text/javascript">
+        function  submitForm() {
+            var url = "getRoomTypeList.do";
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: $("#idForm").serialize(),
+                success: function(data)
+                {
+                    var object = eval('(' + data + ')');
+                    if(object.success){
+                        $("#rooms_span").remove();
+                        var html = "";
+                        var obj = JSON.stringify(object.data);
+                        alert(obj);
+                        $.each(obj,function(n,value) {
+                            alert(n+"value" +value);
+                            var trs = "";
+                            trs += "<tr><td>" + value.name +"</td></tr>";
+                            html += trs;
+                        });
+                        alert("html:" + html);
+                        $("#rooms_span").html("dsadadasdahdaskdhaks");
+                    }else{
+                        alert(object.message);
+                    }
+                }
+            });
+        }
+
+    </script>
 </head>
 <body>
 <div id="address_text" style="display: none">${product.address}</div>
@@ -169,6 +200,28 @@
                 </form>
             </div>
             <div role="tabpanel" class="tab-pane" id="settings">
+                <div style="margin-top:10px; padding:0px; border:1px solid #d1d1d1; height:80px; border-radius:5px; text-align:center">
+                <form id="idForm" class="form-inline"  style="margin:45px auto; padding:0px;">
+                    <input type="hidden" name="hotelId" value="${product.hotelId}"/>
+                    <div class="form-group input-daterange" data-toggle="datepicker" >
+                        <input type="text" name="checkIn" value="${product.checkIn}" id="checkIn" class="form-control input-date" placeholder="入住日期"  /> -
+                        <input type="text" name="checkOut" value="${product.checkOut}" id="checkOut" class="form-control input-date" placeholder="退房日期" />
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" style="width:100px" name="peopleNum">
+                            <option value="1" selected="selected">1人</option>
+                            <option value="2">2人</option>
+                            <option value="3">3人</option>
+                            <option value="4">4人</option>
+                            <option value="5">5人</option>
+                            <option value="6">6人</option>
+                            <option value="7">7人</option>
+                            <option value="8">8人</option>
+                        </select>
+                    </div>
+                    <button type="button" onclick="submitForm();" class="btn btn-primary" style="width:120px">搜索</button>
+                </form>
+                </div>
                 <table class="table table-bordered" style="margin-top: 10px;">
                     <tr>
                         <th style="width: 15%">房型</th>
@@ -179,22 +232,21 @@
                         <th style="width: 10%;text-align: center">原总价</th>
                         <th style="width: 10%;text-align: center">销售总价</th>
                         <th style="width: 10%;text-align: center">利润</th>
-                        <th style="width: 45%;text-align: center">所属日期</th>
                     </tr>
-
-                    [#list product.hotelRoomTypeVOS as roomType]
+                    <span id="rooms_span">
+                        [#list product.hotelRoomTypeVOS as roomType]
                             <tr>
-                                <td style="max-width:300px;">${roomType.name}</td>
-                                <td  style=" text-align:center; vertical-align:middle;">$ ${roomType.originalPrice}</td>
-                                <td style="min-width:60px; text-align:center; vertical-align:middle;"> $ ${roomType.saleAvgPrice}</td>
-                                <td  style="text-align:center; vertical-align:middle;">${roomType.nights} 晚</td>
-                                <td style="min-width:60px; text-align:center; vertical-align:middle;">${roomType.commission}</td>
-                                <td style="min-width:60px; text-align:center; vertical-align:middle;">$ ${roomType.totalOriginalPrice} </td>
-                                <td style="min-width:60px; text-align:center; vertical-align:middle;">$ ${roomType.totalSalePrice} </td>
-                                <td style="min-width:60px; text-align:center; vertical-align:middle;">$ ${roomType.profit} </td>
-                                <td style="min-width:60px; text-align:center; vertical-align:middle;">${roomType.checkIn}~${roomType.checkOut}</td>
-                            </tr>
-                    [/#list]
+                            <td style="max-width:300px;">${roomType.name}</td>
+                            <td  style=" text-align:center; vertical-align:middle;">$ ${roomType.originalPrice}</td>
+                            <td style="min-width:60px; text-align:center; vertical-align:middle;"> $ ${roomType.saleAvgPrice}</td>
+                            <td  style="text-align:center; vertical-align:middle;">${roomType.nights} 晚</td>
+                            <td style="min-width:60px; text-align:center; vertical-align:middle;">${roomType.commission}</td>
+                            <td style="min-width:60px; text-align:center; vertical-align:middle;">$ ${roomType.totalOriginalPrice} </td>
+                            <td style="min-width:60px; text-align:center; vertical-align:middle;">$ ${roomType.totalSalePrice} </td>
+                            <td style="min-width:60px; text-align:center; vertical-align:middle;">$ ${roomType.profit} </td>
+                        </tr>
+                        [/#list]
+                    </span>
 
                 </table>
 
