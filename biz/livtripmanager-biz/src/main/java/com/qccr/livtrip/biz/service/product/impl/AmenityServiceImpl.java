@@ -3,7 +3,7 @@ package com.qccr.livtrip.biz.service.product.impl;
 import com.google.common.eventbus.Subscribe;
 import com.qccr.livtrip.biz.event.DataEvent;
 import com.qccr.livtrip.biz.service.product.AmenityService;
-import com.qccr.livtrip.model.webservice.hotel.TWSHotelDetailsV3;
+import com.qccr.livtrip.common.webservice.hotel.TWSHotelDetailsV3;
 import com.qccr.livtrip.dal.product.AmenityDao;
 import com.qccr.livtrip.model.product.Amenity;
 import org.springframework.beans.factory.annotation.Autowired;

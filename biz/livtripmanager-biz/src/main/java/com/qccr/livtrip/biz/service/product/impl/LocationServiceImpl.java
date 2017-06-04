@@ -3,7 +3,7 @@ package com.qccr.livtrip.biz.service.product.impl;
 import com.google.common.eventbus.Subscribe;
 import com.qccr.livtrip.biz.event.DataEvent;
 import com.qccr.livtrip.biz.service.product.LocationService;
-import com.qccr.livtrip.model.webservice.hotel.TWSHotelDetailsV3;
+import com.qccr.livtrip.common.webservice.hotel.TWSHotelDetailsV3;
 import com.qccr.livtrip.dal.product.LocationDao;
 import com.qccr.livtrip.model.product.Localtion;
 import org.apache.commons.collections.CollectionUtils;

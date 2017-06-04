@@ -2,26 +2,21 @@ package com.qccr.livtrip.web.controller.web;
 
 import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.PageInfo;
-import com.google.common.base.Joiner;
-import com.google.common.cache.Cache;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.qccr.livtrip.biz.service.destination.DestService;
 import com.qccr.livtrip.biz.service.product.DescriptionService;
 import com.qccr.livtrip.biz.service.product.HotelImagesService;
 import com.qccr.livtrip.biz.service.product.ProductService;
-import com.qccr.livtrip.common.cache.Keys;
-import com.qccr.livtrip.common.cache.LoadingCache;
-import com.qccr.livtrip.common.constant.Constant;
 import com.qccr.livtrip.common.converters.ObjectConvert;
 import com.qccr.livtrip.common.processor.HotelProcessor;
-import com.qccr.livtrip.common.util.date.DateStyle;
 import com.qccr.livtrip.common.util.date.DateUtil;
-import com.qccr.livtrip.model.webservice.hotel.*;
+import com.qccr.livtrip.common.webservice.hotel.*;
 import com.qccr.livtrip.model.destination.Dest;
+import com.qccr.livtrip.model.dto.HotelProductDTO;
 import com.qccr.livtrip.model.product.Description;
 import com.qccr.livtrip.model.product.HotelImages;
-import com.qccr.livtrip.model.product.HotelProductRo;
+import com.qccr.livtrip.web.model.HotelProductRo;
 import com.qccr.livtrip.web.controller.BaseController;
 import com.qccr.livtrip.web.model.ProductQuery;
 import com.qccr.livtrip.web.vo.product.HotelDescriptionVO;
@@ -103,11 +98,13 @@ public class FrontProductController extends BaseController{
                 return "/front/product/no_product";
             }
             //查询酒店数据
-            PageInfo<HotelProductRo> pageInfo = productService.pageQueryHotelProduct(productQuery.getPageNumber(),productQuery.getPageSize(), hotelIdList);
+            PageInfo<HotelProductDTO> pageInfo = productService.pageQueryHotelProduct(productQuery.getPageNumber(),productQuery.getPageSize(), hotelIdList);
             if(pageInfo.getTotal() == 0){
                 return "/front/product/no_product";
             }
-            for(HotelProductRo  hotelProductRo : pageInfo.getList()){
+            List<HotelProductRo> hotelProductRos = ObjectConvert.convertList(pageInfo.getList(),HotelProductRo.class);
+
+            for(HotelProductRo hotelProductRo : hotelProductRos){
                 hotelProductRo.setRoomTypeList(roomTypeMap.get(hotelProductRo.getHotelId()));
                 Collections.sort(hotelProductRo.getRoomTypeList(),(m1,m2)->m1.getOccupancies().getOccupancy().get(0).getAvrNightPrice().compareTo(m2.getOccupancies().getOccupancy().get(0).getAvrNightPrice()));
                 //价格增加5个点
@@ -122,7 +119,7 @@ public class FrontProductController extends BaseController{
             modelMap.put("checkOut", productQuery.getCheckOut());
             modelMap.put("peopleNum", productQuery.getPeopleNum());
             StringBuilder pids = new StringBuilder();
-            for(HotelProductRo hotelProductRo : pageInfo.getList()){
+            for(HotelProductRo hotelProductRo : hotelProductRos){
                 hotelProductRo.setStarLevelText(productService.getProductStarLevel(hotelProductRo.getStartLevel().toString()));
                 pids.append(hotelProductRo.getId()).append(",");
             }
@@ -146,10 +143,11 @@ public class FrontProductController extends BaseController{
 
     @RequestMapping("/detail")
     public String getHotelDetail(ProductQuery productQuery, ModelMap modelMap){
-        HotelProductRo hotelProductRo = productService.getHotelProductById(productQuery.getProductId());
+        HotelProductDTO hotelProductRo = productService.getHotelProductById(productQuery.getProductId());
         if(hotelProductRo == null){
             return "/front/product/no_product";
         }
+
         //实时查询房型数据
         List<Integer> destinationIds = Lists.newArrayList();
         Integer destination = destService.getDestinationIdByCityName(productQuery.getDestination());

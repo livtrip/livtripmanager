@@ -10,10 +10,9 @@ import com.qccr.livtrip.biz.service.product.ProductService;
 import com.qccr.livtrip.common.constant.Constant;
 import com.qccr.livtrip.common.converters.ObjectConvert;
 import com.qccr.livtrip.common.processor.HotelProcessor;
-import com.qccr.livtrip.common.util.Money;
-import com.qccr.livtrip.model.webservice.hotel.ArrayOfRoomInfo;
-import com.qccr.livtrip.model.webservice.hotel.Hotel;
-import com.qccr.livtrip.model.webservice.hotel.RoomType;
+import com.qccr.livtrip.common.webservice.hotel.Hotel;
+import com.qccr.livtrip.common.webservice.hotel.RoomType;
+import com.qccr.livtrip.model.dto.HotelProductDTO;
 import com.qccr.livtrip.model.dto.HotelRoomTypeVO;
 import com.qccr.livtrip.model.product.*;
 import com.qccr.livtrip.model.request.HotelProductQuery;
@@ -69,7 +68,7 @@ public class ProductController extends BaseController{
             hotelProductQuery.setCity("New York");
         }
         logger.info("产品搜索, htoelProductQuery[{}]", hotelProductQuery);
-        PageInfo<HotelProductRo> pageInfo = productService.pageQueryHotelProductForAdmin(hotelProductQuery.getPageNumber(),hotelProductQuery.getPageSize(),hotelProductQuery);
+        PageInfo<HotelProductDTO> pageInfo = productService.pageQueryHotelProductForAdmin(hotelProductQuery.getPageNumber(),hotelProductQuery.getPageSize(),hotelProductQuery);
         modelMap.put("page", pageInfo);
         modelMap.put("name",hotelProductQuery.getName());
         modelMap.put("city",hotelProductQuery.getCity());
@@ -89,7 +88,7 @@ public class ProductController extends BaseController{
     @RequestMapping("/edit")
     public String edit(@RequestParam  String productId, ModelMap modelMap){
         //查询酒店基础信息
-        HotelProductRo hotelProductRo = productService.getHotelProductById(Integer.parseInt(productId.trim()));
+        HotelProductDTO hotelProductRo = productService.getHotelProductById(Integer.parseInt(productId.trim()));
         HotelDetailVO hotelDetailVO = ObjectConvert.convertObject(hotelProductRo, HotelDetailVO.class);
         //酒店图片
         List<HotelImages> hotelImagesList = hotelImagesService.queryForList(Integer.parseInt(productId.trim()));

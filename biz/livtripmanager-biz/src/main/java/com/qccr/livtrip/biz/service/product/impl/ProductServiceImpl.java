@@ -5,13 +5,12 @@ import com.github.pagehelper.PageInfo;
 import com.qccr.livtrip.biz.enums.StartLevelTypeEnum;
 import com.qccr.livtrip.biz.service.product.ProductService;
 import com.qccr.livtrip.dal.product.*;
-import com.qccr.livtrip.model.product.HotelProductRo;
+import com.qccr.livtrip.model.dto.HotelProductDTO;
 import com.qccr.livtrip.model.product.Product;
 import com.qccr.livtrip.model.request.HotelProductQuery;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -68,13 +67,13 @@ public class ProductServiceImpl implements ProductService {
      * @date 2016/12/28 16:28
      */
     @Override
-    public PageInfo<HotelProductRo> pageQueryHotelProduct(Integer pageNum, Integer pageSize) {
+    public PageInfo<HotelProductDTO> pageQueryHotelProduct(Integer pageNum, Integer pageSize) {
         PageHelper.startPage(pageNum,pageSize,true,false);
-        List<HotelProductRo> hotelProductRos = productDao.queryHotelProduct();
-        for(HotelProductRo product : hotelProductRos){
+        List<HotelProductDTO> HotelProductDTOs = productDao.queryHotelProduct();
+        for(HotelProductDTO product : HotelProductDTOs){
             product.setThumb(product.getThumb().replace("100x100", "200x200"));
         }
-        return new PageInfo<>(hotelProductRos);
+        return new PageInfo<>(HotelProductDTOs);
     }
 
     /**
@@ -104,9 +103,9 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public HotelProductRo getHotelProductById(Integer productId) {
+    public HotelProductDTO getHotelProductById(Integer productId) {
         if(productId != null){
-            HotelProductRo hotelProduct = productDao.getHotelProductById(productId);
+            HotelProductDTO hotelProduct = productDao.getHotelProductById(productId);
             if(StringUtils.isNoneBlank(hotelProduct.getThumb())){
                 hotelProduct.setThumb(hotelProduct.getThumb().replace("100x100", "200x200"));
             }
@@ -116,23 +115,23 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public PageInfo<HotelProductRo> pageQueryHotelProduct(Integer pageNum, Integer pageSize, List<Integer> hotelIds) {
+    public PageInfo<HotelProductDTO> pageQueryHotelProduct(Integer pageNum, Integer pageSize, List<Integer> hotelIds) {
         PageHelper.startPage(pageNum,pageSize,true,false);
-        List<HotelProductRo> hotelProductRos = productDao.queryProductByHotelIds(hotelIds);
-        for(HotelProductRo product : hotelProductRos){
+        List<HotelProductDTO> HotelProductDTOs = productDao.queryProductByHotelIds(hotelIds);
+        for(HotelProductDTO product : HotelProductDTOs){
             product.setThumb(product.getThumb().replace("100x100", "200x200"));
         }
-        return new PageInfo<>(hotelProductRos);
+        return new PageInfo<>(HotelProductDTOs);
     }
 
     @Override
-    public PageInfo<HotelProductRo> pageQueryHotelProductForAdmin(Integer pageNum, Integer pageSize, HotelProductQuery hotelProductQuery) {
+    public PageInfo<HotelProductDTO> pageQueryHotelProductForAdmin(Integer pageNum, Integer pageSize, HotelProductQuery hotelProductQuery) {
         PageHelper.startPage(pageNum,pageSize,true,false);
-        List<HotelProductRo> hotelProductRos = productDao.queryHotelProductByReq(hotelProductQuery);
-        for(HotelProductRo product : hotelProductRos){
+        List<HotelProductDTO> HotelProductDTOs = productDao.queryHotelProductByReq(hotelProductQuery);
+        for(HotelProductDTO product : HotelProductDTOs){
             product.setThumb(product.getThumb().replace("100x100", "200x200"));
         }
-        return new PageInfo<>(hotelProductRos);
+        return new PageInfo<>(HotelProductDTOs);
     }
 
     public void deleteProduct(String productId) {

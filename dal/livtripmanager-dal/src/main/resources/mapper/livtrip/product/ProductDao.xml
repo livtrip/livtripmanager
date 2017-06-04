@@ -25,7 +25,7 @@
         <result column="create_person" property="createPerson" />
         <result column="update_person" property="updatePerson" />
     </resultMap>
-    <resultMap id="HotelProductMap" type="com.qccr.livtrip.model.product.HotelProductRo">
+    <resultMap id="HotelProductMap" type="com.qccr.livtrip.model.dto.HotelProductDTO">
         <result column="id" property="id" />
         <result column="hotel_id" property="hotelId" />
         <result column="name" property="name" />

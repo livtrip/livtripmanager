@@ -1,9 +1,8 @@
 package com.qccr.livtrip.dal.product;
 
-import com.qccr.livtrip.model.product.HotelProductRo;
+import com.qccr.livtrip.model.dto.HotelProductDTO;
 import com.qccr.livtrip.model.product.Product;
 import com.qccr.livtrip.model.request.HotelProductQuery;
-import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -39,7 +38,7 @@ public interface ProductDao {
      * @author xierongli
      * @date 2016/12/28 16:28
      */
-    List<HotelProductRo> queryHotelProduct();
+    List<HotelProductDTO> queryHotelProduct();
 
     /**
      * 
@@ -51,7 +50,7 @@ public interface ProductDao {
      * 
      */
     
-    HotelProductRo getHotelProductById(Integer productId);
+    HotelProductDTO getHotelProductById(Integer productId);
 
     /**
      * 
@@ -61,7 +60,7 @@ public interface ProductDao {
      * @author xierongli
      * @date 2017/2/22 14:11 
      */
-    List<HotelProductRo> queryProductByHotelIds(@Param("hotelIds") List<Integer> hotelIds);
+    List<HotelProductDTO> queryProductByHotelIds(@Param("hotelIds") List<Integer> hotelIds);
 
     /**
      *
@@ -80,7 +79,7 @@ public interface ProductDao {
      * @author xierongli
      * @date 2017/3/26 10:04 
      */
-    List<HotelProductRo> queryHotelProductByReq(HotelProductQuery hotelProductQuery);
+    List<HotelProductDTO> queryHotelProductByReq(HotelProductQuery hotelProductQuery);
 
     int deleteProduct(@Param("productId") String productId);
 

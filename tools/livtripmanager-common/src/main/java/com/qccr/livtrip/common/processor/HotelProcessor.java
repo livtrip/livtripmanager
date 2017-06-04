@@ -14,13 +14,13 @@ import com.qccr.livtrip.common.util.date.DateStyle;
 import com.qccr.livtrip.common.util.date.DateUtil;
 
 import com.qccr.livtrip.model.dto.HotelRoomTypeVO;
+import com.sun.org.apache.xerces.internal.jaxp.datatype.XMLGregorianCalendarImpl;
 import org.apache.commons.collections.CollectionUtils;
 
 import com.alibaba.fastjson.JSON;
 import com.google.common.collect.Lists;
-import com.qccr.livtrip.model.webservice.handler.HotelSOAPHandler;
-import com.qccr.livtrip.model.webservice.hotel.*;
-import com.sun.org.apache.xerces.internal.jaxp.datatype.XMLGregorianCalendarImpl;
+import com.qccr.livtrip.common.webservice.handler.HotelSOAPHandler;
+import com.qccr.livtrip.common.webservice.hotel.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

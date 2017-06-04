@@ -1,7 +1,7 @@
 package com.qccr.livtrip.biz.service.product;
 
 import com.github.pagehelper.PageInfo;
-import com.qccr.livtrip.model.product.HotelProductRo;
+import com.qccr.livtrip.model.dto.HotelProductDTO;
 import com.qccr.livtrip.model.product.Product;
 import com.qccr.livtrip.model.request.HotelProductQuery;
 
@@ -35,7 +35,7 @@ public interface ProductService {
      * @author xierongli
      * @date 2016/12/28 16:28
      */
-    PageInfo<HotelProductRo> pageQueryHotelProduct(Integer pageNum,Integer pageSize);
+    PageInfo<HotelProductDTO> pageQueryHotelProduct(Integer pageNum, Integer pageSize);
 
     /**
      * 
@@ -57,7 +57,7 @@ public interface ProductService {
      * 
      */
     
-    HotelProductRo getHotelProductById(Integer productId);
+    HotelProductDTO getHotelProductById(Integer productId);
 
     /**
      *
@@ -69,7 +69,7 @@ public interface ProductService {
      * @author xierongli
      * @date 2016/12/28 16:28
      */
-    PageInfo<HotelProductRo> pageQueryHotelProduct(Integer pageNum,Integer pageSize, List<Integer> hotelIds);
+    PageInfo<HotelProductDTO> pageQueryHotelProduct(Integer pageNum,Integer pageSize, List<Integer> hotelIds);
 
     /**
      *
@@ -80,7 +80,7 @@ public interface ProductService {
      * author xierongli
      * @date 2016/12/28 16:28
      */
-    PageInfo<HotelProductRo> pageQueryHotelProductForAdmin(Integer pageNum, Integer pageSize, HotelProductQuery hotelProductReq);
+    PageInfo<HotelProductDTO> pageQueryHotelProductForAdmin(Integer pageNum, Integer pageSize, HotelProductQuery hotelProductReq);
     /**
      * 删除产品
      * @param   productId

@@ -1,8 +1,8 @@
 package com.front;
 
-import com.qccr.livtrip.model.webservice.destination.*;
-import com.qccr.livtrip.model.webservice.handler.DestinationPHandler;
-import com.qccr.livtrip.model.webservice.hotel.IHotelFlow;
+import com.qccr.livtrip.common.webservice.destination.*;
+import com.qccr.livtrip.common.webservice.handler.DestinationPHandler;
+import com.qccr.livtrip.common.webservice.hotel.IHotelFlow;
 
 import javax.xml.ws.handler.Handler;
 import javax.xml.ws.handler.HandlerResolver;
