@@ -6,6 +6,8 @@ import com.qccr.livtrip.biz.service.product.HotelProductService;
 import com.qccr.livtrip.model.webservice.hotel.TWSHotelDetailsV3;
 import com.qccr.livtrip.dal.product.HotelProductDao;
 import com.qccr.livtrip.model.product.HotelProduct;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,6 +19,8 @@ import java.util.List;
  */
 @Service("hotelProductService")
 public class HotelProductServiceImpl implements HotelProductService {
+
+    protected static final Logger logger	= LoggerFactory.getLogger(HotelProductServiceImpl.class);
 
     @Autowired
     private HotelProductDao hotelProductDao;
@@ -57,27 +61,32 @@ public class HotelProductServiceImpl implements HotelProductService {
      */
     @Subscribe
     public void fetchHotelProduct(DataEvent dataEvent){
-        //去重
-        if(dataEvent.getProductId() != null){
-            Integer count = hotelProductDao.queryHotelByProductId(dataEvent.getProductId());
-            if(count >= 1){
-                return;
+        try{
+            //去重
+            if(dataEvent.getProductId() != null){
+                Integer count = hotelProductDao.queryHotelByProductId(dataEvent.getProductId());
+                if(count >= 1){
+                    return;
+                }
             }
+            TWSHotelDetailsV3.Hotel hotelDetail = dataEvent.getHotelDetail();
+            HotelProduct hotelProduct = new HotelProduct();
+            hotelProduct.setProductId(dataEvent.getProductId());
+            hotelProduct.setStartLevel(hotelDetail.getStarLevel());
+            hotelProduct.setHotelId(hotelDetail.getHotelID());
+            hotelProduct.setProvider(hotelDetail.getProvider());
+            hotelProduct.setCheckInTime(hotelDetail.getCheckInTime().toString());
+            hotelProduct.setCheckOutTime(hotelDetail.getCheckOutTime().toString());
+            hotelProduct.setHotelFax(hotelDetail.getHotelFax());
+            hotelProduct.setHotelPhone(hotelDetail.getHotelPhone());
+            hotelProduct.setRanking(hotelDetail.getRanking().toString());
+            hotelProduct.setRooms(hotelDetail.getRooms());
+            hotelProduct.setDescription(hotelDetail.getDescriptions().get(0).getLongDescription().get(0).getFreeTextLongDescription());
+            insert(hotelProduct);
+        }catch (Exception e){
+            logger.error("HotelProduct酒店采集异常",e);
         }
-        TWSHotelDetailsV3.Hotel hotelDetail = dataEvent.getHotelDetail();
-        HotelProduct hotelProduct = new HotelProduct();
-        hotelProduct.setProductId(dataEvent.getProductId());
-        hotelProduct.setStartLevel(hotelDetail.getStarLevel());
-        hotelProduct.setHotelId(hotelDetail.getHotelID());
-        hotelProduct.setProvider(hotelDetail.getProvider());
-        hotelProduct.setCheckInTime(hotelDetail.getCheckInTime().toString());
-        hotelProduct.setCheckOutTime(hotelDetail.getCheckOutTime().toString());
-        hotelProduct.setHotelFax(hotelDetail.getHotelFax());
-        hotelProduct.setHotelPhone(hotelDetail.getHotelPhone());
-        hotelProduct.setRanking(hotelDetail.getRanking().toString());
-        hotelProduct.setRooms(hotelDetail.getRooms());
-        hotelProduct.setDescription(hotelDetail.getDescriptions().get(0).getLongDescription().get(0).getFreeTextLongDescription());
-        insert(hotelProduct);
+
     }
 
 }
