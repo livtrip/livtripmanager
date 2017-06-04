@@ -72,10 +72,10 @@ public class FrontProductController extends BaseController{
     @RequestMapping("/list")
     public String list(ProductQuery productQuery, ModelMap modelMap){
         try{
-            System.out.println(productQuery.getPageNumber()+ "destinationId:" +
-                    productQuery.getDestination() + "num:" + productQuery.getPeopleNum());
+            if(productQuery.getPeopleNum() == null){productQuery.setPeopleNum("1");}
             String checkIn = StringUtils.isBlank(productQuery.getCheckIn())? HotelProcessor.defaultCheckIn() : productQuery.getCheckIn();
             String checkOut = StringUtils.isBlank(productQuery.getCheckOut())? HotelProcessor.defaultCheckOut() : productQuery.getCheckOut();
+
             //TODO 城市名称转ID
             List<Integer> destinationIds = Lists.newArrayList();
            // Integer destinationId =cityNameIdMap.get(productQuery.getDestination()) == null?7263:cityNameIdMap.get(productQuery.getDestination());
