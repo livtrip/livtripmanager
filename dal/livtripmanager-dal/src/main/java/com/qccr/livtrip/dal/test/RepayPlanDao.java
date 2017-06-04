@@ -1,6 +1,5 @@
 package com.qccr.livtrip.dal.test;
 
-import com.sun.org.apache.regexp.internal.RE;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
