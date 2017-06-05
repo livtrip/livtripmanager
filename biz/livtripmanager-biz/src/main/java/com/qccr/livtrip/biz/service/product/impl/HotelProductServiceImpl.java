@@ -6,6 +6,7 @@ import com.qccr.livtrip.biz.service.product.HotelProductService;
 import com.qccr.livtrip.common.webservice.hotel.TWSHotelDetailsV3;
 import com.qccr.livtrip.dal.product.HotelProductDao;
 import com.qccr.livtrip.model.product.HotelProduct;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -74,17 +75,18 @@ public class HotelProductServiceImpl implements HotelProductService {
             hotelProduct.setProductId(dataEvent.getProductId());
             hotelProduct.setStartLevel(hotelDetail.getStarLevel());
             hotelProduct.setHotelId(hotelDetail.getHotelID());
-            hotelProduct.setProvider(hotelDetail.getProvider());
-            hotelProduct.setCheckInTime(hotelDetail.getCheckInTime().toString());
-            hotelProduct.setCheckOutTime(hotelDetail.getCheckOutTime().toString());
-            hotelProduct.setHotelFax(hotelDetail.getHotelFax());
-            hotelProduct.setHotelPhone(hotelDetail.getHotelPhone());
-            hotelProduct.setRanking(hotelDetail.getRanking().toString());
-            hotelProduct.setRooms(hotelDetail.getRooms());
-            hotelProduct.setDescription(hotelDetail.getDescriptions().get(0).getLongDescription().get(0).getFreeTextLongDescription());
+            hotelProduct.setProvider(hotelDetail.getProvider()==null?"":hotelDetail.getProvider());
+            hotelProduct.setCheckInTime(hotelDetail.getCheckInTime()==null?"":hotelDetail.getCheckInTime().toString());
+            hotelProduct.setCheckOutTime(hotelDetail.getCheckOutTime()==null?"":hotelDetail.getCheckOutTime().toString());
+            hotelProduct.setHotelFax(hotelDetail.getHotelFax()==null?"":hotelDetail.getHotelFax());
+            hotelProduct.setHotelPhone(hotelDetail.getHotelPhone()==null?"":hotelDetail.getHotelPhone());
+            hotelProduct.setRanking(hotelDetail.getRanking()==null?"":hotelDetail.getRanking().toString());
+            hotelProduct.setRooms(hotelDetail.getRooms()==null?0:hotelDetail.getRooms());
+            String description = hotelDetail.getDescriptions().get(0).getLongDescription().get(0).getFreeTextLongDescription();
+            hotelProduct.setDescription(StringUtils.isNoneBlank(description)?description: "");
             insert(hotelProduct);
         }catch (Exception e){
-            logger.error("HotelProduct酒店采集异常",e);
+            logger.error("HotelProduct酒店采集异常",e.getMessage());
         }
 
     }
