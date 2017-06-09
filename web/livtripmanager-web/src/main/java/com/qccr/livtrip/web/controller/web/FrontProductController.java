@@ -104,12 +104,13 @@ public class FrontProductController extends BaseController{
             }
             List<HotelProductRo> hotelProductRos = ObjectConvert.convertList(pageInfo.getList(),HotelProductRo.class);
 
-            for(HotelProductRo hotelProductRo : hotelProductRos){
-                hotelProductRo.setRoomTypeList(roomTypeMap.get(hotelProductRo.getHotelId()));
-                Collections.sort(hotelProductRo.getRoomTypeList(),(m1,m2)->m1.getOccupancies().getOccupancy().get(0).getAvrNightPrice().compareTo(m2.getOccupancies().getOccupancy().get(0).getAvrNightPrice()));
+            for(HotelProductDTO hotelProductDTO : pageInfo.getList()){
+                List<RoomType> roomTypeList = roomTypeMap.get(hotelProductDTO.getHotelId());
+                Collections.sort(roomTypeList,(m1,m2)->m1.getOccupancies().getOccupancy().get(0).getAvrNightPrice().compareTo(m2.getOccupancies().getOccupancy().get(0).getAvrNightPrice()));
                 //价格增加5个点
-                BigDecimal avrNightPrice=hotelProductRo.getRoomTypeList().get(0).getOccupancies().getOccupancy().get(0).getAvrNightPrice();
-                hotelProductRo.setMinAvgNightPrice(HotelProcessor.plusCommission(avrNightPrice));
+                BigDecimal avrNightPrice=roomTypeList.get(0).getOccupancies().getOccupancy().get(0).getAvrNightPrice();
+                hotelProductDTO.setMinAvgNightPrice(HotelProcessor.plusCommission(avrNightPrice));
+
             }
 
             modelMap.put("page", pageInfo);
@@ -123,8 +124,6 @@ public class FrontProductController extends BaseController{
                 hotelProductRo.setStarLevelText(productService.getProductStarLevel(hotelProductRo.getStartLevel().toString()));
                 pids.append(hotelProductRo.getId()).append(",");
             }
-            modelMap.put("pids", pids.toString());
-            System.out.println(JSON.toJSONString(pageInfo));
         }catch (Exception e){
             return "/front/product/no_product";
         }

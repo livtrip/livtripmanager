@@ -3,6 +3,7 @@ package com.qccr.livtrip.model.dto;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
+import java.util.List;
 
 /**
  * 酒店产品结果Ro
@@ -61,6 +62,7 @@ public class HotelProductDTO implements Serializable{
 
 
     private BigDecimal minAvgNightPrice;
+
 
     public BigDecimal getMinAvgNightPrice() {
         return minAvgNightPrice;

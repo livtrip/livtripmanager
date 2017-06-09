@@ -299,6 +299,7 @@ public class HotelProcessor {
 
 
 
+
     public static void main(String[] args) {
         //根据hotelIds 查询
         List<Integer> hotelIds = Lists.newArrayList();
