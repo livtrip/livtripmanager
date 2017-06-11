@@ -36,23 +36,23 @@
     <div class="search_span">
         <form class="form-inline" action="front/product/list" method="get" style="margin:15px auto; padding:0px;">
             <div class="form-group">
-                <input type="text" id="destination"  name="destination" placeholder="您感兴趣的城市"
+                <input type="text" id="destination"  name="destination" placeholder="please input city name"
                        data-toggle="autocomplete" data-service-url="front/product/getCity.json" class="form-control input-lg" style="width:250px;border-radius:12px;"/>
             </div>
             <div class="form-group input-daterange" data-toggle="datepicker" >
-                <input type="text" name="checkIn" id="checkIn" class="form-control input-date input-lg" placeholder="入住日期"  /> -
-                <input type="text" name="checkOut" id="checkOut" class="form-control input-date input-lg" placeholder="退房日期" />
+                <input type="text" name="checkIn" id="checkIn" class="form-control input-date input-lg" placeholder="CheckIn"  /> -
+                <input type="text" name="checkOut" id="checkOut" class="form-control input-date input-lg" placeholder="CheckOut" />
             </div>
             <div class="form-group">
                 <select class="form-control input-lg" style="width:100px; " name="peopleNum">
-                    <option value="1">人数</option>
-                    <option value="1">1人</option>
-                    <option value="2">2人</option>
-                    <option value="3">3人</option>
+                    <option value="1">peopleNum</option>
+                    <option value="1">1 customer</option>
+                    <option value="2">2 customer</option>
+                    <option value="3">3 customer</option>
                 </select>
             </div>
 
-            <button type="submit" class="btn btn-danger btn-lg" style="width:120px;">搜 索</button>
+            <button type="submit" class="btn btn-danger btn-lg" style="width:120px;">Search</button>
         </form>
 
     </div>

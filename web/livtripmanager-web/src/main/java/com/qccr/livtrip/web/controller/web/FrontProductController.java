@@ -166,8 +166,9 @@ public class FrontProductController extends BaseController{
         //房型价格增加5个点
         for(RoomType roomType: roomTypeList){
             BigDecimal avrNightPrice = roomType.getOccupancies().getOccupancy().get(0).getAvrNightPrice();
-
+            BigDecimal taxPublish = roomType.getOccupancies().getOccupancy().get(0).getTaxPublish();
             roomType.getOccupancies().getOccupancy().get(0).setAvrNightPrice(HotelProcessor.plusCommission(avrNightPrice));
+            roomType.getOccupancies().getOccupancy().get(0).setTaxPublish(HotelProcessor.plusCommission(taxPublish));
         }
 
         HotelDetailVO hotelDetailVO = ObjectConvert.convertObject(hotelProductRo, HotelDetailVO.class);

@@ -41,7 +41,7 @@
     [#include  "nav.ftl"/]
 <div class="container">
     <ol class="breadcrumb" style="margin:0px;">
-        <li><a href="#">首页</a></li>
+        <li><a href="http://www.livtrip.com">Index</a></li>
         <li><a href="#">${hotelDetail.cityName}</a></li>
         <li class="active">${hotelDetail.name}</li>
     </ol>
@@ -90,11 +90,34 @@
         <div class="panel panel-info">
             <div class="panel-heading">酒店预订</div>
             <div class="panel-body">
+                <div style="margin:10px 0px; padding:0px; border:1px solid #d1d1d1; height:60px; border-radius:5px; text-align:center">
+                    <form id="idForm" class="form-inline"  style="margin:15px auto; padding:0px;">
+                        <input type="hidden" name="hotelId" value="${hotelDetail.hotelId}"/>
+                        <div class="form-group input-daterange" data-toggle="datepicker" >
+                            <input type="text" name="checkIn" value="${hotelDetail.checkIn}" id="checkIn" class="form-control input-date" placeholder="checkIn"  /> -
+                            <input type="text" name="checkOut" value="${hotelDetail.checkOut}" id="checkOut" class="form-control input-date" placeholder="checkOut" />
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" style="width:100px" name="peopleNum">
+                                <option value="1" selected="selected">1 customer</option>
+                                <option value="2">2 customer</option>
+                                <option value="3">3 customer</option>
+                                <option value="4">4 customer</option>
+                                <option value="5">5 customer</option>
+                                <option value="6">6 customer</option>
+                                <option value="7">7 customer</option>
+                                <option value="8">8 customer</option>
+                            </select>
+                        </div>
+                        <button type="button" onclick="submitForm();" class="btn btn-danger" style="width:120px">Search</button>
+                    </form>
+                </div>
                 <table class="table table-bordered">
                     <tr>
-                        <th>房型</th>
-                        <th style="text-align: center">每晚均价</th>
-                        <th style="text-align: center">政策</th>
+                        <th>RoomType</th>
+                        <th style="text-align: center">AvgNight Price</th>
+                        <th style="text-align: center">Tax</th>
+                        <th style="text-align: center">policy</th>
                         <th></th>
                     </tr>
 
@@ -107,8 +130,12 @@
                             <td  style=" text-align:center; vertical-align:middle;">
                               $ ${roomType.occupancies.occupancy[0].avrNightPrice}
                             </td>
+                            <td  style=" text-align:center; vertical-align:middle;">
+                                $ ${roomType.occupancies.occupancy[0].taxPublish}
+                            </td>
                             <td  style="text-align:center; vertical-align:middle;">policy</td>
-                            <td style="min-width:60px; text-align:center; vertical-align:middle;"><button type="button" onclick="gotoBookingOne(${roomType.roomId});" class="btn btn-primary">预订</button></td>
+                            <td style="min-width:60px; text-align:center; vertical-align:middle;">
+                                <button type="button" onclick="gotoBookingOne(${roomType.roomId});" class="btn btn-primary">Book</button></td>
                         </tr>
                         [/#if]
                     [/#list]
@@ -135,7 +162,7 @@
             <div class="panel-body">
                 幼儿0-1岁：在不加床的情况下，可免费入住。请注意，如果使用婴儿床可能需要支付额外费用。
                 儿童2-12岁：在不加床的情况下可免费入住。
-                * 12岁以上的旅客入住此酒店将按照成人标准收费。
+                * 12岁以上的旅客入住此酒店将按照成 customer标准收费。
                 * 加床政策根据您所选定的客房而有所不同。
             </div>
         </div>
