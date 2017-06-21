@@ -14,7 +14,6 @@
 </head>
 <script type="text/javascript">
     function  fetch(destinationId) {
-//        alert(destinationId);
         $.ajax({
             url: "fetch.json?destinationId="+destinationId,
             dataType: "json",
@@ -27,7 +26,6 @@
             }
         });
     }
-
 </script>
 
 <body>
