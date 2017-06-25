@@ -5,7 +5,10 @@
 
 package com.qccr.livtrip.common.webservice.handler;
 
+import com.qccr.livtrip.common.processor.HotelProcessor;
 import com.qccr.livtrip.model.config.HotelPropertyConfigurer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.xml.namespace.QName;
 import javax.xml.soap.SOAPElement;
@@ -19,6 +22,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class HotelSOAPHandler implements SOAPHandler<SOAPMessageContext> {
+	protected static final Logger logger	= LoggerFactory.getLogger(HotelSOAPHandler.class);
 
 	public static final String NAMESPACE_ECB = "";
 	public static final String NAMESPACE_ECB_STRING = "";
@@ -53,6 +57,7 @@ public class HotelSOAPHandler implements SOAPHandler<SOAPMessageContext> {
 					envelope.createName("Password", "aut", "http://schemas.tourico.com/webservices/authentication"));
 			elem.addTextNode(HotelPropertyConfigurer.GETHOTELFLOWPWD);
 
+			logger.error("tourico account userName[] password[{}]",HotelPropertyConfigurer.GETHOTELFLOWUSERNAME,HotelPropertyConfigurer.GETHOTELFLOWPWD);
 			String version = "7";
 			elem = headerElem.addChildElement(
 					envelope.createName("version", "aut", "http://schemas.tourico.com/webservices/authentication"));
